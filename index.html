@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <title>.br</title>
+  <meta content="Matheus Avellar" name="author">
+  <meta name="description" content=".br Zonefile">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://rsms.me" crossorigin>
+  <link rel="stylesheet" href="./style.css">
+  <style>p{text-indent:1em;}</style>
+</head>
+<body>
+  <header>
+    <h1>.br "Zonefile"</h1>
+  </header>
+  <main>
+    <section>
+      <p>
+        Lista não oficial e voluntariamente mantida de domínios registrados
+        diretamente sob <i>.br</i>. Não inclui domínios <i>.com.br</i>,
+        <i>.net.br</i>, ou qualquer outro domínio que não esteja diretamente sob
+        <i>.br</i>. Somente inclui domínios com registros DNS, e não
+        subdomínios. Por exemplo, <i>com.br</i> não é um domínio válido, é
+        somente um subdomínio, então não está presente na lista; por outro lado,
+        <i>gov.br</i> é um domínio válido, mesmo que seja comumente usado como
+        subdomínio.
+      </p>
+      <p>
+        Esta lista teve como ponto de partida a lista por <a href="https://news.ycombinator.com/item?id=10368935">jtwaleson</a>,
+        disponível como torrent em <a href="https://all-certificates.s3.amazonaws.com/domainnames.gz?torrent">domainnames.gz</a>,
+        e a lista "<a href="https://majestic.com/reports/majestic-million">Majestic Million</a>",
+        da empresa Majestic. Um script foi usado para testar se os domínios
+        <i>.br</i> das listas existem; ele está disponível em <a href="./check.sh">check.sh</a>
+        (requer um arquivo <i>slds.txt</i> com domínios a serem testados).
+      </p>
+      <p>
+        Alguns domínios curtos foram encontrados por força bruta. O script
+        utilizado para tal está disponível em <a href="./brute-force.sh">brute-force.sh</a>.
+        Os seguintes formatos já foram conferidos (onde X representa uma letra,
+        e # representa um dígito):
+      </p>
+      <article style="text-align:center">
+        XX.br, X#.br, #X.br, X-#.br, X-X.br, XXX.br, XX#.br, X#X.br, X-X-X.br,
+        XX-X.br
+      </article>
+    </section>
+    <section>
+      <p>
+        Atualmente, a lista possui <b>587</b> domínios catalogados, de um total
+        (segundo o <a href="https://registro.br/dominio/estatisticas/">registro.br</a>)
+        de 1207 domínios registrados. Isso representa <b>48.6%</b> do total.
+      </p>
+    </section>
+    <section>
+      <article>
+        <strong>Planilha:</strong> <a href="https://docs.google.com/spreadsheets/d/1XRSGQVsE0hCD7tuXYH6R8FExXB_Eo5PaogjPHdtqGKU/view">Google Sheets</a>
+      </article>
+      <article>
+        <strong>Exportado para CSV:</strong> <a href="./br.csv">br.csv</a> (≈53&nbsp;KB)
+      </article>
+    </section>
+  </main>
+  <footer>
+    <p class="timestamp">
+      Atualizado em 24 de agosto de 2021.<br>
+      Feito com ♥&#xFE0E;<!--&#xFE0E;[Ref] stackoverflow.com/a/38452396/4824627-->
+      por Matheus Avellar
+    </p>
+  </footer>
+  <link rel="preload" as="style" href="https://rsms.me/inter/inter.css">
+  <link rel="stylesheet" media="print" onload="this.media='all'" href="https://rsms.me/inter/inter.css">
+</body>
+</html>
