@@ -1,471 +1,188 @@
-Tam,Dominio,Descrição,A,AAAA,www A,www AAAA,www CNAME,"Senão, tem outro registro DNS?"
-3,ace.br,Associação Catarinense de Ensino / Faculdade Guilherme Guimbala,186.202.157.79,,,,@,
-3,ad1.br,Colégio e Faculdade AD1,108.179.193.195,,108.179.193.195,,,
-6,adolec.br,Biblioteca Virtual em Saúde – Adolec Brasil,,,,,coral50.bireme.br,
-4,aedb.br,Associação Educacional Dom Bosco,,,186.202.153.75,,@,
-9,aesa-cesa.br,Autarquia de Ensino Superior de Arcoverde,162.241.135.71,,,,@,
-4,aeso.br,Ensino Superior de Olinda,67.23.234.77,,,,@,
-5,aespi.br,Associação de Ensino Superior do Piauí,200.174.103.107,,200.174.103.107,,,
-4,aiec.br,Associação Internacional de Educação Continuada,"186.195.44.235
-187.72.203.5",,"186.195.44.235
-187.72.203.5",,,
-4,alfa.br,Faculdades Alves Faria,,,,,,"MX, RRSIG"
-11,alfacastelo.br,Faculdade Alfacastelo,186.202.157.79,,,,@,
-4,alie.br,Associação Limeirense de Educação,186.202.153.125,,,,@,
-8,anchieta.br,Unianchieta,187.32.95.28,,,,3981562.group12.sites.hubspot.net,
-7,anhembi.br,Universidade Anhembi Morumbi,104.18.5.95,,,,www.anhembi.br.cdn.cloudflare.net,
-4,ansp.br,Academic Network at São Paulo,143.108.30.37,2001:12d8:88:30::37,143.108.30.37,2001:12d8:88:30::37,,
-8,antispam.br,Antispam.br,200.160.4.9,2001:12ff:0:4::9,,,@,
-3,apa.br,Universidade Anhanguera de São Paulo,187.17.67.37,,187.17.67.37,,,
-11,aquicultura.br,Estação Experimental de Salmonicultura,187.17.111.98,,187.17.111.98,,,
-5,arauc.br,Ponto de Presença da RNP no Estado do Paraná,200.238.130.8,2801:82:0:6::8,,,synapse.arauc.br,
-3,atm.br,Faculdade de Odontologia da Universidade de Pernambuco,201.76.51.228,,,,@,
-11,baraodemaua.br,Centro Universitário Barão de Mauá,189.108.61.47,,,,baraodemaua-sitebarao.dnsfailover.com.br,
-7,batista.br,Colégio Batista Shepard,"185.230.63.107
-185.230.63.171
-185.230.63.186",,,,cdn0.wixdns.net,
-10,belasartes.br,Centro Universitário Belas Artes de São Paulo,191.252.99.62,,,,@,
-7,bennett.br,Colégio Metodista Bennett,129.159.57.95,,129.159.57.95,,,
-6,bireme.br,Biblioteca Regional de Medicina,200.10.179.228,,,,cristal20.bireme.br,
+# Atualizado: 25/ago/2021
+Tam,Domínio,Descrição,A,AAAA,www A,www AAAA,www CNAME,"Senão, tem outro registro DNS?",Existe?,Educação?,Militar?,Infra?,?
+1,b.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+2,am.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
 2,bn.br,Biblioteca Nacional,"177.223.196.140
 200.9.175.20",,"177.223.196.140
-200.9.175.20",,,
-8,bomjesus.br,Colégio Bom Jesus,207.248.87.15,,,,ns_dcxenweb06.bomjesus.br,
-9,brazcubas.br,Sociedade Educacional Braz Cubas,34.149.110.26,,,,brazcubas.edu.br,
-3,bvs.br,Biblioteca Virtual em Saúde,200.10.179.228,,,,cristal20.bireme.br,
-5,cairu.br,Fundação Visconde de Cairu,187.18.6.22,,187.18.6.22,,,
-7,cambury.br,Centro Universitário Cambury,23.236.62.147,,,,www186.wixdns.net,
-12,campossalles.br,Colégio e Faculdades Campos Salles,,,,,,"NS, SOA, MX, TXT"
-13,candidomendes.br,Universidade Candido Mendes,200.201.187.154,,200.201.187.154,,,
-10,cantareira.br,Faculdade Cantareira,187.45.195.63,,,,@,
-7,cardiol.br,Sociedade Brasileira de Cardiologia,200.209.23.52,,200.209.23.52,,,
-13,castelobranco.br,Universidade Castelo Branco,"177.71.198.235
-54.232.195.86",,"177.71.198.235
-54.232.195.86",,,
-11,castroalves.br,Faculdade Castro Alves,192.185.211.121,,,,@,
-4,cbpf.br,Centro Brasileiro de Pesquisas Físicas,152.84.50.20,,152.84.253.55,,,
-8,ccbeunet.br,Centro Cultural Brasil Estados Unidos (Santos),,,,,virtuais7.bcmg.com.br,
-3,ccc.br,Centro de Ciência e Cultura (Curso e Colégio Anglo Campinas),,,,,compound-ornaments.000webhostapp.com,
+200.9.175.20",,,,1,,,,
+2,eb.br,Exército Brasileiro,200.20.120.33,,,,,,1,,1,,
+2,fm.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+2,gv.br,Intranet FGV,200.143.14.16,,,,intra.eaesp.fgv.br,,1,,,,
+2,im.br,Instituto Mairiporã,,,,,,"SOA, RRSIG",1,1,,,
+2,ix.br,Internet Exchange Point do Brasil,200.160.4.153,2001:12ff:0:4144:f816:3eff:feed:8a89,200.160.4.153,2001:12ff:0:4144:f816:3eff:feed:8a89,,,1,,,,
+2,ml.br,Machine Learning?,35.198.1.102,,35.198.1.102,,,,1,,,,1
+2,mp.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+2,on.br,Observatório Nacional,200.20.187.134,,200.20.187.134,,,,1,,,,
+2,tc.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+2,tv.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,abc.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,ace.br,Associação Catarinense de Ensino / Faculdade Guilherme Guimbala,186.202.157.79,,,,@,,1,1,,,
+3,ad1.br,Colégio e Faculdade AD1,108.179.193.195,,108.179.193.195,,,,1,1,,,
+3,adm.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,adv.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,agr.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,aju.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,apa.br,Universidade Anhanguera de São Paulo,187.17.67.37,,187.17.67.37,,,,1,1,,,
+3,app.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,arq.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,art.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,atm.br,Faculdade de Odontologia da Universidade de Pernambuco,201.76.51.228,,,,@,,1,,,,
+3,ato.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,bhz.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,bib.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,bio.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,bmd.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,bsb.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,bvs.br,Biblioteca Virtual em Saúde,200.10.179.228,,,,cristal20.bireme.br,,1,,,,
+3,ccc.br,Centro de Ciência e Cultura (Curso e Colégio Anglo Campinas),,,,,compound-ornaments.000webhostapp.com,,1,,,,
 3,cdb.br,Colégio Salesiano Dom Bosco,"104.21.5.131
 172.67.133.121","2606:4700:3033::ac43:8579
 2606:4700:3035::6815:583","104.21.5.131
 172.67.133.121","2606:4700:3033::ac43:8579
-2606:4700:3035::6815:583",,
-3,cde.br,Centro de Desenvolvimento Empresarial,,,,,ns_dcweb06.cde.br,
-3,cdt.br,Centro de Desenvolvimento de Tecnologia e Recursos Humanos,,,177.126.161.129,,,
-4,cdtn.br,Centro de Desenvolvimento da Tecnologia Nuclear,200.17.181.17,,,,radion.cdtn.br,
-4,ceap.br,Centro de Ensino Superior do Amapá,161.35.121.81,,161.35.121.81,,,
-5,cefac.br,CEFAC – Saúde e Educação,167.114.131.3,,,,fo-apps01.iforge.com.br,
-8,cefet-rj.br,Centro Federal de Educação Tecnológica Celso Suckow da Fonseca (RJ),200.9.149.88,,,,nginx.cefet-rj.br,
-7,cefetmg.br,Centro Federal de Educação Tecnológica de Minas Gerais,200.131.38.57,,,,vm-wordpress-02.ditic.sgi.cefetmg.br,
-3,cem.br,Centro de Ensino Moderno,187.16.145.179,,,,@,
-20,centrodecitricultura.br,Centro de Citricultura Sylvio Moreira,,,177.53.80.122,,,
-5,cepel.br,Centro de Pesquisas de Energia Elétrica,161.79.8.15,,,,srvlumis02.cepel.br,
-6,ceptro.br,Centro de Estudos e Pesquisas em Tecnologia de Redes e Operações,200.160.4.153,2001:12ff:0:4144:f816:3eff:feed:8a89,,,@,
-4,cert.br,"Centro de Estudos, Resposta e Tratamento de Incidentes de Segurança no Brasil","200.160.7.17
-200.160.7.7","2001:12ff:0:7000::17
-2001:12ff:0:7000::7","200.160.7.17
-200.160.7.7","2001:12ff:0:7000::17
-2001:12ff:0:7000::7",,
-4,cesd.br,Centro de Ensino Superior de Dracena,192.185.213.103,,,,@,
-5,cesed.br,Centro de Ensino Superior e Desenvolvimento,177.73.84.40,,177.73.84.40,,,
-5,cesjf.br,Centro de Ensino Superior de Juiz de Fora,186.248.154.183,,186.248.154.183,,,
-7,cesreal.br,Faculdade REGES de Realeza,192.185.213.103,,,,@,
-5,cesuc.br,Centro de Ensino Superior de Catalão,,,,,,"SOA, DNSKEY, NSEC, RRSIG, MX, NS"
-5,cesul.br,Centro Sulamericano de Ensino Superior,142.93.25.115,,,,@,
-7,cesumar.br,Centro de Ensino Superior de Maringá,177.129.73.20,,177.129.73.20,,,
-6,cesupa.br,Centro Universitário do Estado do Pará,131.255.64.72,,,,@,
-4,cesv.br,Centro de Ensino Superior de Vitória,162.144.236.176,,,,@,
-5,cetic.br,Centro Regional de Estudos para o Desenvolvimento da Sociedade da Informação,200.160.4.9,2001:12ff:0:4::9,,,@,
-5,ceuma.br,Universidade Ceuma,200.1.125.76,,200.1.125.76,,,
-6,ceunsp.br,Centro Universitário Nossa Senhora do Patrocínio,34.149.110.26,,,,ceunsp.edu.br,
-5,ceweb.br,Centro de Estudos sobre Tecnologias Web,200.160.4.9,2001:12ff:0:4::9,,,@,
-3,cgi.br,Comitê Gestor da Internet no Brasil,200.160.4.2,2001:12ff:0:4::3,,,@,
-5,ciesa.br,Centro Universitário de Ensino Superior do Amazonas,191.6.222.75,,,,web-ded-330114a.kinghost.net,
-3,cig.br,Colégio Integrado de Guarulhos,179.188.11.20,,,,@,
-3,cin.br,Centro de Informática da UFPE,150.161.2.9,,,,@,
-3,cmf.br,Missionários Claretianos do Brasil,,,,,@,
-4,cnec.br,Campanha Nacional de Escolas da Comunidade,138.36.246.51,,138.36.246.51,,,
-12,cneccapivari.br,Campanha Nacional de Escolas da Comunidade (Capivari),187.17.111.103,,187.17.111.103,,,
-5,cnpem.br,Centro Nacional de Pesquisa em Energia e Materiais,35.185.201.199,,35.185.201.199,,,
-4,cnpq.br,Conselho Nacional de Desenvolvimento Científico e Tecnológico,200.130.33.17,,,,grupo-portal.cnpq.br,
-15,colegiorealengo.br,Colégio Realengo,187.45.239.21,,,,@,
-10,comciencia.br,ComCiência,143.106.140.91,,143.106.140.91,,,
-3,cta.br,Departamento de Ciência e Tecnologia Aeroespacial,,,,,dcta-new.cta.br,
-14,culturadigital.br,CulturaDigital.Br,200.130.15.90,,200.130.15.90,,,
-14,curso-objetivo.br,Curso Pré-Vestibular Objetivo,200.196.224.134,,200.196.224.134,,,
-5,dante.br,Instituto Dante Pazzanese de Cardiologia,186.202.153.193,,,,@,
-8,dinamica.br,Colégio Dinâmica,54.232.216.243,,,,@,
-13,direitofranca.br,Faculdade de Direito de Franca,189.90.130.248,,,,@,
-10,direitosbc.br,Faculdade de Direito de São Bernardo do Campo,"104.21.47.242
-172.67.174.141","2606:4700:3030::6815:2ff2
-2606:4700:3032::ac43:ae8d","104.21.47.242
-172.67.174.141","2606:4700:3030::6815:2ff2
-2606:4700:3032::ac43:ae8d",,
-3,dns.br,DNS,,,,,,"MX, RRSIG"
-8,dombosco.br,Colégio Salesiano Dom Bosco de Americana,187.32.248.178,,187.32.248.178,,,
-8,dourados.br,Município de Dourados,200.199.220.81,,200.199.220.81,,,
-5,eabdf.br,Escola Americana de Brasília,67.227.222.119,,67.227.222.119,,,
-3,ead.br,Educação a Distância (Rede Laureate International Universities),104.18.11.177,,34.95.223.246,,,
-2,eb.br,Exército Brasileiro,200.20.120.33,,,,,
-3,ecc.br,Escola Comunitária de Campinas,177.70.106.100,,,,@,
-7,eduvale.br,Colégio Eduvale,187.45.193.166,,,,@,
-6,eeemba.br,Escola de Engenharia Eletromecânica da Bahia,162.241.2.49,,,,@,
+2606:4700:3035::6815:583",,,1,1,,,
+3,cde.br,Centro de Desenvolvimento Empresarial,,,,,ns_dcweb06.cde.br,,1,1,,,
+3,cdt.br,Centro de Desenvolvimento de Tecnologia e Recursos Humanos,,,177.126.161.129,,,,1,1,,,
+3,cem.br,Centro de Ensino Moderno,187.16.145.179,,,,@,,1,1,,,
+3,cgi.br,Comitê Gestor da Internet no Brasil,200.160.4.2,2001:12ff:0:4::3,,,@,,1,,,1,
+3,cig.br,Colégio Integrado de Guarulhos,179.188.11.20,,,,@,,1,1,,,
+3,cim.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,cin.br,Centro de Informática da UFPE,150.161.2.9,,,,@,,1,1,,,
+3,cmf.br,Missionários Claretianos do Brasil,,,,,@,,1,,,,
+3,cng.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,cnt.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,com.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,coz.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,cta.br,Departamento de Ciência e Tecnologia Aeroespacial,,,,,dcta-new.cta.br,,1,,1,,
+3,def.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,des.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,det.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,dev.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,dns.br,DNS,,,,,,"MX, RRSIG",1,,,1,
+3,ead.br,Educação a Distância (Rede Laureate International Universities),104.18.11.177,,34.95.223.246,,,,1,1,,,
+3,ecc.br,Escola Comunitária de Campinas,177.70.106.100,,,,@,,1,1,,,
+3,ecn.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,eco.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,edu.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
 3,eep.br,Escola de Engenharia de Piracicaba,"185.230.63.107
 185.230.63.171
-185.230.63.186",,,,cdn0.wixdns.net,
-4,eewb.br,Escola de Enfermagem Wenceslau Braz,52.14.173.109,,,,@,
-8,einstein.br,Hospital Israelita Albert Einstein,201.56.7.148,,,,einstein.br.edgekey.net,
-7,embrapa.br,Empresa Brasileira de Pesquisa Agropecuária,200.202.168.147,,,,pitaya.sede.embrapa.br,
-7,emescam.br,Escola Superior de Ciências da Santa Casa de Misericórdia de Vitória,200.137.70.51,,,,@,
-6,epamig.br,Empresa de Pesquisa Agropecuária de Minas Gerais,189.80.133.53,,189.80.133.53,,,
-3,epm.br,Escola Paulista de Medicina (Unifesp),200.144.93.141,,,,vml004.epm.br,
-5,esamc.br,"Escola Superior de Administração, Marketing e Comunicação",162.241.155.235,,,,@,
-4,esef.br,Escola Superior de Educação Física de Jundiaí,177.67.56.66,,177.67.56.66,,,
-3,esg.br,Escola Superior de Guerra,,,200.143.206.219,,,
-4,esic.br,Escola Superior de Engenheiros Comerciais,35.199.82.66,,35.199.82.66,,,
-4,espm.br,Escola Superior de Propaganda e Marketing,20.201.8.45,,20.201.8.45,,,
-7,estacio.br,Estácio,"13.33.108.62
-13.33.108.83
-13.33.108.89
-13.33.108.94",,,,redirect-portal-fend-ecs.estacio.br,
-11,estatistica.br,Instituto de Matemática e Estatística - USP,200.144.244.77,,,,@,
-3,faa.br,Fundação Educacional D. André Arcoverde,187.45.193.172,,,,@,
-4,faap.br,Fundação Armando Alvares Penteado,189.125.19.229,,189.125.19.229,,,
-3,fac.br,Faculdade Arquidiocesana de Curvelo,138.128.164.130,,,,@,
-6,facape.br,Faculdade de Ciências Aplicadas e Sociais de Petrolina,168.196.52.136,,168.196.52.136,,,
-9,facastelo.br,Faculdade de Castelo,191.252.48.192,,191.252.47.118,,,
-7,faccamp.br,Centro Universitário Campo Limpo Paulista,191.6.208.132,2804:10:8001::208:132,,,web1162.kinghost.net,
-6,faccat.br,Faculdades Integradas de Taquara,200.132.2.250,,,,ares.faccat.br,
-6,faceca.br,"Faculdade de Ciências Econômicas, Contábeis e de Administração de Varginha",,,,,www.faceca.cnec.br,
-5,faced.br,"Faculdade de Ciências Econômicas, Administrativas e Contábeis de Divinópolis","3.92.148.198
-52.203.20.242
-52.44.226.158",,"3.92.148.198
-52.203.20.242
-52.44.226.158",,,
-5,facef.br,Faculdade de Ciências Econômicas e Administrativas de Franca,177.69.47.81,,,,www.unifacef.com.br,
-6,facens.br,Faculdade de Engenharia de Sorocaba,191.233.203.34,,,,homefacensbr.azurewebsites.net,
-6,facepe.br,Fundação de Amparo à Pesquisa do Estado de São Paulo,200.133.9.254,,,,firewall.facepe.br,
-6,facesm.br,Faculdade de Ciências Sociais Aplicadas do Sul de Minas,"104.21.1.212
-172.67.152.87","2606:4700:3037::6815:1d4
-2606:4700:3037::ac43:9857","104.21.1.212
-172.67.152.87","2606:4700:3037::6815:1d4
-2606:4700:3037::ac43:9857",,
-5,facet.br,Faculdade de Ciências Sociais e Aplicadas do Paraná,187.45.193.223,,,,@,
-5,facha.br,Faculdades Integradas Hélio Alonso,201.76.51.228,,,,@,
-5,facho.br,Faculdade de Ciências Humanas de Olinda,187.45.195.189,,,,@,
-5,facic.br,Faculdade de Ciências Humanas de Curvelo,200.251.23.2,,200.251.23.2,,,
-7,facinor.br,Faculdade Intermunicipal do Noroeste do Paraná,187.45.193.223,,187.45.193.223,,,
-8,facinter.br,Faculdade Internacional de Curitiba,200.150.68.244,,200.150.68.244,,,
-7,facitec.br,Faculdade de Ciências Sociais e Tecnológicas,187.45.193.173,,,,@,
-5,facol.br,Faculdade Orígenes Lessa,104.236.23.18,,104.236.23.18,,,
-6,facsal.br,Faculdade de Santa Luzia,186.202.157.79,,,,@,
-11,facsaoroque.br,Centro Universitário São Roque,68.183.99.57,,,,@,
-5,factu.br,Faculdade de Ciências e Tecnologia de Unaí,161.97.86.192,,161.97.86.192,,,
-16,faculdadepromove.br,Faculdades Promove,191.6.210.107,2804:10:8002::210:107,191.6.210.107,,,
-17,faculdadesmaringa.br,Faculdades Maringá,200.175.16.248,,200.175.16.248,,,
-5,fadap.br,Faculdade de Direito da Alta Paulista,187.17.111.35,,187.17.111.35,,,
-4,fadi.br,Faculdade de Direito de Sorocaba,177.153.8.250,,177.153.8.250,,,
-6,fadipa.br,Faculdade de Ipatinga,186.202.153.152,,,,@,
-3,fae.br,Faculdades Associadas de Ensino,67.227.165.157,,,,www.fae.br.cdn.cloudflare.net,
-4,faef.br,Faculdade de Ensino Superior e Formação Integral,186.202.153.5,,,,@,
-5,faepa.br,"Fundação de Apoio ao Ensino, Pesquisa e Assistência",200.98.190.6,,,,@,
-5,faesa.br,Faculdades Integradas Espírito Santenses,74.121.24.79,,,,8767745.group45.sites.hubspot.net,
-6,fafeod.br,Faculdade Federal de Odontologia de Diamantina,200.131.252.28,,200.131.252.28,,,
-6,fafibe.br,"Faculdade de Filosofia, Ciências e Letras de Bebedouro",201.71.243.90,,,,unifafibe.saferoute.com.br,
-6,fafica.br,"Faculdade de Filosofia, Ciências e Letras de Catanduva",177.21.33.101,,,,zenao.fafica.br,
-6,faficp.br,"Faculdade Estadual de Filosofia, Ciências e Letras de Cornélio Procópio",200.201.11.6,,,,,
-7,fafijan.br,Faculdade de Jandaia do Sul,208.113.174.192,,208.113.174.192,,,
-6,fafima.br,"Faculdade de Filosofia, Ciências e Letras de Macaé",142.44.192.169,,,,@,
-7,fafiman.br,"Fundação Faculdade de Filosofia, Ciências e Letras de Mandaguari",191.6.209.70,2804:10:8001::209:70,,,web173.kinghost.net,
-6,fafipa.br,"Faculdade Estadual de Educação, Ciências e Letras de Paranavaí",201.76.51.228,,,,@,
-6,fafire.br,Faculdade Frassinetti do Recife,"200.167.192.130
-45.6.95.174",,200.167.192.130,,,
-5,fagoc.br,Faculdade Governador Ozanam Coelho,200.195.1.132,,200.195.1.132,,,
-6,fai-mg.br,Faculdade de Administração e Informática,201.77.129.193,,,,webserver.fai-mg.br,
-3,faj.br,Faculdade de Jaguariúna,54.233.112.201,,,,@,
-5,falec.br,Faculdade Dr. Leocádio José Correia,191.6.208.63,2804:10:1::208:63,,,,
-3,fam.br,Faculdade de Americana,142.93.200.164,,,,,
-4,fama.br,Faculdade Atenas Maranhense,187.86.214.58,,187.86.214.58,,,
-7,famanet.br,Faculdade Machado de Assis,191.252.48.46,,,,@,
-6,famema.br,Faculdade de Medicina de Marília,200.144.25.5,,200.144.25.14,,,
-6,famerp.br,Faculdade de Medicina de São José do Rio Preto,,,,,1010se17fam-v07-sw.famerp.br,
-8,famevaco.br,Faculdade de Medicina do Vale do Aço,"104.21.52.237
-172.67.205.117","2606:4700:3032::ac43:cd75
-2606:4700:3036::6815:34ed","104.21.52.237
-172.67.205.117","2606:4700:3032::ac43:cd75
-2606:4700:3036::6815:34ed",,
-5,famma.br,Faculdade Metropolitana de Maringá,177.85.35.204,,177.85.35.204,,,
-5,fanap.br,Faculdade Nossa Senhora Aparecida,191.6.218.19,,,,varnish-farm22.kinghost.net,
-3,fap.br,Faculdade de Ponta Porã,186.202.157.79,,,,@,
-6,fapeal.br,Fundação de Amparo à Pesquisa do Estado de Alagoas,200.133.132.96,,200.133.132.96,,,
-6,fapema.br,Fundação de Amparo à Pesquisa e Desenvolvimento Científico do Maranhão,167.249.168.227,,167.249.168.227,,,
-7,fapemig.br,Fundação de Amparo à Pesquisa do Estado de Minas Gerais,191.232.198.247,,191.232.198.247,,,
-6,faperj.br,Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do Rio de Janeiro,200.6.41.100,,200.6.41.120,,,
-6,fapesp.br,Fundação de Amparo à Pesquisa do Estado de São Paulo,143.108.10.6,,143.108.10.6,,,
-4,fapi.br,Faculdade de Pindamonhangaba,162.214.96.104,,,,@,
-5,fapss.br,Faculdade Paulista de Serviço Social,187.1.136.98,,,,web15f24.uni5.net,
-4,farn.br,Faculdade Natalense para o Desenvolvimento do Rio Grande do Norte,177.154.115.4,,,,@,
-5,fatea.br,Faculdades Integradas Teresa d'Ávila,187.45.240.73,,,,@,
-5,fateb.br,Faculdade de Ciências e Tecnologia de Birigui,186.202.153.213,,,,@,
-8,fatec-ro.br,Faculdade de Ciências Administrativas e Tecnologia (RO),201.76.51.228,,,,@,
-5,fatec.br,Faculdade de Tecnologia de Americana,187.45.195.176,,,,@,
-7,fatecsp.br,Faculdade de Tecnologia de São Paulo,201.55.32.226,,201.55.32.232,,,
-3,fav.br,Faculdades de Valinhos,187.17.67.8,,187.17.67.8,,,
-4,favi.br,Associação Vitoriana de Ensino Superior,200.196.224.47,,200.196.224.47,,,
-4,fazu.br,Faculdades Associadas de Uberaba,162.214.153.183,,,,@,
+185.230.63.186",,,,cdn0.wixdns.net,,1,1,,,
+3,emp.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,enf.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,eng.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,epm.br,Escola Paulista de Medicina (Unifesp),200.144.93.141,,,,vml004.epm.br,,1,1,,,
+3,esg.br,Escola Superior de Guerra,,,200.143.206.219,,,,1,1,1,,
+3,esp.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,etc.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,eti.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,faa.br,Fundação Educacional D. André Arcoverde,187.45.193.172,,,,@,,1,1,,,
+3,fac.br,Faculdade Arquidiocesana de Curvelo,138.128.164.130,,,,@,,1,1,,,
+3,fae.br,Faculdades Associadas de Ensino,67.227.165.157,,,,www.fae.br.cdn.cloudflare.net,,1,1,,,
+3,faj.br,Faculdade de Jaguariúna,54.233.112.201,,,,@,,1,1,,,
+3,fam.br,Faculdade de Americana,142.93.200.164,,,,,,1,1,,,
+3,fap.br,Faculdade de Ponta Porã,186.202.157.79,,,,@,,1,1,,,
+3,far.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,fav.br,Faculdades de Valinhos,187.17.67.8,,187.17.67.8,,,,1,1,,,
 3,fbb.br,Faculdade Batista Brasileira,"104.21.21.36
 172.67.196.92","2606:4700:3033::ac43:c45c
-2606:4700:3036::6815:1524",209.145.61.108,,@,
-3,fbn.br,Biblioteca Nacional,,,,,www.bn.gov.br,
+2606:4700:3036::6815:1524",209.145.61.108,,@,,1,1,,,
+3,fbn.br,Biblioteca Nacional,,,,,www.bn.gov.br,,1,,,,
 3,fbv.br,Faculdade Boa Viagem,"54.209.15.19
-54.236.156.173",,,,@,
-5,fcetm.br,Faculdade de Ciências Econômicas do Triângulo Mineiro,189.59.13.38,,,,@,
-5,fcmmg.br,Faculdade de Ciências Médicas de Minas Gerais,,,,,,"NS, SOA"
-3,fdc.br,Faculdade de Direito de Campos (UNIFLU),191.6.218.13,2804:10:8022::218:13,,,web22f06.kinghost.net,
-4,fdci.br,Faculdade de Direito de Cachoeiro de Itapemirim,192.99.131.252,,,,@,
-3,fdv.br,Faculdade de Direito de Vitória,68.183.26.74,,68.183.26.74,,,
-3,fea.br,Fundação Educacional de Andradina,187.45.195.62,,,,@,
-4,fead.br,Faculdade de Estudos Administrativos,,,,,,"MX, RRSIG"
-4,feam.br,Fundação Estadual do Meio Ambiente (MG),200.198.15.57,,200.198.15.57,,,
-6,feamig.br,Faculdade de Engenharia de Agrimensura de Minas Gerais,"104.21.26.156
-172.67.137.34","2606:4700:3030::6815:1a9c
-2606:4700:3032::ac43:8922","104.21.26.156
-172.67.137.34","2606:4700:3030::6815:1a9c
-2606:4700:3032::ac43:8922",,
+54.236.156.173",,,,@,,1,1,,,
+3,fdc.br,Faculdade de Direito de Campos (UNIFLU),191.6.218.13,2804:10:8022::218:13,,,web22f06.kinghost.net,,1,1,,,
+3,fdv.br,Faculdade de Direito de Vitória,68.183.26.74,,68.183.26.74,,,,1,1,,,
+3,fea.br,Fundação Educacional de Andradina,187.45.195.62,,,,@,,1,1,,,
 3,feb.br,Fundação Educacional de Barretos,"104.21.31.107
 172.67.176.57","2606:4700:3030::ac43:b039
 2606:4700:3032::6815:1f6b","104.21.31.107
 172.67.176.57","2606:4700:3030::ac43:b039
-2606:4700:3032::6815:1f6b",,
-5,fecap.br,Fundação Escola de Comércio Álvares Penteado,200.144.39.102,,179.191.98.230,,,
-8,fecilcam.br,Universidade Estadual do Paraná (Campus de Campo Mourão),200.201.19.20,,,,@,
-7,feevale.br,Universidade Feevale,200.19.250.4,,200.19.250.4,,,
-3,fef.br,Fundação Educacional de Fernandópolis,187.51.71.85,,187.51.71.85,,,
-3,feg.br,Fundação Educacional Guaçuana,109.106.249.84,,109.106.249.84,,,
-5,fejal.br,Fundação Educacional Jayme de Altavila,200.241.146.20,,190.15.118.70,,,
-4,feob.br,Fundação de Ensino Octávio Bastos,,,,,,"NS, SOA"
-5,fepam.br,Fundação Educacional de Patos de Minas,"104.21.29.109
-172.67.171.118","2606:4700:3032::ac43:ab76
-2606:4700:3033::6815:1d6d",,,,
-4,fepi.br,Fundação de Ensino e Pesquisa de Itajubá,45.55.98.24,,,,@,
-8,ferlagos.br,Fundação Educacional da Região dos Lagos,201.48.8.145,,,,@,
-4,fesb.br,Fundação de Ensino Superior de Bragança Paulista,162.243.51.145,,162.243.51.145,,,
-6,fesppr.br,Fundação de Estudos Sociais do Paraná,200.139.114.205,,200.139.114.205,,,
-6,fesurv.br,Fundação do Ensino Superior de Rio Verde,131.221.77.90,,131.221.77.90,,,
-4,feuc.br,Fundação Educacional Unificada Campograndense,187.1.138.20,2804:10:8010::138:20,187.1.138.20,2804:10:8010::138:20,,
-3,ffm.br,Fundação Faculdade de Medicina,186.225.101.217,,,,@,
-3,fga.br,Fundação Gildasio Amado,200.166.141.147,,,,@,
-3,fgv.br,Fundação Getúlio Vargas,189.125.96.98,,,,id098.lb.fgv.br,
-5,fgvsp.br,Fundação Getúlio Vargas (SP),200.186.245.16,,189.125.96.98,,,
-8,fiamfaam.br,Faculdades Integradas Alcântara Machado - Faculdades de Artes Alcântara Machado,189.2.181.200,,,,,
-8,fibbauru.br,Faculdades Integradas de Bauru,158.69.90.105,,158.69.90.105,,,
-4,fieo.br,Fundação Instituto de Ensino para Osasco,,,,,www.unifieo.br,
-3,fig.br,Faculdades Integradas de Guarulhos,177.12.171.252,,,,web36f88.kinghost.net,
-3,fij.br,Faculdades Integradas de Jacarepaguá,45.89.205.72,2a02:4780:1:504:0:eb1:61b3:1,,,@,
-10,filadelfia.br,Instituto Filadélfia de Londrina,200.146.89.147,,"200.146.89.147
-200.155.39.97",,,
-5,finav.br,Faculdades Integradas de Naviraí,199.34.228.55,,,,@,
-7,fiocruz.br,Fundação Oswaldo Cruz,157.86.16.72,,,,dengue.procc.fiocruz.br,
-4,firb.br,Faculdades Integradas Rui Barbosa,"200.168.237.75
-200.168.237.76",,,,webserver.firb.br,
-4,fisp.br,Faculdades Integradas de São Paulo,189.2.181.200,,,,@,
-3,fit.br,Faculdades Integradas de Tapajós,189.80.207.106,,,,,
-3,fkb.br,Fundação Karnig Bazarian,191.252.4.45,,,,@,
-3,fma.br,Faculdade Maria Augusta,,,187.17.67.8,,,
-5,fmabc.br,Faculdade de Medicina do ABC,187.1.138.19,,,,varnish-farm10.kinghost.net,
-3,fmc.br,Faculdade de Medicina de Campos,186.202.153.205,,,,@,
-3,fmj.br,Faculdade de Medicina de Jundiaí,187.49.32.5,2804:1a4:1::5,187.49.32.5,2804:1a4:1::5,,
-3,fmu.br,Faculdades Metropolitanas Unidas,104.18.31.205,,,,indiana.fmu.br,
-3,fnc.br,Faculdade Norte Cabixaba,191.6.211.32,2804:10:8002::211:32,,,,
-3,fog.br,Fundação Octacílio Gualberto,186.202.157.79,,,,@,
-3,fpf.br,Fundação Desembargador Paulo Feitoza,201.90.252.251,,201.90.252.251,,,
-3,fpj.br,Faculdade Politécnica de Jundiaí,187.17.67.8,,187.17.67.8,,,
-3,frb.br,Faculdade Rui Barbosa,187.45.193.14,,,,www.frb.edu.br,
-3,fsa.br,Fundação Santo André,,,,,web12.picture.com.br,
-3,fsg.br,Faculdade da Serra Gaúcha,34.149.52.195,,34.149.52.195,,,
-13,fsssacramento.br,Faculdade Santíssimo Sacramento,62.171.169.12,,,,@,
-3,ftc.br,Faculdade de Tecnologia e Ciências,132.145.206.174,,132.145.206.174,,,
-3,ftn.br,Faculdades Tancredo Neves,186.202.183.140,,,,@,
-6,fucape.br,"Fundação Instituto Capixaba de Pesquisas em Contabilidade, Economia e Finanças","104.21.16.151
-172.67.213.167","2606:4700:3032::ac43:d5a7
-2606:4700:3037::6815:1097","104.21.16.151
-172.67.213.167","2606:4700:3032::ac43:d5a7
-2606:4700:3037::6815:1097",,
-6,fucapi.br,"Fundação Centro de Análise, Pesquisa e Inovação Tecnológica",,,,,xerua.fucapi.br,
-5,fumec.br,Fundação Mineira de Educação e Cultura,"191.34.35.46
-201.48.93.198",,"191.34.35.46
-201.48.93.198",,,
-6,funbbe.br,Fundação Barra Bonita de Ensino,191.252.51.24,,,,@,
-6,funcec.br,Fundação Comunitária Educacional e Cultural de João Monlevade,186.202.150.81,,,,@,
-7,funcecp.br,Fundação Comunitária Educacional e Cultural de Patrocínio,,,,,ideiafix2.funcecp.br,
-7,funceme.br,Fundação Cearense de Meteorologia e Recursos Hídricos,200.129.31.2,,200.129.31.2,,,
-7,funcern.br,Fundação de Apoio à Educação e ao Desenvolvimento Tecnológico do Rio Grande do Norte,134.122.16.168,,,,@,
-7,funcesi.br,Fundação Comunitária de Ensino Superior de Itabira,189.90.241.2,,189.90.240.58,,,
-6,fundag.br,Fundação de Apoio à Pesquisa Agrícola,191.252.191.39,,,,@,
-8,fundanet.br,Fundação Eurípides de Marília,200.10.239.10,,,,,
-8,fundasul.br,Fundação de Ensino Superior da Região Centro Sul,187.45.195.137,,,,@,
-6,fundep.br,Fundação de Desenvolvimento da Pesquisa,,,150.164.30.201,,,
-8,fundepag.br,Fundação de Desenvolvimento da Pesquisa do Agronegócio,45.236.77.197,,45.236.77.197,,,
-8,fundepes.br,Fundação Universitária de Desenvolvimento de Extensão e Pesquisa,187.0.16.142,,187.0.16.142,,,
-5,funec.br,Fundação Educacional de Caratinga,108.167.147.1,,108.167.147.1,,,
-6,funpec.br,Fundação Norte-Rio-Grandense de Pesquisa e Cultura,177.20.147.59,,,,monza.funpec.br,
-4,furb.br,Fundação Universidade Regional de Blumenau,201.54.192.13,2801:80:356f:1000::c936:c00d,,,poodle.furb.br,
-4,furg.br,Universidade Federal do Rio Grande,200.19.254.110,2804:0:5400:dc::110,,,joomla.furg.br,
-6,fuvest.br,Fundação Universitária para o Vestibular,200.144.248.211,,,,@,
-4,fuvs.br,Universidade do Vale do Sapucaí,,,,,srvfuvs38542.fuvs.br,
-3,fvc.br,Fundação Visconde de Cairu,200.254.21.180,,200.254.21.137,,,
-3,fvj.br,Faculdade do Vale do Jaguaribe,191.252.100.26,,,,@,
-6,gammon.br,Instituto Presbiteriano Gammon,"185.230.63.107
-185.230.63.171
-185.230.63.186",,,,cdn0.wixdns.net,
-3,gov.br,Governo Federal,161.148.164.31,,161.148.164.31,,,
-6,graded.br,The American School of São Paulo,184.106.184.142,,,,saopaulo.finalsite.com,
-14,grupointegrado.br,Centro Universitário Integrado,"170.150.188.18
-170.150.188.19",,170.150.188.19,,,
-2,gv.br,Intranet FGV,200.143.14.16,,,,intra.eaesp.fgv.br,
-6,huufma.br,Hospital Universitário da UFMA,200.137.136.131,,200.137.136.131,,,
-3,iac.br,Instituto Agronômico de Campinas,,,201.55.42.7,,,
-5,iaene.br,Instituto Adventista do Ensino do Nordeste,179.188.40.34,,,,adventista.edu.br,
-3,ial.br,Instituto Americano de Lins,129.159.57.95,,129.159.57.95,,,
-5,iapar.br,Instituto de Desenvolvimento Rural do Paraná,200.189.123.110,,200.189.123.110,,,
-4,iasp.br,Instituto Adventista São Paulo,"186.201.88.243
-200.206.30.163",,,,@,
-5,ibase.br,Instituto Brasileiro de Análises Sociais e Econômicas,35.175.159.83,,,,@,
-5,ibict.br,Instituto Brasileiro de Informação em Ciência e Tecnologia,200.130.0.13,,200.130.0.13,,,
-10,ibirapuera.br,Universidade Ibirapuera,"104.21.93.91
-172.67.208.124","2606:4700:3030::6815:5d5b
-2606:4700:3035::ac43:d07c","104.21.93.91
-172.67.208.124","2606:4700:3030::6815:5d5b
-2606:4700:3035::ac43:d07c",,
-5,ibmec.br,Instituto Brasileiro de Mercado de Capitais,"3.209.115.198
-3.225.250.200
-52.4.48.241",,,,atb-aws-lb-prd-ibmec-644196134.us-east-1.elb.amazonaws.com,
-7,ibmecmg.br,Instituto Brasileiro de Mercado de Capitais (MG),200.190.254.57,,,,,
-7,ibmecrj.br,Instituto Brasileiro de Mercado de Capitais (RJ),"10.0.0.20
-200.182.25.100",,,,webfarm.grupoibmec.com.br,
-4,ibmr.br,Instituto Brasileiro de Medicina de Reabilitação,104.18.7.243,,,,www.ibmr.br.cdn.cloudflare.net,
-6,ielusc.br,Instituto Superior e Centro Educacional Luterano,177.91.48.2,,177.91.48.2,,,
-4,iesb.br,Instituto de Educação Superior de Brasília,34.195.191.172,,34.195.191.172,,,
-7,iesplan.br,Instituto de Ensino Superior Planalto,50.116.87.228,,,,@,
-3,iga.br,Instituto de Geociências Aplicadas,,,,,,"SOA, DNSKEY, NSEC, RRSIG, NS"
-7,igf2015.br,Internet Governance Forum Brazil 2015,200.160.4.9,2001:12ff:0:4::9,,,@,
-13,igfbrazil2007.br,Internet Governance Forum Brazil 2007,200.160.4.9,2001:12ff:0:4::9,,,@,
-4,ilsl.br,Instituto Lauro de Souza Lima,201.55.44.41,,,,ns2.ilsl.br,
-4,iltc.br,"Instituto de Lógica, Filosofia e Teoria da Ciência",,,,,iltc2.iltc.br,
-2,im.br,Instituto Mairiporã,,,,,,"SOA, RRSIG"
-6,imensu.br,Instituto Mairiporã Colégio e Faculdades,,,,,ghs.googlehosted.com,
-5,imesb.br,"Instituto Municipal de Ensino Superior de Bebedouro ""Victório Cardassi""",45.79.42.17,,,,@,
-4,impa.br,Instituto de Matemática Pura e Aplicada,147.65.1.107,,147.65.1.107,,,
-6,inatel.br,Instituto Nacional de Telecomunicações,131.221.240.56,,131.221.240.56,,,
-4,inpe.br,Instituto Nacional de Pesquisas Especiais,"150.163.105.31
-150.163.73.116
-150.163.73.164",,150.163.105.31,,,
-9,internesp.br,Instituto Nacional de Ensino e Pesquisa,200.216.243.82,,,,,
-14,internetsegura.br,Internet Segura,200.160.4.9,2001:12ff:0:4::9,,,@,
-3,ipa.br,Instituto Agronômico de Pernambuco,,,200.196.164.134,,,
-5,ipaam.br,Instituto de Proteção Ambiental do Amazonas,177.66.14.159,,177.66.14.159,,,
-4,ipef.br,Instituto de Pesquisas e Estudos Florestais,201.16.253.156,,,,@,
-4,ipen.br,Instituto de Pesquisas Energéticas e Nucleares,200.136.52.8,,,,portal.ipen.br,
-3,ipt.br,Instituto de Pesquisas Tecnológicas,200.18.53.6,,,,darwinnew.ipt.br,
-4,ipv6.br,IPv6.br,200.160.4.9,2001:12ff:0:4::9,,,@,
-3,it2.br,Centro Universitário Toledo,45.70.87.24,,,,piaget.unitoledo.br,
-3,ita.br,Instituto Tecnológico de Aeronáutica,161.24.23.239,,161.24.23.239,,,
-4,itep.br,Instituto de Tecnologia de Pernambuco,"200.17.134.24
-200.17.134.34",,200.17.134.22,,,
-3,iti.br,Instituto Nacional de Tecnologia da Informação,,,,,,"SOA, NS, MX, TXT, NSEC, DNSKEY, RRSIG"
-5,itpac.br,Instituto Tocantinense Presidente Antônio Carlos,"104.21.14.133
-172.67.159.45","2606:4700:3035::ac43:9f2d
-2606:4700:3036::6815:e85","104.21.37.136
-172.67.208.105","2606:4700:3032::ac43:d069
-2606:4700:3033::6815:2588",,
-6,iuperj.br,Instituto Universitário de Pesquisas do Rio de Janeiro,174.142.23.29,,,,www3.ucam.edu.br,
-3,ivc.br,Instituto Vale do Cricaré,23.236.62.147,,,,www4.wixdns.net,
-2,ix.br,Internet Exchange Point do Brasil,200.160.4.153,2001:12ff:0:4144:f816:3eff:feed:8a89,200.160.4.153,2001:12ff:0:4144:f816:3eff:feed:8a89,,
-3,jts.br,Juvêncio Terra Superior,,,,,ec2-54-94-179-189.sa-east-1.compute.amazonaws.com,
-7,kennedy.br,Faculdade Kennedy,191.6.210.102,,191.6.210.102,,,
-3,led.br,Laboratório de Educação Digital (UFSC),150.162.114.51,,,,vm-cachoeira.led.ufsc.br,
-13,lemosdecastro.br,Colégio Lemos de Castro,200.156.18.66,,,,webserver.lemosdecastro.br,
-11,liceuasabin.br,Liceu Albert Sabin Ribeirão Preto,189.108.61.52,,,,baraodemaua-liceu.dnsfailover.com.br,
-3,lna.br,Laboratório Nacional de Astrofísica,,,,,leila.lna.br,
-4,lncc.br,Laboratório Nacional de Computação Científica,146.134.9.171,,,,@,
-4,lnls.br,Laboratório Nacional de Luz Síncrotron,141.193.213.10,,141.193.213.10,,,
-7,lusiada.br,Fundação Lusíada,200.232.93.2,,,,servlus07.lusiada.br,
-9,mackenzie.br,Instituto Presbiteriano Mackenzie,54.94.252.119,,,,www.x.mackenzie.br,
-3,mar.br,Marinha do Brasil,187.29.162.20,,187.29.162.20,,,
-14,mariaimaculada.br,Faculdades Integradas Maria Imaculada,51.161.115.215,,,,@,
-4,mast.br,Museu de Astronomia e Ciências Afins,200.156.20.14,,200.156.20.14,,,
-10,matematica.br,iMática,200.144.244.77,,,,@,
-4,maua.br,Instituto Mauá de Tecnologia,189.8.23.132,,,,@,
-7,mcampos.br,Faculdades Milton Campos,"3.92.148.198
-52.203.20.242
-52.44.226.158",,"3.92.148.198
-52.203.20.242
-52.44.226.158",,,
-9,metodista.br,Universidade Metodista de São Paulo,132.226.240.51,,177.135.166.190,,,
-2,ml.br,Machine Learning?,35.198.1.102,,35.198.1.102,,,
-6,modulo.br,Faculdades Integradas Módulo,34.149.52.195,,,,@,
-9,mozarteum.br,Faculdade Mozarteum de São Paulo,191.252.47.37,,,,@,
-3,msb.br,Centro Universitário Moacyr Sreder Bastos,187.45.193.227,,187.45.193.227,,,
-12,museu-goeldi.br,Museu Paraense Emílio Goeldi,200.129.128.42,,,,lobo.museu-goeldi.br,
-10,netmundial.br,NETmundial,200.160.4.149,2001:12ff:0:4144:f816:3eff:fecd:cf3b,,,@,
-11,newtonpaiva.br,Centro Universitário Newton Paiva,191.233.203.34,,0.0.0.0,::,newtonbr.azurewebsites.net,
-3,nic.br,Núcleo de Informação e Coordenação do Ponto BR,200.160.4.6,2001:12ff:0:4::6,,,@,
-10,niltonlins.br,Faculdades Nilton Lins,,,,,www.universidadeniltonlins.com.br,
-8,noroeste.br,Instituto Noroeste de Birigui,129.159.57.95,,129.159.57.95,,,
-11,novomilenio.br,Faculdade Novo Milênio,186.202.153.40,,,,novomilenio2.hospedagemdesites.ws,
-3,nti.br,Núcleo de Tecnologia da Informação (UnB),,,,,@,
-3,ntp.br,NPT.br (Network Time Protocol),200.160.4.155,2001:12ff:0:4144:f816:3eff:fee0:3bd8,,,@,
-12,objetivo-mga.br,Colégio Objetivo (Maringá),177.129.73.36,,177.129.73.36,,,
-8,objetivo.br,Colégio Objetivo,200.196.224.188,,200.196.224.188,,,
-11,objetivomao.br,Faculdades e Colégio Objetivo (Manaus),,,,,,"NS, SOA"
-22,observatoriodainternet.br,Observatório da Internet no Brasil,200.160.4.155,2001:12ff:0:4144:f816:3eff:fee0:3bd8,,,,
-3,oet.br,Colégio Objetivo (Tatuí),201.28.100.148,,,,virtual.oet.br,
-2,on.br,Observatório Nacional,200.20.187.134,,200.20.187.134,,,
-4,osec.br,Organização Santamarense de Educação e Cultura,200.229.206.148,,200.229.206.148,,,
-11,oswaldocruz.br,Grupo Educacional Oswaldo Cruz,186.202.182.80,,186.202.182.80,,,
-9,participa.br,Portal de Participação Popular,170.246.255.222,,,,@,
-3,pia.br,?,187.17.67.37,,187.17.67.37,,,
-17,pinheiroguimaraes.br,Colégio Pinheiro Guimarães,"192.0.78.153
-192.0.78.231",,,,@,
-6,pioxii.br,Colégio de Aplicação PIO XII,45.171.116.21,,45.171.116.21,,,
-4,poli.br,Escola Politécnica de Pernambuco,200.133.2.18,,200.133.2.18,,,
-10,portovelho.br,Faculdade Porto,191.252.4.30,,191.252.4.30,,,
-8,projecao.br,"Colégio, Centro Universitário e Faculdade Projeção",45.185.42.203,,,,webportal.projecao.br,
-8,prossiga.br,Programa de Informação e Comunicação para Pesquisa,200.130.0.10,,200.130.0.181,,,
-3,ptt.br,Ponto de Troca de Tráfego,200.160.4.153,2001:12ff:0:4144:f816:3eff:feed:8a89,200.160.4.153,2001:12ff:0:4144:f816:3eff:feed:8a89,,
-7,puc-rio.br,Pontifícia Universidade Católica do Rio de Janeiro,,,139.82.30.201,,,
-3,puc.br,Pontifícia Universidade Católica de São Paulo,,,,,www3.pucsp.br,
-5,pucmg.br,Pontifícia Universidade Católica de Minas Gerais,200.229.43.1,,,,www.pucminas.br,
-8,pucminas.br,Pontifícia Universidade Católica de Minas Gerais,"200.229.32.28
-200.229.32.29",,"200.229.32.28
-200.229.32.29",,,
-10,pucpcaldas.br,Pontifícia Universidade Católica de Poços de Caldas,186.248.78.227,,186.248.78.227,,,
-5,pucpr.br,Pontifícia Universidade Católica do Paraná,"104.26.4.40
-104.26.5.40
-172.67.72.134","2606:4700:20::681a:428
-2606:4700:20::681a:528
-2606:4700:20::ac43:4886","104.26.4.40
-104.26.5.40
-172.67.72.134","2606:4700:20::681a:428
-2606:4700:20::681a:528
-2606:4700:20::ac43:4886",,
-5,pucrs.br,Pontifícia Universidade Católica do Rio Grande do Sul,"104.18.20.134
-104.18.21.134","2606:4700::6812:1486
-2606:4700::6812:1586","104.18.20.134
-104.18.21.134","2606:4700::6812:1486
-2606:4700::6812:1586",,
-5,pucsp.br,Pontifícia Universidade Católica de São Paulo,200.144.145.195,,200.144.145.195,,,
-10,pueridomus.br,Escola Pueri Domus,159.182.80.35,,159.182.80.35,,,
-3,rae.br,Revista de Administração de Empresas (FGV),,,189.125.96.76,,,
-6,rct-sc.br,Rede Catarinense de Ciência e Tecnologia,200.135.30.81,,,,,
-10,realestate.br,Núcleo de Real Estate da Poli/USP,169.53.11.102,,169.53.11.102,,,
-7,rederio.br,Rede Rio,200.20.94.11,2804:1f10:80:94::1,200.20.94.11,,,
-7,rednesp.br,Research and Education Network at São Paulo,200.144.248.41,,,,paineira.usp.br,
-8,registro.br,Registro.br,200.160.2.3,2001:12ff:0:2::3,,,@,
-8,reitoria.br,Universidade Regional Integrada do Alto Uruguai e das Missões,200.0.114.240,,,,alpha2.reitoria.br,
-10,renascenca.br,Colégio Renascença,177.38.225.113,,,,@,
-13,ritterdosreis.br,Faculdades Ritter dos Reis,,,,,busios.ritterdosreis.br,
+2606:4700:3032::6815:1f6b",,,1,1,,,
+3,fef.br,Fundação Educacional de Fernandópolis,187.51.71.85,,187.51.71.85,,,,1,1,,,
+3,feg.br,Fundação Educacional Guaçuana,109.106.249.84,,109.106.249.84,,,,1,1,,,
+3,ffm.br,Fundação Faculdade de Medicina,186.225.101.217,,,,@,,1,1,,,
+3,fga.br,Fundação Gildasio Amado,200.166.141.147,,,,@,,1,1,,,
+3,fgv.br,Fundação Getúlio Vargas,189.125.96.98,,,,id098.lb.fgv.br,,1,1,,,
+3,fig.br,Faculdades Integradas de Guarulhos,177.12.171.252,,,,web36f88.kinghost.net,,1,1,,,
+3,fij.br,Faculdades Integradas de Jacarepaguá,45.89.205.72,2a02:4780:1:504:0:eb1:61b3:1,,,@,,1,1,,,
+3,fir.br,Faculdade Integrada de Recife,,,,,,,0,1,,,
+3,fit.br,Faculdades Integradas de Tapajós,189.80.207.106,,,,,,1,1,,,
+3,fkb.br,Fundação Karnig Bazarian,191.252.4.45,,,,@,,1,1,,,
+3,fma.br,Faculdade Maria Augusta,,,187.17.67.8,,,,1,1,,,
+3,fmc.br,Faculdade de Medicina de Campos,186.202.153.205,,,,@,,1,1,,,
+3,fmj.br,Faculdade de Medicina de Jundiaí,187.49.32.5,2804:1a4:1::5,187.49.32.5,2804:1a4:1::5,,,1,1,,,
+3,fmu.br,Faculdades Metropolitanas Unidas,104.18.31.205,,,,indiana.fmu.br,,1,1,,,
+3,fnc.br,Faculdade Norte Cabixaba,191.6.211.32,2804:10:8002::211:32,,,,,1,1,,,
+3,fnd.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,fog.br,Fundação Octacílio Gualberto,186.202.157.79,,,,@,,1,1,,,
+3,fot.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,foz.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,fpf.br,Fundação Desembargador Paulo Feitoza,201.90.252.251,,201.90.252.251,,,,1,,,,
+3,fpj.br,Faculdade Politécnica de Jundiaí,187.17.67.8,,187.17.67.8,,,,1,1,,,
+3,frb.br,Faculdade Rui Barbosa,187.45.193.14,,,,www.frb.edu.br,,1,1,,,
+3,fsa.br,Fundação Santo André,,,,,web12.picture.com.br,,1,1,,,
+3,fsg.br,Faculdade da Serra Gaúcha,34.149.52.195,,34.149.52.195,,,,1,1,,,
+3,fst.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,ftc.br,Faculdade de Tecnologia e Ciências,132.145.206.174,,132.145.206.174,,,,1,1,,,
+3,ftn.br,Faculdades Tancredo Neves,186.202.183.140,,,,@,,1,1,,,
+3,fvc.br,Fundação Visconde de Cairu,200.254.21.180,,200.254.21.137,,,,1,1,,,
+3,fvj.br,Faculdade do Vale do Jaguaribe,191.252.100.26,,,,@,,1,1,,,
+3,g12.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,geo.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,ggf.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,gov.br,Governo Federal,161.148.164.31,,161.148.164.31,,,,1,,,,
+3,gru.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,iac.br,Instituto Agronômico de Campinas,,,201.55.42.7,,,,1,,,,
+3,ial.br,Instituto Americano de Lins,129.159.57.95,,129.159.57.95,,,,1,1,,,
+3,iga.br,Instituto de Geociências Aplicadas,,,,,,"SOA, DNSKEY, NSEC, RRSIG, NS",1,,,,
+3,imb.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,ind.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,inf.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,ipa.br,Instituto Agronômico de Pernambuco,,,200.196.164.134,,,,1,,,,
+3,ipt.br,Instituto de Pesquisas Tecnológicas,200.18.53.6,,,,darwinnew.ipt.br,,1,,,,
+3,it2.br,Centro Universitário Toledo,45.70.87.24,,,,piaget.unitoledo.br,,1,1,,,
+3,ita.br,Instituto Tecnológico de Aeronáutica,161.24.23.239,,161.24.23.239,,,,1,1,1,,
+3,iti.br,Instituto Nacional de Tecnologia da Informação,,,,,,"SOA, NS, MX, TXT, NSEC, DNSKEY, RRSIG",1,,,,
+3,ivc.br,Instituto Vale do Cricaré,23.236.62.147,,,,www4.wixdns.net,,1,1,,,
+3,jab.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,jdf.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,jor.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,jts.br,Juvêncio Terra Superior,,,,,ec2-54-94-179-189.sa-east-1.compute.amazonaws.com,,1,1,,,
+3,jus.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,led.br,Laboratório de Educação Digital (UFSC),150.162.114.51,,,,vm-cachoeira.led.ufsc.br,,1,1,,,
+3,leg.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,lel.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,lna.br,Laboratório Nacional de Astrofísica,,,,,leila.lna.br,,1,,,,
+3,log.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,mar.br,Marinha do Brasil,187.29.162.20,,187.29.162.20,,,,1,,,,
+3,mat.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,med.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,mil.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,msb.br,Centro Universitário Moacyr Sreder Bastos,187.45.193.227,,187.45.193.227,,,,1,1,,,
+3,mus.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,net.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,nic.br,Núcleo de Informação e Coordenação do Ponto BR,200.160.4.6,2001:12ff:0:4::6,,,@,,1,,,,
+3,nom.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,not.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,nti.br,Núcleo de Tecnologia da Informação (UnB),,,,,@,,1,,,,
+3,ntp.br,NPT.br (Network Time Protocol),200.160.4.155,2001:12ff:0:4144:f816:3eff:fee0:3bd8,,,@,,1,,,,
+3,ntr.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,odo.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,oet.br,Colégio Objetivo (Tatuí),201.28.100.148,,,,virtual.oet.br,,1,1,,,
+3,ong.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,org.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,pia.br,?,187.17.67.37,,187.17.67.37,,,,1,,,,1
+3,poa.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,ppg.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,pro.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,psc.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,psi.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,ptt.br,Ponto de Troca de Tráfego,200.160.4.153,2001:12ff:0:4144:f816:3eff:feed:8a89,200.160.4.153,2001:12ff:0:4144:f816:3eff:feed:8a89,,,1,,,,
+3,puc.br,Pontifícia Universidade Católica de São Paulo,,,,,www3.pucsp.br,,1,,,,
+3,pvh.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,qsl.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,rae.br,Revista de Administração de Empresas (FGV),,,189.125.96.76,,,,1,,,,
+3,rec.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,rep.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,rio.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
 3,rnp.br,Rede Nacional de Ensino e Pesquisa,"104.22.32.197
 104.22.33.197
 172.67.23.198","2606:4700:10::6816:20c5
@@ -474,306 +191,66 @@ Tam,Dominio,Descrição,A,AAAA,www A,www AAAA,www CNAME,"Senão, tem outro regis
 104.22.33.197
 172.67.23.198","2606:4700:10::6816:20c5
 2606:4700:10::6816:21c5
-2606:4700:10::ac43:17c6",,
-3,rpp.br,Ponto de Presença da RNP na Paraíba,,,,,,"SOA, NS"
-5,saisp.br,Sistema de Alerta a Inundações de São Paulo,,,,,www0.saisp.br,
-13,salesiano-ata.br,Colégio e Faculdades Salesianas de Araçatuba,162.144.70.201,,,,@,
-13,salesianolins.br,Centro Universitário Católico Salesiano Auxilium,162.144.70.201,,,,@,
-10,salesianos.br,Inspetoria São João Bosco,,,187.1.88.214,,,
-9,santacruz.br,Centro Universitário Santa Cruz de Curitiba,200.195.134.120,,200.195.134.120,,,
-10,santalucia.br,Faculdade Santa Lúcia,51.161.115.215,,51.161.115.215,,,
-9,santarita.br,Centro Universitário Santa Rita,162.241.3.35,,,,,
-12,saocamilo-df.br,Centro Universitário São Camilo (DF),187.94.63.147,,187.94.63.147,,,
-12,saocamilo-es.br,Centro Universitário São Camilo (ES),189.84.211.168,,189.84.211.163,,,
-12,saocamilo-rj.br,Centro Universitário São Camilo (RJ),187.94.63.147,,187.94.63.147,,,
-12,saocamilo-sp.br,Centro Universitário São Camilo (SP),"177.71.202.40
-54.207.80.0",,187.45.195.7,,,
-9,saocamilo.br,União Social Camiliana,187.94.63.147,,187.94.63.147,,,
-7,saojose.br,UniSãoJosé,187.45.239.21,,,,@,
-8,saojudas.br,Universidade São Judas Tadeu,201.62.252.62,,,,lb.animaeducacao.com.br,
-7,saoluis.br,Faculdade São Luis,191.6.218.152,2804:10:8022::218:152,,,web22f62.kinghost.net,
-9,saomarcos.br,Escola e Faculdade Luterana São Marcos,"104.21.44.148
-172.67.200.227","2606:4700:3033::ac43:c8e3
-2606:4700:3035::6815:2c94","104.21.44.148
-172.67.200.227","2606:4700:3033::ac43:c8e3
-2606:4700:3035::6815:2c94",,
-5,sarah.br,Centro de Reabilitação Sarah Kubitschek,200.130.147.240,,,,haumea.sarah.br,
-5,saude.br,Escola Paulista de Medicina (Unifesp),200.144.92.186,,,,@,
-6,scielo.br,Scientific Electronic Library Online Brazil,200.136.72.208,,200.136.72.8,,,
-12,seminariojmc.br,Seminário Teológico Presbiteriano Reverendo José Manoel da Conceição,186.202.153.141,,,,@,
-5,senac.br,Serviço Nacional de Aprendizagem Comercial,,,,,waf01.senac.br,
-5,senai.br,Serviço Nacional de Aprendizagem Industrial,191.233.16.218,,,,senaibr.z15.web.core.windows.net,
-7,simepar.br,Sistema de Tecnologia e Monitoramento Ambiental do Paraná,200.19.65.115,,200.19.65.115,,,
-8,simonsen.br,Faculdades Integradas Simonsen,"186.228.82.219
-200.218.252.177",,"186.228.82.219
-200.218.252.177",,,
-3,sle.br,Sociedade Lageana de Educação,200.247.83.30,,,,@,
-14,soaresoliveira.br,Colégio Soares de Oliveira,138.197.63.230,,,,,
-6,softex.br,Associação para Promoção da Excelência do Software Brasileiro,"104.21.12.190
-172.67.132.93","2606:4700:3030::6815:cbe
-2606:4700:3034::ac43:845d","104.21.12.190
-172.67.132.93","2606:4700:3030::6815:cbe
-2606:4700:3034::ac43:845d",,
-12,souzamarques.br,Faculdade Souza Marques,200.189.102.68,,200.189.102.68,,,
-4,spei.br,Sociedade Paranaense de Ensino e Informática,194.5.156.59,2a02:4780:8:314:0:2b1a:60e4:5,,,@,
-3,spn.br,Seminário Presbiteriano do Norte,194.163.141.118,,,,@,
-3,sps.br,Seminário Presbiteriano do Sul,191.243.196.239,,,,@,
-7,stpauls.br,St. Paul’s School,177.190.200.230,,208.87.128.137,,,
-4,tche.br,Rede Tchê,200.132.0.134,2804:0:0:cafe::134,,,webserver.pop-rs.rnp.br,
-6,tecpar.br,Instituto de Tecnologia do Paraná,200.134.45.252,,200.189.123.110,,,
-7,tecsoma.br,Faculdade Tecsoma,191.252.4.40,,,,@,
-17,teologia-assuncao.br,Pontifícia Faculdade de Teologia Nossa Senhora da Assunção ,,,,,,"NS, SOA"
-9,teologica.br,Faculdade Teológica Batista de São Paulo,34.205.245.191,,,,HTTPS-941162524.us-east-1.elb.amazonaws.com,
-6,toledo.br,Centro Universitário Toledo,45.70.87.27,,45.70.87.27,,,
-10,torricelli.br,Faculdades e Colégio Torricelli,187.17.67.37,,187.17.67.37,,,
-3,ubb.br,?,186.202.95.12,,,,@,
-3,ubm.br,Universidade de Barra Mansa,23.101.202.50,,23.101.202.50,,,
-11,ucam-campos.br,Universidade Candido Mendes (Campos),34.102.134.42,,34.102.134.42,,,
-4,ucam.br,Universidade Candido Mendes,200.201.187.154,,200.201.187.154,,,
-3,ucb.br,Universidade Católica de Brasília,20.197.226.217,,20.197.226.217,,,
-4,ucdb.br,Universidade Católica Dom Bosco,191.37.253.8,,,,serv-siia.ucdb.br,
-3,ucg.br,Universidade Católica de Goiás,200.18.170.245,,200.18.170.245,,,
+2606:4700:10::ac43:17c6",,,1,,,1,
+3,rpp.br,Ponto de Presença da RNP na Paraíba,,,,,,"SOA, NS",1,,,,
+3,seg.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,sjc.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,sle.br,Sociedade Lageana de Educação,200.247.83.30,,,,@,,1,1,,,
+3,slg.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,slz.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,spn.br,Seminário Presbiteriano do Norte,194.163.141.118,,,,@,,1,1,,,
+3,sps.br,Seminário Presbiteriano do Sul,191.243.196.239,,,,@,,1,1,,,
+3,srv.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,tec.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,teo.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,the.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,tmp.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,trd.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,tur.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,ubb.br,?,186.202.95.12,,,,@,,1,,,,1
+3,ubm.br,Universidade de Barra Mansa,23.101.202.50,,23.101.202.50,,,,1,1,,,
+3,ucb.br,Universidade Católica de Brasília,20.197.226.217,,20.197.226.217,,,,1,1,,,
+3,ucg.br,Universidade Católica de Goiás,200.18.170.245,,200.18.170.245,,,,1,1,,,
 3,ucl.br,Faculdade do Centro Leste,"54.94.106.214
 54.94.131.211",,"54.94.106.214
-54.94.131.211",,,
-3,ucp.br,Universidade Católica de Petrópolis,200.156.15.86,,200.156.15.86,,,
-3,ucs.br,Universidade Caxias do Sul,200.160.128.48,2801:80:680:f0c5::48,200.160.128.48,2801:80:680:f0c5::48,,
-5,ucsal.br,Universidade Católica do Salvador,35.165.128.230,,,,awsweb02.ucsal.br,
-3,udc.br,Centro Universitário Dinâmica das Cataratas,54.232.210.198,,,,@,
-5,udesc.br,Universidade do Estado de Santa Catarina,200.19.105.151,2801:bc:0:105::151,,,pegasus2.udesc.br,
-4,uece.br,Universidade Estadual do Ceará,200.129.22.50,,200.129.22.50,,,
-4,uefs.br,Universidade Estadual de Feira de Santana,,,,,portal2.uefs.br,
-3,ueg.br,Universidade Estadual de Goiás,200.137.241.2,,,,morpheus.ueg.br,
-3,uel.br,Universidade Estadual de Londrina,189.90.65.203,,,,srv-app-14.uel.br,
-3,uem.br,Universidade Estadual de Maringá,186.233.154.97,,,,WebGateway.uem.br,
-4,uema.br,Universidade Estadual do Maranhão,45.71.6.54,,45.71.6.54,,,
-4,uemg.br,Universidade do Estado de Minas Gerais,200.198.22.94,,200.198.22.94,,,
-4,uems.br,Universidade Estadual de Mato Grosso do Sul,,,200.181.121.141,,,
-4,uenf.br,Universidade Estadual do Norte Fluminense,201.18.168.121,,201.18.168.121,,,
-4,uepa.br,Universidade do Estado do Pará,"177.70.35.2
-177.74.2.83",,177.74.1.85,,,
-4,uepg.br,Universidade Estadual de Ponta Grossa,177.101.17.22,2804:1f04::22,,,web-a1.uepg.br,
-4,uerj.br,Universidade do Estado do Rio de Janeiro,,,,,unidades3.uerj.br,
-4,uern.br,Universidade do Estado do Rio Grande do Norte,200.164.64.134,,200.164.64.134,,,
-4,uesb.br,Universidade Estadual do Sudoeste da Bahia,,,,,wn.uesb.br,
-4,uesc.br,Universidade Estadual de Santa Cruz,200.128.65.36,,,,canoa.uesc.br,
-5,uespi.br,Universidade Estadual do Piaui,,,,,gwwww.uespi.br,
-4,ufac.br,Universidade Federal do Acre,200.129.173.47,,200.129.173.47,,,
-4,ufal.br,Universidade Federal de Alagoas,200.17.114.246,,200.17.114.246,,,
-4,ufba.br,Universidade Federal da Bahia,"200.128.56.17
-200.128.56.18","2801:86:2000:1a00::ffff:17
-2801:86:2000:1a00::ffff:18",,,drps.ufba.br,
-3,ufc.br,Universidade Federal do Ceará,200.17.41.185,,200.17.41.185,,,
-4,ufes.br,Universidade Federal do Espírito Santo,200.137.65.4,2001:12f0:6d0:e010::10,,,drupal19.ufes.br,
-3,uff.br,Universidade Federal Fluminense,200.20.0.21,,200.20.0.21,,,
-3,ufg.br,Universidade Federal de Goiás,200.137.218.130,2001:12f0:c0b:2::130,200.137.218.130,2001:12f0:c0b:2::130,,
-4,ufjf.br,Universidade Federal de Juiz de Fora,200.131.19.78,2001:12f0:614:19::78,,,pegasus.cpd.ufjf.br,
-4,ufla.br,Universidade Federal de Lavras,200.131.250.18,2801:a6::250:56ff:fe9f:8,200.131.250.18,,,
-4,ufma.br,Universidade Federal do Maranhão,"200.137.132.2
-200.137.132.3",,,,calhau.ufma.br,
-4,ufmg.br,Universidade Federal de Minas Gerais,150.164.76.8,,150.164.250.1,,,
-4,ufms.br,Universidade Federal de Mato Grosso do Sul,200.129.192.19,,200.129.192.19,2001:12f0:c41:2::6,,
-4,ufmt.br,Universidade Federal de Mato Grosso,200.17.60.5,,200.17.60.5,,,
-4,ufop.br,Universidade Federal de Ouro Preto,200.239.128.199,,,,arizona.ufop.br,
-4,ufpa.br,Universidade Federal do Pará,200.239.64.17,,200.239.64.17,,,
-4,ufpb.br,Universidade Federal da Paraíba,150.165.254.52,,,,nginx.bbn.ufpb.br,
-4,ufpe.br,Universidade Federal de Pernambuco,,,150.161.6.84,,,
-4,ufpi.br,Universidade Federal do Piauí,200.137.162.127,,200.137.162.127,,,
-4,ufpr.br,Universidade Federal do Paraná,200.17.209.3,2801:82:8020::d55:ba:2,,,web.ufpr.br,
-5,ufrgs.br,Universidade Federal do Rio Grande do Sul,143.54.2.20,2804:1f20:0:1::20,143.54.2.20,2804:1f20:0:1::20,,
-4,ufrj.br,Universidade Federal do Rio de Janeiro,146.164.84.216,,,,@,
-4,ufrn.br,Universidade Federal do Rio Grande do Norte,177.20.144.66,2801:8c:0:b0::a007,,,@,
-6,ufrnet.br,UFRJNet,177.20.147.177,,177.20.147.177,,,
-5,ufrpe.br,Universidade Federal Rural de Pernambuco,200.17.137.52,,200.17.137.52,,,
-4,ufrr.br,Universidade Federal de Roraima,200.139.17.48,2001:12f0:e41:1000::7,200.139.17.48,,,
-5,ufrrj.br,Universidade Federal Rural do Rio de Janeiro,200.11.2.11,,200.11.2.11,,,
-3,ufs.br,Universidade Federal de Sergipe,200.17.141.60,,,,mosqueiro.ufs.br,
-4,ufsc.br,Universidade Federal de Santa Catarina,150.162.2.10,2801:84:0:2::10,150.162.2.10,2801:84:0:2::10,,
-6,ufscar.br,Universidade Federal de São Carlos,200.136.207.48,2801:b0:100::48,,,medusa.ufscar.br,
-4,ufsm.br,Universidade Federal de Santa Maria,200.18.47.118,2804:0:4000:4008::1950,200.18.47.118,2804:0:4000:4008::1950,,
-3,ufu.br,Universidade Federal de Uberlândia,200.19.146.101,,200.19.145.55,,,
-3,ufv.br,Universidade Federal de Viçosa,200.235.128.245,,,,w1.srv.ufv.br,
-3,uit.br,Universidade de Itaúna,186.202.153.93,,,,@,
-8,ulbra-to.br,Centro Universitário Luterano de Palmas,200.199.229.77,,,,@,
-5,ulbra.br,Universidade Luterana do Brasil,187.60.192.5,,187.60.192.5,,,
-3,umc.br,Universidade de Mogi das Cruzes,,,,,bulgaria.umc.br,
+54.94.131.211",,,,1,1,,,
+3,ucp.br,Universidade Católica de Petrópolis,200.156.15.86,,200.156.15.86,,,,1,1,,,
+3,ucs.br,Universidade Caxias do Sul,200.160.128.48,2801:80:680:f0c5::48,200.160.128.48,2801:80:680:f0c5::48,,,1,1,,,
+3,udc.br,Centro Universitário Dinâmica das Cataratas,54.232.210.198,,,,@,,1,1,,,
+3,udi.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,ueg.br,Universidade Estadual de Goiás,200.137.241.2,,,,morpheus.ueg.br,,1,1,,,
+3,uel.br,Universidade Estadual de Londrina,189.90.65.203,,,,srv-app-14.uel.br,,1,1,,,
+3,uem.br,Universidade Estadual de Maringá,186.233.154.97,,,,WebGateway.uem.br,,1,1,,,
+3,ufc.br,Universidade Federal do Ceará,200.17.41.185,,200.17.41.185,,,,1,1,,,
+3,uff.br,Universidade Federal Fluminense,200.20.0.21,,200.20.0.21,,,,1,1,,,
+3,ufg.br,Universidade Federal de Goiás,200.137.218.130,2001:12f0:c0b:2::130,200.137.218.130,2001:12f0:c0b:2::130,,,1,1,,,
+3,ufs.br,Universidade Federal de Sergipe,200.17.141.60,,,,mosqueiro.ufs.br,,1,1,,,
+3,ufu.br,Universidade Federal de Uberlândia,200.19.146.101,,200.19.145.55,,,,1,1,,,
+3,ufv.br,Universidade Federal de Viçosa,200.235.128.245,,,,w1.srv.ufv.br,,1,1,,,
+3,ugf.br,Universidade Gama Filho,,,,,,,0,1,,,
+3,uit.br,Universidade de Itaúna,186.202.153.93,,,,@,,1,1,,,
+3,umc.br,Universidade de Mogi das Cruzes,,,,,bulgaria.umc.br,,1,1,,,
 3,una.br,União de Negócios e Administração,"99.84.22.112
 99.84.22.120
 99.84.22.18
 99.84.22.74",,"99.84.22.112
 99.84.22.120
 99.84.22.18
-99.84.22.74",,,
-6,unaerp.br,Universidade de Ribeirão Preto,189.112.110.68,,,,svr-portal1.unaerp.br,
-5,unama.br,Universidade da Amazônia,"179.185.57.181
-189.80.207.21",,,,unama.br.edgekey.net,
-5,unasp.br,Centro Universitário Adventista de São Paulo,"104.22.50.94
-104.22.51.94
-172.67.28.252","2606:4700:10::6816:325e
-2606:4700:10::6816:335e
-2606:4700:10::ac43:1cfc",,,,
-3,unb.br,Universidade de Brasília,164.41.102.70,,164.41.102.70,,,
-3,unc.br,Universidade do Contestado,34.201.96.90,,34.201.96.90,,,
-4,uneb.br,Universidade do Estado da Bahia,200.128.3.44,,200.128.3.44,,,
-10,unemat-net.br,Universidade do Estado de Mato Grosso,,,200.101.35.49,,,
-6,unemat.br,Universidade do Estado de Mato Grosso,200.101.35.40,,200.101.35.40,,,
-4,unes.br,Faculdade do Espírito Santo,186.202.157.79,,191.252.47.118,,,
-5,unesc.br,União de Escolas de Ensino Superior Capixaba,177.159.168.91,,,,www2.unesc.br,
-8,unescnet.br,Associação Educacional de Cacoal,138.122.143.147,,138.122.143.147,,,
-5,unesp.br,Universidade Estadual Paulista,200.145.6.98,2801:88:1000::98,200.145.6.98,,,
+99.84.22.74",,,,1,1,,,
+3,unb.br,Universidade de Brasília,164.41.102.70,,164.41.102.70,,,,1,1,,,
+3,unc.br,Universidade do Contestado,34.201.96.90,,34.201.96.90,,,,1,1,,,
 3,ung.br,Universidade Guarulhos,"179.185.54.134
-189.80.207.106",,,,ung.br.edgekey.net,
-6,uniabc.br,Universidade do Grande ABC,187.17.67.8,,,,@,
-10,uniamerica.br,UniAmérica,177.73.233.194,,"104.26.8.130
-104.26.9.130
-172.67.70.116","2606:4700:20::681a:882
-2606:4700:20::681a:982
-2606:4700:20::ac43:4674",,
-10,uniandrade.br,Centro Universitário Campos de Andrade,"177.73.233.194
-104.21.4.3
-172.67.131.105","2606:4700:3030::ac43:8369
-2606:4700:3035::6815:403","104.21.4.3
-172.67.131.105","2606:4700:3030::ac43:8369
-2606:4700:3035::6815:403",,
-9,uniararas.br,Centro Universitário Hermínio Ometto - Uniararas,187.72.245.197,,187.72.245.197,,,
-6,uniban.br,Universidade Bandeirante de São Paulo,"187.86.215.135
-187.86.215.136",,"187.86.215.135
-187.86.215.136",,,
-6,unibem.br,Faculdades Integradas Espírita,186.202.157.79,,,,@,
-5,unibh.br,Centro Universitário de Belo Horizonte,"13.33.108.23
-13.33.108.62
-13.33.108.75
-13.33.108.79",,"13.33.108.23
-13.33.108.62
-13.33.108.75
-13.33.108.79",,,
-4,unic.br,Universidade de Cuiabá,"187.86.215.135
-187.86.215.136",,,,pim-redirect-1891724542.us-east-1.elb.amazonaws.com,
-7,unicamp.br,Universidade Estadual de Campinas,,,,,143-106-143-186.nuvem.unicamp.br,
-6,unicap.br,Universidade Católica de Pernambuco,,,200.249.25.5,,,
-10,unicastelo.br,Universidade Camilo Castelo Branco,191.235.80.89,,,,@,
-5,unice.br,União Cearense das Associações de Ensino Superior,201.139.186.85,,201.139.186.85,,,
-9,unicentro.br,Universidade Estadual do Centro-Oeste,200.201.10.43,,200.201.10.38,,,
-7,uniceub.br,Centro de Ensino Unificado de Brasília,200.229.250.36,,,,wwebfarm.uniceub.br,
-7,uniderp.br,Universidade para o Desenvolvimento do Estado e da Região do Pantanal,"187.86.215.135
-187.86.215.136",,,,pim-redirect-1891724542.us-east-1.elb.amazonaws.com,
-7,unifacs.br,Universidade Salvador,104.18.11.223,,,,www.unifacs.br.cdn.cloudflare.net,
-6,unifae.br,Faculdade Católica de Administração e Economia,,,,,ns_dcxenwebdc001.unifae.br,
-6,unifap.br,Universidade Federal do Amapá,200.139.21.15,2001:12f0:ec1:139::15,200.139.21.71,2001:12f0:ec1:139::71,,
-8,unifenas.br,Universidade José do Rosário Vellano,186.208.210.246,,200.195.27.61,,,
-7,unifesp.br,Universidade Federal De São Paulo,200.144.93.198,,200.144.93.198,,,
-7,unifieo.br,Centro Universitário Fundação Instituto de Ensino para Osasco,177.92.66.75,,,,@,
-6,unifil.br,Centro Universitário Filadélfia,187.45.190.82,,187.45.190.82,,,
-6,unifor.br,Universidade de Fortaleza,200.253.187.112,,200.253.187.112,,,
-6,unifra.br,Centro Universtário Franciscano,200.132.59.25,,,,lb01vmsma01.universidadefranciscana.edu.br,
-7,unifran.br,Universidade de Franca,34.149.6.190,,34.149.6.190,,,
-4,unig.br,Universidade de Iguaçu,31.170.167.213,,,,@,
-7,unigran.br,Centro Universitário da Grande Dourados,"18.228.215.240
-54.94.255.115","2600:1f1e:5ba:3c00:dcfc:a5cb:89dd:501a
-2600:1f1e:5ba:3c01:d6b2:1e21:6bb1:d36b","18.228.215.240
-54.94.255.115","2600:1f1e:5ba:3c00:dcfc:a5cb:89dd:501a
-2600:1f1e:5ba:3c01:d6b2:1e21:6bb1:d36b",,
-10,unigranrio.br,Universidade Unigranrio,177.154.94.20,,177.154.94.20,,,
-13,unihorizontes.br,Centro Universitário Unihorizontes,"104.21.64.171
-172.67.187.48","2606:4700:3031::ac43:bb30
-2606:4700:3036::6815:40ab","104.21.64.171
-172.67.187.48","2606:4700:3031::ac43:bb30
-2606:4700:3036::6815:40ab",,
-6,unimar.br,Universidade de Marília,201.62.80.74,,,,portal.unimar.br,
-7,unimaua.br,Centro Universitário Barão de Mauá,189.108.61.43,,189.108.61.43,,,
-6,unimep.br,Universidade Metodista de Piracicaba,177.125.183.21,,,,iepmail.unimep.br,
-6,unimes.br,Universidade Metropolitana de Santos,200.187.70.70,,,,@,
-8,unimonte.br,Centro Universitário São Judas Tadeu (Campus Unimonte),"99.84.22.112
-99.84.22.53
-99.84.22.86
-99.84.22.9",,"99.84.22.112
-99.84.22.53
-99.84.22.86
-99.84.22.9",,,
-9,unimontes.br,Universidade Estadual de Montes Claros,200.149.236.123,,,,portal.unimontes.br,
-7,unincor.br,Universidade Vale do Rio Verde,186.202.137.188,,186.202.137.188,,,
-6,uninga.br,Centro Universitário Ingá,"104.21.92.130
-172.67.194.35","2606:4700:3033::ac43:c223
-2606:4700:3036::6815:5c82","104.21.92.130
-172.67.194.35","2606:4700:3033::ac43:c223
-2606:4700:3036::6815:5c82",,
-7,uninove.br,Universidade Nove de Julho,167.99.0.217,,167.99.0.217,,,
-8,unioeste.br,Universidade Estadual do Oeste do Paraná,"131.255.84.123
-131.255.84.69
-131.255.84.70",,131.255.84.123,,,
-13,unip-objetivo.br,Universidade Paulista / Curso Objetivo,,,200.196.224.95,,,
-4,unip.br,Universidade Paulista,200.196.224.129,,200.196.224.129,,,
-6,unipac.br,Centro Universitário Presidente Antônio Carlos,"200.202.246.178
-200.202.246.179",,,,unipacweb1.unipac.br,
-6,unipan.br,União Pan-Americana de Ensino,187.17.67.37,,187.17.67.37,,,
-6,unipar.br,Universidade Paranaense,177.91.39.143,,177.91.39.143,,,
-5,unipe.br,Centro Universitário de João Pessoa,34.117.75.133,,34.117.75.133,,,
-4,unir.br,Universidade Federal de Rondônia,200.129.142.16,,,,@,
-6,unirio.br,Universidade Federal do Estado do Rio de Janeiro,,,200.156.24.171,2804:1f10:8014:110:200:156:24:171,,
-9,uniriotec.br,Centro de Ciências Exatas e Tecnologia – Unirio,200.156.26.27,,200.156.26.27,,,
-9,unirondon.br,Instituição Faculdades Integradas Cândido Rondon,187.86.214.58,,187.86.214.58,,,
-5,unisa.br,Universidade Santo Amaro,191.19.252.239,,191.19.252.239,,,
-6,unisal.br,Centro Universitário Salesiano de São Paulo,67.23.255.90,,67.23.255.90,,,
-8,unisanta.br,Universidade Santa Cecilia,200.210.165.8,,200.210.165.8,,,
-10,unisantana.br,Centro Universitário Sant'Anna,108.167.168.34,,,,@,
-11,unisantanna.br,Centro Universitário Sant'Anna,31.220.52.82,,,,@,
-9,unisantos.br,Universidade Católica de Santos,"189.8.94.183
-201.28.235.18",,,,lb1-prod.unisantos.br,
-5,unisc.br,Universidade de Santa Cruz do Sul,200.17.83.38,,200.17.83.38,,,
-8,unisinos.br,Universidade do Vale do Rio dos Sinos,200.188.161.78,,,,proxyweb.asav.org.br,
-5,uniso.br,Universidade de Sorocaba,177.126.99.221,,177.126.99.221,,,
-6,unisul.br,Universidade do Sul de Santa Catarina,"99.84.22.113
-99.84.22.31
-99.84.22.80
-99.84.22.83",,"99.84.22.113
-99.84.22.31
-99.84.22.80
-99.84.22.83",,,
-4,unit.br,Universidade Tiradentes,35.231.188.7,,,,2995474.group24.sites.hubspot.net,
-6,unitau.br,Universidade de Taubaté,192.175.100.90,,192.175.100.90,,,
-7,unitins.br,Universidade do Tocantins,,,200.129.177.79,,,
-9,unitoledo.br,Centro Universitário Toledo,45.70.87.27,,,,@,
-6,uniube.br,Universidade de Uberaba,189.112.240.97,,,,web.uniube.br,
-7,univale.br,Universidade Vale do Rio Doce,187.85.236.6,,,,c2-wb-08.univale.br,
-7,univali.br,Univali - Universidade do Vale do Itajaí,200.169.52.190,,200.169.52.190,,,
-6,univap.br,Universidade do Vale do Paraíba,,,187.95.133.155,,,
-8,univates.br,Universidade do Vale do Taquari,177.44.240.52,2801:80:283f:18::52,,,nginxexterno.univates.br,
-6,univel.br,Centro Universitário de Cascavel,201.16.216.48,,201.16.216.48,,,
-7,univesp.br,Universidade Virtual do Estado de São Paulo,"104.21.72.58
-172.67.175.240","2606:4700:3034::6815:483a
-2606:4700:3034::ac43:aff0","104.21.72.58
-172.67.175.240","2606:4700:3034::6815:483a
-2606:4700:3034::ac43:aff0",,
-8,univille.br,Universidade da Região de Joinville,177.67.90.228,,177.67.90.227,,,
-6,univix.br,Faculdade Brasileira,192.146.229.3,,,,@,
-7,unoeste.br,Universidade do Oeste Paulista,177.131.33.4,2801:80:390:100::4,,,apecnt.unoeste.br,
-6,unopar.br,Faculdades Integradas Norte do Paraná,"187.86.215.135
-187.86.215.136",,,,pim-redirect-1891724542.us-east-1.elb.amazonaws.com,
-5,unorp.br,Centro Universitário do Norte Paulista,"104.21.65.252
-172.67.196.79","2606:4700:3030::ac43:c44f
-2606:4700:3032::6815:41fc","104.21.65.252
-172.67.196.79","606:4700:3030::ac43:c44f
-606:4700:3032::6815:41fc",,
-3,unp.br,Universidade Potiguar,104.18.2.237,,,,www.unp.br.cdn.cloudflare.net,
-3,upe.br,Universidade de Pernambuco,200.133.1.2,,200.133.1.2,,,
-3,upf.br,Universidade de Passo Fundo,20.206.68.155,,20.206.68.155,,,
-4,upis.br,União Pioneira de Integração Social,190.103.170.133,,190.103.170.133,,,
-4,urca.br,Universidade Regional do Cariri,189.90.174.218,,,,srv-ojs.urca.br,
-3,uri.br,Universidade Regional Integrada do Alto Uruguai e das Missões,200.203.105.101,,200.203.105.101,,,
-11,urisantiago.br,Universidade Regional Integrada do Alto Uruguai e das Missões (Santiago),131.161.3.210,,,,maverick.urisantiago.br,
-3,usc.br,Universidade do Sagrado Coração,144.217.139.36,,144.217.139.36,,,
-3,usf.br,Universidade São Francisco,,,,,,"MX, NS, SOA, TXT"
-4,usjt.br,Universidade São Judas Tadeu,"13.33.108.112
-13.33.108.73
-13.33.108.84
-13.33.108.93",,"13.33.108.112
-13.33.108.73
-13.33.108.84
-13.33.108.93",,,
-3,usp.br,Universidade de São Paulo,200.144.248.41,2001:12d0:c000:91::41,,,rubus.uspnet.usp.br,
-3,uss.br,Universidade Severino Sombra,,,192.100.251.51,,,
-3,usu.br,Universidade Santa Úrsula,200.251.23.9,,200.251.23.9,,,
-3,utp.br,Universidade Tuiuti do Paraná,18.231.55.227,,18.231.55.227,,,
+189.80.207.106",,,,ung.br.edgekey.net,,1,1,,,
+3,unp.br,Universidade Potiguar,104.18.2.237,,,,www.unp.br.cdn.cloudflare.net,,1,1,,,
+3,upe.br,Universidade de Pernambuco,200.133.1.2,,200.133.1.2,,,,1,1,,,
+3,upf.br,Universidade de Passo Fundo,20.206.68.155,,20.206.68.155,,,,1,1,,,
+3,uri.br,Universidade Regional Integrada do Alto Uruguai e das Missões,200.203.105.101,,200.203.105.101,,,,1,1,,,
+3,usc.br,Universidade do Sagrado Coração,144.217.139.36,,144.217.139.36,,,,1,1,,,
+3,usf.br,Universidade São Francisco,,,,,,"MX, NS, SOA, TXT",1,1,,,
+3,usp.br,Universidade de São Paulo,200.144.248.41,2001:12d0:c000:91::41,,,rubus.uspnet.usp.br,,1,1,,,
+3,uss.br,Universidade Severino Sombra,,,192.100.251.51,,,,1,1,,,
+3,usu.br,Universidade Santa Úrsula,200.251.23.9,,200.251.23.9,,,,1,1,,,
+3,utp.br,Universidade Tuiuti do Paraná,18.231.55.227,,18.231.55.227,,,,1,1,,,
 3,uva.br,Universidade Veiga de Almeida,"104.22.42.195
 104.22.43.195
 172.67.26.247","2606:4700:10::6816:2ac3
@@ -782,17 +259,705 @@ Tam,Dominio,Descrição,A,AAAA,www A,www AAAA,www CNAME,"Senão, tem outro regis
 104.22.43.195
 172.67.26.247","2606:4700:10::6816:2ac3
 2606:4700:10::6816:2bc3
-2606:4700:10::ac43:1af7",,
+2606:4700:10::ac43:1af7",,,1,1,,,
+3,uvv.br,Universidade Vila Velha,162.241.3.34,,162.241.3.34,,,,1,1,,,
+3,vet.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,vip.br,BRVIP / Casa do Adubo??,177.137.234.163,,177.137.234.163,,,,1,,,,
+3,vix.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+3,w3c.br,World Wide Web Consortium Escritório Brasil,200.160.4.153,2001:12ff:0:4144:f816:3eff:feed:8a89,,,@,,1,,,,
+3,zlg.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+4,aedb.br,Associação Educacional Dom Bosco,,,186.202.153.75,,@,,1,1,,,
+4,aena.br,Associação de Ensino Novo Ateneu,,,,,,,0,,,,
+4,aeso.br,Ensino Superior de Olinda,67.23.234.77,,,,@,,1,1,,,
+4,aiec.br,Associação Internacional de Educação Continuada,"186.195.44.235
+187.72.203.5",,"186.195.44.235
+187.72.203.5",,,,1,1,,,
+4,alfa.br,Faculdades Alves Faria,,,,,,"MX, RRSIG",1,1,,,
+4,alie.br,Associação Limeirense de Educação,186.202.153.125,,,,@,,1,1,,,
+4,ansp.br,Academic Network at São Paulo,143.108.30.37,2001:12d8:88:30::37,143.108.30.37,2001:12d8:88:30::37,,,1,,,,
+4,blog.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+4,cbpf.br,Centro Brasileiro de Pesquisas Físicas,152.84.50.20,,152.84.253.55,,,,1,,,,
+4,cdtn.br,Centro de Desenvolvimento da Tecnologia Nuclear,200.17.181.17,,,,radion.cdtn.br,,1,,,,
+4,ceap.br,Centro de Ensino Superior do Amapá,161.35.121.81,,161.35.121.81,,,,1,1,,,
+4,cert.br,"Centro de Estudos, Resposta e Tratamento de Incidentes de Segurança no Brasil","200.160.7.17
+200.160.7.7","2001:12ff:0:7000::17
+2001:12ff:0:7000::7","200.160.7.17
+200.160.7.7","2001:12ff:0:7000::17
+2001:12ff:0:7000::7",,,1,,,,
+4,cesd.br,Centro de Ensino Superior de Dracena,192.185.213.103,,,,@,,1,1,,,
+4,cesv.br,Centro de Ensino Superior de Vitória,162.144.236.176,,,,@,,1,1,,,
+4,cnec.br,Campanha Nacional de Escolas da Comunidade,138.36.246.51,,138.36.246.51,,,,1,1,,,
+4,cnpq.br,Conselho Nacional de Desenvolvimento Científico e Tecnológico,200.130.33.17,,,,grupo-portal.cnpq.br,,1,,,,
+4,coop.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+4,eewb.br,Escola de Enfermagem Wenceslau Braz,52.14.173.109,,,,@,,1,1,,,
+4,esef.br,Escola Superior de Educação Física de Jundiaí,177.67.56.66,,177.67.56.66,,,,1,1,,,
+4,esic.br,Escola Superior de Engenheiros Comerciais,35.199.82.66,,35.199.82.66,,,,1,1,,,
+4,espm.br,Escola Superior de Propaganda e Marketing,20.201.8.45,,20.201.8.45,,,,1,1,,,
+4,faap.br,Fundação Armando Alvares Penteado,189.125.19.229,,189.125.19.229,,,,1,1,,,
+4,fadi.br,Faculdade de Direito de Sorocaba,177.153.8.250,,177.153.8.250,,,,1,1,,,
+4,faef.br,Faculdade de Ensino Superior e Formação Integral,186.202.153.5,,,,@,,1,1,,,
+4,fama.br,Faculdade Atenas Maranhense,187.86.214.58,,187.86.214.58,,,,1,1,,,
+4,fapi.br,Faculdade de Pindamonhangaba,162.214.96.104,,,,@,,1,1,,,
+4,farn.br,Faculdade Natalense para o Desenvolvimento do Rio Grande do Norte,177.154.115.4,,,,@,,1,1,,,
+4,favi.br,Associação Vitoriana de Ensino Superior,200.196.224.47,,200.196.224.47,,,,1,1,,,
+4,fazu.br,Faculdades Associadas de Uberaba,162.214.153.183,,,,@,,1,1,,,
+4,fdci.br,Faculdade de Direito de Cachoeiro de Itapemirim,192.99.131.252,,,,@,,1,1,,,
+4,fead.br,Faculdade de Estudos Administrativos,,,,,,"MX, RRSIG",1,1,,,
+4,feam.br,Fundação Estadual do Meio Ambiente (MG),200.198.15.57,,200.198.15.57,,,,1,,,,
+4,feob.br,Fundação de Ensino Octávio Bastos,,,,,,"NS, SOA",1,1,,,
+4,fepi.br,Fundação de Ensino e Pesquisa de Itajubá,45.55.98.24,,,,@,,1,1,,,
+4,ferp.br,Fundação Educacional Rosemar Pimentel,,,,,,,0,1,,,
+4,fesb.br,Fundação de Ensino Superior de Bragança Paulista,162.243.51.145,,162.243.51.145,,,,1,1,,,
+4,feuc.br,Fundação Educacional Unificada Campograndense,187.1.138.20,2804:10:8010::138:20,187.1.138.20,2804:10:8010::138:20,,,1,1,,,
+4,fieo.br,Fundação Instituto de Ensino para Osasco,,,,,www.unifieo.br,,1,1,,,
+4,firb.br,Faculdades Integradas Rui Barbosa,"200.168.237.75
+200.168.237.76",,,,webserver.firb.br,,1,1,,,
+4,fisp.br,Faculdades Integradas de São Paulo,189.2.181.200,,,,@,,1,1,,,
+4,flog.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+4,furb.br,Fundação Universidade Regional de Blumenau,201.54.192.13,2801:80:356f:1000::c936:c00d,,,poodle.furb.br,,1,1,,,
+4,furg.br,Universidade Federal do Rio Grande,200.19.254.110,2804:0:5400:dc::110,,,joomla.furg.br,,1,1,,,
+4,fuvs.br,Universidade do Vale do Sapucaí,,,,,srvfuvs38542.fuvs.br,,1,1,,,
+4,iasp.br,Instituto Adventista São Paulo,"186.201.88.243
+200.206.30.163",,,,@,,1,1,,,
+4,ibmr.br,Instituto Brasileiro de Medicina de Reabilitação,104.18.7.243,,,,www.ibmr.br.cdn.cloudflare.net,,1,1,,,
+4,iesb.br,Instituto de Educação Superior de Brasília,34.195.191.172,,34.195.191.172,,,,1,1,,,
+4,ilsl.br,Instituto Lauro de Souza Lima,201.55.44.41,,,,ns2.ilsl.br,,1,1,,,
+4,iltc.br,"Instituto de Lógica, Filosofia e Teoria da Ciência",,,,,iltc2.iltc.br,,1,1,,,
+4,impa.br,Instituto de Matemática Pura e Aplicada,147.65.1.107,,147.65.1.107,,,,1,1,,,
+4,inpe.br,Instituto Nacional de Pesquisas Especiais,"150.163.105.31
+150.163.73.116
+150.163.73.164",,150.163.105.31,,,,1,1,,,
+4,ipef.br,Instituto de Pesquisas e Estudos Florestais,201.16.253.156,,,,@,,1,,,,
+4,ipen.br,Instituto de Pesquisas Energéticas e Nucleares,200.136.52.8,,,,portal.ipen.br,,1,1,,,
+4,ipv6.br,IPv6.br,200.160.4.9,2001:12ff:0:4::9,,,@,,1,,,,
+4,itep.br,Instituto de Tecnologia de Pernambuco,"200.17.134.24
+200.17.134.34",,200.17.134.22,,,,1,1,,,
+4,lncc.br,Laboratório Nacional de Computação Científica,146.134.9.171,,,,@,,1,1,,,
+4,lnls.br,Laboratório Nacional de Luz Síncrotron,141.193.213.10,,141.193.213.10,,,,1,1,,,
+4,mast.br,Museu de Astronomia e Ciências Afins,200.156.20.14,,200.156.20.14,,,,1,1,,,
+4,maua.br,Instituto Mauá de Tecnologia,189.8.23.132,,,,@,,1,1,,,
+4,osec.br,Organização Santamarense de Educação e Cultura,200.229.206.148,,200.229.206.148,,,,1,1,,,
+4,poli.br,Escola Politécnica de Pernambuco,200.133.2.18,,200.133.2.18,,,,1,1,,,
+4,spei.br,Sociedade Paranaense de Ensino e Informática,194.5.156.59,2a02:4780:8:314:0:2b1a:60e4:5,,,@,,1,1,,,
+4,taxi.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+4,tche.br,Rede Tchê,200.132.0.134,2804:0:0:cafe::134,,,webserver.pop-rs.rnp.br,,1,,,1,
+4,ucam.br,Universidade Candido Mendes,200.201.187.154,,200.201.187.154,,,,1,1,,,
+4,ucdb.br,Universidade Católica Dom Bosco,191.37.253.8,,,,serv-siia.ucdb.br,,1,1,,,
+4,uece.br,Universidade Estadual do Ceará,200.129.22.50,,200.129.22.50,,,,1,1,,,
+4,uefs.br,Universidade Estadual de Feira de Santana,,,,,portal2.uefs.br,,1,1,,,
+4,uema.br,Universidade Estadual do Maranhão,45.71.6.54,,45.71.6.54,,,,1,1,,,
+4,uemg.br,Universidade do Estado de Minas Gerais,200.198.22.94,,200.198.22.94,,,,1,1,,,
+4,uems.br,Universidade Estadual de Mato Grosso do Sul,,,200.181.121.141,,,,1,1,,,
+4,uenf.br,Universidade Estadual do Norte Fluminense,201.18.168.121,,201.18.168.121,,,,1,1,,,
+4,uepa.br,Universidade do Estado do Pará,"177.70.35.2
+177.74.2.83",,177.74.1.85,,,,1,1,,,
+4,uepg.br,Universidade Estadual de Ponta Grossa,177.101.17.22,2804:1f04::22,,,web-a1.uepg.br,,1,1,,,
+4,uerj.br,Universidade do Estado do Rio de Janeiro,,,,,unidades3.uerj.br,,1,1,,,
+4,uern.br,Universidade do Estado do Rio Grande do Norte,200.164.64.134,,200.164.64.134,,,,1,1,,,
+4,uesb.br,Universidade Estadual do Sudoeste da Bahia,,,,,wn.uesb.br,,1,1,,,
+4,uesc.br,Universidade Estadual de Santa Cruz,200.128.65.36,,,,canoa.uesc.br,,1,1,,,
+4,ufac.br,Universidade Federal do Acre,200.129.173.47,,200.129.173.47,,,,1,1,,,
+4,ufal.br,Universidade Federal de Alagoas,200.17.114.246,,200.17.114.246,,,,1,1,,,
+4,ufba.br,Universidade Federal da Bahia,"200.128.56.17
+200.128.56.18","2801:86:2000:1a00::ffff:17
+2801:86:2000:1a00::ffff:18",,,drps.ufba.br,,1,1,,,
+4,ufes.br,Universidade Federal do Espírito Santo,200.137.65.4,2001:12f0:6d0:e010::10,,,drupal19.ufes.br,,1,1,,,
+4,ufjf.br,Universidade Federal de Juiz de Fora,200.131.19.78,2001:12f0:614:19::78,,,pegasus.cpd.ufjf.br,,1,1,,,
+4,ufla.br,Universidade Federal de Lavras,200.131.250.18,2801:a6::250:56ff:fe9f:8,200.131.250.18,,,,1,1,,,
+4,ufma.br,Universidade Federal do Maranhão,"200.137.132.2
+200.137.132.3",,,,calhau.ufma.br,,1,1,,,
+4,ufmg.br,Universidade Federal de Minas Gerais,150.164.76.8,,150.164.250.1,,,,1,1,,,
+4,ufms.br,Universidade Federal de Mato Grosso do Sul,200.129.192.19,,200.129.192.19,2001:12f0:c41:2::6,,,1,1,,,
+4,ufmt.br,Universidade Federal de Mato Grosso,200.17.60.5,,200.17.60.5,,,,1,1,,,
+4,ufop.br,Universidade Federal de Ouro Preto,200.239.128.199,,,,arizona.ufop.br,,1,1,,,
+4,ufpa.br,Universidade Federal do Pará,200.239.64.17,,200.239.64.17,,,,1,1,,,
+4,ufpb.br,Universidade Federal da Paraíba,150.165.254.52,,,,nginx.bbn.ufpb.br,,1,1,,,
+4,ufpe.br,Universidade Federal de Pernambuco,,,150.161.6.84,,,,1,1,,,
+4,ufpi.br,Universidade Federal do Piauí,200.137.162.127,,200.137.162.127,,,,1,1,,,
+4,ufpr.br,Universidade Federal do Paraná,200.17.209.3,2801:82:8020::d55:ba:2,,,web.ufpr.br,,1,1,,,
+4,ufrj.br,Universidade Federal do Rio de Janeiro,146.164.84.216,,,,@,,1,1,,,
+4,ufrn.br,Universidade Federal do Rio Grande do Norte,177.20.144.66,2801:8c:0:b0::a007,,,@,,1,1,,,
+4,ufrr.br,Universidade Federal de Roraima,200.139.17.48,2001:12f0:e41:1000::7,200.139.17.48,,,,1,1,,,
+4,ufsc.br,Universidade Federal de Santa Catarina,150.162.2.10,2801:84:0:2::10,150.162.2.10,2801:84:0:2::10,,,1,1,,,
+4,ufsm.br,Universidade Federal de Santa Maria,200.18.47.118,2804:0:4000:4008::1950,200.18.47.118,2804:0:4000:4008::1950,,,1,1,,,
+4,uneb.br,Universidade do Estado da Bahia,200.128.3.44,,200.128.3.44,,,,1,1,,,
+4,unes.br,Faculdade do Espírito Santo,186.202.157.79,,191.252.47.118,,,,1,1,,,
+4,unic.br,Universidade de Cuiabá,"187.86.215.135
+187.86.215.136",,,,pim-redirect-1891724542.us-east-1.elb.amazonaws.com,,1,1,,,
+4,unig.br,Universidade de Iguaçu,31.170.167.213,,,,@,,1,1,,,
+4,unip.br,Universidade Paulista,200.196.224.129,,200.196.224.129,,,,1,1,,,
+4,unir.br,Universidade Federal de Rondônia,200.129.142.16,,,,@,,1,1,,,
+4,unit.br,Universidade Tiradentes,35.231.188.7,,,,2995474.group24.sites.hubspot.net,,1,1,,,
+4,upis.br,União Pioneira de Integração Social,190.103.170.133,,190.103.170.133,,,,1,1,,,
+4,urca.br,Universidade Regional do Cariri,189.90.174.218,,,,srv-ojs.urca.br,,1,1,,,
+4,usjt.br,Universidade São Judas Tadeu,"13.33.108.112
+13.33.108.73
+13.33.108.84
+13.33.108.93",,"13.33.108.112
+13.33.108.73
+13.33.108.84
+13.33.108.93",,,,1,1,,,
+4,vlog.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+4,wiki.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+5,aespi.br,Associação de Ensino Superior do Piauí,200.174.103.107,,200.174.103.107,,,,1,1,,,
+5,anani.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+5,arauc.br,Ponto de Presença da RNP no Estado do Paraná,200.238.130.8,2801:82:0:6::8,,,synapse.arauc.br,,1,,,,
+5,belem.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+5,cairu.br,Fundação Visconde de Cairu,187.18.6.22,,187.18.6.22,,,,1,1,,,
+5,cefac.br,CEFAC – Saúde e Educação,167.114.131.3,,,,fo-apps01.iforge.com.br,,1,1,,,
+5,ceped.br,Centro de Pequisas e Desenvolvimento,,,,,,,0,,,,
+5,cepel.br,Centro de Pesquisas de Energia Elétrica,161.79.8.15,,,,srvlumis02.cepel.br,,1,,,,
+5,cesed.br,Centro de Ensino Superior e Desenvolvimento,177.73.84.40,,177.73.84.40,,,,1,1,,,
+5,cesjf.br,Centro de Ensino Superior de Juiz de Fora,186.248.154.183,,186.248.154.183,,,,1,1,,,
+5,cesuc.br,Centro de Ensino Superior de Catalão,,,,,,"SOA, DNSKEY, NSEC, RRSIG, MX, NS",1,1,,,
+5,cesul.br,Centro Sulamericano de Ensino Superior,142.93.25.115,,,,@,,1,1,,,
+5,cetic.br,Centro Regional de Estudos para o Desenvolvimento da Sociedade da Informação,200.160.4.9,2001:12ff:0:4::9,,,@,,1,,,,
+5,ceuma.br,Universidade Ceuma,200.1.125.76,,200.1.125.76,,,,1,1,,,
+5,ceweb.br,Centro de Estudos sobre Tecnologias Web,200.160.4.9,2001:12ff:0:4::9,,,@,,1,,,,
+5,ciesa.br,Centro Universitário de Ensino Superior do Amazonas,191.6.222.75,,,,web-ded-330114a.kinghost.net,,1,1,,,
+5,cnpem.br,Centro Nacional de Pesquisa em Energia e Materiais,35.185.201.199,,35.185.201.199,,,,1,1,,,
+5,dante.br,Instituto Dante Pazzanese de Cardiologia,186.202.153.193,,,,@,,1,1,,,
+5,eabdf.br,Escola Americana de Brasília,67.227.222.119,,67.227.222.119,,,,1,1,,,
+5,esamc.br,"Escola Superior de Administração, Marketing e Comunicação",162.241.155.235,,,,@,,1,1,,,
+5,faced.br,"Faculdade de Ciências Econômicas, Administrativas e Contábeis de Divinópolis","3.92.148.198
+52.203.20.242
+52.44.226.158",,"3.92.148.198
+52.203.20.242
+52.44.226.158",,,,1,1,,,
+5,facef.br,Faculdade de Ciências Econômicas e Administrativas de Franca,177.69.47.81,,,,www.unifacef.com.br,,1,1,,,
+5,facet.br,Faculdade de Ciências Sociais e Aplicadas do Paraná,187.45.193.223,,,,@,,1,1,,,
+5,facha.br,Faculdades Integradas Hélio Alonso,201.76.51.228,,,,@,,1,1,,,
+5,facho.br,Faculdade de Ciências Humanas de Olinda,187.45.195.189,,,,@,,1,1,,,
+5,facic.br,Faculdade de Ciências Humanas de Curvelo,200.251.23.2,,200.251.23.2,,,,1,1,,,
+5,facol.br,Faculdade Orígenes Lessa,104.236.23.18,,104.236.23.18,,,,1,1,,,
+5,factu.br,Faculdade de Ciências e Tecnologia de Unaí,161.97.86.192,,161.97.86.192,,,,1,1,,,
+5,fadap.br,Faculdade de Direito da Alta Paulista,187.17.111.35,,187.17.111.35,,,,1,1,,,
+5,fadep.br,Faculdade de Pato Branco,,,,,,,0,1,,,
+5,faepa.br,"Fundação de Apoio ao Ensino, Pesquisa e Assistência",200.98.190.6,,,,@,,1,,,,
+5,faesa.br,Faculdades Integradas Espírito Santenses,74.121.24.79,,,,8767745.group45.sites.hubspot.net,,1,1,,,
+5,fagoc.br,Faculdade Governador Ozanam Coelho,200.195.1.132,,200.195.1.132,,,,1,1,,,
+5,falec.br,Faculdade Dr. Leocádio José Correia,191.6.208.63,2804:10:1::208:63,,,,,1,1,,,
+5,famma.br,Faculdade Metropolitana de Maringá,177.85.35.204,,177.85.35.204,,,,1,1,,,
+5,fanap.br,Faculdade Nossa Senhora Aparecida,191.6.218.19,,,,varnish-farm22.kinghost.net,,1,1,,,
+5,fapss.br,Faculdade Paulista de Serviço Social,187.1.136.98,,,,web15f24.uni5.net,,1,1,,,
+5,fatea.br,Faculdades Integradas Teresa d'Ávila,187.45.240.73,,,,@,,1,1,,,
+5,fateb.br,Faculdade de Ciências e Tecnologia de Birigui,186.202.153.213,,,,@,,1,1,,,
+5,fatec.br,Faculdade de Tecnologia de Americana,187.45.195.176,,,,@,,1,1,,,
+5,fcetm.br,Faculdade de Ciências Econômicas do Triângulo Mineiro,189.59.13.38,,,,@,,1,1,,,
+5,fcmmg.br,Faculdade de Ciências Médicas de Minas Gerais,,,,,,"NS, SOA",1,1,,,
+5,fecap.br,Fundação Escola de Comércio Álvares Penteado,200.144.39.102,,179.191.98.230,,,,1,1,,,
+5,fecea.br,Faculdade Estadual de Ciências Econômicas de Apucarana,,,,,,,0,1,,,
+5,feira.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+5,fejal.br,Fundação Educacional Jayme de Altavila,200.241.146.20,,190.15.118.70,,,,1,1,,,
+5,fepam.br,Fundação Educacional de Patos de Minas,"104.21.29.109
+172.67.171.118","2606:4700:3032::ac43:ab76
+2606:4700:3033::6815:1d6d",,,,,1,1,,,
+5,fgvsp.br,Fundação Getúlio Vargas (SP),200.186.245.16,,189.125.96.98,,,,1,1,,,
+5,finac.br,Faculdades Integradas Nacional,,,,,,,0,1,,,
+5,finav.br,Faculdades Integradas de Naviraí,199.34.228.55,,,,@,,1,1,,,
+5,fmabc.br,Faculdade de Medicina do ABC,187.1.138.19,,,,varnish-farm10.kinghost.net,,1,1,,,
+5,fumec.br,Fundação Mineira de Educação e Cultura,"191.34.35.46
+201.48.93.198",,"191.34.35.46
+201.48.93.198",,,,1,1,,,
+5,funec.br,Fundação Educacional de Caratinga,108.167.147.1,,108.167.147.1,,,,1,1,,,
+5,iaec2.br,Centro Unviersitário Adventista,,,,,,,0,1,,,
+5,iaene.br,Instituto Adventista do Ensino do Nordeste,179.188.40.34,,,,adventista.edu.br,,1,1,,,
+5,iapar.br,Instituto de Desenvolvimento Rural do Paraná,200.189.123.110,,200.189.123.110,,,,1,,,,
+5,ibase.br,Instituto Brasileiro de Análises Sociais e Econômicas,35.175.159.83,,,,@,,1,,,,
+5,ibict.br,Instituto Brasileiro de Informação em Ciência e Tecnologia,200.130.0.13,,200.130.0.13,,,,1,,,,
+5,ibmec.br,Instituto Brasileiro de Mercado de Capitais,"3.209.115.198
+3.225.250.200
+52.4.48.241",,,,atb-aws-lb-prd-ibmec-644196134.us-east-1.elb.amazonaws.com,,1,,,,
+5,imesb.br,"Instituto Municipal de Ensino Superior de Bebedouro ""Victório Cardassi""",45.79.42.17,,,,@,,1,1,,,
+5,inesc.br,Instituto de Ensino Superior Comunitário,,,,,,,0,1,,,
+5,ipaam.br,Instituto de Proteção Ambiental do Amazonas,177.66.14.159,,177.66.14.159,,,,1,,,,
+5,itpac.br,Instituto Tocantinense Presidente Antônio Carlos,"104.21.14.133
+172.67.159.45","2606:4700:3035::ac43:9f2d
+2606:4700:3036::6815:e85","104.21.37.136
+172.67.208.105","2606:4700:3032::ac43:d069
+2606:4700:3033::6815:2588",,,1,1,,,
+5,jampa.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+5,natal.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+5,pucmg.br,Pontifícia Universidade Católica de Minas Gerais,200.229.43.1,,,,www.pucminas.br,,1,1,,,
+5,pucpr.br,Pontifícia Universidade Católica do Paraná,"104.26.4.40
+104.26.5.40
+172.67.72.134","2606:4700:20::681a:428
+2606:4700:20::681a:528
+2606:4700:20::ac43:4886","104.26.4.40
+104.26.5.40
+172.67.72.134","2606:4700:20::681a:428
+2606:4700:20::681a:528
+2606:4700:20::ac43:4886",,,1,1,,,
+5,pucrs.br,Pontifícia Universidade Católica do Rio Grande do Sul,"104.18.20.134
+104.18.21.134","2606:4700::6812:1486
+2606:4700::6812:1586","104.18.20.134
+104.18.21.134","2606:4700::6812:1486
+2606:4700::6812:1586",,,1,1,,,
+5,pucsp.br,Pontifícia Universidade Católica de São Paulo,200.144.145.195,,200.144.145.195,,,,1,1,,,
+5,radio.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+5,saisp.br,Sistema de Alerta a Inundações de São Paulo,,,,,www0.saisp.br,,1,,,,
+5,sampa.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+5,sarah.br,Centro de Reabilitação Sarah Kubitschek,200.130.147.240,,,,haumea.sarah.br,,1,,,,
+5,saude.br,Escola Paulista de Medicina (Unifesp),200.144.92.186,,,,@,,1,1,,,
+5,senac.br,Serviço Nacional de Aprendizagem Comercial,,,,,waf01.senac.br,,1,1,,,
+5,senai.br,Serviço Nacional de Aprendizagem Industrial,191.233.16.218,,,,senaibr.z15.web.core.windows.net,,1,1,,,
+5,ucsal.br,Universidade Católica do Salvador,35.165.128.230,,,,awsweb02.ucsal.br,,1,1,,,
+5,udesc.br,Universidade do Estado de Santa Catarina,200.19.105.151,2801:bc:0:105::151,,,pegasus2.udesc.br,,1,1,,,
+5,uespi.br,Universidade Estadual do Piaui,,,,,gwwww.uespi.br,,1,1,,,
+5,ufrgs.br,Universidade Federal do Rio Grande do Sul,143.54.2.20,2804:1f20:0:1::20,143.54.2.20,2804:1f20:0:1::20,,,1,1,,,
+5,ufrpe.br,Universidade Federal Rural de Pernambuco,200.17.137.52,,200.17.137.52,,,,1,1,,,
+5,ufrrj.br,Universidade Federal Rural do Rio de Janeiro,200.11.2.11,,200.11.2.11,,,,1,1,,,
+5,ulbra.br,Universidade Luterana do Brasil,187.60.192.5,,187.60.192.5,,,,1,1,,,
+5,unama.br,Universidade da Amazônia,"179.185.57.181
+189.80.207.21",,,,unama.br.edgekey.net,,1,1,,,
+5,unasp.br,Centro Universitário Adventista de São Paulo,"104.22.50.94
+104.22.51.94
+172.67.28.252","2606:4700:10::6816:325e
+2606:4700:10::6816:335e
+2606:4700:10::ac43:1cfc",,,,,1,1,,,
+5,unesc.br,União de Escolas de Ensino Superior Capixaba,177.159.168.91,,,,www2.unesc.br,,1,1,,,
+5,unesp.br,Universidade Estadual Paulista,200.145.6.98,2801:88:1000::98,200.145.6.98,,,,1,1,,,
+5,unibh.br,Centro Universitário de Belo Horizonte,"13.33.108.23
+13.33.108.62
+13.33.108.75
+13.33.108.79",,"13.33.108.23
+13.33.108.62
+13.33.108.75
+13.33.108.79",,,,1,1,,,
+5,unice.br,União Cearense das Associações de Ensino Superior,201.139.186.85,,201.139.186.85,,,,1,1,,,
+5,unipe.br,Centro Universitário de João Pessoa,34.117.75.133,,34.117.75.133,,,,1,1,,,
+5,unisa.br,Universidade Santo Amaro,191.19.252.239,,191.19.252.239,,,,1,1,,,
+5,unisc.br,Universidade de Santa Cruz do Sul,200.17.83.38,,200.17.83.38,,,,1,1,,,
+5,uniso.br,Universidade de Sorocaba,177.126.99.221,,177.126.99.221,,,,1,1,,,
+5,unorp.br,Centro Universitário do Norte Paulista,"104.21.65.252
+172.67.196.79","2606:4700:3030::ac43:c44f
+2606:4700:3032::6815:41fc","104.21.65.252
+172.67.196.79","606:4700:3030::ac43:c44f
+606:4700:3032::6815:41fc",,,1,1,,,
+6,9guacu.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+6,adolec.br,Biblioteca Virtual em Saúde – Adolec Brasil,,,,,coral50.bireme.br,,1,,,,
+6,bireme.br,Biblioteca Regional de Medicina,200.10.179.228,,,,cristal20.bireme.br,,1,,,,
+6,caxias.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+6,ceptro.br,Centro de Estudos e Pesquisas em Tecnologia de Redes e Operações,200.160.4.153,2001:12ff:0:4144:f816:3eff:feed:8a89,,,@,,1,,,,
+6,cesupa.br,Centro Universitário do Estado do Pará,131.255.64.72,,,,@,,1,1,,,
+6,ceunsp.br,Centro Universitário Nossa Senhora do Patrocínio,34.149.110.26,,,,ceunsp.edu.br,,1,1,,,
+6,cuiaba.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+6,eeemba.br,Escola de Engenharia Eletromecânica da Bahia,162.241.2.49,,,,@,,1,1,,,
+6,epamig.br,Empresa de Pesquisa Agropecuária de Minas Gerais,189.80.133.53,,189.80.133.53,,,,1,,,,
+6,facape.br,Faculdade de Ciências Aplicadas e Sociais de Petrolina,168.196.52.136,,168.196.52.136,,,,1,1,,,
+6,faccat.br,Faculdades Integradas de Taquara,200.132.2.250,,,,ares.faccat.br,,1,1,,,
+6,faceca.br,"Faculdade de Ciências Econômicas, Contábeis e de Administração de Varginha",,,,,www.faceca.cnec.br,,1,1,,,
+6,facens.br,Faculdade de Engenharia de Sorocaba,191.233.203.34,,,,homefacensbr.azurewebsites.net,,1,1,,,
+6,facepe.br,Fundação de Amparo à Pesquisa do Estado de São Paulo,200.133.9.254,,,,firewall.facepe.br,,1,,,,
+6,facesm.br,Faculdade de Ciências Sociais Aplicadas do Sul de Minas,"104.21.1.212
+172.67.152.87","2606:4700:3037::6815:1d4
+2606:4700:3037::ac43:9857","104.21.1.212
+172.67.152.87","2606:4700:3037::6815:1d4
+2606:4700:3037::ac43:9857",,,1,1,,,
+6,facsal.br,Faculdade de Santa Luzia,186.202.157.79,,,,@,,1,1,,,
+6,fadipa.br,Faculdade de Ipatinga,186.202.153.152,,,,@,,1,1,,,
+6,fafeod.br,Faculdade Federal de Odontologia de Diamantina,200.131.252.28,,200.131.252.28,,,,1,1,,,
+6,fafibe.br,"Faculdade de Filosofia, Ciências e Letras de Bebedouro",201.71.243.90,,,,unifafibe.saferoute.com.br,,1,1,,,
+6,fafica.br,"Faculdade de Filosofia, Ciências e Letras de Catanduva",177.21.33.101,,,,zenao.fafica.br,,1,1,,,
+6,faficp.br,"Faculdade Estadual de Filosofia, Ciências e Letras de Cornélio Procópio",200.201.11.6,,,,,,1,1,,,
+6,fafima.br,"Faculdade de Filosofia, Ciências e Letras de Macaé",142.44.192.169,,,,@,,1,1,,,
+6,fafipa.br,"Faculdade Estadual de Educação, Ciências e Letras de Paranavaí",201.76.51.228,,,,@,,1,1,,,
+6,fafire.br,Faculdade Frassinetti do Recife,"200.167.192.130
+45.6.95.174",,200.167.192.130,,,,1,1,,,
+6,fafiuv.br,"Faculdade Estadual de Filosofia, Ciências e Letras de União da Vitória",,,,,,,0,1,,,
+6,fai-mg.br,Faculdade de Administração e Informática,201.77.129.193,,,,webserver.fai-mg.br,,1,1,,,
+6,fameca.br,Faculdade de Medicina de Catanduva,,,,,,,0,1,,,
+6,famema.br,Faculdade de Medicina de Marília,200.144.25.5,,200.144.25.14,,,,1,1,,,
+6,famerp.br,Faculdade de Medicina de São José do Rio Preto,,,,,1010se17fam-v07-sw.famerp.br,,1,1,,,
+6,fapeal.br,Fundação de Amparo à Pesquisa do Estado de Alagoas,200.133.132.96,,200.133.132.96,,,,1,1,,,
+6,fapema.br,Fundação de Amparo à Pesquisa e Desenvolvimento Científico do Maranhão,167.249.168.227,,167.249.168.227,,,,1,1,,,
+6,faperj.br,Fundação Carlos Chagas Filho de Amparo à Pesquisa do Estado do Rio de Janeiro,200.6.41.100,,200.6.41.120,,,,1,1,,,
+6,fapesp.br,Fundação de Amparo à Pesquisa do Estado de São Paulo,143.108.10.6,,143.108.10.6,,,,1,1,,,
+6,feamig.br,Faculdade de Engenharia de Agrimensura de Minas Gerais,"104.21.26.156
+172.67.137.34","2606:4700:3030::6815:1a9c
+2606:4700:3032::ac43:8922","104.21.26.156
+172.67.137.34","2606:4700:3030::6815:1a9c
+2606:4700:3032::ac43:8922",,,1,1,,,
+6,fesppr.br,Fundação de Estudos Sociais do Paraná,200.139.114.205,,200.139.114.205,,,,1,1,,,
+6,fesurv.br,Fundação do Ensino Superior de Rio Verde,131.221.77.90,,131.221.77.90,,,,1,1,,,
+6,fortal.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+6,fucape.br,"Fundação Instituto Capixaba de Pesquisas em Contabilidade, Economia e Finanças","104.21.16.151
+172.67.213.167","2606:4700:3032::ac43:d5a7
+2606:4700:3037::6815:1097","104.21.16.151
+172.67.213.167","2606:4700:3032::ac43:d5a7
+2606:4700:3037::6815:1097",,,1,1,,,
+6,fucapi.br,"Fundação Centro de Análise, Pesquisa e Inovação Tecnológica",,,,,xerua.fucapi.br,,1,1,,,
+6,funbbe.br,Fundação Barra Bonita de Ensino,191.252.51.24,,,,@,,1,1,,,
+6,funcec.br,Fundação Comunitária Educacional e Cultural de João Monlevade,186.202.150.81,,,,@,,1,,,,
+6,fundag.br,Fundação de Apoio à Pesquisa Agrícola,191.252.191.39,,,,@,,1,,,,
+6,fundep.br,Fundação de Desenvolvimento da Pesquisa,,,150.164.30.201,,,,1,,,,
+6,funpec.br,Fundação Norte-Rio-Grandense de Pesquisa e Cultura,177.20.147.59,,,,monza.funpec.br,,1,,,,
+6,fuvest.br,Fundação Universitária para o Vestibular,200.144.248.211,,,,@,,1,,,,
+6,gammon.br,Instituto Presbiteriano Gammon,"185.230.63.107
+185.230.63.171
+185.230.63.186",,,,cdn0.wixdns.net,,1,1,,,
+6,graded.br,The American School of São Paulo,184.106.184.142,,,,saopaulo.finalsite.com,,1,1,,,
+6,huufma.br,Hospital Universitário da UFMA,200.137.136.131,,200.137.136.131,,,,1,1,,,
+6,iae-sp.br,Instituto Adventista de Ensino (Campus São Paulo),,,,,,,0,1,,,
+6,ielusc.br,Instituto Superior e Centro Educacional Luterano,177.91.48.2,,177.91.48.2,,,,1,1,,,
+6,imensu.br,Instituto Mairiporã Colégio e Faculdades,,,,,ghs.googlehosted.com,,1,1,,,
+6,inatel.br,Instituto Nacional de Telecomunicações,131.221.240.56,,131.221.240.56,,,,1,1,,,
+6,iuperj.br,Instituto Universitário de Pesquisas do Rio de Janeiro,174.142.23.29,,,,www3.ucam.edu.br,,1,1,,,
+6,macapa.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+6,maceio.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+6,manaus.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+6,modulo.br,Faculdades Integradas Módulo,34.149.52.195,,,,@,,1,1,,,
+6,morena.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+6,osasco.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+6,palmas.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+6,pioxii.br,Colégio de Aplicação PIO XII,45.171.116.21,,45.171.116.21,,,,1,1,,,
+6,rct-sc.br,Rede Catarinense de Ciência e Tecnologia,200.135.30.81,,,,,,1,,,,
+6,recife.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+6,scielo.br,Scientific Electronic Library Online Brazil,200.136.72.208,,200.136.72.8,,,,1,,,,
+6,softex.br,Associação para Promoção da Excelência do Software Brasileiro,"104.21.12.190
+172.67.132.93","2606:4700:3030::6815:cbe
+2606:4700:3034::ac43:845d","104.21.12.190
+172.67.132.93","2606:4700:3030::6815:cbe
+2606:4700:3034::ac43:845d",,,1,,,,
+6,tecpar.br,Instituto de Tecnologia do Paraná,200.134.45.252,,200.189.123.110,,,,1,,,,
+6,toledo.br,Centro Universitário Toledo,45.70.87.27,,45.70.87.27,,,,1,1,,,
+6,ufrnet.br,UFRJNet,177.20.147.177,,177.20.147.177,,,,1,,,,
+6,ufscar.br,Universidade Federal de São Carlos,200.136.207.48,2801:b0:100::48,,,medusa.ufscar.br,,1,1,,,
+6,unaerp.br,Universidade de Ribeirão Preto,189.112.110.68,,,,svr-portal1.unaerp.br,,1,1,,,
+6,unemat.br,Universidade do Estado de Mato Grosso,200.101.35.40,,200.101.35.40,,,,1,1,,,
+6,uniabc.br,Universidade do Grande ABC,187.17.67.8,,,,@,,1,1,,,
+6,uniban.br,Universidade Bandeirante de São Paulo,"187.86.215.135
+187.86.215.136",,"187.86.215.135
+187.86.215.136",,,,1,1,,,
+6,unibem.br,Faculdades Integradas Espírita,186.202.157.79,,,,@,,1,1,,,
+6,unicap.br,Universidade Católica de Pernambuco,,,200.249.25.5,,,,1,1,,,
+6,unifae.br,Faculdade Católica de Administração e Economia,,,,,ns_dcxenwebdc001.unifae.br,,1,1,,,
+6,unifap.br,Universidade Federal do Amapá,200.139.21.15,2001:12f0:ec1:139::15,200.139.21.71,2001:12f0:ec1:139::71,,,1,1,,,
+6,unifil.br,Centro Universitário Filadélfia,187.45.190.82,,187.45.190.82,,,,1,1,,,
+6,unifor.br,Universidade de Fortaleza,200.253.187.112,,200.253.187.112,,,,1,1,,,
+6,unifra.br,Centro Universtário Franciscano,200.132.59.25,,,,lb01vmsma01.universidadefranciscana.edu.br,,1,1,,,
+6,unimar.br,Universidade de Marília,201.62.80.74,,,,portal.unimar.br,,1,1,,,
+6,unimep.br,Universidade Metodista de Piracicaba,177.125.183.21,,,,iepmail.unimep.br,,1,1,,,
+6,unimes.br,Universidade Metropolitana de Santos,200.187.70.70,,,,@,,1,1,,,
+6,uninga.br,Centro Universitário Ingá,"104.21.92.130
+172.67.194.35","2606:4700:3033::ac43:c223
+2606:4700:3036::6815:5c82","104.21.92.130
+172.67.194.35","2606:4700:3033::ac43:c223
+2606:4700:3036::6815:5c82",,,1,1,,,
+6,unipac.br,Centro Universitário Presidente Antônio Carlos,"200.202.246.178
+200.202.246.179",,,,unipacweb1.unipac.br,,1,1,,,
+6,unipan.br,União Pan-Americana de Ensino,187.17.67.37,,187.17.67.37,,,,1,1,,,
+6,unipar.br,Universidade Paranaense,177.91.39.143,,177.91.39.143,,,,1,1,,,
+6,unirio.br,Universidade Federal do Estado do Rio de Janeiro,,,200.156.24.171,2804:1f10:8014:110:200:156:24:171,,,1,1,,,
+6,unisal.br,Centro Universitário Salesiano de São Paulo,67.23.255.90,,67.23.255.90,,,,1,1,,,
+6,unisul.br,Universidade do Sul de Santa Catarina,"99.84.22.113
+99.84.22.31
+99.84.22.80
+99.84.22.83",,"99.84.22.113
+99.84.22.31
+99.84.22.80
+99.84.22.83",,,,1,1,,,
+6,unitau.br,Universidade de Taubaté,192.175.100.90,,192.175.100.90,,,,1,1,,,
+6,uniube.br,Universidade de Uberaba,189.112.240.97,,,,web.uniube.br,,1,1,,,
+6,univap.br,Universidade do Vale do Paraíba,,,187.95.133.155,,,,1,1,,,
+6,univel.br,Centro Universitário de Cascavel,201.16.216.48,,201.16.216.48,,,,1,1,,,
+6,univix.br,Faculdade Brasileira,192.146.229.3,,,,@,,1,1,,,
+6,unopar.br,Faculdades Integradas Norte do Paraná,"187.86.215.135
+187.86.215.136",,,,pim-redirect-1891724542.us-east-1.elb.amazonaws.com,,1,1,,,
 6,uvanet.br,Universidade Estadual Vale do Acaraú,"216.239.32.21
 216.239.34.21
 216.239.36.21
-216.239.38.21",,,,lbwww.uvanet.br,
-3,uvv.br,Universidade Vila Velha,162.241.3.34,,162.241.3.34,,,
-12,vestibulares.br,Curso Vestibulares,"187.86.215.135
-187.86.215.136",,"187.86.215.135
-187.86.215.136",,,
-3,vip.br,BRVIP / Casa do Adubo??,177.137.234.163,,177.137.234.163,,,
-3,w3c.br,World Wide Web Consortium Escritório Brasil,200.160.4.153,2001:12ff:0:4144:f816:3eff:feed:8a89,,,@,
+216.239.38.21",,,,lbwww.uvanet.br,,1,1,,,
+7,anhembi.br,Universidade Anhembi Morumbi,104.18.5.95,,,,www.anhembi.br.cdn.cloudflare.net,,1,1,,,
+7,barueri.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+7,batista.br,Colégio Batista Shepard,"185.230.63.107
+185.230.63.171
+185.230.63.186",,,,cdn0.wixdns.net,,1,1,,,
+7,bennett.br,Colégio Metodista Bennett,129.159.57.95,,129.159.57.95,,,,1,1,,,
+7,cambury.br,Centro Universitário Cambury,23.236.62.147,,,,www186.wixdns.net,,1,1,,,
+7,campus2.br,Pontifícia Universidade Católica do Rio Grande do Sul,,,,,,,0,1,,,
+7,cardiol.br,Sociedade Brasileira de Cardiologia,200.209.23.52,,200.209.23.52,,,,1,1,,,
+7,ceeteps.br,Centro Estadual de Educação Tecnológica Paula Souza,,,,,,,0,1,,,
+7,cefetmg.br,Centro Federal de Educação Tecnológica de Minas Gerais,200.131.38.57,,,,vm-wordpress-02.ditic.sgi.cefetmg.br,,1,1,,,
+7,cesreal.br,Faculdade REGES de Realeza,192.185.213.103,,,,@,,1,1,,,
+7,cesumar.br,Centro de Ensino Superior de Maringá,177.129.73.20,,177.129.73.20,,,,1,1,,,
+7,eduvale.br,Colégio Eduvale,187.45.193.166,,,,@,,1,1,,,
+7,embrapa.br,Empresa Brasileira de Pesquisa Agropecuária,200.202.168.147,,,,pitaya.sede.embrapa.br,,1,,,,
+7,emescam.br,Escola Superior de Ciências da Santa Casa de Misericórdia de Vitória,200.137.70.51,,,,@,,1,1,,,
+7,estacio.br,Estácio,"13.33.108.62
+13.33.108.83
+13.33.108.89
+13.33.108.94",,,,redirect-portal-fend-ecs.estacio.br,,1,1,,,
+7,faccamp.br,Centro Universitário Campo Limpo Paulista,191.6.208.132,2804:10:8001::208:132,,,web1162.kinghost.net,,1,1,,,
+7,facinor.br,Faculdade Intermunicipal do Noroeste do Paraná,187.45.193.223,,187.45.193.223,,,,1,1,,,
+7,facitec.br,Faculdade de Ciências Sociais e Tecnológicas,187.45.193.173,,,,@,,1,1,,,
+7,fafijan.br,Faculdade de Jandaia do Sul,208.113.174.192,,208.113.174.192,,,,1,1,,,
+7,fafiman.br,"Fundação Faculdade de Filosofia, Ciências e Letras de Mandaguari",191.6.209.70,2804:10:8001::209:70,,,web173.kinghost.net,,1,1,,,
+7,famanet.br,Faculdade Machado de Assis,191.252.48.46,,,,@,,1,1,,,
+7,fapemig.br,Fundação de Amparo à Pesquisa do Estado de Minas Gerais,191.232.198.247,,191.232.198.247,,,,1,1,,,
+7,fatecsp.br,Faculdade de Tecnologia de São Paulo,201.55.32.226,,201.55.32.232,,,,1,1,,,
+7,feevale.br,Universidade Feevale,200.19.250.4,,200.19.250.4,,,,1,1,,,
+7,fiocruz.br,Fundação Oswaldo Cruz,157.86.16.72,,,,dengue.procc.fiocruz.br,,1,1,,,
+7,floripa.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+7,funcecp.br,Fundação Comunitária Educacional e Cultural de Patrocínio,,,,,ideiafix2.funcecp.br,,1,,,,
+7,funceme.br,Fundação Cearense de Meteorologia e Recursos Hídricos,200.129.31.2,,200.129.31.2,,,,1,,,,
+7,funcern.br,Fundação de Apoio à Educação e ao Desenvolvimento Tecnológico do Rio Grande do Norte,134.122.16.168,,,,@,,1,,,,
+7,funcesi.br,Fundação Comunitária de Ensino Superior de Itabira,189.90.241.2,,189.90.240.58,,,,1,1,,,
+7,goiania.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+7,ibmecmg.br,Instituto Brasileiro de Mercado de Capitais (MG),200.190.254.57,,,,,,1,1,,,
+7,ibmecrj.br,Instituto Brasileiro de Mercado de Capitais (RJ),"10.0.0.20
+200.182.25.100",,,,webfarm.grupoibmec.com.br,,1,1,,,
+7,iesplan.br,Instituto de Ensino Superior Planalto,50.116.87.228,,,,@,,1,1,,,
+7,igf2015.br,Internet Governance Forum Brazil 2015,200.160.4.9,2001:12ff:0:4::9,,,@,,1,,,,
+7,kennedy.br,Faculdade Kennedy,191.6.210.102,,191.6.210.102,,,,1,1,,,
+7,lusiada.br,Fundação Lusíada,200.232.93.2,,,,servlus07.lusiada.br,,1,1,,,
+7,maringa.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+7,mcampos.br,Faculdades Milton Campos,"3.92.148.198
+52.203.20.242
+52.44.226.158",,"3.92.148.198
+52.203.20.242
+52.44.226.158",,,,1,1,,,
+7,niteroi.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+7,puc-rio.br,Pontifícia Universidade Católica do Rio de Janeiro,,,139.82.30.201,,,,1,1,,,
+7,rederio.br,Rede Rio,200.20.94.11,2804:1f10:80:94::1,200.20.94.11,,,,1,,,1,
+7,rednesp.br,Research and Education Network at São Paulo,200.144.248.41,,,,paineira.usp.br,,1,,,1,
+7,saojose.br,UniSãoJosé,187.45.239.21,,,,@,,1,1,,,
+7,saoluis.br,Faculdade São Luis,191.6.218.152,2804:10:8022::218:152,,,web22f62.kinghost.net,,1,1,,,
+7,simepar.br,Sistema de Tecnologia e Monitoramento Ambiental do Paraná,200.19.65.115,,200.19.65.115,,,,1,,,,
+7,stpauls.br,St. Paul’s School,177.190.200.230,,208.87.128.137,,,,1,1,,,
+7,tecsoma.br,Faculdade Tecsoma,191.252.4.40,,,,@,,1,1,,,
+7,unicamp.br,Universidade Estadual de Campinas,,,,,143-106-143-186.nuvem.unicamp.br,,1,1,,,
+7,uniceub.br,Centro de Ensino Unificado de Brasília,200.229.250.36,,,,wwebfarm.uniceub.br,,1,1,,,
+7,uniderp.br,Universidade para o Desenvolvimento do Estado e da Região do Pantanal,"187.86.215.135
+187.86.215.136",,,,pim-redirect-1891724542.us-east-1.elb.amazonaws.com,,1,1,,,
+7,unifacs.br,Universidade Salvador,104.18.11.223,,,,www.unifacs.br.cdn.cloudflare.net,,1,1,,,
+7,unifesp.br,Universidade Federal De São Paulo,200.144.93.198,,200.144.93.198,,,,1,1,,,
+7,unifieo.br,Centro Universitário Fundação Instituto de Ensino para Osasco,177.92.66.75,,,,@,,1,1,,,
+7,unifran.br,Universidade de Franca,34.149.6.190,,34.149.6.190,,,,1,1,,,
+7,unigran.br,Centro Universitário da Grande Dourados,"18.228.215.240
+54.94.255.115","2600:1f1e:5ba:3c00:dcfc:a5cb:89dd:501a
+2600:1f1e:5ba:3c01:d6b2:1e21:6bb1:d36b","18.228.215.240
+54.94.255.115","2600:1f1e:5ba:3c00:dcfc:a5cb:89dd:501a
+2600:1f1e:5ba:3c01:d6b2:1e21:6bb1:d36b",,,1,1,,,
+7,unimaua.br,Centro Universitário Barão de Mauá,189.108.61.43,,189.108.61.43,,,,1,1,,,
+7,unincor.br,Universidade Vale do Rio Verde,186.202.137.188,,186.202.137.188,,,,1,1,,,
+7,uninove.br,Universidade Nove de Julho,167.99.0.217,,167.99.0.217,,,,1,1,,,
+7,unitins.br,Universidade do Tocantins,,,200.129.177.79,,,,1,1,,,
+7,univale.br,Universidade Vale do Rio Doce,187.85.236.6,,,,c2-wb-08.univale.br,,1,1,,,
+7,univali.br,Univali - Universidade do Vale do Itajaí,200.169.52.190,,200.169.52.190,,,,1,1,,,
+7,univesp.br,Universidade Virtual do Estado de São Paulo,"104.21.72.58
+172.67.175.240","2606:4700:3034::6815:483a
+2606:4700:3034::ac43:aff0","104.21.72.58
+172.67.175.240","2606:4700:3034::6815:483a
+2606:4700:3034::ac43:aff0",,,1,1,,,
+7,unoeste.br,Universidade do Oeste Paulista,177.131.33.4,2801:80:390:100::4,,,apecnt.unoeste.br,,1,1,,,
+7,unyahna.br,Faculdades Unyahna,,,,,,,0,1,,,
+8,anchieta.br,Unianchieta,187.32.95.28,,,,3981562.group12.sites.hubspot.net,,1,1,,,
+8,antispam.br,Antispam.br,200.160.4.9,2001:12ff:0:4::9,,,@,,1,,,,
+8,boavista.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+8,bomjesus.br,Colégio Bom Jesus,207.248.87.15,,,,ns_dcxenweb06.bomjesus.br,,1,1,,,
+8,campinas.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+8,ccbeunet.br,Centro Cultural Brasil Estados Unidos (Santos),,,,,virtuais7.bcmg.com.br,,1,1,,,
+8,cefet-rj.br,Centro Federal de Educação Tecnológica Celso Suckow da Fonseca (RJ),200.9.149.88,,,,nginx.cefet-rj.br,,1,1,,,
+8,contagem.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+8,curitiba.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+8,dinamica.br,Colégio Dinâmica,54.232.216.243,,,,@,,1,1,,,
+8,dombosco.br,Colégio Salesiano Dom Bosco de Americana,187.32.248.178,,187.32.248.178,,,,1,1,,,
+8,dourados.br,Município de Dourados,200.199.220.81,,200.199.220.81,,,,1,,,,
+8,einstein.br,Hospital Israelita Albert Einstein,201.56.7.148,,,,einstein.br.edgekey.net,,1,,,,
+8,facinter.br,Faculdade Internacional de Curitiba,200.150.68.244,,200.150.68.244,,,,1,1,,,
+8,famevaco.br,Faculdade de Medicina do Vale do Aço,"104.21.52.237
+172.67.205.117","2606:4700:3032::ac43:cd75
+2606:4700:3036::6815:34ed","104.21.52.237
+172.67.205.117","2606:4700:3032::ac43:cd75
+2606:4700:3036::6815:34ed",,,1,1,,,
+8,fatec-ro.br,Faculdade de Ciências Administrativas e Tecnologia (RO),201.76.51.228,,,,@,,1,1,,,
+8,fecilcam.br,Universidade Estadual do Paraná (Campus de Campo Mourão),200.201.19.20,,,,@,,1,1,,,
+8,ferlagos.br,Fundação Educacional da Região dos Lagos,201.48.8.145,,,,@,,1,1,,,
+8,fiamfaam.br,Faculdades Integradas Alcântara Machado - Faculdades de Artes Alcântara Machado,189.2.181.200,,,,,,1,1,,,
+8,fibbauru.br,Faculdades Integradas de Bauru,158.69.90.105,,158.69.90.105,,,,1,1,,,
+8,fundanet.br,Fundação Eurípides de Marília,200.10.239.10,,,,,,1,1,,,
+8,fundasul.br,Fundação de Ensino Superior da Região Centro Sul,187.45.195.137,,,,@,,1,1,,,
+8,fundepag.br,Fundação de Desenvolvimento da Pesquisa do Agronegócio,45.236.77.197,,45.236.77.197,,,,1,,,,
+8,fundepes.br,Fundação Universitária de Desenvolvimento de Extensão e Pesquisa,187.0.16.142,,187.0.16.142,,,,1,,,,
+8,londrina.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+8,noroeste.br,Instituto Noroeste de Birigui,129.159.57.95,,129.159.57.95,,,,1,1,,,
+8,objetivo.br,Colégio Objetivo,200.196.224.188,,200.196.224.188,,,,1,1,,,
+8,projecao.br,"Colégio, Centro Universitário e Faculdade Projeção",45.185.42.203,,,,webportal.projecao.br,,1,1,,,
+8,prossiga.br,Programa de Informação e Comunicação para Pesquisa,200.130.0.10,,200.130.0.181,,,,1,,,,
+8,pucminas.br,Pontifícia Universidade Católica de Minas Gerais,"200.229.32.28
+200.229.32.29",,"200.229.32.28
+200.229.32.29",,,,1,1,,,
+8,registro.br,Registro.br,200.160.2.3,2001:12ff:0:2::3,,,@,,1,,,,
+8,reitoria.br,Universidade Regional Integrada do Alto Uruguai e das Missões,200.0.114.240,,,,alpha2.reitoria.br,,1,1,,,
+8,ribeirao.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+8,riopreto.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+8,salvador.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+8,saogonca.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+8,saojudas.br,Universidade São Judas Tadeu,201.62.252.62,,,,lb.animaeducacao.com.br,,1,1,,,
+8,simonsen.br,Faculdades Integradas Simonsen,"186.228.82.219
+200.218.252.177",,"186.228.82.219
+200.218.252.177",,,,1,1,,,
+8,sorocaba.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+8,ulbra-to.br,Centro Universitário Luterano de Palmas,200.199.229.77,,,,@,,1,1,,,
+8,unescnet.br,Associação Educacional de Cacoal,138.122.143.147,,138.122.143.147,,,,1,1,,,
+8,unibahia.br,Unidade Baiana de Ensino Pesquisa e Extensão,,,,,,,0,1,,,
+8,unifenas.br,Universidade José do Rosário Vellano,186.208.210.246,,200.195.27.61,,,,1,1,,,
+8,unimonte.br,Centro Universitário São Judas Tadeu (Campus Unimonte),"99.84.22.112
+99.84.22.53
+99.84.22.86
+99.84.22.9",,"99.84.22.112
+99.84.22.53
+99.84.22.86
+99.84.22.9",,,,1,1,,,
+8,unioeste.br,Universidade Estadual do Oeste do Paraná,"131.255.84.123
+131.255.84.69
+131.255.84.70",,131.255.84.123,,,,1,1,,,
+8,unisanta.br,Universidade Santa Cecilia,200.210.165.8,,200.210.165.8,,,,1,1,,,
+8,unisinos.br,Universidade do Vale do Rio dos Sinos,200.188.161.78,,,,proxyweb.asav.org.br,,1,1,,,
+8,univates.br,Universidade do Vale do Taquari,177.44.240.52,2801:80:283f:18::52,,,nginxexterno.univates.br,,1,1,,,
+8,univille.br,Universidade da Região de Joinville,177.67.90.228,,177.67.90.227,,,,1,1,,,
 8,zappiens.br,Zappiens.br,"200.160.11.120
 200.160.6.133","2001:12ff:0:6172:f816:3eff:fe96:4d96
-2001:12ff:0:b112::120",,,@,
+2001:12ff:0:b112::120",,,@,,1,,,,
+9,aesa-cesa.br,Autarquia de Ensino Superior de Arcoverde,162.241.135.71,,,,@,,1,1,,,
+9,aparecida.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+9,brazcubas.br,Sociedade Educacional Braz Cubas,34.149.110.26,,,,brazcubas.edu.br,,1,1,,,
+9,facastelo.br,Faculdade de Castelo,191.252.48.192,,191.252.47.118,,,,1,1,,,
+9,internesp.br,Instituto Nacional de Ensino e Pesquisa,200.216.243.82,,,,,,1,,,,
+9,joinville.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+9,mackenzie.br,Instituto Presbiteriano Mackenzie,54.94.252.119,,,,www.x.mackenzie.br,,1,1,,,
+9,metodista.br,Universidade Metodista de São Paulo,132.226.240.51,,177.135.166.190,,,,1,1,,,
+9,mozarteum.br,Faculdade Mozarteum de São Paulo,191.252.47.37,,,,@,,1,1,,,
+9,participa.br,Portal de Participação Popular,170.246.255.222,,,,@,,1,,,,
+9,riobranco.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+9,santacruz.br,Centro Universitário Santa Cruz de Curitiba,200.195.134.120,,200.195.134.120,,,,1,1,,,
+9,santarita.br,Centro Universitário Santa Rita,162.241.3.35,,,,,,1,1,,,
+9,saocamilo.br,União Social Camiliana,187.94.63.147,,187.94.63.147,,,,1,1,,,
+9,saomarcos.br,Escola e Faculdade Luterana São Marcos,"104.21.44.148
+172.67.200.227","2606:4700:3033::ac43:c8e3
+2606:4700:3035::6815:2c94","104.21.44.148
+172.67.200.227","2606:4700:3033::ac43:c8e3
+2606:4700:3035::6815:2c94",,,1,1,,,
+9,teologica.br,Faculdade Teológica Batista de São Paulo,34.205.245.191,,,,HTTPS-941162524.us-east-1.elb.amazonaws.com,,1,1,,,
+9,uniararas.br,Centro Universitário Hermínio Ometto - Uniararas,187.72.245.197,,187.72.245.197,,,,1,1,,,
+9,unicentro.br,Universidade Estadual do Centro-Oeste,200.201.10.43,,200.201.10.38,,,,1,1,,,
+9,unimontes.br,Universidade Estadual de Montes Claros,200.149.236.123,,,,portal.unimontes.br,,1,1,,,
+9,uniriotec.br,Centro de Ciências Exatas e Tecnologia – Unirio,200.156.26.27,,200.156.26.27,,,,1,1,,,
+9,unirondon.br,Instituição Faculdades Integradas Cândido Rondon,187.86.214.58,,187.86.214.58,,,,1,1,,,
+9,unisantos.br,Universidade Católica de Santos,"189.8.94.183
+201.28.235.18",,,,lb1-prod.unisantos.br,,1,1,,,
+9,unitoledo.br,Centro Universitário Toledo,45.70.87.27,,,,@,,1,1,,,
+10,belasartes.br,Centro Universitário Belas Artes de São Paulo,191.252.99.62,,,,@,,1,1,,,
+10,cantareira.br,Faculdade Cantareira,187.45.195.63,,,,@,,1,1,,,
+10,comciencia.br,ComCiência,143.106.140.91,,143.106.140.91,,,,1,,,,
+10,direitosbc.br,Faculdade de Direito de São Bernardo do Campo,"104.21.47.242
+172.67.174.141","2606:4700:3030::6815:2ff2
+2606:4700:3032::ac43:ae8d","104.21.47.242
+172.67.174.141","2606:4700:3030::6815:2ff2
+2606:4700:3032::ac43:ae8d",,,1,1,,,
+10,filadelfia.br,Instituto Filadélfia de Londrina,200.146.89.147,,"200.146.89.147
+200.155.39.97",,,,1,1,,,
+10,ibirapuera.br,Universidade Ibirapuera,"104.21.93.91
+172.67.208.124","2606:4700:3030::6815:5d5b
+2606:4700:3035::ac43:d07c","104.21.93.91
+172.67.208.124","2606:4700:3030::6815:5d5b
+2606:4700:3035::ac43:d07c",,,1,1,,,
+10,matematica.br,iMática,200.144.244.77,,,,@,,1,,,,
+10,netmundial.br,NETmundial,200.160.4.149,2001:12ff:0:4144:f816:3eff:fecd:cf3b,,,@,,1,,,,
+10,niltonlins.br,Faculdades Nilton Lins,,,,,www.universidadeniltonlins.com.br,,1,1,,,
+10,portovelho.br,Faculdade Porto,191.252.4.30,,191.252.4.30,,,,1,1,,,
+10,pucpcaldas.br,Pontifícia Universidade Católica de Poços de Caldas,186.248.78.227,,186.248.78.227,,,,1,1,,,
+10,pueridomus.br,Escola Pueri Domus,159.182.80.35,,159.182.80.35,,,,1,1,,,
+10,realestate.br,Núcleo de Real Estate da Poli/USP,169.53.11.102,,169.53.11.102,,,,1,,,,
+10,renascenca.br,Colégio Renascença,177.38.225.113,,,,@,,1,1,,,
+10,salesianos.br,Inspetoria São João Bosco,,,187.1.88.214,,,,1,1,,,
+10,santalucia.br,Faculdade Santa Lúcia,51.161.115.215,,51.161.115.215,,,,1,1,,,
+10,santamaria.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+10,santoandre.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+10,torricelli.br,Faculdades e Colégio Torricelli,187.17.67.37,,187.17.67.37,,,,1,1,,,
+10,unemat-net.br,Universidade do Estado de Mato Grosso,,,200.101.35.49,,,,1,1,,,
+10,uniamerica.br,UniAmérica,177.73.233.194,,"104.26.8.130
+104.26.9.130
+172.67.70.116","2606:4700:20::681a:882
+2606:4700:20::681a:982
+2606:4700:20::ac43:4674",,,1,1,,,
+10,uniandrade.br,Centro Universitário Campos de Andrade,"177.73.233.194
+104.21.4.3
+172.67.131.105","2606:4700:3030::ac43:8369
+2606:4700:3035::6815:403","104.21.4.3
+172.67.131.105","2606:4700:3030::ac43:8369
+2606:4700:3035::6815:403",,,1,1,,,
+10,unicastelo.br,Universidade Camilo Castelo Branco,191.235.80.89,,,,@,,1,1,,,
+10,unigranrio.br,Universidade Unigranrio,177.154.94.20,,177.154.94.20,,,,1,1,,,
+10,unilestemg.br,Centro Universitário do Leste de Minas Gerais,,,,,,,0,1,,,
+10,unisantana.br,Centro Universitário Sant'Anna,108.167.168.34,,,,@,,1,1,,,
+11,alfacastelo.br,Faculdade Alfacastelo,186.202.157.79,,,,@,,1,1,,,
+11,aquicultura.br,Estação Experimental de Salmonicultura,187.17.111.98,,187.17.111.98,,,,1,,,,
+11,baraodemaua.br,Centro Universitário Barão de Mauá,189.108.61.47,,,,baraodemaua-sitebarao.dnsfailover.com.br,,1,1,,,
+11,castroalves.br,Faculdade Castro Alves,192.185.211.121,,,,@,,1,1,,,
+11,coldacidade.br,Colégio da Cidade,,,,,,,0,1,,,
+11,estatistica.br,Instituto de Matemática e Estatística - USP,200.144.244.77,,,,@,,1,1,,,
+11,facsaoroque.br,Centro Universitário São Roque,68.183.99.57,,,,@,,1,1,,,
+11,liceuasabin.br,Liceu Albert Sabin Ribeirão Preto,189.108.61.52,,,,baraodemaua-liceu.dnsfailover.com.br,,1,1,,,
+11,newtonpaiva.br,Centro Universitário Newton Paiva,191.233.203.34,,0.0.0.0,::,newtonbr.azurewebsites.net,,1,1,,,
+11,novomilenio.br,Faculdade Novo Milênio,186.202.153.40,,,,novomilenio2.hospedagemdesites.ws,,1,1,,,
+11,objetivomao.br,Faculdades e Colégio Objetivo (Manaus),,,,,,"NS, SOA",1,1,,,
+11,oswaldocruz.br,Grupo Educacional Oswaldo Cruz,186.202.182.80,,186.202.182.80,,,,1,1,,,
+11,saobernardo.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+11,ucam-campos.br,Universidade Candido Mendes (Campos),34.102.134.42,,34.102.134.42,,,,1,1,,,
+11,unisantanna.br,Centro Universitário Sant'Anna,31.220.52.82,,,,@,,1,1,,,
+11,urisantiago.br,Universidade Regional Integrada do Alto Uruguai e das Missões (Santiago),131.161.3.210,,,,maverick.urisantiago.br,,1,1,,,
+12,campossalles.br,Colégio e Faculdades Campos Salles,,,,,,"NS, SOA, MX, TXT",1,1,,,
+12,cneccapivari.br,Campanha Nacional de Escolas da Comunidade (Capivari),187.17.111.103,,187.17.111.103,,,,1,1,,,
+12,museu-goeldi.br,Museu Paraense Emílio Goeldi,200.129.128.42,,,,lobo.museu-goeldi.br,,1,,,,
+12,objetivo-mga.br,Colégio Objetivo (Maringá),177.129.73.36,,177.129.73.36,,,,1,1,,,
+12,saocamilo-df.br,Centro Universitário São Camilo (DF),187.94.63.147,,187.94.63.147,,,,1,1,,,
+12,saocamilo-es.br,Centro Universitário São Camilo (ES),189.84.211.168,,189.84.211.163,,,,1,1,,,
+12,saocamilo-rj.br,Centro Universitário São Camilo (RJ),187.94.63.147,,187.94.63.147,,,,1,1,,,
+12,saocamilo-sp.br,Centro Universitário São Camilo (SP),"177.71.202.40
+54.207.80.0",,187.45.195.7,,,,1,1,,,
+12,seminariojmc.br,Seminário Teológico Presbiteriano Reverendo José Manoel da Conceição,186.202.153.141,,,,@,,1,1,,,
+12,souzamarques.br,Faculdade Souza Marques,200.189.102.68,,200.189.102.68,,,,1,1,,,
+12,univercidade.br,Centro Universitário da Cidade do Rio de Janeiro,,,,,,,0,1,,,
+12,unoestesaude.br,Plano de Saúde da Universidade do Oeste Paulista,,,,,,,0,,,,
+12,vestibulares.br,Curso Vestibulares,"187.86.215.135
+187.86.215.136",,"187.86.215.135
+187.86.215.136",,,,1,1,,,
+13,campinagrande.br,Subdomínio,,,,,,"NS, SOA, RRSIG",1,,,,
+13,candidomendes.br,Universidade Candido Mendes,200.201.187.154,,200.201.187.154,,,,1,1,,,
+13,castelobranco.br,Universidade Castelo Branco,"177.71.198.235
+54.232.195.86",,"177.71.198.235
+54.232.195.86",,,,1,1,,,
+13,direitofranca.br,Faculdade de Direito de Franca,189.90.130.248,,,,@,,1,1,,,
+13,fsssacramento.br,Faculdade Santíssimo Sacramento,62.171.169.12,,,,@,,1,1,,,
+13,igfbrazil2007.br,Internet Governance Forum Brazil 2007,200.160.4.9,2001:12ff:0:4::9,,,@,,1,,,,
+13,lemosdecastro.br,Colégio Lemos de Castro,200.156.18.66,,,,webserver.lemosdecastro.br,,1,1,,,
+13,ritterdosreis.br,Faculdades Ritter dos Reis,,,,,busios.ritterdosreis.br,,1,1,,,
+13,salesiano-ata.br,Colégio e Faculdades Salesianas de Araçatuba,162.144.70.201,,,,@,,1,1,,,
+13,salesianolins.br,Centro Universitário Católico Salesiano Auxilium,162.144.70.201,,,,@,,1,1,,,
+13,unihorizontes.br,Centro Universitário Unihorizontes,"104.21.64.171
+172.67.187.48","2606:4700:3031::ac43:bb30
+2606:4700:3036::6815:40ab","104.21.64.171
+172.67.187.48","2606:4700:3031::ac43:bb30
+2606:4700:3036::6815:40ab",,,1,1,,,
+13,unip-objetivo.br,Universidade Paulista / Curso Objetivo,,,200.196.224.95,,,,1,1,,,
+14,culturadigital.br,CulturaDigital.Br,200.130.15.90,,200.130.15.90,,,,1,,,,
+14,curso-objetivo.br,Curso Pré-Vestibular Objetivo,200.196.224.134,,200.196.224.134,,,,1,1,,,
+14,grupointegrado.br,Centro Universitário Integrado,"170.150.188.18
+170.150.188.19",,170.150.188.19,,,,1,1,,,
+14,internetsegura.br,Internet Segura,200.160.4.9,2001:12ff:0:4::9,,,@,,1,,,,
+14,mariaimaculada.br,Faculdades Integradas Maria Imaculada,51.161.115.215,,,,@,,1,1,,,
+14,soaresoliveira.br,Colégio Soares de Oliveira,138.197.63.230,,,,,,1,1,,,
+15,catolicavirtual.br,Universidade Católica de Brasília,,,,,,,0,1,,,
+15,colegiorealengo.br,Colégio Realengo,187.45.239.21,,,,@,,1,1,,,
+16,faculdadepromove.br,Faculdades Promove,191.6.210.107,2804:10:8002::210:107,191.6.210.107,,,,1,1,,,
+16,objetivo-goiania.br,Colégio Objetivo (Goiânia),,,,,,,0,1,,,
+17,faculdadesmaringa.br,Faculdades Maringá,200.175.16.248,,200.175.16.248,,,,1,1,,,
+17,pinheiroguimaraes.br,Colégio Pinheiro Guimarães,"192.0.78.153
+192.0.78.231",,,,@,,1,1,,,
+17,presidentekennedy.br,Colégio e Faculdade Cenecista Presidente Kennedy,,,,,,,0,1,,,
+17,teologia-assuncao.br,Pontifícia Faculdade de Teologia Nossa Senhora da Assunção ,,,,,,"NS, SOA",1,1,,,
+18,faculdadescuritiba.br,Faculdades Curitiba,,,,,,,0,1,,,
+20,centrodecitricultura.br,Centro de Citricultura Sylvio Moreira,,,177.53.80.122,,,,1,,,,
+22,observatoriodainternet.br,Observatório da Internet no Brasil,200.160.4.155,2001:12ff:0:4144:f816:3eff:fee0:3bd8,,,,,1,,,,
