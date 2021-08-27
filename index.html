@@ -4,10 +4,11 @@
   <meta charset="utf-8">
   <title>.br</title>
   <meta content="Matheus Avellar" name="author">
-  <meta name="description" content=".br Zonefile">
+  <meta name="description" content="Zonefile não-oficial e voluntária do .br">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="preconnect" href="https://rsms.me" crossorigin>
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./style.css?v=1">
+  <script src="./papaparse.min.js"></script>
 </head>
 <body>
   <header>
@@ -46,7 +47,7 @@ darkModeMediaQuery.addListener((e) => {
     </script>
   </header>
   <main>
-    <h2>A Lista</h2>
+    <h2 id="baixar">Baixar a lista</h2>
     <section>
       <p>
         Atualmente, a lista possui <b>726</b> domínios catalogados, de um total
@@ -60,7 +61,7 @@ darkModeMediaQuery.addListener((e) => {
         <strong>Exportado para CSV:</strong> <a href="./br.csv">br.csv</a> (≈66&nbsp;KB)
       </article>
     </section>
-    <h2>Explicação</h2>
+    <h2 id="o-que-e">Explicação</h2>
     <section>
       <p>
         Esta é uma lista não oficial e voluntariamente mantida de domínios
@@ -96,6 +97,140 @@ darkModeMediaQuery.addListener((e) => {
         X-X-X.br, XX-X.br
       </article>
     </section>
+    <div id="list-wrapper" hidden>
+      <h2 id="a-lista">A lista</h2>
+      <p>
+        Devido ao tamanho da lista, ela está separada alfabeticamente – por
+        exemplo, <i>gov.br</i> está na tabela 'G'. Clique na letra que você
+        deseja ver, e isso mostrará a tabela correspondente.
+      </p>
+      <p>
+        Nem todo domínio possui um IP de servidor web. Alguns, como
+        <i>dns.br</i>, possuem somente IPs para servidores de email; outros,
+        como <i>rio.br</i>, são não possuem nenhum dos dois, e servem somente
+        como subdomínios. De qualquer forma, eles são incluídos, marcados com
+        um 'x' em vermelho.
+      </p>
+      <p>
+        Alguns possuem um IP somente sob www. Por exemplo, <i>unicamp.br</i> não
+        existe, mas <i>www.unicamp.br</i> sim. Estes são marcados por um 'w' em
+        azul.
+      </p>
+      <template id="table-template">
+        <details>
+          <summary>
+            <h3></h3>
+            <p></p>
+          </summary>
+          <section class="table-wrapper">
+            <table>
+              <thead>
+                <tr>
+                  <th>Domínio</th>
+                  <th>Possui IP?</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </section>
+        </details>
+      </template>
+      <script>
+// Pega referência ao template de tabela a ser copiado
+const template = document.getElementById("table-template");
+
+// Se temos JS, podemos mostrar a tabelinha que vai ser preenchida
+const listwrapper = document.getElementById("list-wrapper");
+listwrapper.hidden = false;
+
+function process(data) {
+  // Organiza a lista alfabeticamente
+  data.sort((a,b) => {
+    if (a["Domínio"] < b["Domínio"]) return -1;
+    if (a["Domínio"] > b["Domínio"]) return 1;
+    return 0;
+  });
+  // Separa cada array pela letra inicial
+  const dict = data.reduce((res, char) => {
+    // [Ref] stackoverflow.com/a/49837486/4824627
+    let key = char["Domínio"][0].toLocaleUpperCase();
+    if(!isNaN(key))
+      key = "#";
+    // either push to an existing dict entry or create one
+    if(res[key])
+      res[key].push(char);
+    else
+      res[key] = [char];
+    return res;
+  }, {});
+  // Cria uma tabela por letra
+  Object.keys(dict).forEach(k => createTable(k, dict[k]));
+}
+
+function createTable(letter, array) {
+  // Se não houver nenhum domínio na lista, pula a letra
+  if(!array.some(d => +d["Existe?"])) {
+    console.log(`${letter} não possui domínios existentes!`);
+    return;
+  }
+
+  const newtable = template.content.cloneNode(true);
+  // Cria título
+  newtable.querySelector("h3").textContent = letter;
+  // Reporta quantidade de domínios
+  const len = array.length;
+  newtable.querySelector("p").textContent = `${len} domínio${len < 2 ? "" : "s"}`;
+  // Cria tabela
+  const tbody = newtable.querySelector("tbody");
+  console.log(array);
+  array.forEach(d => {
+    if(!+d["Existe?"])
+      return;
+
+    const tr = document.createElement("tr");
+    tbody.appendChild(tr);
+    // Nome do domínio (e.g. ufrj.br)
+    const dom = document.createElement("td");
+    dom.textContent = d["Domínio"];
+    dom.title = d["Descrição"];
+
+    // Possui IP próprio? Alguns nomes só estão registrados
+    // mas não apontam para nada
+    const ip = document.createElement("td");
+    ip.className = "td-icon";
+    const hasIP = [d["A"], d["AAAA"]].some(e => e.length > 0);
+    const haswwwIP = [
+      d["www A"], d["www AAAA"], d["www CNAME"]
+    ].some(e => e.length > 0);
+    ip.appendChild(createSVG(hasIP ? "yes" : haswwwIP ? "w" : "no"));
+
+    tr.appendChild(dom);
+    tr.appendChild(ip);
+  });
+
+  listwrapper.appendChild(newtable);
+}
+
+function createSVG(id) {
+  const svgNS = "http://www.w3.org/2000/svg";
+  const svg = document.createElementNS(svgNS, "svg");
+  svg.setAttribute("viewBox", "0 0 24 24");
+  svg.setAttribute("class", `icon icon-${id}`);
+  const use = document.createElementNS(svgNS, "use");
+  use.setAttribute("href", `#${id}`);
+  svg.appendChild(use);
+  return svg;
+}
+
+Papa.parse("https://lab.avl.la/.br/br.csv", {
+  comments: "#",
+  header: true,
+  download: true,
+  worker: true,
+  complete: function(res) { process(res.data); }
+});
+      </script>
+    </div>
   </main>
   <footer>
     <p class="timestamp">
@@ -106,5 +241,12 @@ darkModeMediaQuery.addListener((e) => {
   </footer>
   <link rel="preload" as="style" href="https://rsms.me/inter/inter.css">
   <link rel="stylesheet" media="print" onload="this.media='all'" href="https://rsms.me/inter/inter.css">
+  <div hidden>
+    <svg class="icon" viewbox="0 0 24 24">
+      <path id="yes" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"/>
+      <path id="no" d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z"/>
+      <path id="w" d="M9,17A2,2 0 0,1 7,15V7H9V15H11V8H13V15H15V7H17V15A2,2 0 0,1 15,17H9Z"/>
+    </svg>
+  </div>
 </body>
 </html>

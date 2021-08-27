@@ -64,6 +64,38 @@ a[href] {
 a[href]:hover, a[href]:focus {
   text-decoration: underline;
 }
+.table-wrapper {
+  width: fit-content;
+  margin: auto;
+  max-width: 100%;
+  max-height: 80vh;
+  overflow: auto;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 3px solid #d0d0d0;
+  border-radius: 5px;
+}
+table th {
+  padding: .5em .5em;
+  border-bottom: 3px solid #d0d0d0;
+  background-color: #f6f6f6;
+  font-weight: 600;
+}
+.dark table th {
+  background-color: #363636;
+}
+table td {
+  padding: .5em .5em;
+}
+table tr:not(:last-of-type) td {
+  border-bottom: 1px solid #efefef;
+}
+thead tr {
+  position: sticky;
+  top: 0px;
+}
 em, b, strong {
   font-weight: 600;
 }
@@ -71,8 +103,62 @@ a[href^="#"] {
   vertical-align: super;
   font-size: 80%;
 }
+summary {
+  list-style: none;
+  cursor: pointer;
+  margin: .5em 0;
+  padding: 1em;
+  background-color: #eee;
+}
+[open] summary {
+  background-color: #cecece;
+}
+.dark summary {
+  background-color: #363636;
+}
+.dark [open] summary {
+  background-color: #2e2e2e;
+}
+summary > h3 {
+  width: 1em;
+  text-align: center;
+}
+summary > h3, summary > p {
+  margin: 0;
+  display: inline-block;
+}
 .timestamp {
   text-align: right;
   color: #aaa;
   font-size: 85%;
+}
+[id] {
+  scroll-margin-top: 1em;
+}
+
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+  fill: hsl(117, 100%, 29%);
+  height: 20px;
+  width: 20px;
+}
+.td-icon {
+  vertical-align: middle;
+  text-align: center;
+}
+.icon-no {
+  fill: hsl(0, 92%, 34%);
+}
+.icon-w {
+  fill: hsl(209, 72%, 45%);
+}
+.dark .icon {
+  fill: hsl(117, 100%, 65%);
+}
+.dark .icon-no {
+  fill: hsl(0, 100%, 75%);
+}
+.dark .icon-w {
+  fill: hsl(209, 100%, 70%);
 }
