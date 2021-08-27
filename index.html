@@ -222,13 +222,19 @@ function createSVG(id) {
   return svg;
 }
 
-Papa.parse("https://lab.avl.la/.br/br.csv", {
-  comments: "#",
-  header: true,
-  download: true,
-  worker: true,
-  complete: function(res) { process(res.data); }
-});
+// Se não possui pedido de dados reduzidos (experimental)
+// [Ref] developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-data
+const reducedDataQuery = window.matchMedia('(prefers-reduced-data: reduce)');
+if(!reducedDataQuery.matches) {
+  // Podemos carregar os dados
+  Papa.parse("https://lab.avl.la/.br/br.csv", {
+    comments: "#",
+    header: true,
+    download: true,
+    worker: true,
+    complete: function(res) { process(res.data); }
+  });
+}
       </script>
     </div>
   </main>
