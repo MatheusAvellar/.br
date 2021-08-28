@@ -132,6 +132,17 @@ summary > h3, summary > p {
   color: #aaa;
   font-size: 85%;
 }
+.timestamp .email {
+  fill: none;
+  stroke: #aaa;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  height: 1.5em;
+  padding: .15em 0;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
 [id] {
   scroll-margin-top: 1em;
 }
@@ -161,4 +172,12 @@ summary > h3, summary > p {
 }
 .dark .icon-w {
   fill: hsl(209, 100%, 70%);
+}
+.graph {
+  display: block;
+  margin: auto;
+  transition: filter .15s ease;
+}
+.dark .graph {
+  filter: invert(1) contrast(0.85) hue-rotate(180deg) brightness(1.25);
 }
