@@ -6,7 +6,7 @@ echo "" > res.txt
 echo "Querying SLDs..."
 i=0
 # For every SLD in the list ({a..z}{a..z} checks aa.br, ab.br, ac.br, ...)
-for sld in d{a..z}{a..z}{a..z}
+for sld in {a..z}{0..9}{0..9}
 do
   i=$((i+1))
   echo -n "$sld.br ($i/17576)  "

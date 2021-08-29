@@ -308,49 +308,93 @@ Tam,Domínio,Descrição,A,AAAA,www A,www AAAA,www CNAME,"Senão, tem outro regi
 4,coop.br,Subdomínio,,,,,,"NS, SOA, RRSIG"
 4,cora.br,?,,,,,,"NS, SOA, RRSIG, NSEC, DNSKEY"
 4,cpea.br,"Centro Pastoral, Educacional e Assistencial Dom Carlos",177.92.2.179,,177.92.2.181,,,
-4,cpqd.br,Centro de Pesquisa e Desenvolvimento,,,,,,"NS, SOA, MX, TXT"
+4,cpqd.br,Centro de Pesquisa e Desenvolvimento,,,"177.125.142.49
+177.125.142.43
+177.125.142.47",,,
+4,ebap.br,?,,,,,fgvrj05.ebap.br,
 4,eewb.br,Escola de Enfermagem Wenceslau Braz,52.14.173.109,,,,@,
+4,efax.br,?,186.232.182.16,,,,,
+4,efoa.br,Escola de Farmácia e Odontologia de Alfenas,200.131.224.222,,,,,
+4,epge.br,?,,,,,fgvrj05.epge.br,
 4,esef.br,Escola Superior de Educação Física de Jundiaí,177.67.56.66,,177.67.56.66,,,
 4,esic.br,Escola Superior de Engenheiros Comerciais,35.199.82.66,,35.199.82.66,,,
 4,espm.br,Escola Superior de Propaganda e Marketing,20.201.8.45,,20.201.8.45,,,
+4,faac.br,Faculdade Associada de Cotia,189.36.66.78,,,,,
 4,faap.br,Fundação Armando Alvares Penteado,189.125.19.229,,189.125.19.229,,,
+4,face.br,Faculdade da Cidade de União da Vitória,186.211.99.98,,,,,
+4,fach.br,Faculdade Anhangüera de Ciências Humanas,,,177.159.152.234,,,
+4,facs.br,Universidade Salvador,52.7.217.32,,,,,
 4,fadi.br,Faculdade de Direito de Sorocaba,177.153.8.250,,177.153.8.250,,,
+4,faec.br,Faculdade de Educação de Colorado do Oeste,192.185.213.103,,,,,
 4,faef.br,Faculdade de Ensino Superior e Formação Integral,186.202.153.5,,,,@,
 4,fama.br,Faculdade Atenas Maranhense,187.86.214.58,,187.86.214.58,,,
 4,fapi.br,Faculdade de Pindamonhangaba,162.214.96.104,,,,@,
 4,farn.br,Faculdade Natalense para o Desenvolvimento do Rio Grande do Norte,177.154.115.4,,,,@,
+4,fase.br,Faculdade de Educação da Serra,186.202.135.240,,,,@,
+4,fasp.br,Faculdades Associadas de São Paulo,191.252.51.183,,,,@,
+4,fast.br,Faculdade Santa Terezinha,187.17.67.2,,187.17.67.4,,,
+4,fati.br,Faculdades Integradas Tibiriçá,,,,,,"NS, SOA"
 4,favi.br,Associação Vitoriana de Ensino Superior,200.196.224.47,,200.196.224.47,,,
 4,fazu.br,Faculdades Associadas de Uberaba,162.214.153.183,,,,@,
+4,fccp.br,Fundação Cultural Campanha da Princesa,,,,,,"NS, SOA"
+4,fcth.br,Fundação Centro Tecnológico de Hidráulica,177.92.82.251,,,,www4.saisp.br,
 4,fdci.br,Faculdade de Direito de Cachoeiro de Itapemirim,192.99.131.252,,,,@,
 4,fead.br,Faculdade de Estudos Administrativos,,,,,,"MX, RRSIG"
 4,feam.br,Fundação Estadual do Meio Ambiente (MG),200.198.15.57,,200.198.15.57,,,
+4,femm.br,Fundação Educacional Miguel Mofarrej,177.73.237.113,,,,@,
 4,feob.br,Fundação de Ensino Octávio Bastos,,,,,,"NS, SOA"
 4,fepi.br,Fundação de Ensino e Pesquisa de Itajubá,45.55.98.24,,,,@,
+4,ferj.br,Centro Universitário de Jaraguá do Sul,"200.192.112.24
+177.52.222.11
+177.52.222.12","2801:80:4d0::12
+2801:80:4d0::11",200.192.112.24,,,
+4,ferp.br,Fundação Educacional Rosemar Pimentel,,,,,,"NS, SOA"
 4,fesb.br,Fundação de Ensino Superior de Bragança Paulista,162.243.51.145,,162.243.51.145,,,
+4,feso.br,Fundação Educacional Serra dos Órgãos,201.23.207.40,,"187.16.241.10
+201.23.207.40",,,
+4,fesp.br,Faculdade de Engenharia São Paulo,191.252.51.34,,,,@,
+4,fesv.br,Faculdade Estácio de Sá de Vitória,,,,,,"NS, SOA, MX"
 4,feuc.br,Fundação Educacional Unificada Campograndense,187.1.138.20,2804:10:8010::138:20,187.1.138.20,2804:10:8010::138:20,,
+4,fiam.br,Faculdades Integradas Alcântara Machado - Faculdades de Artes Alcântara Machado,189.2.181.200,,,,,
+4,fian.br,Faculdades Integradas Anhanguera,187.17.67.2,,187.17.67.8,,,
+4,fiap.br,Faculdades Integradas do Alto ParanaÍba,8.243.154.131,,8.243.154.131,,,
 4,fieo.br,Fundação Instituto de Ensino para Osasco,,,,,www.unifieo.br,
 4,firb.br,Faculdades Integradas Rui Barbosa,"200.168.237.75
 200.168.237.76",,,,webserver.firb.br,
 4,fisp.br,Faculdades Integradas de São Paulo,189.2.181.200,,,,@,
+4,fito.br,Fundação Instituto Tecnológico de Osasco,187.45.240.15,,187.45.240.15,,,
 4,flog.br,Subdomínio,,,,,,"NS, SOA, RRSIG"
+4,fmtm.br,Faculdade de Medicina do Triângulo Mineiro,200.131.62.17,,,,@,
+4,fpte.br,Fundação Paulista de Tecnologia e Educação,3.229.122.248,,,,@,
+4,fuom.br,Fundação Educacional Comunitária Formiguense,186.248.73.98,,186.248.73.98,,,
 4,furb.br,Fundação Universidade Regional de Blumenau,201.54.192.13,2801:80:356f:1000::c936:c00d,,,poodle.furb.br,
 4,furg.br,Universidade Federal do Rio Grande,200.19.254.110,2804:0:5400:dc::110,,,joomla.furg.br,
 4,fuvs.br,Universidade do Vale do Sapucaí,,,,,srvfuvs38542.fuvs.br,
+4,hiae.br,Hospital Israelita Albert Einstein,189.108.75.165,,,,www.einstein.br,
+4,hmcp.br,Hospital PUC – Campinas (provavelmente),200.18.252.40,,,,,
 4,iasp.br,Instituto Adventista São Paulo,"186.201.88.243
 200.206.30.163",,,,@,
 4,ibmr.br,Instituto Brasileiro de Medicina de Reabilitação,104.18.7.243,,,,www.ibmr.br.cdn.cloudflare.net,
+4,ibre.br,Instituto Brasileiro de Economia da Fundação Getulio Vargas,,,,,fgvrj05.ibre.br,
 4,iesb.br,Instituto de Educação Superior de Brasília,34.195.191.172,,34.195.191.172,,,
 4,ilsl.br,Instituto Lauro de Souza Lima,201.55.44.41,,,,ns2.ilsl.br,
 4,iltc.br,"Instituto de Lógica, Filosofia e Teoria da Ciência",,,,,iltc2.iltc.br,
+4,imec.br,Instituto Martinus de Educação e Cultura,,,,,,"NS, SOA"
 4,impa.br,Instituto de Matemática Pura e Aplicada,147.65.1.107,,147.65.1.107,,,
 4,inpe.br,Instituto Nacional de Pesquisas Especiais,"150.163.105.31
 150.163.73.116
 150.163.73.164",,150.163.105.31,,,
+4,ipca.br,Instituto Paulista de Ciências da Administração,187.45.240.19,,,,@,
 4,ipef.br,Instituto de Pesquisas e Estudos Florestais,201.16.253.156,,,,@,
 4,ipen.br,Instituto de Pesquisas Energéticas e Nucleares,200.136.52.8,,,,portal.ipen.br,
+4,iptv.br,Serviço Multimídia de Banda Larga para Inclusão Social,139.82.95.7,,,,@,
 4,ipv6.br,IPv6.br,200.160.4.9,2001:12ff:0:4::9,,,@,
+4,isad.br,Instituto Superior de Administração,200.192.112.2,,200.192.112.20,,,
+4,isae.br,Instituto Superior de Administração e Economia,200.160.2.95,2001:12ff:0:2::95,,,@,
 4,itep.br,Instituto de Tecnologia de Pernambuco,"200.17.134.24
 200.17.134.34",,200.17.134.22,,,
+4,iusd.br,?,,,,,,"NS, SOA"
+4,izsp.br,Instituto de Zootecnia de São Paulo,,,,,,"NS, SOA"
 4,lncc.br,Laboratório Nacional de Computação Científica,146.134.9.171,,,,@,
 4,lnls.br,Laboratório Nacional de Luz Síncrotron,141.193.213.10,,141.193.213.10,,,
 4,mast.br,Museu de Astronomia e Ciências Afins,200.156.20.14,,200.156.20.14,,,

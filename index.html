@@ -2,12 +2,17 @@
 <html lang="pt-br">
 <head>
   <meta charset="utf-8">
-  <title>.br</title>
+  <title>.br Zonefile</title>
   <meta content="Matheus Avellar" name="author">
   <meta name="description" content="Zonefile não-oficial e voluntária do .br">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="preconnect" href="https://rsms.me" crossorigin>
-  <link rel="stylesheet" href="./style.css?v=2708">
+  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+  <link rel="manifest" href="./site.webmanifest">
+  <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="stylesheet" href="./style.css?v=29">
   <script src="./papaparse.min.js"></script>
 </head>
 <body>
@@ -50,17 +55,17 @@ darkModeMediaQuery.addListener((e) => {
     <h2 id="baixar">Baixar a lista</h2>
     <section>
       <p>
-        Atualmente, a lista possui <b>750</b> domínios catalogados, de um total
+        Atualmente, a lista possui <b>788</b> domínios catalogados, de um total
         de 1207 domínios registrados segundo o <a href="https://registro.br/dominio/estatisticas/">registro.br</a>.
-        Isso representa aproximadamente <b>62.1%</b> do total.
+        Isso representa aproximadamente <b>65.3%</b> do total.
       </p>
       <article>
         <strong>Planilha:</strong> <a href="https://docs.google.com/spreadsheets/d/1XRSGQVsE0hCD7tuXYH6R8FExXB_Eo5PaogjPHdtqGKU/view">Google Sheets</a>
       </article>
       <article>
-        <strong>Exportado para CSV:</strong> <a href="./br.csv">br.csv</a> (≈61&nbsp;KB)
+        <strong>Exportado para CSV:</strong> <a href="./br.csv?v=29">br.csv</a> (≈63&nbsp;KB)
       </article>
-      <p class="timestamp">Atualizado em 28 de agosto de 2021.</p>
+      <p class="timestamp">Atualizado em 29 de agosto de 2021</p>
     </section>
     <h2 id="o-que-e">Explicação</h2>
     <section>
@@ -90,10 +95,12 @@ darkModeMediaQuery.addListener((e) => {
         representa uma letra, e # representa um dígito):
       </p>
       <article style="text-align:center">
-        X.br,<br>
-        XX.br,<br>
-        XXX.br,<br>
-        aXXX.br, bXXX.br, cXXX.br
+        X.br, #.br<br>
+        XX.br, X#.br, #X.br, ##.br,<br>
+        XXX.br, X##.br,<br>
+        aXXX.br, bXXX.br, cXXX.br,<br>
+        dXXX.br, eXXX.br, fXXX.br,<br>
+        gXXX.br, hXXX.br, iXXX.br
       </article>
     </section>
     <div id="list-wrapper" hidden>
@@ -235,17 +242,25 @@ if(!reducedDataQuery.matches) {
     </div>
     <h2 id="estatisticas">Estatísticas</h2>
     <section class="table-wrapper">
-      <iframe class="graph" width="600" height="320" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQJ_fPGnYZLIDIjCKIujVtVeGebu2GCBamT2YLI4PnHKakUxaQ-t9cTaw937Z-BhXfl2FuOVtwXhqv9/pubchart?oid=614945270&amp;format=image"></iframe>
+      <iframe class="graph" width="600" height="320" sandbox loading="lazy" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQJ_fPGnYZLIDIjCKIujVtVeGebu2GCBamT2YLI4PnHKakUxaQ-t9cTaw937Z-BhXfl2FuOVtwXhqv9/pubchart?oid=614945270&amp;format=image"></iframe>
     </section>
     <section class="table-wrapper">
-      <iframe class="graph" width="485" height="340" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQJ_fPGnYZLIDIjCKIujVtVeGebu2GCBamT2YLI4PnHKakUxaQ-t9cTaw937Z-BhXfl2FuOVtwXhqv9/pubchart?oid=1536928900&amp;format=image"></iframe>
+      <iframe class="graph" width="485" height="340" sandbox loading="lazy" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQJ_fPGnYZLIDIjCKIujVtVeGebu2GCBamT2YLI4PnHKakUxaQ-t9cTaw937Z-BhXfl2FuOVtwXhqv9/pubchart?oid=1536928900&amp;format=image"></iframe>
     </section>
   </main>
   <footer>
     <p class="timestamp">
       Feito com ♥&#xFE0E;<!--&#xFE0E;[Ref] stackoverflow.com/a/38452396/4824627-->
-      por Matheus Avellar<br>
-      Sugestões, reclamações, etc? Mande um email para m<svg class="email" viewBox="0 0 24 24" aria-label="@"><use href="#at"/></svg>avl.la
+      por Matheus Avellar<br>Rio de Janeiro, 2021
+    </p>
+    <p class="timestamp">
+      Sugestões, reclamações ou comentários?<br>
+      Mande um email para m<svg class="email" viewBox="0 0 24 24" aria-label="@"><use href="#at"/></svg>avl.la
+    </p>
+    <p class="timestamp">
+      Este projeto não é apoiado, patrocinado ou desenvolvido pelo Registro.br,
+      NIC.br, CGI.br, ou quaisquer outras organizações, governamentais ou não.
+      Ele é desenvolvido e mantido voluntária e independentemente.
     </p>
   </footer>
   <link rel="preload" as="style" href="https://rsms.me/inter/inter.css">

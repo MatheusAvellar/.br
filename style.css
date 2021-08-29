@@ -175,6 +175,7 @@ summary > h3, summary > p {
 }
 .graph {
   display: block;
+  border: 0;
   margin: auto;
   transition: filter .15s ease;
 }
