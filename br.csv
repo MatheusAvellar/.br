@@ -14,6 +14,7 @@ Tam,Domínio,Descrição,A,AAAA,www A,www AAAA,www CNAME,"Senão, tem outro regi
 2,on.br,Observatório Nacional,200.20.187.134,,200.20.187.134,,,
 2,tc.br,Subdomínio,,,,,,"NS, SOA, RRSIG"
 2,tv.br,Subdomínio,,,,,,"NS, SOA, RRSIG"
+2,ui.br,?,,,,,,"NS, SOA"
 3,abc.br,Subdomínio,,,,,,"NS, SOA, RRSIG"
 3,ace.br,Associação Catarinense de Ensino / Faculdade Guilherme Guimbala,186.202.157.79,,,,@,
 3,ad1.br,Colégio e Faculdade AD1,108.179.193.195,,108.179.193.195,,,
@@ -33,7 +34,9 @@ Tam,Domínio,Descrição,A,AAAA,www A,www AAAA,www CNAME,"Senão, tem outro regi
 3,bmd.br,Subdomínio,,,,,,"NS, SOA, RRSIG"
 3,bsb.br,Subdomínio,,,,,,"NS, SOA, RRSIG"
 3,bvs.br,Biblioteca Virtual em Saúde,200.10.179.228,,,,cristal20.bireme.br,
+3,can.br,Subdomínio (aposentado),,,,,,"NS, SOA, RRSIG"
 3,ccc.br,Centro de Ciência e Cultura (Curso e Colégio Anglo Campinas),,,,,compound-ornaments.000webhostapp.com,
+3,ccs.br,Centro de Ciências da Saúde (Universidade Estadual de Londrina),,,,,,"NS, SOA"
 3,cdb.br,Colégio Salesiano Dom Bosco,"104.21.5.131
 172.67.133.121","2606:4700:3033::ac43:8579
 2606:4700:3035::6815:583","104.21.5.131
@@ -51,6 +54,7 @@ Tam,Domínio,Descrição,A,AAAA,www A,www AAAA,www CNAME,"Senão, tem outro regi
 3,cnt.br,Subdomínio,,,,,,"NS, SOA, RRSIG"
 3,com.br,Subdomínio,,,,,,"NS, SOA, RRSIG"
 3,coz.br,Subdomínio,,,,,,"NS, SOA, RRSIG"
+3,cri.br,?,,,,,,"NS, SOA, RRSIG, NSEC, DNSKEY"
 3,cta.br,Departamento de Ciência e Tecnologia Aeroespacial,,,,,dcta-new.cta.br,
 3,def.br,Subdomínio,,,,,,"NS, SOA, RRSIG"
 3,des.br,Subdomínio,,,,,,"NS, SOA, RRSIG"
@@ -97,6 +101,7 @@ Tam,Domínio,Descrição,A,AAAA,www A,www AAAA,www CNAME,"Senão, tem outro regi
 2606:4700:3032::6815:1f6b",,
 3,fef.br,Fundação Educacional de Fernandópolis,187.51.71.85,,187.51.71.85,,,
 3,feg.br,Fundação Educacional Guaçuana,109.106.249.84,,109.106.249.84,,,
+3,fei.br,Faculdade de Engenharia Industrial,,,,,,"NS, SOA"
 3,ffm.br,Fundação Faculdade de Medicina,186.225.101.217,,,,@,
 3,fga.br,Fundação Gildasio Amado,200.166.141.147,,,,@,
 3,fgv.br,Fundação Getúlio Vargas,189.125.96.98,,,,id098.lb.fgv.br,
@@ -121,6 +126,7 @@ Tam,Domínio,Descrição,A,AAAA,www A,www AAAA,www CNAME,"Senão, tem outro regi
 3,fst.br,Subdomínio,,,,,,"NS, SOA, RRSIG"
 3,ftc.br,Faculdade de Tecnologia e Ciências,132.145.206.174,,132.145.206.174,,,
 3,ftn.br,Faculdades Tancredo Neves,186.202.183.140,,,,@,
+3,fua.br,Universidade do Amazonas,,,,,,"NS, SOA"
 3,fvc.br,Fundação Visconde de Cairu,200.254.21.180,,200.254.21.137,,,
 3,fvj.br,Faculdade do Vale do Jaguaribe,191.252.100.26,,,,@,
 3,g12.br,Subdomínio,,,,,,"NS, SOA, RRSIG"
@@ -130,6 +136,7 @@ Tam,Domínio,Descrição,A,AAAA,www A,www AAAA,www CNAME,"Senão, tem outro regi
 3,gru.br,Subdomínio,,,,,,"NS, SOA, RRSIG"
 3,iac.br,Instituto Agronômico de Campinas,,,201.55.42.7,,,
 3,ial.br,Instituto Americano de Lins,129.159.57.95,,129.159.57.95,,,
+3,ibc.br,Instituto Brasileiro de Contabilidade,,,,,,"NS, SOA"
 3,iga.br,Instituto de Geociências Aplicadas,,,,,,"SOA, DNSKEY, NSEC, RRSIG, NS"
 3,imb.br,Subdomínio,,,,,,"NS, SOA, RRSIG"
 3,ind.br,Subdomínio,,,,,,"NS, SOA, RRSIG"
@@ -152,8 +159,10 @@ Tam,Domínio,Descrição,A,AAAA,www A,www AAAA,www CNAME,"Senão, tem outro regi
 3,log.br,Subdomínio,,,,,,"NS, SOA, RRSIG"
 3,mar.br,Marinha do Brasil,187.29.162.20,,187.29.162.20,,,
 3,mat.br,Subdomínio,,,,,,"NS, SOA, RRSIG"
+3,mba.br,Fundação Getulio Vargas,,,,,,"NS, SOA"
 3,med.br,Subdomínio,,,,,,"NS, SOA, RRSIG"
 3,mil.br,Subdomínio,,,,,,"NS, SOA, RRSIG"
+3,mkt.br,UNIALFA,,,,,,"NS, SOA"
 3,msb.br,Centro Universitário Moacyr Sreder Bastos,187.45.193.227,,187.45.193.227,,,
 3,mus.br,Subdomínio,,,,,,"NS, SOA, RRSIG"
 3,net.br,Subdomínio,,,,,,"NS, SOA, RRSIG"
@@ -180,6 +189,7 @@ Tam,Domínio,Descrição,A,AAAA,www A,www AAAA,www CNAME,"Senão, tem outro regi
 3,rae.br,Revista de Administração de Empresas (FGV),,,189.125.96.76,,,
 3,rec.br,Subdomínio,,,,,,"NS, SOA, RRSIG"
 3,rep.br,Subdomínio,,,,,,"NS, SOA, RRSIG"
+3,rgi.br,?,,,,,,"NS, SOA"
 3,rio.br,Subdomínio,,,,,,"NS, SOA, RRSIG"
 3,rnp.br,Rede Nacional de Ensino e Pesquisa,"104.22.32.197
 104.22.33.197
@@ -225,6 +235,7 @@ Tam,Domínio,Descrição,A,AAAA,www A,www AAAA,www CNAME,"Senão, tem outro regi
 3,ufs.br,Universidade Federal de Sergipe,200.17.141.60,,,,mosqueiro.ufs.br,
 3,ufu.br,Universidade Federal de Uberlândia,200.19.146.101,,200.19.145.55,,,
 3,ufv.br,Universidade Federal de Viçosa,200.235.128.245,,,,w1.srv.ufv.br,
+3,uib.br,?,,,,,,"NS, SOA"
 3,uit.br,Universidade de Itaúna,186.202.153.93,,,,@,
 3,umc.br,Universidade de Mogi das Cruzes,,,,,bulgaria.umc.br,
 3,una.br,União de Negócios e Administração,"99.84.22.112

@@ -11,15 +11,16 @@ do
   i=$((i+1))
   echo -n "$sld.br ($i/17576)  "
   # Kill query if it doesn't finish after 30s
-  timeout 30s host $sld.br >> res.txt
-  echo -n "[root ✓] "
+  # timeout 30s host $sld.br >> res.txt
+  # echo -n "[root ✓] "
   timeout 30s host -t NS $sld.br >> res.txt
   echo -n "[NS ✓] "
-  timeout 30s host -t SOA $sld.br >> res.txt
-  echo -n "[SOA ✓] "
+  # timeout 30s host -t SOA $sld.br >> res.txt
+  # echo -n "[SOA ✓] "
   # Test for www. as well (eg. unicamp.br)
-  timeout 30s host www.$sld.br >> res.txt
-  echo "[www ✓]"
+  # timeout 30s host www.$sld.br >> res.txt
+  # echo -n "[www ✓]"
+  echo ""
 done
 
 # Print and save the results
