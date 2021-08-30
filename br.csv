@@ -399,6 +399,8 @@ Tam,Domínio,Descrição,A,AAAA,www A,www AAAA,www CNAME,"Senão, tem outro regi
 4,lnls.br,Laboratório Nacional de Luz Síncrotron,141.193.213.10,,141.193.213.10,,,
 4,mast.br,Museu de Astronomia e Ciências Afins,200.156.20.14,,200.156.20.14,,,
 4,maua.br,Instituto Mauá de Tecnologia,189.8.23.132,,,,@,
+4,ngai.br,Encontro Goiano de Avaliação Institucional,,,,,,"NS, SOA"
+4,onsa.br,?,,,,,,"NS, SOA, RRSIG, NSEC, DNSKEY"
 4,osec.br,Organização Santamarense de Educação e Cultura,200.229.206.148,,200.229.206.148,,,
 4,poli.br,Escola Politécnica de Pernambuco,200.133.2.18,,200.133.2.18,,,
 4,spei.br,Sociedade Paranaense de Ensino e Informática,194.5.156.59,2a02:4780:8:314:0:2b1a:60e4:5,,,@,
