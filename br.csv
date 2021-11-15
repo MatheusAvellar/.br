@@ -54,7 +54,7 @@ Tam,Domínio,Descrição,A,AAAA,CNAME,www A,www AAAA,www CNAME,"Senão, tem outr
 3,cnt.br,Subdomínio,,,,,,,"NS, SOA, RRSIG"
 3,com.br,Subdomínio,,,,,,,"NS, SOA, RRSIG"
 3,coz.br,Subdomínio,,,,,,,"NS, SOA, RRSIG"
-3,cri.br,?,,,,,,,"NS, SOA, RRSIG, NSEC, DNSKEY"
+3,cri.br,Subdomínio (aposentado)?,,,,,,,"NS, SOA, RRSIG, NSEC, DNSKEY"
 3,cta.br,Departamento de Ciência e Tecnologia Aeroespacial,,,,,,dcta-new.cta.br,
 3,def.br,Subdomínio,,,,,,,"NS, SOA, RRSIG"
 3,des.br,Subdomínio,,,,,,,"NS, SOA, RRSIG"
@@ -1019,5 +1019,6 @@ Tam,Domínio,Descrição,A,AAAA,CNAME,www A,www AAAA,www CNAME,"Senão, tem outr
 17,pinheiroguimaraes.br,Colégio Pinheiro Guimarães,"192.0.78.153
 192.0.78.231",,,,,@,
 17,teologia-assuncao.br,Pontifícia Faculdade de Teologia Nossa Senhora da Assunção ,,,,,,,"NS, SOA"
+18,bibliotecanacional.br,Biblioteca Nacional,,,,,,,"NS, SOA, MX"
 20,centrodecitricultura.br,Centro de Citricultura Sylvio Moreira,,,,177.53.80.122,,,
 22,observatoriodainternet.br,Observatório da Internet no Brasil,200.160.4.155,2001:12ff:0:4144:f816:3eff:fee0:3bd8,,,,,

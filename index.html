@@ -55,7 +55,7 @@ darkModeMediaQuery.addListener((e) => {
     <h2 id="baixar">Baixar a lista</h2>
     <section>
       <p>
-        Atualmente, a lista possui <b>802</b> domínios catalogados, de um total
+        Atualmente, a lista possui <b>803</b> domínios catalogados, de um total
         de 1207 domínios registrados segundo o <a href="https://registro.br/dominio/estatisticas/">registro.br</a>.
         Isso representa aproximadamente <b>66.5%</b> do total.
       </p>
@@ -63,9 +63,9 @@ darkModeMediaQuery.addListener((e) => {
         <strong>Planilha:</strong> <a href="https://docs.google.com/spreadsheets/d/1XRSGQVsE0hCD7tuXYH6R8FExXB_Eo5PaogjPHdtqGKU/view">Google Sheets</a>
       </article>
       <article>
-        <strong>Exportado para CSV:</strong> <a href="./br.csv?v=3008">br.csv</a> (≈65&nbsp;KB)
+        <strong>Exportado para CSV:</strong> <a href="./br.csv?v=1411">br.csv</a> (≈65&nbsp;KB)
       </article>
-      <p class="timestamp">Atualizado em 30 de agosto de 2021</p>
+      <p class="timestamp">Atualizado em 14 de novembro de 2021</p>
     </section>
     <h2 id="o-que-e">Explicação</h2>
     <section>
@@ -226,10 +226,10 @@ function createSVG(id) {
 
 // Se não possui pedido de dados reduzidos (experimental)
 // [Ref] developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-data
-const reducedDataQuery = window.matchMedia('(prefers-reduced-data: reduce)');
+const reducedDataQuery = window.matchMedia("(prefers-reduced-data: reduce)");
 if(!reducedDataQuery.matches) {
   // Podemos carregar os dados
-  Papa.parse("https://lab.avl.la/.br/br.csv?v=3008", {
+  Papa.parse("https://lab.avl.la/.br/br.csv?v=1411", {
     comments: "#",
     header: true,
     download: true,
