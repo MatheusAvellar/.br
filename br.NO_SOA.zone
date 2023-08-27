@@ -1,0 +1,1539 @@
+;; ad1.br.
+ad1.br.			3600	IN	NS	ns743.hostgator.com.br.
+ad1.br.			3600	IN	NS	ns742.hostgator.com.br.
+ad1.br.			900	IN	NSEC	adm.br. NS RRSIG NSEC
+ad1.br.			900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. bHqchWZ6m6+rOor/ERBwpgn6UebMPlSPQviSzR9FrpHhVf7MK/yuooj1 2Vdk0ceGj0815Nw3C+rqwaJcM0z4Wg==
+;; aepc.br.
+aepc.br.		3600	IN	NS	dns5.kinghost.com.br.
+aepc.br.		3600	IN	NS	dns1.kinghost.com.br.
+aepc.br.		3600	IN	NS	dns2.kinghost.com.br.
+aepc.br.		3600	IN	NS	dns3.kinghost.com.br.
+aepc.br.		3600	IN	NS	dns4.kinghost.com.br.
+aepc.br.		3600	IN	NS	dns6.kinghost.com.br.
+aepc.br.		900	IN	NSEC	aesa-cesa.br. NS RRSIG NSEC
+aepc.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 87Zd7aWcjLjemLiHzYc7p9m022Hu+UhmnfjQQfAeekbcqKDlCTDNTcV2 x2tpULQy7l/YLctVMKsauqMwzO77DA==
+;; aliancaestrategica.br.
+aliancaestrategica.br.	3600	IN	NS	sucunduri.fucapi.br.
+aliancaestrategica.br.	3600	IN	NS	curauia.fucapi.br.
+aliancaestrategica.br.	900	IN	NSEC	alie.br. NS RRSIG NSEC
+aliancaestrategica.br.	900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. dyZFzLg3iOpv/kAnnSphUvm2G2U6/2/yqn7040DtzadtQ8rRW/5xhwSN EQJrTo9rjvls7AflDdmN9fMmq7sJ+w==
+;; amazonas.br.
+amazonas.br.		3600	IN	NS	quimica.objetivomao.br.
+amazonas.br.		3600	IN	NS	corvo.objetivomao.br.
+amazonas.br.		900	IN	NSEC	amazonia.br. NS RRSIG NSEC
+amazonas.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 7THLnYd0qiXDHmWtvReRNfMBGXQ0aA5Zhj9voDnI5uLVq8ba3lFQFaHZ AbkEK8Z/zERTTuPZSrXsQw9tBvzojA==
+;; anglo.br.
+anglo.br.		3600	IN	NS	ns1.portalcatalao.com.
+anglo.br.		3600	IN	NS	ns.portalcatalao.com.
+anglo.br.		900	IN	NSEC	anglonet.br. NS RRSIG NSEC
+anglo.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. PrH/+UgP6NT4nX4r6DbMEaRJG5ydtuCwsHVh24/2tW2YqGISyd+EsuDp B0NjkWfyRWKFJKZVfqzCOcSPDkBWHQ==
+;; apeco.br.
+apeco.br.		3600	IN	NS	jupiter.apis.com.br.
+apeco.br.		3600	IN	NS	donar.apis.com.br.
+apeco.br.		900	IN	NSEC	apesu.br. NS RRSIG NSEC
+apeco.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. hxAN4Urnimu9gEbSxroEYUP5i3KI0to76QUnUadJBohQVQtgjAe38yQ2 vjQfWZdtHjUZ9jXA5Vog7Mk+Ns8r2A==
+;; b2b.br.
+b2b.br.			3600	IN	NS	dns01.totalwork.com.br.
+b2b.br.			3600	IN	NS	dns02.totalwork.com.br.
+b2b.br.			900	IN	NSEC	baraodemaua.br. NS RRSIG NSEC
+b2b.br.			900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. GuWT03sO6hnG0ilIwET5NmdM5VEzHPLx/S4VjItgBzR7pXKITWUa8l2D OI+8RIoPJtC4FKbV8CdsL8SIg62Liw==
+;; bigmanaus.br.
+bigmanaus.br.		3600	IN	NS	corvo.objetivomao.br.
+bigmanaus.br.		3600	IN	NS	quimica.objetivomao.br.
+bigmanaus.br.		900	IN	NSEC	bio.br. NS RRSIG NSEC
+bigmanaus.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. SEzl8/2WUOrChFJXb5aJ0MEhiQt8wK1tQFe9DaEZ+2Y4hplyUi6alYvg 3jk8L6Mz4vRcLviWiSI+Q5+upCClXA==
+;; biologico.br.
+biologico.br.		3600	IN	NS	fs1.biologico.br.
+biologico.br.		3600	IN	NS	fs2.biologico.br.
+fs2.biologico.br.	3600	IN	A	200.144.33.4
+fs1.biologico.br.	3600	IN	A	200.144.33.3
+biologico.br.		900	IN	NSEC	bireme.br. NS RRSIG NSEC
+biologico.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. CjI4sUkraLVMdd/0bii5rxIOyBeec0tDIJ5QlnhPMebGUellPuUyH4Yd gAUMR4ZzGe/LHKiGZkp/OOAFxBF7Gg==
+;; bjmbr.br.
+bjmbr.br.		3600	IN	NS	dns2.bireme.br.
+bjmbr.br.		3600	IN	NS	dns.bireme.br.
+dns2.bireme.br.		3600	IN	A	200.10.179.17
+dns.bireme.br.		3600	IN	A	200.10.179.100
+bjmbr.br.		900	IN	NSEC	blog.br. NS RRSIG NSEC
+bjmbr.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. En5OPaBRZKM8TIeG34OgbBM8CTibjZt4wgRmPQumx6JVVE/8wtqfx6h+ kgJTwLWIWVcfUw/7WHqdx2U9eN/9hA==
+;; boituva.br.
+boituva.br.		3600	IN	NS	ns1.intersit.com.br.
+boituva.br.		3600	IN	NS	ns2.intersit.com.br.
+boituva.br.		900	IN	NSEC	bomjesus.br. NS RRSIG NSEC
+boituva.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. nw/9OaX7ffkByNm9mwlahjgxMtCYmGnGgoihexagJHs9jV5+fi54mUtL LxDTVBvr6Qeio2BhKwKQnk7tcl0SzQ==
+;; bonito.br.
+bonito.br.		3600	IN	NS	ns1.saoluis.br.
+bonito.br.		3600	IN	NS	ns2.saoluis.br.
+bonito.br.		900	IN	NSEC	brasil.br. NS RRSIG NSEC
+bonito.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. JH3hUWEnQ0gfnFj5/hmcyjYZZ3z79uyrY5zR4/RBSO+/HW+oBGyz5Yqf kqZ6JUBl53I4tFJmeD5QBDmMdCKxQg==
+;; cairu.br.
+cairu.br.		3600	IN	NS	ns4.compos.com.br.
+cairu.br.		3600	IN	NS	ns3.compos.com.br.
+cairu.br.		1800	IN	A	187.18.6.22
+cairu.br.		1800	IN	MX	1 aspmx.l.google.com.
+cairu.br.		1800	IN	MX	10 aspmx5.googlemail.com.
+cairu.br.		1800	IN	MX	10 aspmx4.googlemail.com.
+cairu.br.		1800	IN	MX	10 aspmx3.googlemail.com.
+cairu.br.		1800	IN	MX	5 alt2.aspmx.l.google.com.
+cairu.br.		1800	IN	MX	10 aspmx2.googlemail.com.
+cairu.br.		1800	IN	MX	5 alt1.aspmx.l.google.com.
+www.cairu.br.		1800	IN	A	187.18.6.22
+cairu.br.		900	IN	NSEC	cajuniban.br. NS RRSIG NSEC
+cairu.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. +UDas+Ps3SGlW/2McZWtQTJUxSc5VEW5oZCjPqoaI8tJtQODKoT8v/xD RBOMf46Ax47gUQ18muJtQlltxOvDEg==
+;; campogrande.br.
+campogrande.br.		3600	IN	NS	ns1.saoluis.br.
+campogrande.br.		3600	IN	NS	ns2.saoluis.br.
+campogrande.br.		900	IN	NSEC	campossalles.br. NS RRSIG NSEC
+campogrande.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. kWk4HtTeCzKDX4bvrTVuKmm8IbE1J2EWQwpsC4n+cjkNja6O+ibkMSNt 5fDDjMcBWl9Uj6SxFjS1V6+iU1QU6w==
+;; campus2.br.
+campus2.br.		3600	IN	NS	ns02.pucrs.br.
+campus2.br.		3600	IN	NS	ns01.pucrs.br.
+campus2.br.		900	IN	NSEC	campusnet.br. NS RRSIG NSEC
+campus2.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. icAK+hKM3H8XfNOLnrWqXlB2Mlx8d3HGJWmNsTXy968ISToxUQWAxUsj 5AJCSz7gnApnam0KC0HoeLQWQXDnHQ==
+;; campusnet.br.
+campusnet.br.		3600	IN	NS	dns01.anhembi.br.
+campusnet.br.		3600	IN	NS	dns4.anhembi.br.
+campusnet.br.		900	IN	NSEC	campusportal.br. NS RRSIG NSEC
+campusnet.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. ACJwYJbjoO/FDKwxad1txTeYhf9E+EujU2X3jFqssqWaLD1zOJpdl4NR cwYi0iMeiIourvRWRNdPWc4HCDNR9g==
+;; campusportal.br.
+campusportal.br.	3600	IN	NS	dns4.anhembi.br.
+campusportal.br.	3600	IN	NS	dns01.anhembi.br.
+campusportal.br.	900	IN	NSEC	campusvirtual.br. NS RRSIG NSEC
+campusportal.br.	900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. c+bGYorYBxLEwTJunhjWf5snVqquvn4VHJbsjyeIYB0cg7SXFOZYGZkq Cngy+PRYOSUQjfEYC479YSV1ytpfGg==
+;; campusvirtual.br.
+campusvirtual.br.	3600	IN	NS	dns.univercidade.br.
+campusvirtual.br.	3600	IN	NS	dns2.univercidade.br.
+dns2.univercidade.br.	3600	IN	A	200.218.254.210
+dns.univercidade.br.	3600	IN	A	200.218.254.209
+campusvirtual.br.	900	IN	NSEC	can.br. NS RRSIG NSEC
+campusvirtual.br.	900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 7HcPB9Id3hJ1vlg2nyYrFv9dwF1TkYndfi/nrME2QSLZ748Pr7luIol+ 4Af3K1JVgdzhMSAhO7itiQTnIMH5hA==
+;; candidomendesvitoria.br.
+candidomendesvitoria.br. 3600	IN	NS	ns1.webserverbr.net.
+candidomendesvitoria.br. 3600	IN	NS	ns2.webserverbr.net.
+candidomendesvitoria.br. 900	IN	NSEC	cantareira.br. NS RRSIG NSEC
+candidomendesvitoria.br. 900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. vFOgMdKKXTKQoxlQcA9MuT+8RvjD1vWTfcjgvflkqLp11ecng8fkQmXo 7gsIGr4rFvkSampzTEV8TCkv5DDQ5A==
+;; capital.br.
+capital.br.		3600	IN	NS	web2.unicapital.edu.br.
+capital.br.		3600	IN	NS	web.unicapital.edu.br.
+capital.br.		900	IN	NSEC	carangola.br. NS RRSIG NSEC
+capital.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. GpOtL7Jx6Z9WT4buXuGoz4cxoN9IuQuUVkaVYCOII0YjG5+ysGRMK29g bAbPFdbKIle5EbhgZJqjXQUo9k6t5Q==
+;; carangola.br.
+carangola.br.		3600	IN	NS	dns2.tehospedo.com.br.
+carangola.br.		3600	IN	NS	dns1.tehospedo.com.br.
+carangola.br.		900	IN	NSEC	carbonari.br. NS RRSIG NSEC
+carangola.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. PsQEs5aWg+uWQ/EtGBv0SKM40ldynDMRBwi/nleq0jR+o3GyYRDGeZNi oHulvqoMl3dnX5Qu/bHoNtOn8GIJkw==
+;; cate.br.
+cate.br.		3600	IN	NS	adri.cate.br.
+cate.br.		3600	IN	NS	gwy-srv-4.cate.br.
+cate.br.		3600	IN	NS	dns4.cate.br.
+cate.br.		3600	IN	NS	dns1.cate.br.
+cate.br.		3600	IN	NS	gwy-srv-0.cate.br.
+gwy-srv-4.cate.br.	3600	IN	A	161.79.4.240
+gwy-srv-0.cate.br.	3600	IN	A	161.79.24.3
+dns4.cate.br.		3600	IN	A	161.79.4.241
+dns1.cate.br.		3600	IN	A	161.79.4.4
+adri.cate.br.		3600	IN	A	161.79.72.1
+cate.br.		900	IN	NSEC	catolicavirtual.br. NS RRSIG NSEC
+cate.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. GMkfZt2bOQfoOG8HgTfGDFbk/8IkARDcuBsfqYcV4mm+6us01REwfwvj cdT+DNFvWzbADr+HT2UpdRhuYDe9oA==
+;; catolicavirtual.br.
+catolicavirtual.br.	3600	IN	NS	netuno.ubec.edu.br.
+catolicavirtual.br.	3600	IN	NS	pajero.ubec.edu.br.
+catolicavirtual.br.	900	IN	NSEC	caxias.br. NS RRSIG NSEC
+catolicavirtual.br.	900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 0U81iDAXsU2FgrRYAEibaT2DVqR8yKvjU0SUUns4sIqG7BE8nuKPtAQK JwnNNPq/N82IVUFDQu9pfxmOfwqIow==
+;; cdctal.br.
+cdctal.br.		3600	IN	NS	meteoro.cdctal.br.
+cdctal.br.		3600	IN	NS	maceio.cdctal.br.
+meteoro.cdctal.br.	3600	IN	A	200.17.112.3
+maceio.cdctal.br.	3600	IN	A	200.17.112.1
+cdctal.br.		900	IN	NSEC	cde.br. NS RRSIG NSEC
+cdctal.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. Q24P6H3F8MW3sGIlrgocjbwGBhCxJ4H11t17ZUpQ06yDcXkfUJJ6cWyE mKWNT2mGcN8ecKi2W9Ur1hskRcvXYQ==
+;; cdt.br.
+cdt.br.			3600	IN	NS	ns3.cdt.br.
+cdt.br.			3600	IN	NS	ns4.cdt.br.
+cdt.br.			3600	IN	NS	ns5.cdt.br.
+ns5.cdt.br.		3600	IN	A	129.150.65.25
+ns4.cdt.br.		3600	IN	A	152.67.35.101
+ns3.cdt.br.		3600	IN	A	129.150.65.25
+cdt.br.			900	IN	NSEC	cdtn.br. NS RRSIG NSEC
+cdt.br.			900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. Yz26n0uvtzQzLawARWW+Ix0NBCx0zGRcvDF8/CfXGgA4SVFK+wEbRvgK fOBJQEbgaXIb1Gkr1JzSNVT0Bch3gg==
+;; cedeteg.br.
+cedeteg.br.		3600	IN	NS	wire.cedeteg.br.
+cedeteg.br.		3600	IN	NS	jupiter.cedeteg.br.
+jupiter.cedeteg.br.	3600	IN	A	200.250.84.136
+wire.cedeteg.br.	3600	IN	A	200.250.84.135
+cedeteg.br.		900	IN	NSEC	ceef.br. NS RRSIG NSEC
+cedeteg.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. MkylNt9aiFpUX+s3m/hbcOkmYr2NbsnWt+HsvKGFUjSk+D5O71+F0l54 JKlnPcnP8xNpkuKAb++pSVUbVy3FwQ==
+;; ceef.br.
+ceef.br.		3600	IN	NS	curauia.fucapi.br.
+ceef.br.		3600	IN	NS	sucunduri.fucapi.br.
+ceef.br.		900	IN	NSEC	ceeteps.br. NS RRSIG NSEC
+ceef.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. WjrV/GiaDCbphKmuHU32dzQX4us/bnVevr6pVuqogww4SWFtjnnO/D89 LfwOnHe0T1FnOs/yai+FhCuoesvX8Q==
+;; ceeteps.br.
+ceeteps.br.		3600	IN	NS	ns2.terraempresas.com.br.
+ceeteps.br.		3600	IN	NS	ns3.terraempresas.com.br.
+ceeteps.br.		900	IN	NSEC	cefac.br. NS RRSIG NSEC
+ceeteps.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. R+Qa0AS9307kI7dcLXj5RGt0VW4hQS7f/MfMaBJhBf5rq26O0ZOjx9OX 7TLAkE3/HKZmuAwgtXBsGuHrunPpLA==
+;; cefal.br.
+cefal.br.		3600	IN	NS	ns1.redecompras.com.br.
+cefal.br.		3600	IN	NS	ns2.redecompras.com.br.
+cefal.br.		900	IN	NSEC	cefet.br. NS RRSIG NSEC
+cefal.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. xK4SHiYrvbnDiaxCG2TU8uQyNkEvlPP/nZWpcSiCOpQfSuANcaGxXlaY GBBDm172MVKHvzQ4M3+A/x6LwushNQ==
+;; cefet.br.
+cefet.br.		3600	IN	NS	fominha.ifba.edu.br.
+cefet.br.		3600	IN	NS	falador.ifba.edu.br.
+cefet.br.		900	IN	NSEC	cefet-al.br. NS RRSIG NSEC
+cefet.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 1Jc5G1F+WBmZr+YlhURd9kW8QPu0tSeEGvvoifN+LSSCkBeUdhNzr9J9 iINrCtDD1hN0GwGLfsYyuSX47xIUVA==
+;; cefet-ce.br.
+cefet-ce.br.		3600	IN	NS	ns1.ifce.edu.br.
+cefet-ce.br.		3600	IN	NS	ns2.ifce.edu.br.
+cefet-ce.br.		900	IN	NSEC	cefet-ma.br. NS RRSIG NSEC
+cefet-ce.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. skWVQkGDafNQGqAi7XiRxm6pWjHW3jUqItFOLITexBPNHHaijPuPfp2V S7959Uzd11NoU75whwWIxAk3VPGRsQ==
+;; cefet-ma.br.
+cefet-ma.br.		3600	IN	NS	ns1.cefet-ma.br.
+cefet-ma.br.		3600	IN	NS	ns2.cefet-ma.br.
+ns2.cefet-ma.br.	3600	IN	A	200.137.128.24
+ns1.cefet-ma.br.	3600	IN	A	200.137.128.4
+cefet-ma.br.		900	IN	NSEC	cefet-rj.br. NS RRSIG NSEC
+cefet-ma.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. SBC8z7EFChNK0niW83rFd0oZJ8kZy/VsjMchFf+ldt5P5uXqUK4U9pZL DpceYmhu0G/5KoB9LeIYX50Qn+/GQA==
+;; cefet-rn.br.
+cefet-rn.br.		3600	IN	NS	ns2.cefet-rn.br.
+cefet-rn.br.		3600	IN	NS	ns1.cefet-rn.br.
+ns2.cefet-rn.br.	3600	IN	A	200.137.1.172
+ns1.cefet-rn.br.	3600	IN	A	200.137.1.171
+cefet-rn.br.		900	IN	NSEC	cefetal.br. NS RRSIG NSEC
+cefet-rn.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. jIDn/p/RtaGWjt55EnK9pVohyw8LMcAGhfV14/VshuURVFWunnYjW/DT ZUV4yhD0TM48midiEqwqVD2B8nMgcQ==
+;; cefetba.br.
+cefetba.br.		3600	IN	NS	fominha.ifba.edu.br.
+cefetba.br.		3600	IN	NS	falador.ifba.edu.br.
+cefetba.br.		900	IN	NSEC	cefetcampos.br. NS RRSIG NSEC
+cefetba.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. SVw0W2MoAT3l+zLWUg5EWu07/VDP//83+YFkE9DMT4dNNlx/zZ8xnxEb PcLIcXwWj1VhcwapzH5hTe5JqYjE5A==
+;; cefetce.br.
+cefetce.br.		3600	IN	NS	ns1.ifce.edu.br.
+cefetce.br.		3600	IN	NS	ns2.ifce.edu.br.
+cefetce.br.		900	IN	NSEC	cefeteq.br. NS RRSIG NSEC
+cefetce.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. r8K5zoEqc11w5FTn5PRNojS1in5Emxri1hj5Vb7ByJV1ncZJgBYmddC5 EdMMH4TtC0wAoIGjkvU0hJo/o/SQqQ==
+;; cefetpe.br.
+cefetpe.br.		3600	IN	NS	torre.pop-pe.rnp.br.
+cefetpe.br.		3600	IN	NS	smtp-gw.cefetpe.br.
+smtp-gw.cefetpe.br.	3600	IN	A	200.133.17.6
+cefetpe.br.		900	IN	NSEC	cefetpet.br. NS RRSIG NSEC
+cefetpe.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. Yr0m8pZ8iuLrBqr5Q/HRFBNkcO/sKbYrfnOmt2krdAORw1S4r9gMiXf7 Ipv6FWJgc4LD9nJZGEvzhOqMcLH3Ew==
+;; cefetpet.br.
+cefetpet.br.		3600	IN	NS	sol.cefetpet.br.
+cefetpet.br.		3600	IN	NS	rosa.pop-pe.rnp.br.
+sol.cefetpet.br.	3600	IN	A	200.133.4.1
+cefetpet.br.		900	IN	NSEC	cefetpi.br. NS RRSIG NSEC
+cefetpet.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. l3DhGSdZ5z3pPUMwPX7Ea2EsejhIenfqAZXDKEW0e3yT+I4EbIUOyvLT TFXYmeNo79gUpLj3TH4zHdxqD8AQOw==
+;; cefetpi.br.
+cefetpi.br.		3600	IN	NS	dns2.cefetpi.br.
+cefetpi.br.		3600	IN	NS	dns1.cefetpi.br.
+dns2.cefetpi.br.	3600	IN	A	200.137.171.22
+dns1.cefetpi.br.	3600	IN	A	200.137.171.21
+cefetpi.br.		900	IN	NSEC	cefetpr.br. NS RRSIG NSEC
+cefetpi.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. bxugfbWrDERp+kOm4JqNg4Y57hWaLMcKVOtUkH1+nGVSz8z3jL1HRM15 Gqn70rAgplL8xpO7ToM/0mtDFRptmw==
+;; cefetpr-unedcp.br.
+cefetpr-unedcp.br.	3600	IN	NS	beta.cefetpr-unedcp.br.
+cefetpr-unedcp.br.	3600	IN	NS	trigo.sercomtel.com.br.
+beta.cefetpr-unedcp.br.	3600	IN	A	200.250.18.178
+cefetpr-unedcp.br.	900	IN	NSEC	cefetrn.br. NS RRSIG NSEC
+cefetpr-unedcp.br.	900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. RWqr4ZF2erk3BKB+c7QeAj5Mjl1VTpwcKRN99CQIlz6fi+bs0eBVZ7xx RB1GSpBHZCo7IiAv+jFEah+Lj8lh9g==
+;; cefetrn.br.
+cefetrn.br.		3600	IN	NS	ns2.cefetrn.br.
+cefetrn.br.		3600	IN	NS	ns1.cefetrn.br.
+ns2.cefetrn.br.		3600	IN	A	200.137.1.172
+ns1.cefetrn.br.		3600	IN	A	200.137.1.171
+cefetrn.br.		900	IN	NSEC	cefetsp.br. NS RRSIG NSEC
+cefetrn.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 3S3n9YRcdVc4L9Nm5fA94DDUo8OrDc/qZ3XVs8le6FS0azoqJu8JQ3w0 DYw9kJZ8fT5oKli0N9Jr+TI+1O5BPA==
+;; cem.br.
+cem.br.			3600	IN	NS	dns1.westhost.com.br.
+cem.br.			3600	IN	NS	dns2.westhost.com.br.
+cem.br.			900	IN	NSEC	cenaf.br. NS RRSIG NSEC
+cem.br.			900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. QdOEiVEfbtdnyPGS+J4w+nPR5iWxD9naqyqfhjFYPl6ORh+HO/zc8AcC Y1Xgx36Y+hnPxyQizwx/2E6HXKeRSA==
+;; cenapadne.br.
+cenapadne.br.		3600	IN	NS	oros.cenapad.ufc.br.
+cenapadne.br.		3600	IN	NS	taiba.ufc.br.
+taiba.ufc.br.		3600	IN	A	200.19.190.1
+taiba.ufc.br.		3600	IN	AAAA	2001:12f0:784::190:1
+cenapadne.br.		900	IN	NSEC	centrodecitricultura.br. NS RRSIG NSEC
+cenapadne.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. jbRFiQ1arbq+W39vKs3yDAkEmHvxEqBqyh5nGKNWTmgm84kGkdNQXve6 78QoykeadJpLOfJcm8lTi0HDkl4wPA==
+;; ceped.br.
+ceped.br.		3600	IN	NS	ns4.softhost.org.
+ceped.br.		3600	IN	NS	ns1.softhost.org.
+ceped.br.		3600	IN	NS	ns2.softhost.org.
+ceped.br.		3600	IN	NS	ns3.softhost.org.
+ceped.br.		900	IN	NSEC	cepel.br. NS RRSIG NSEC
+ceped.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. z4hzQZrfr0rIX95rTzGDb/djhSBy+RPW3qr64cruo4wYOzEfofh2zjI/ rZNOjSPGPtAgfeL5NAWLf/VqMFOrbQ==
+;; cesbb.br.
+cesbb.br.		3600	IN	NS	dns-web.terra.com.br.
+cesbb.br.		3600	IN	NS	ns.terraempresas.com.br.
+cesbb.br.		900	IN	NSEC	cesblu.br. NS RRSIG NSEC
+cesbb.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. YmS1QI//m3ZwO/cEnQXQt/5bihHfCt1tAGC6D3XBe+n1O3T58mZFak8h 8cAjKbQeGiI3HT8pGm6r683cL8Z/kQ==
+;; cesblu.br.
+cesblu.br.		3600	IN	NS	ns2.dinamocomunicacao.com.br.
+cesblu.br.		3600	IN	NS	ns1.dinamocomunicacao.com.br.
+cesblu.br.		900	IN	NSEC	cesc.br. NS RRSIG NSEC
+cesblu.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. NVAsNwt2lPihOdXtIY+72XW2yXMvGhQ/2Y5ywcslCApaLi8dzKfFS3Iv 3RqvM8ifHfzzV8J0rOC1gma2dufnYA==
+;; cesf.br.
+cesf.br.		3600	IN	NS	curauia.fucapi.br.
+cesf.br.		3600	IN	NS	sucunduri.fucapi.br.
+cesf.br.		900	IN	NSEC	cesjesuit.br. NS RRSIG NSEC
+cesf.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 6u8Nj5k9JTZhaBugkAkKPBMJljfw9SVOMqnFVSXHPt2AWWxZvZ8/3WLs zjd+JLI3a+48DxvprYXO1M1hOz06eQ==
+;; cesm.br.
+cesm.br.		3600	IN	NS	micro-srv.pontalnet.com.br.
+cesm.br.		3600	IN	NS	pegasus.cesm.br.
+pegasus.cesm.br.	3600	IN	A	200.210.229.135
+cesm.br.		900	IN	NSEC	cespri.br. NS RRSIG NSEC
+cesm.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. rqikswnKzgyJsIckUqwKR/c/PRLhHHhEZY2GE6z0Jkzoe8MklD+8yJBT eGEswdEz3bxyyrH7W+IcalOZzqX53w==
+;; ceu.br.
+ceu.br.			3600	IN	NS	ns2.ceu.br.
+ceu.br.			3600	IN	NS	ns1.ceu.br.
+ns2.ceu.br.		3600	IN	A	200.242.3.30
+ns1.ceu.br.		3600	IN	A	200.242.3.29
+ceu.br.			900	IN	NSEC	ceuasp.br. NS RRSIG NSEC
+ceu.br.			900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 3c8uYb9HCioGxjrYADx1m5pGYdA/h6i3svwe3zmezqCLIIU1aaayAR+D be3/3bVsdpYxa0Nzof21kamZMaWnwA==
+;; ceuasp.br.
+ceuasp.br.		3600	IN	NS	clarim.lai.iae-sp.br.
+ceuasp.br.		3600	IN	NS	ns1.iae-sp.br.
+ceuasp.br.		900	IN	NSEC	ceub.br. NS RRSIG NSEC
+ceuasp.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. u/kPeNNKqP12QaCnzoE7b4xDjJB9DucQ+XSP9MZ/teENF2iOs7QT0B7d D2g+mim2gpmkDVcp1JofANo8inWuWQ==
+;; champagnat.br.
+champagnat.br.		3600	IN	NS	vserv1.vsnet.com.br.
+champagnat.br.		3600	IN	NS	borg.vsnet.com.br.
+champagnat.br.		900	IN	NSEC	christus.br. NS RRSIG NSEC
+champagnat.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. ebmUuqFGJ3ISJD2J+g6WHnUS0uqOMDlEzvPutKt/UfDaaVyGm9L+7Uub 9TPZxseO8YC+M+0HJWowAnnhmRk5FQ==
+;; civi.br.
+civi.br.		3600	IN	NS	ns327.hostgator.com.br.
+civi.br.		3600	IN	NS	ns326.hostgator.com.br.
+civi.br.		900	IN	NSEC	claretianas.br. NS RRSIG NSEC
+civi.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 406ECVehHCxrIfW7eNqc48gDZTYPGKGMkggygrhj/3l44uEW0+Fscur2 oOaJ9MgAg4AC7COMRmV9E+i4McbOJQ==
+;; coldacidade.br.
+coldacidade.br.		3600	IN	NS	dns3.univercidade.br.
+coldacidade.br.		3600	IN	NS	dns.univercidade.br.
+coldacidade.br.		3600	IN	NS	dns2.univercidade.br.
+dns2.univercidade.br.	3600	IN	A	200.218.254.210
+dns.univercidade.br.	3600	IN	A	200.218.254.209
+coldacidade.br.		900	IN	NSEC	colegio-objetivo.br. NS RRSIG NSEC
+coldacidade.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. BlCVSb4d4uOBouCZ7lopq5FdvWlJccylJxUspaWOkT1TSkZUWkjfldu7 QrVWdUtDqmfrPBR8417NM+7ZEgK+UA==
+;; colegiodombosco.br.
+colegiodombosco.br.	3600	IN	NS	ns.colegiodombosco.br.
+colegiodombosco.br.	3600	IN	NS	ns1.ucdb.br.
+ns1.ucdb.br.		3600	IN	A	191.37.253.2
+ns.colegiodombosco.br.	3600	IN	A	45.182.17.187
+colegiodombosco.br.	900	IN	NSEC	colegionovoateneu.br. NS RRSIG NSEC
+colegiodombosco.br.	900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. mpuMdZGg9sICf0tfZEtiqwup8ZIqW6qrPss2F0UCvFEM1zgrxsjWE1Pv SQ2HwInMGv5hozMXFwIrmv7Sy6oPEw==
+;; compacto.br.
+compacto.br.		3600	IN	NS	ns3.terraempresas.com.br.
+compacto.br.		3600	IN	NS	ns2.terraempresas.com.br.
+compacto.br.		900	IN	NSEC	computacao.br. NS RRSIG NSEC
+compacto.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. ZCcIBCyNUVdXQmwWTBHSA5C1NGvyyN7UqDmjDqY8aY0yWCO3gmLVeYXo 6zDeBJbJTH3ZiONmGKWW3Gbh+GiDlQ==
+;; cpsc.br.
+cpsc.br.		3600	IN	NS	ns2.nossosite.com.br.
+cpsc.br.		3600	IN	NS	ns1.nossosite.com.br.
+cpsc.br.		900	IN	NSEC	creupi.br. NS RRSIG NSEC
+cpsc.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 8cj2TdYP6POpbASoE6XjP/kJPDwcnKBqkfZ/PxfQT3pMYYFuLC2W850X NW75c31N0BPxsmqGZ2mGzTvHixDF7w==
+;; csgempreender.br.
+csgempreender.br.	3600	IN	NS	lambari.csgempreender.br.
+csgempreender.br.	3600	IN	NS	tucunare.csgempreender.br.
+tucunare.csgempreender.br. 3600	IN	A	200.250.141.180
+lambari.csgempreender.br. 3600	IN	A	200.250.141.179
+csgempreender.br.	900	IN	NSEC	cta.br. NS RRSIG NSEC
+csgempreender.br.	900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. VFrOT0KK0DOk2GcD7SvV1Cvug5Aoe+rr5GIZWWYYbHTHJtef6FQPkO1i ag42wz9dB07hjKz2YaOqxAF40pCaiQ==
+;; davinci.br.
+davinci.br.		3600	IN	NS	hosts.zeronet.com.br.
+davinci.br.		3600	IN	NS	zeronet.com.br.
+davinci.br.		900	IN	NSEC	def.br. NS RRSIG NSEC
+davinci.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. zFrdzKv2RAxLLqX7wJKKHTNf+k3HOiGF8xRbtCm4lLmb2dhrS+xhSTEF UnQGPj2t/AWM9ZvVSdCTf5WWJKlrGw==
+;; domotonmota.br.
+domotonmota.br.		3600	IN	NS	dns3.digiweb.com.br.
+domotonmota.br.		3600	IN	NS	dns1.digiweb.com.br.
+domotonmota.br.		3600	IN	NS	dns2.digiweb.com.br.
+domotonmota.br.		3600	IN	NS	dns4.digiweb.com.br.
+domotonmota.br.		900	IN	NSEC	domus.br. NS RRSIG NSEC
+domotonmota.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. a44IGdkJBY5vzHa34DNp83w3zrAixmVcCcYPaoR6vcFl4deU511SE3Hg 2L3213IO6TO3nkXfpe1IJb9xllGRXw==
+;; domus.br.
+domus.br.		3600	IN	NS	dns2.brasilis.com.br.
+domus.br.		3600	IN	NS	ns1.pdtech.com.br.
+domus.br.		900	IN	NSEC	dourados.br. NS RRSIG NSEC
+domus.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. I47bXh4Z+Wv9YJ5yttfE6CXfGMLKyNHxtDTOA+/rJ5Pu1n9vyGm7DPON klT3du0dy0RWjQBMNP+oSCvq+nN8HA==
+;; e-business.br.
+e-business.br.		3600	IN	NS	universite.coppead.ufrj.br.
+e-business.br.		3600	IN	NS	scott.coppead.ufrj.br.
+e-business.br.		900	IN	NSEC	e-campus.br. NS RRSIG NSEC
+e-business.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. YCqkVfOsXq79Hk3cBw7Y6UFMCfaeSaRnKPWuU5WK9gxXDqZpqeD93K+D Yu8JSm0/Ib3qBRXOZ41uvGQpsy3TBg==
+;; e-campus.br.
+e-campus.br.		3600	IN	NS	dns01.anhembi.br.
+e-campus.br.		3600	IN	NS	dns4.anhembi.br.
+e-campus.br.		900	IN	NSEC	e-senac.br. NS RRSIG NSEC
+e-campus.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. BccqdxZfw8ZPTfj4s40mLzDTYHs97SxRT86BRdcNTpJ0l2r4vNQRNXKt zhj3H+5qEGhZnVwOyWA62Js4ZLbXqg==
+;; ecmal.br.
+ecmal.br.		3600	IN	NS	hand.uncisal.edu.br.
+ecmal.br.		3600	IN	NS	trunk.uncisal.edu.br.
+ecmal.br.		900	IN	NSEC	ecn.br. NS RRSIG NSEC
+ecmal.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. HIII6meAhD9IMT0RUttFXfr8HL6v20UAFfbR+QXpGpwt5cjBnRxKnK3t sIQ4sRIBVziHOu1V3E2f15ol7mfNvw==
+;; educad.br.
+educad.br.		3600	IN	NS	ns1.cwbservers.com.
+educad.br.		3600	IN	NS	ns2.cwbservers.com.
+educad.br.		900	IN	NSEC	educanet.br. NS RRSIG NSEC
+educad.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. rYySnENzK0yni2MoBO2NutaJnZb/LhiY4MOvLOQAziHsuEcA3862n1tA zv+2vXzsG+2c//EQPCATadZhsn9IvQ==
+;; educanet.br.
+educanet.br.		3600	IN	NS	fominha.ifba.edu.br.
+educanet.br.		3600	IN	NS	falador.ifba.edu.br.
+educanet.br.		900	IN	NSEC	eduroam.br. NS RRSIG NSEC
+educanet.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. dkQu47xebxU3nW2yQxqx6lhWyB7p9pACsh53EgMVWlMLEUWwhOO+s1Af MrhXH8uw3U0MZnscogEByIrGYt67kw==
+;; efei.br.
+efei.br.		3600	IN	NS	jupiter.unifei.edu.br.
+efei.br.		3600	IN	NS	atlas.unifei.edu.br.
+efei.br.		3600	IN	NS	ns.pop-mg.rnp.br.
+efei.br.		900	IN	NSEC	efoa.br. NS RRSIG NSEC
+efei.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 89MEoVlarCH9gqv4NRqOC2Bh19Djmo5J0vwU81kdrrxl0GodfgH6V8EZ P5pcP+J5FzShl/M/DxLWTT0ZcKVG5A==
+;; emparn.br.
+emparn.br.		3600	IN	NS	zeus.pop-rn.rnp.br.
+emparn.br.		3600	IN	NS	sertao.emparn.br.
+sertao.emparn.br.	3600	IN	A	200.17.142.1
+;; en-rede.br.
+en-rede.br.		3600	IN	NS	dns4.anhembi.br.
+en-rede.br.		3600	IN	NS	dns01.anhembi.br.
+en-rede.br.		900	IN	NSEC	enf.br. NS RRSIG NSEC
+en-rede.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 9l8XsHLnPLdo4x2+Xuw65yXFV5Lhw67dCbmfoNQYYu1dkH1GvS6oghPW 1MaN90orkj0nRBh8YSE8GZ+V2IYxMQ==
+;; enternauniversidade.br.
+enternauniversidade.br.	3600	IN	NS	ns2.univali.br.
+enternauniversidade.br.	3600	IN	NS	ns1.univali.br.
+ns2.univali.br.		3600	IN	A	200.169.52.5
+ns1.univali.br.		3600	IN	A	200.169.52.4
+enternauniversidade.br.	900	IN	NSEC	epamig.br. NS RRSIG NSEC
+enternauniversidade.br.	900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 6mVLXNBO1NLBLkijTtAh6Lcwf+4OjRRkSUgOVpRo7hUwA5M/gl5Sg6Na huxb1lFQJDkNszX0yjZbtwm+7Y1gxg==
+;; esa-etica.br.
+esa-etica.br.		3600	IN	NS	bart.gvi.com.br.
+esa-etica.br.		3600	IN	NS	lisa.gvi.com.br.
+esa-etica.br.		900	IN	NSEC	esam.br. NS RRSIG NSEC
+esa-etica.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. narQ2Yk2+lzd/r5Jo97io0axFcmpicPLz6axDkxm+7QUn3bN/a2pxn/H Rkjx0plJkVemOsDkVu8UG26gKf3+nA==
+;; esam.br.
+esam.br.		3600	IN	NS	agroweb.ufersa.edu.br.
+esam.br.		3600	IN	NS	agroweb2.ufersa.edu.br.
+esam.br.		900	IN	NSEC	esamc.br. NS RRSIG NSEC
+esam.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. P/mzFQeyqAfnAPPqYBUnQmQhssjFZe+LDPX+xSTAN+KS+p3Jy6EYPdGl TgAhNyI1NfgiiiktmPEiXjrQ/9Hwcg==
+;; escolatotal.br.
+escolatotal.br.		3600	IN	NS	ns1.studioserver.com.br.
+escolatotal.br.		3600	IN	NS	ns2.studioserver.com.br.
+escolatotal.br.		900	IN	NSEC	esef.br. NS RRSIG NSEC
+escolatotal.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. Ha9ypbMPo71ofx9iQYolq/Ye+W1R4zAvqsk91fwaAjvD1gVwydj4af7r tBeZQoW9JfDWQsEQGFJ1MriR8cj4xA==
+;; esefic.br.
+esefic.br.		3600	IN	NS	ns1.bighost.com.br.
+esefic.br.		3600	IN	NS	ns2.bighost.com.br.
+esefic.br.		900	IN	NSEC	esg.br. NS RRSIG NSEC
+esefic.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. Pmd249UhCZ6TjkYvkOj48ao6iy+dLSYTGf15nU/AgEXtrHq/NhRwZ6I+ z6ZPFPvDaRVLUyEkLFHxhbgwIPIOgw==
+;; etfce.br.
+etfce.br.		3600	IN	NS	ns1.ifce.edu.br.
+etfce.br.		3600	IN	NS	ns2.ifce.edu.br.
+etfce.br.		900	IN	NSEC	etfes.br. NS RRSIG NSEC
+etfce.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. t1W2DwU61VlM4w5WceAkMPT+f/pB6Uw5LG4tI3cOlQbXtjPz4Kt9m5oK 3fjizHMlePT1A/+/2VjaLOeV7r+T3Q==
+;; etfse.br.
+etfse.br.		3600	IN	NS	texas.etfse.br.
+etfse.br.		3600	IN	NS	ohio.etfse.br.
+texas.etfse.br.		3600	IN	A	200.241.61.3
+ohio.etfse.br.		3600	IN	A	200.241.61.5
+etfse.br.		900	IN	NSEC	eti.br. NS RRSIG NSEC
+etfse.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. akg6xxuCoUv11eUJoncxewKReuUkOQtkMDYcXBols4IPmF2cvMIZVy4+ mai6JFMDox1o6ChhAqfIzYlh0quEVA==
+;; etn.br.
+etn.br.			3600	IN	NS	avsete.fst.com.br.
+etn.br.			3600	IN	NS	candelaria.fst.com.br.
+etn.br.			900	IN	NSEC	euniban.br. NS RRSIG NSEC
+etn.br.			900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. teeycbtwdOvEyUnje6h6dbf/vsifIC87Ot0neYtimR3SZEjSVMYjpVzd LD1FCHU6XeXAhbux5nz3vELs5R3FTA==
+;; fac-objetivomao.br.
+fac-objetivomao.br.	3600	IN	NS	corvo.objetivomao.br.
+fac-objetivomao.br.	3600	IN	NS	quimica.objetivomao.br.
+fac-objetivomao.br.	900	IN	NSEC	facab.br. NS RRSIG NSEC
+fac-objetivomao.br.	900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 2DHBAwRfAIO4CaHyYU44L8Rx5/2qxY0xcMu+4/23aODvDA8holgRdNEq a3rH2TAjPlUyMW1DdYhqMqkgfe0lZA==
+;; faccaa.br.
+faccaa.br.		3600	IN	NS	server1.hospedaria.com.br.
+faccaa.br.		3600	IN	NS	server2.hospedaria.com.br.
+faccaa.br.		900	IN	NSEC	faccamp.br. NS RRSIG NSEC
+faccaa.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. bq3J+vT6fmUCm6jOcep4mYO3wu/JNylooXy4vbbWoC4OrU53Svz6+Y9c ZyM//ITT++5/lQayvIXHWk22tsqCTA==
+;; facdacidade.br.
+facdacidade.br.		3600	IN	NS	dns2.univercidade.br.
+facdacidade.br.		3600	IN	NS	dns.univercidade.br.
+dns2.univercidade.br.	3600	IN	A	200.218.254.210
+dns.univercidade.br.	3600	IN	A	200.218.254.209
+facdacidade.br.		900	IN	NSEC	facdomus.br. NS RRSIG NSEC
+facdacidade.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. wESnksCSON8iUWWYvghJ3wVzK5GoitOgSHz5wCbxbxW2Bh4GlISxi5/5 08cEPdCuLL0j9yUCQiHSc1SZOT7ltg==
+;; facdomus.br.
+facdomus.br.		3600	IN	NS	ns3.frsp.g12.br.
+facdomus.br.		3600	IN	NS	ns2.frsp.g12.br.
+facdomus.br.		3600	IN	NS	ns1.frsp.g12.br.
+facdomus.br.		900	IN	NSEC	face.br. NS RRSIG NSEC
+facdomus.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. EBdON+UypvUD5Y15nNb9M/z230b9j84fOCbFCF8103ok1uHxqRA3yjlU rq97kQ1g/8oTOcva6+5ao/71c4rOdA==
+;; faceac.br.
+faceac.br.		3600	IN	NS	fw.paraisonet.com.br.
+faceac.br.		3600	IN	NS	ns.paraisonet.com.br.
+faceac.br.		900	IN	NSEC	faceca.br. NS RRSIG NSEC
+faceac.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. fhfnGReIM48e6RoDObIU+GtrVjMbwXGhUbDJjGHmUqvHgFy3eLyopE1X aZxh31ywhQneAiNNUfy43tbSIGZTIg==
+;; facesp.br.
+facesp.br.		3600	IN	NS	easydns2.dualtec.com.br.
+facesp.br.		3600	IN	NS	easydns1.dualtec.com.br.
+facesp.br.		900	IN	NSEC	facet.br. NS RRSIG NSEC
+facesp.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. XowrZhrhoYGVre3x2ybEVaxsvI+5SH8VoNHal7tLslJDpVp+bm92/JIx E8qluGDHXeg9/d1+9Bq+PReYs1IEzA==
+;; facnec-ita.br.
+facnec-ita.br.		3600	IN	NS	ns3.icontrole.net.
+facnec-ita.br.		3600	IN	NS	ns1.icontrole.net.
+facnec-ita.br.		3600	IN	NS	ns2.icontrole.net.
+facnec-ita.br.		900	IN	NSEC	facol.br. NS RRSIG NSEC
+facnec-ita.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. X2ouJXg2ffyfbvRHH3BCtsoovDCeliJ5dwK7LUY6BznYBCKGh+0HG4ak ka1+H4XtqrYkCGYt5M1eLCMF4pISbg==
+;; facrei.br.
+facrei.br.		3600	IN	NS	ns2.facrei.br.
+facrei.br.		3600	IN	NS	ns1.facrei.br.
+ns2.facrei.br.		3600	IN	A	200.155.164.21
+ns1.facrei.br.		3600	IN	A	200.142.148.44
+facrei.br.		900	IN	NSEC	facs.br. NS RRSIG NSEC
+facrei.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. GBV/8JFD4NRPtwMyxybKrZXD6da0G7DkeUr/qMz8oS9y/EP/AQ3dCZAc 42GtsKr5DBqBr6SZl+uKu5UCQkFs/Q==
+;; facsantana.br.
+facsantana.br.		3600	IN	NS	ns327.hostgator.com.br.
+facsantana.br.		3600	IN	NS	ns326.hostgator.com.br.
+facsantana.br.		900	IN	NSEC	facsantanna.br. NS RRSIG NSEC
+facsantana.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. WhBHLjcydELg4XtciJ/xk/194SUcJmcuXqNBc7s57nwXM+bhaxQGfK0+ XVGCK9ShnBnLNIz/8y84H3S1xRSKMw==
+;; facsantanna.br.
+facsantanna.br.		3600	IN	NS	ns327.hostgator.com.br.
+facsantanna.br.		3600	IN	NS	ns326.hostgator.com.br.
+facsantanna.br.		900	IN	NSEC	facsaoluis.br. NS RRSIG NSEC
+facsantanna.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. RIuGoEnsaI5UQVibXNtlN64FaM03zR4NbJaGYvWe/RiCNO0EQmcOIVQw ccDIt6wBG+3sm5qsQPuEkgccmxsdsA==
+;; facsaoluis.br.
+facsaoluis.br.		3600	IN	NS	ns2.shap.com.br.
+facsaoluis.br.		3600	IN	NS	ns1.shap.com.br.
+facsaoluis.br.		900	IN	NSEC	facsaoroque.br. NS RRSIG NSEC
+facsaoluis.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. KyHgzsC1H/S6PxuLULClSrtFZ3XkS9oPkYDOcwW9pya8cgFoYApMJsG3 d5T4syROOUBiNvC8Jwjcfu3BkU3Gvg==
+;; faculdadealfacastelo.br.
+faculdadealfacastelo.br. 3600	IN	NS	dns01.totalwork.com.br.
+faculdadealfacastelo.br. 3600	IN	NS	dns02.totalwork.com.br.
+faculdadealfacastelo.br. 900	IN	NSEC	faculdadebatista.br. NS RRSIG NSEC
+faculdadealfacastelo.br. 900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 1VdPEKmv3tmw1R7YPzU1ydjk68zsYqaLGjoY1dYGgmn7HuhZ1cWnCyjR fKMJmHjJcKJIhvrQpnT66yETa3d2hg==
+;; faculdadenacional.br.
+faculdadenacional.br.	3600	IN	NS	ns2.escelsa.com.br.
+faculdadenacional.br.	3600	IN	NS	ns.faculdadenacional.br.
+ns.faculdadenacional.br. 3600	IN	A	200.242.30.253
+faculdadenacional.br.	900	IN	NSEC	faculdadepaulistana.br. NS RRSIG NSEC
+faculdadenacional.br.	900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 7HJXYr/gVlwPyZcRg8HTpMoAizEUUxerT6D2esgZPlMF3LEI5GP4PJ8q uJX6lHmcIz+NW9eBQ97RLQ1gREXrVg==
+;; faculdadepentagono.br.
+faculdadepentagono.br.	3600	IN	NS	perdizes.pentagono.br.
+faculdadepentagono.br.	3600	IN	NS	fly.pentagono.br.
+perdizes.pentagono.br.	3600	IN	A	200.230.252.16
+fly.pentagono.br.	3600	IN	A	200.230.252.5
+faculdadepentagono.br.	900	IN	NSEC	faculdadepromove.br. NS RRSIG NSEC
+faculdadepentagono.br.	900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. jzanerogYu1UcNjtut/e/Mn0YpEcd0RWhAz5MU+Zf3kc+GpMOiF41U+Q KltG9+rxBSy4oUCGDBCkURhJU2jzLQ==
+;; faculdadesantamarta.br.
+faculdadesantamarta.br.	3600	IN	NS	ns3.paintweb.com.br.
+faculdadesantamarta.br.	3600	IN	NS	ns4.paintweb.com.br.
+faculdadesantamarta.br.	900	IN	NSEC	faculdadesantana.br. NS RRSIG NSEC
+faculdadesantamarta.br.	900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. xoj8MuWRX5Uqp3/Zfbv51BeMENg3q2XsCDM+/0EYcWPWNFqWGdyjcvGa XSja9/66o/roNTBRTDYw2kWcIgBSlw==
+;; faculdadesantana.br.
+faculdadesantana.br.	3600	IN	NS	ns326.hostgator.com.br.
+faculdadesantana.br.	3600	IN	NS	ns327.hostgator.com.br.
+faculdadesantana.br.	900	IN	NSEC	faculdadesantanna.br. NS RRSIG NSEC
+faculdadesantana.br.	900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 73l3Hssu72taqu7WzioKR4dZnNIPI2681+XidJ1KPB42zTZ2Y36csMdU dHnxqYJ/M3UxrPYpOITbO8lAOq5cmQ==
+;; faculdadesantanna.br.
+faculdadesantanna.br.	3600	IN	NS	ns326.hostgator.com.br.
+faculdadesantanna.br.	3600	IN	NS	ns327.hostgator.com.br.
+faculdadesantanna.br.	900	IN	NSEC	faculdadesaoluis.br. NS RRSIG NSEC
+faculdadesantanna.br.	900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. d5rnl07vSbwPzl1Xbol1zuHR1DCGRmF0UVTB9zhVIWdxaLLx8I/2lgJK +TaYcf09UTVuOxh9SrpDB/eHB50fWQ==
+;; faculdadesaoluis.br.
+faculdadesaoluis.br.	3600	IN	NS	ns1.plugin.com.br.
+faculdadesaoluis.br.	3600	IN	NS	ns2.plugin.com.br.
+faculdadesaoluis.br.	900	IN	NSEC	faculdadescuritiba.br. NS RRSIG NSEC
+faculdadesaoluis.br.	900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. LJT9Y1vUVGatc05GbTScI1UC2pmTTAADqPh1iIka73iZkyBU2PKkfe3y ACj7h8Vfhi8h1FsGOi7HcP9KhfOIEQ==
+;; faculdadescuritiba.br.
+faculdadescuritiba.br.	3600	IN	NS	omega.aena.br.
+faculdadescuritiba.br.	3600	IN	NS	alfa.aena.br.
+faculdadescuritiba.br.	900	IN	NSEC	faculdadesdomus.br. NS RRSIG NSEC
+faculdadescuritiba.br.	900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. v2drI8RIrMmcaW5hKrl14NpwHYbUt2Yf8Q5UTcbPsfrnhtqB0ROFnN0I gsxcH7mCxPC0wyQvZ9mTHJbTqAJ2Bg==
+;; faculdadesdomus.br.
+faculdadesdomus.br.	3600	IN	NS	ns1.frsp.g12.br.
+faculdadesdomus.br.	3600	IN	NS	ns3.frsp.g12.br.
+faculdadesdomus.br.	3600	IN	NS	ns2.frsp.g12.br.
+faculdadesdomus.br.	900	IN	NSEC	faculdadeselviria.br. NS RRSIG NSEC
+faculdadesdomus.br.	900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. KOOGxPel5iAyHiBsSHDCYVgslHDBXAIH4xWeGXYlZToAgXR0ia9qILlA loq5QiQLY8MlOA/6QY5QXwMEQuKgig==
+;; faculdadeselviria.br.
+faculdadeselviria.br.	3600	IN	NS	ns.embratel.net.br.
+faculdadeselviria.br.	3600	IN	NS	ns2.embratel.net.br.
+faculdadeselviria.br.	900	IN	NSEC	faculdadesguarapuava.br. NS RRSIG NSEC
+faculdadeselviria.br.	900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 1SkDx5UYRAESEQZ7wVHUppH+QKnFDbUQlWrsn7CBARFTOcNncaJpQ+oi uSp97xOspkHZYSr0Gt5kYmXmgm36JA==
+;; faculdadesguarapuava.br.
+faculdadesguarapuava.br. 3600	IN	NS	ns2.seletiva.com.
+faculdadesguarapuava.br. 3600	IN	NS	ns1.seletiva.com.
+faculdadesguarapuava.br. 900	IN	NSEC	faculdadesmachadodeassis.br. NS RRSIG NSEC
+faculdadesguarapuava.br. 900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. MPChli9wFqfOSf28d5UJiGovpcQKOhda44gsIp48mBX0Now7N3CrwzlR zEqA3fF3mhJyDxrbsq8KxS42HaKuKQ==
+;; faculdadesmachadodeassis.br.
+faculdadesmachadodeassis.br. 3600 IN	NS	dns1.digiweb.com.br.
+faculdadesmachadodeassis.br. 3600 IN	NS	dns4.digiweb.com.br.
+faculdadesmachadodeassis.br. 3600 IN	NS	dns3.digiweb.com.br.
+faculdadesmachadodeassis.br. 3600 IN	NS	dns2.digiweb.com.br.
+faculdadesmachadodeassis.br. 900 IN	NSEC	faculdadesmaringa.br. NS RRSIG NSEC
+faculdadesmachadodeassis.br. 900 IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 7yDELBe4YN+qnJbc1Q1Vn1XRbCrfBGxg9VPGViU7n6sx4NDnSWzH1w6D t895GSEX6+fnE4dkLqAvFES7brRqsg==
+;; fad.br.
+fad.br.			3600	IN	NS	ns3.datatop.com.br.
+fad.br.			3600	IN	NS	ns2.datatop.com.br.
+fad.br.			3600	IN	NS	ns1.datatop.com.br.
+fad.br.			3600	IN	NS	ns4.datatop.com.br.
+fad.br.			900	IN	NSEC	fadap.br. NS RRSIG NSEC
+fad.br.			900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. whOPadNuEna3H1Yt4zpNkRnNA3b9XmCH144CIYTgz8ApQCSGfl2wJfJo cjkWww27tbn7algeLLmSWJf3Y82iYQ==
+;; fadica-foc.br.
+fadica-foc.br.		3600	IN	NS	ns1.asces.edu.br.
+fadica-foc.br.		3600	IN	NS	ns2.asces.edu.br.
+fadica-foc.br.		900	IN	NSEC	fadipa.br. NS RRSIG NSEC
+fadica-foc.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 0yHc9hIKdKSq/iUsQ8vcxWr6PedscMwqWakV+N2S17tjYwOGZsU+lRQt p1iNmOpu9JcqJJUIgDQPHGrSdZzvUQ==
+;; fadom.br.
+fadom.br.		3600	IN	NS	cache.fadom.br.
+fadom.br.		3600	IN	NS	server.fadom.br.
+server.fadom.br.	3600	IN	A	200.214.145.130
+cache.fadom.br.		3600	IN	A	200.214.145.132
+fadom.br.		900	IN	NSEC	fae.br. NS RRSIG NSEC
+fadom.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. mXwUsvaEwX/O3+vZIIj5u4CjWwjHYx5E2qZz0avk31uGk6B/2QlF1f4l as4EXDHKZ82OCwekCyocMw/96/ePtA==
+;; faefija.br.
+faefija.br.		3600	IN	NS	ns1.intranetparana.br.
+faefija.br.		3600	IN	NS	jcr20-pdc.faefija.br.
+jcr20-pdc.faefija.br.	3600	IN	A	200.201.23.20
+ns1.intranetparana.br.	3600	IN	A	200.201.0.25
+faefija.br.		900	IN	NSEC	faenquil.br. NS RRSIG NSEC
+faefija.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. f0crAq3gV7LKS0/w3N+uY2946PflPGzruLDgDBdhEHaID4ZxlZleq0Rz gdn/8Mw7gd7PrviXHPEuDsdiLNlcXg==
+;; faenquil.br.
+faenquil.br.		3600	IN	NS	finger.faenquil.br.
+faenquil.br.		3600	IN	NS	netra.faenquil.br.
+finger.faenquil.br.	3600	IN	A	143.107.118.87
+netra.faenquil.br.	3600	IN	A	143.107.118.5
+faenquil.br.		900	IN	NSEC	faepa.br. NS RRSIG NSEC
+faenquil.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. Ack7nb8fb1pkP7TxFv6Y55agwbi0kjlegE9ExZrYoZSUTyjfITyufsZH YiSfr/C/3udZXticymvNGi3eMp+lzw==
+;; fafeod.br.
+fafeod.br.		3600	IN	NS	ns2.ufvjm.edu.br.
+fafeod.br.		3600	IN	NS	ns.ufvjm.edu.br.
+fafeod.br.		21600	IN	A	200.131.252.28
+www.fafeod.br.		21600	IN	A	200.131.252.28
+fafeod.br.		900	IN	NSEC	fafibe.br. NS RRSIG NSEC
+fafeod.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. aqJp+IYh/QCrB51X2NKb7e0ZMNVI7+gl7rMHgo6J8uqNuEDkYTQf0Sq2 pJNcH3MfaBE1RrLEP+PIQ73GaWnbuA==
+;; fafice.br.
+fafice.br.		3600	IN	NS	dns.fafice.br.
+fafice.br.		3600	IN	NS	ns1.telemar-mg.net.br.
+dns.fafice.br.		3600	IN	A	200.195.66.242
+fafice.br.		900	IN	NSEC	faficop.br. NS RRSIG NSEC
+fafice.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 1X0iZZb9I3g/bPfQizPq1bJCPdUfqkVVkNVxn/1b/lIYpPLyKGekj5yy b4/XceTmUVALHfHtM6/j0Hml0RTBEQ==
+;; faficop.br.
+faficop.br.		3600	IN	NS	ramses.uenp.edu.br.
+faficop.br.		3600	IN	NS	zeus.uenp.edu.br.
+faficop.br.		900	IN	NSEC	faficp.br. NS RRSIG NSEC
+faficop.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. jgBo0kPipEgSdm9F7tAGEGUH/kx5wR+ql2yAhjtRtlHwTVsY/fH4jtYn FnUsUrYIBjVAX3c7DSl/87v1OVktPg==
+;; faficp.br.
+faficp.br.		3600	IN	NS	ramses.uenp.edu.br.
+faficp.br.		3600	IN	NS	zeus.uenp.edu.br.
+faficp.br.		900	IN	NSEC	faficre.br. NS RRSIG NSEC
+faficp.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. t5DeICYqGir0mhbHdgbyGDXRm+NDXtG7ZzuF6re9XWX8LkUV77uBNil7 f0PgHVVEeL4hPSjsN7BHRyCDLX0k7g==
+;; faficre.br.
+faficre.br.		3600	IN	NS	ns2.inova.com.br.
+faficre.br.		3600	IN	NS	ns1.inova.com.br.
+faficre.br.		900	IN	NSEC	fafija.br. NS RRSIG NSEC
+faficre.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. MJvyeGGgLlO4Luw9pgb9kpcj3bz5eC5bnVWsw29zHPbygDdkiwyE+iK6 k25/bq6znFvKcvnXJU5uy9OCNDEqrQ==
+;; fafija.br.
+fafija.br.		3600	IN	NS	ns1.intranetparana.br.
+fafija.br.		3600	IN	NS	ns1.fafija.br.
+ns1.intranetparana.br.	3600	IN	A	200.201.0.25
+ns1.fafija.br.		3600	IN	A	200.201.18.20
+fafija.br.		900	IN	NSEC	fafijan.br. NS RRSIG NSEC
+fafija.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. HVNuGEfq+jNbhvvo9iUTO7otT87zqUmVVndb3RyrVUZhDO4EXbNr3HwV jZxc4WQ26GpPg2iYpk2FdXX9C+fF/g==
+;; fafipar.br.
+fafipar.br.		3600	IN	NS	ns2.fafipar.br.
+fafipar.br.		3600	IN	NS	ns1.fafipar.br.
+ns2.fafipar.br.		3600	IN	A	177.220.169.213
+ns1.fafipar.br.		3600	IN	A	177.220.169.210
+fafipar.br.		900	IN	NSEC	fafire.br. NS RRSIG NSEC
+fafipar.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. iFlroPNZpS8Skat+7TswaDn9vu4ubm3zHgJQXBylr5CBFMrspGzCgZXP cuFOihNsCYV+DPPOiG/okdIVGqoj6g==
+;; fafiuv.br.
+fafiuv.br.		3600	IN	NS	slavew.fafiuv.br.
+fafiuv.br.		3600	IN	NS	servidore.fafiuv.br.
+servidore.fafiuv.br.	3600	IN	A	200.150.115.243
+slavew.fafiuv.br.	3600	IN	A	200.150.115.242
+fafiuv.br.		900	IN	NSEC	fagoc.br. NS RRSIG NSEC
+fafiuv.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. OnZ8GUjcuBu9MVTg3Tt5DLwA+BMvWm7sHLMpwJJPMqYd40AgIeRPhFnD M/R/AIvS5O6Joi6ihBk7VdKshSCY6A==
+;; fal.br.
+fal.br.			3600	IN	NS	ns1.estacio.br.
+fal.br.			3600	IN	NS	ns2.estacio.br.
+fal.br.			900	IN	NSEC	falec.br. NS RRSIG NSEC
+fal.br.			900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. eGCYYyWPf9+1OZb5nUVtvV80Zns3lhkd9OqtTteQ+bMLOdrsdg85dg9z 25LB/X28xOgmHYKaZn9oCP+/7FdXDQ==
+;; famanet.br.
+famanet.br.		3600	IN	NS	ns1.locaweb.com.br.
+famanet.br.		3600	IN	NS	ns2.locaweb.com.br.
+famanet.br.		3600	IN	NS	ns3.locaweb.com.br.
+famanet.br.		3600	IN	A	186.202.157.79
+famanet.br.		3600	IN	MX	10 mx.b.locaweb.com.br.
+famanet.br.		3600	IN	MX	20 mx.a.locaweb.com.br.
+famanet.br.		3600	IN	MX	10 mx.core.locaweb.com.br.
+famanet.br.		3600	IN	MX	20 mx.jk.locaweb.com.br.
+www.famanet.br.		3600	IN	CNAME	famanet.br.
+famanet.br.		3600	IN	A	186.202.157.79
+www.famanet.br.		3600	IN	CNAME	famanet.br.
+www.famanet.br.		3600	IN	CNAME	famanet.br.
+famanet.br.		3600	IN	MX	10 mx.core.locaweb.com.br.
+famanet.br.		3600	IN	MX	20 mx.a.locaweb.com.br.
+famanet.br.		3600	IN	MX	20 mx.jk.locaweb.com.br.
+famanet.br.		3600	IN	MX	10 mx.b.locaweb.com.br.
+famanet.br.		900	IN	NSEC	fameb.br. NS RRSIG NSEC
+famanet.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. udg34PvNQX7YJxG+lPGrDlOul4tGHQJx5rrjsmWREUwfKNv+VGIarNPG l1oPzIHTWI77mg9fGXiDtJuMdNkRHA==
+;; fameb.br.
+fameb.br.		3600	IN	NS	ialim-ial.fameb.br.
+fameb.br.		3600	IN	NS	dexter.fameb.br.
+ialim-ial.fameb.br.	3600	IN	A	179.111.232.65
+dexter.fameb.br.	3600	IN	A	189.44.87.66
+fameb.br.		900	IN	NSEC	fameca.br. NS RRSIG NSEC
+fameb.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. sBy2nzWVmhrMmHTKn9dM2lhruhW6GJ5bKh2DPqNc4ln1e4uymQcmlWTt madI8lOjG2WFAj0Dwp0CKrWzM/a1Xw==
+;; fameca.br.
+fameca.br.		3600	IN	NS	ns1.pleskw0044.hospedagemdesites.ws.
+fameca.br.		3600	IN	NS	ns2.pleskw0044.hospedagemdesites.ws.
+fameca.br.		900	IN	NSEC	famema.br. NS RRSIG NSEC
+fameca.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. PfDbI1Limc6hoHwdkHm1Tfo2JiOYiszlHHkzaJcpfdtfaGJEBYgbRkrA gnrZB9Pbunt9/CzrD+3VGViAoLA+xg==
+;; fapemat.br.
+fapemat.br.		3600	IN	NS	arara.cepromat.com.br.
+fapemat.br.		3600	IN	NS	joaodebarro.cepromat.com.br.
+fapemat.br.		900	IN	NSEC	fapemig.br. NS RRSIG NSEC
+fapemat.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. Ya54O1RxkNvptyAnvSBp9XGW+/J9VrnHRlVZmYtG6Lv+AKXqHxcfwbgn T7tjb8sqEEF4DphXOzYC+YHsyaejJw==
+;; fapr.br.
+fapr.br.		3600	IN	NS	cwb01-pdc.fapr.br.
+fapr.br.		3600	IN	NS	ns1.intranetparana.br.
+cwb01-pdc.fapr.br.	3600	IN	A	200.201.25.9
+ns1.intranetparana.br.	3600	IN	A	200.201.0.25
+fapr.br.		900	IN	NSEC	fapss.br. NS RRSIG NSEC
+fapr.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. /OeKEq4OjFUjVZpeciR+LLigxaegp1IJtL5rWNQpTyryz6LBWHBEewWc lzuQ397tMbqDsvfJk/GkPRCOs4It6Q==
+;; fasmarta.br.
+fasmarta.br.		3600	IN	NS	ns4.paintweb.com.br.
+fasmarta.br.		3600	IN	NS	ns3.paintweb.com.br.
+fasmarta.br.		900	IN	NSEC	fasp.br. NS RRSIG NSEC
+fasmarta.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. zQm8KU/k4DsY/o5ALUcn7YMAM1krDhxX1vnf0f6lxPqT3Gs+JWzH9F5o GrVytd0rkflbKRkmnMK5/pgoOhEdJw==
+;; fatema.br.
+fatema.br.		3600	IN	NS	uniespprint.uniesp.edu.br.
+fatema.br.		3600	IN	NS	alpha.fatema.br.
+alpha.fatema.br.	3600	IN	A	201.63.3.182
+fatema.br.		900	IN	NSEC	fatepa.br. NS RRSIG NSEC
+fatema.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. s31iPkIFdOGaWN2fI12n2Xm04LjqoMRaNjND0yYuejUKmqaVLU2mPARy mS05Aeg8oiS6JMmTQD170BaDL02cEg==
+;; fdci.br.
+fdci.br.		3600	IN	NS	d.sec.dns.br.
+fdci.br.		3600	IN	NS	e.sec.dns.br.
+fdci.br.		3600	IN	MX	1 aspmx.l.google.com.
+fdci.br.		3600	IN	MX	5 alt1.aspmx.l.google.com.
+fdci.br.		3600	IN	MX	5 alt2.aspmx.l.google.com.
+fdci.br.		3600	IN	MX	10 alt3.aspmx.l.google.com.
+fdci.br.		3600	IN	MX	10 alt4.aspmx.l.google.com.
+fdci.br.		900	IN	NSEC	fdv.br. NS DS RRSIG NSEC
+fdci.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. o1fc+F+K0NAGs5dy25mgIH9CSWeF/TFC2Wde2jgrIVq1m4rQgZwGMSRI cnOnzxmp+TlVYOXT9a18itbuGwbDIw==
+;; fec.br.
+fec.br.			3600	IN	NS	www.fec.br.
+fec.br.			3600	IN	NS	smtp.fec.br.
+smtp.fec.br.		3600	IN	A	201.45.58.198
+www.fec.br.		3600	IN	A	201.45.58.194
+fec.br.			900	IN	NSEC	fecap.br. NS RRSIG NSEC
+fec.br.			900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. D/th7p8XK9l6Snd0IAyNSseLEZFLSd4j2kpMpScKdOm4v4ElYaf/MSrM 2iivqUtSePKwcRVA9DM55MKBgoDQiw==
+;; fecea.br.
+fecea.br.		3600	IN	NS	lnx.fecea.br.
+fecea.br.		3600	IN	NS	fw.fecea.br.
+lnx.fecea.br.		3600	IN	A	200.201.20.21
+fw.fecea.br.		3600	IN	A	200.201.20.20
+fecea.br.		900	IN	NSEC	fecilcam.br. NS RRSIG NSEC
+fecea.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 64x0nIEhuNucMyDBFzTe5VtVhZo3wt9ipmT+jJanw/NDlAaH7A2HfdyA vO+H+eeOvpLVYTcV414HKU6qrW+zOg==
+;; fecnet.br.
+fecnet.br.		3600	IN	NS	www.fecnet.br.
+fecnet.br.		3600	IN	NS	smtp.fecnet.br.
+smtp.fecnet.br.		3600	IN	A	201.45.58.198
+www.fecnet.br.		3600	IN	A	201.45.58.194
+fecnet.br.		900	IN	NSEC	feevale.br. NS RRSIG NSEC
+fecnet.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. V0/Drp1ZPBChFcrE78UXfcpBbkiC/JOQRY4T/LN9BgAP0gLw+YBUKyEg wICfrEwHPLpWHzz77yHut58sXuSTAQ==
+;; fes.br.
+fes.br.			3600	IN	NS	ns2.estacio.br.
+fes.br.			3600	IN	NS	ns1.estacio.br.
+fes.br.			900	IN	NSEC	fesag.br. NS RRSIG NSEC
+fes.br.			900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. OP6vM6G2V8F/qP9ItUVkLm8qFquNLsmQjMvazKWE4wxoXwRJnFJYyAkW FiRuHkBRBZ0P78LAVC3cWWEmgAggtw==
+;; fesurv.br.
+fesurv.br.		3600	IN	NS	ns2.fesurv.br.
+fesurv.br.		3600	IN	NS	ns1.fesurv.br.
+ns2.fesurv.br.		3600	IN	A	131.221.77.90
+ns1.fesurv.br.		3600	IN	A	131.221.77.90
+fesurv.br.		900	IN	NSEC	fesv.br. NS RRSIG NSEC
+fesurv.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. SnTB/O03TXcGAh1Mm0nJqiGwq94GoW1a7RaoPOd/GqPUjmdD4Wb8qUZD E+t2cJEu/VC5mBD7zl1bSwv8afHBhA==
+;; ffc.br.
+ffc.br.			3600	IN	NS	ns1.hostnet.com.br.
+ffc.br.			3600	IN	NS	ns2.hostnet.com.br.
+ffc.br.			900	IN	NSEC	ffm.br. NS RRSIG NSEC
+ffc.br.			900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. sUoeHhUPnbf92kKWQiEbX0bILaejaPzfNi0fBWkLrGFkMpGC+vB59ASe 1IW9MeZimTGyjyFmlaVK51mxv+80lg==
+;; ffsd.br.
+ffsd.br.		3600	IN	NS	ns02.ffsd.br.
+ffsd.br.		3600	IN	NS	ns01.ffsd.br.
+ns02.ffsd.br.		3600	IN	A	189.84.240.3
+ns01.ffsd.br.		3600	IN	A	189.84.240.2
+ffsd.br.		900	IN	NSEC	fga.br. NS RRSIG NSEC
+ffsd.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. vp2cjKl6/qx0NIILthCNF0Xyty4Jj8wQjZB22v+oPOLOUmP05NDXO3K5 d6RKWhmNerBXhR8neLrW8m/Q+f26qw==
+;; fgvam.br.
+fgvam.br.		3600	IN	NS	ns1.fgvam.br.
+fgvam.br.		3600	IN	NS	ns1.sistematica.com.br.
+ns1.fgvam.br.		3600	IN	A	189.2.173.194
+fgvam.br.		900	IN	NSEC	fgvconsulting.br. NS RRSIG NSEC
+fgvam.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 3fC/KuRKDzLNt8OEzh01dq3QN3mvPe4cjG4ZzoT7yj10UHxzt/5YPXLY fj/Ys6qDR0mCrkjPhfJSCYT6eES0xQ==
+;; fib.br.
+fib.br.			3600	IN	NS	ns1.estacio.br.
+fib.br.			3600	IN	NS	ns2.estacio.br.
+fib.br.			900	IN	NSEC	fibbauru.br. NS RRSIG NSEC
+fib.br.			900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. MDSrauqnaZEE4NGpzyQ2yPjDqtMci8Nfx7q3Ks5tfIoY9Dqc8XZ4EQQu CvzIh3uG7G4PYGEyywNLG70Jj+hZQw==
+;; fiboituva.br.
+fiboituva.br.		3600	IN	NS	ns1.intersit.com.br.
+fiboituva.br.		3600	IN	NS	ns2.intersit.com.br.
+fiboituva.br.		900	IN	NSEC	fibutanta.br. NS RRSIG NSEC
+fiboituva.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. VIrmsC85idzlCAxBnKdDFCcnHN5RSfMsYeZ4Dfs6o1Ke7Ghr2jlinvtY 9SoR6Y0iVEjmWDwrw09ZBz67+Z8m/g==
+;; fibutanta.br.
+fibutanta.br.		3600	IN	NS	a.ns.viamidia.net.
+fibutanta.br.		3600	IN	NS	b.ns.viamidia.net.
+fibutanta.br.		900	IN	NSEC	fic.br. NS RRSIG NSEC
+fibutanta.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. Up9n/QUBKDNhC/EJv0ZaMRPZIZqsL+4T38ZWvEixdS9JjujqgigdH5Ug VZWNmz2+afLHo56HjKNl+KTFqtmGRg==
+;; fic.br.
+fic.br.			3600	IN	NS	dns2.fic.br.
+fic.br.			3600	IN	NS	dns1.fic.br.
+dns2.fic.br.		3600	IN	A	200.129.61.2
+dns1.fic.br.		3600	IN	A	187.58.67.106
+fic.br.			900	IN	NSEC	fieo.br. NS RRSIG NSEC
+fic.br.			900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. qdcQmpvJqq85iI6vS9irKpDLaYQ28QcJnBEFVkN9V1MjS+vqwHUtQWuc FxjCon6hd6QXpyDud3zlOSqYNCoLnw==
+;; fifasul.br.
+fifasul.br.		3600	IN	NS	ns1.fifasul.br.
+fifasul.br.		3600	IN	NS	ns2.fifasul.br.
+ns2.fifasul.br.		3600	IN	A	201.3.11.243
+ns1.fifasul.br.		3600	IN	A	201.3.11.242
+fifasul.br.		900	IN	NSEC	fig.br. NS RRSIG NSEC
+fifasul.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. ffFO+V3zkrcn5DUfAmzTK2d7Dms4YYzBAgFgOflw7Lm2GEl4ffqH5GDQ kzxAztkyb+EBHdYRtlofE1EwLu3+Nw==
+;; finac.br.
+finac.br.		3600	IN	NS	ns2.finac.br.
+finac.br.		3600	IN	NS	ns1.finac.br.
+ns2.finac.br.		3600	IN	A	187.45.211.113
+ns1.finac.br.		3600	IN	A	187.45.210.125
+finac.br.		900	IN	NSEC	financas.br. NS RRSIG NSEC
+finac.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 2rHT0Ewogh64wDx+LShoNUTHUpUTAWxkckPfSnH0ywXCUia9WeyZQKiz FyoV1cpR3ahP+6NlUuN4YqcUdIQKBw==
+;; financas.br.
+financas.br.		3600	IN	NS	lagoa.domain.com.br.
+financas.br.		3600	IN	NS	ipanema.domain.com.br.
+financas.br.		900	IN	NSEC	finav.br. NS RRSIG NSEC
+financas.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. yjfy2Ti5acpwpcC59aOtU+Wq2drsS7IvFmoqBZ7CfkuhiaEv1SeA+AD0 oazDOUF5ma7tJAe7M7DT9GMdVJaywA==
+;; fipag.br.
+fipag.br.		3600	IN	NS	ns3.terraempresas.com.br.
+fipag.br.		3600	IN	NS	ns2.terraempresas.com.br.
+fipag.br.		900	IN	NSEC	fiplac.br. NS RRSIG NSEC
+fipag.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. YybCJo6wBSNIyheCsB7zOynRhXQhwmIgZjRcYVyo+XCk1pAPJQtVzEr9 AvpDZ5zbYzOy/l/xFCSZGuTBq8lagg==
+;; fiplac.br.
+fiplac.br.		3600	IN	NS	dns2.kinghost.com.br.
+fiplac.br.		3600	IN	NS	dns3.kinghost.com.br.
+fiplac.br.		3600	IN	NS	dns4.kinghost.com.br.
+fiplac.br.		3600	IN	NS	dns5.kinghost.com.br.
+fiplac.br.		3600	IN	NS	dns6.kinghost.com.br.
+fiplac.br.		3600	IN	NS	dns1.kinghost.com.br.
+fiplac.br.		900	IN	NSEC	fir.br. NS RRSIG NSEC
+fiplac.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. CR2EVnSEu8wtV4UazWo9b1gwdvYA8aoW182WhMXckBcn5UXcby2tVVL4 oyn5eDQ/1sw5zEP5JeaZ3LJaOKVTkA==
+;; fir.br.
+fir.br.			3600	IN	NS	ns1.estacio.br.
+fir.br.			3600	IN	NS	ns2.estacio.br.
+fir.br.			900	IN	NSEC	firb.br. NS RRSIG NSEC
+fir.br.			900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. No1rR58IwJLKDTKMblDewZ7DhQQNi36Rgyhwc0+32hgMYXOw9DRsmij5 bVyg/08oWhX13l4l7RPsX2o1IygH9Q==
+;; focampos.br.
+focampos.br.		3600	IN	NS	ns1.censanet.com.br.
+focampos.br.		3600	IN	NS	ns2.censanet.com.br.
+focampos.br.		900	IN	NSEC	foco.br. NS RRSIG NSEC
+focampos.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. nj8udfBVev/wu/078kNUUyAxn/1V/W18hnNi+z7radqHevdU3fthDuE+ FP5WT22waHNDeAEjhWo29wo+AjSUig==
+;; foco.br.
+foco.br.		3600	IN	NS	sheila.colegiopentagono.com.br.
+foco.br.		3600	IN	NS	gertrudes.prodae.com.br.
+foco.br.		900	IN	NSEC	fog.br. NS RRSIG NSEC
+foco.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. lyXG/AIei1eNfiArfZP6ysRpFB6ZOa3f21N0vA03gjLfiszo+V2IMhJH gDilTjo1v38jjH1v4kN6iQAWPNmlDQ==
+;; frf.br.
+frf.br.			3600	IN	NS	ns1.warp.com.br.
+frf.br.			3600	IN	NS	ns2.warp.com.br.
+frf.br.			900	IN	NSEC	fsa.br. NS RRSIG NSEC
+frf.br.			900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. QhQRtNpv69mTJ8eamh3aLr85CnV/28+lY+YmXsVAAykgz0zmdR0kCWwf WRskjZJZi9YTu4Wg4fzQu2M59iHjng==
+;; ftb.br.
+ftb.br.			3600	IN	NS	ns1.tstt.com.br.
+ftb.br.			3600	IN	NS	ns2.tstt.com.br.
+ftb.br.			900	IN	NSEC	ftc.br. NS RRSIG NSEC
+ftb.br.			900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 67E8Hx+UoH6VPJKU0TOT+hEV83yvmo5cb5JYfIiJC6VopFJfAnIX1Rye LU8ZLaoZC92btwV6jZWNj+lD3IzVpA==
+;; fucapi.br.
+fucapi.br.		3600	IN	NS	ns1.fucapi.br.
+fucapi.br.		3600	IN	NS	ns2.fucapi.br.
+ns2.fucapi.br.		3600	IN	A	200.222.26.81
+ns1.fucapi.br.		3600	IN	A	200.222.26.80
+fucapi.br.		900	IN	NSEC	fumec.br. NS RRSIG NSEC
+fucapi.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. VJQR9guDIvZf7pw0nm65ugTTKfABjF4jldPj7drcpsEESFbOSdw09yZQ N78ICGGSEwfXZFCXd4BRFWQHjC4g8g==
+;; fumesu.br.
+fumesu.br.		3600	IN	NS	ns2.aciu.com.br.
+fumesu.br.		3600	IN	NS	ns1.aciu.com.br.
+fumesu.br.		900	IN	NSEC	funaliber.br. NS RRSIG NSEC
+fumesu.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. DsPoiYfI1q+ZRAxNI5LXXYN/3R+pwozax0VJ6hGxl7/G1YsLUumpzOHO hTB4ton1uhA2CvsHL+/N6ZjAvAOOXw==
+;; fundinop.br.
+fundinop.br.		3600	IN	NS	ns1.fundinop.br.
+fundinop.br.		3600	IN	NS	ns2.fundinop.br.
+ns2.fundinop.br.	3600	IN	A	200.201.22.83
+ns1.fundinop.br.	3600	IN	A	200.201.22.20
+fundinop.br.		900	IN	NSEC	funec.br. NS RRSIG NSEC
+fundinop.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. XPxvb/r6eIM3L8ho8SnUMGc2Tp90fq51ck/IkQlCeN92c1EJk3KELtG2 rcsCL2aoxy48z9FVFYrTz5KoQo3QFw==
+;; gaepsp.br.
+gaepsp.br.		3600	IN	NS	ns2.dialdata.com.br.
+gaepsp.br.		3600	IN	NS	ns1.dialdata.com.br.
+gaepsp.br.		900	IN	NSEC	gamacafe.br. NS RRSIG NSEC
+gaepsp.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. DiJywJ/nCFS4Wcjs6qe6ZxiAlCmEnlz28OD+ifUrDaChKpwDHKTunuOK 2zn7HSSH1wfjWibjKjPCG8XgQaDreQ==
+;; gamacafe.br.
+gamacafe.br.		3600	IN	NS	dns.univercidade.br.
+gamacafe.br.		3600	IN	NS	dns2.univercidade.br.
+dns2.univercidade.br.	3600	IN	A	200.218.254.210
+dns.univercidade.br.	3600	IN	A	200.218.254.209
+gamacafe.br.		900	IN	NSEC	gammon.br. NS RRSIG NSEC
+gamacafe.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. GWQxBmc7VJ2ljvdUzPz0n40+QwLXcoWfz3ZJXAF6hjaScYH73fD9ADj+ gVYzA/20Z5eu715699n5f5SLiGe1SA==
+;; generico.br.
+generico.br.		3600	IN	NS	dns2.bireme.br.
+generico.br.		3600	IN	NS	dns.bireme.br.
+dns2.bireme.br.		3600	IN	A	200.10.179.17
+dns.bireme.br.		3600	IN	A	200.10.179.100
+generico.br.		900	IN	NSEC	genericos.br. NS RRSIG NSEC
+generico.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. j6F8fIxJUt0ebWzq0+ktZ8pSYZ7ZI6RUgpcswmtvDP/fwLYv4Nz5DoDW iBLm4AzprmEpxg7oSg15eXaTZ4GghQ==
+;; genericos.br.
+genericos.br.		3600	IN	NS	dns.bireme.br.
+genericos.br.		3600	IN	NS	dns2.bireme.br.
+dns2.bireme.br.		3600	IN	A	200.10.179.17
+dns.bireme.br.		3600	IN	A	200.10.179.100
+genericos.br.		900	IN	NSEC	genoma.br. NS RRSIG NSEC
+genericos.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 0EpQnrvErBGLc5aat+9T6ATKNcxn9VyA9/C+5qXpDmnfNebsGBm/eqTx KU6jOcc7RHyj6dtsUADRsvF3J84r2A==
+;; guiapotiguar.br.
+guiapotiguar.br.	3600	IN	NS	proxy.etfrn.br.
+guiapotiguar.br.	3600	IN	NS	irc.etfrn.br.
+guiapotiguar.br.	900	IN	NSEC	gv.br. NS RRSIG NSEC
+guiapotiguar.br.	900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. nDCbMTPg9uARq4ilvIJ4+JTLVnmxDLtrKWfYzYfAluQsrX+akSP7iX4l pBa75a+1PxfBsE8YwJrf2tcPhlg83Q==
+;; humanas.br.
+humanas.br.		3600	IN	NS	ns743.hostgator.com.br.
+humanas.br.		3600	IN	NS	ns742.hostgator.com.br.
+humanas.br.		900	IN	NSEC	huufma.br. NS RRSIG NSEC
+humanas.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. TSYaU4BjBd35HjIWdiXUBedaOiUjskI1EMHVvnnJDmaX2Hvy2q38OH8y MZcL5KXC12kQvd63myDzDpmJDvUUjA==
+;; iae.br.
+iae.br.			3600	IN	NS	dns2.plesk01.iswhost.com.br.
+iae.br.			3600	IN	NS	dns1.plesk01.iswhost.com.br.
+iae.br.			900	IN	NSEC	iae-ct.br. NS RRSIG NSEC
+iae.br.			900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. hH6GBgucXpAIu25xFIDjQxAkKHvsq3Rlv3qNotZYlph8Bn96WWOzSmwm +guYirEiCTLuMDam24xmNhSWMCrgiw==
+;; iae-sp.br.
+iae-sp.br.		3600	IN	NS	dns1.plesk01.iswhost.com.br.
+iae-sp.br.		3600	IN	NS	dns2.plesk01.iswhost.com.br.
+iae-sp.br.		900	IN	NSEC	iaec2.br. NS RRSIG NSEC
+iae-sp.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. nEwdd4BPFtckH33XZqgOxsF27Ync4/urFJul71bQR2ovc79fyF0MDxns ciq8KQJ8Ed1rFYr8UkNaHF7HOdiMEw==
+;; iaene.br.
+iaene.br.		3600	IN	NS	ns2.iaene.br.
+iaene.br.		3600	IN	NS	ns1.iaene.br.
+ns2.iaene.br.		3600	IN	A	191.252.119.11
+ns1.iaene.br.		3600	IN	A	191.252.119.8
+iaene.br.		900	IN	NSEC	iaenet.br. NS RRSIG NSEC
+iaene.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. F86V3ZVBM7DrSogKPEv8lTrrPQ4y/ylLskm8QR3FPzgSYspY6gWQINgy xfJ7qEQOmmmVQal2Nk306noze6dZFg==
+;; iaenet.br.
+iaenet.br.		3600	IN	NS	ns-700.awsdns-23.net.
+iaenet.br.		3600	IN	NS	ns-422.awsdns-52.com.
+iaenet.br.		3600	IN	NS	ns-1944.awsdns-51.co.uk.
+iaenet.br.		3600	IN	NS	ns-1375.awsdns-43.org.
+iaenet.br.		900	IN	NSEC	ial.br. NS RRSIG NSEC
+iaenet.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. W/APC+jdNvok0F7LOIE8hCkjDvZ03WwfEzy2BziyWvj5WcuqVQ/UIPZC WoCtApNKgILd62NaK1atC/i0w3HN1A==
+;; ialim.br.
+ialim.br.		3600	IN	NS	ialim-ial.ialim.br.
+ialim.br.		3600	IN	NS	dexter.ialim.br.
+ialim-ial.ialim.br.	3600	IN	A	179.111.232.65
+dexter.ialim.br.	3600	IN	A	189.44.87.66
+ialim.br.		900	IN	NSEC	iapar.br. NS RRSIG NSEC
+ialim.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. aWddlp6Bb64u2CPp2mIYPVIeb1PZ7dG1cBlL8DGg4KGLA/zDiH9OpBYQ PmWULhxDBJxX5XtmDr6puJClGFqRxg==
+;; ibmecpr.br.
+ibmecpr.br.		3600	IN	NS	dns1.ibmecpr.br.
+ibmecpr.br.		3600	IN	NS	dns2.ibmecpr.br.
+dns2.ibmecpr.br.	3600	IN	A	200.182.25.112
+dns1.ibmecpr.br.	3600	IN	A	200.182.25.111
+ibmecpr.br.		900	IN	NSEC	ibmecrj.br. NS RRSIG NSEC
+ibmecpr.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. isCj2gEmanTRvvgCdYnPaxC0iH3hFyAKvWClxileC0gjt5hQHuwsKWTv R8zABP1y3/fZinoudP7ls2/vBFgR3Q==
+;; iccmp.br.
+iccmp.br.		3600	IN	NS	chamaleon.iccmp.br.
+iccmp.br.		3600	IN	NS	ns2.iccmp.br.
+chamaleon.iccmp.br.	3600	IN	A	201.47.190.77
+ns2.iccmp.br.		3600	IN	A	201.47.190.76
+iccmp.br.		900	IN	NSEC	icesp.br. NS RRSIG NSEC
+iccmp.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. y0xOMlhwvXjmDqJ/IwzO7OgzR81yRsFVA0mPc8ZeMxEC/7FS7YGJfGBd hd07+7KQy7YkTJleigaFe78O9mxygA==
+;; ict.br.
+ict.br.			3600	IN	NS	ns82.domaincontrol.com.
+ict.br.			3600	IN	NS	ns81.domaincontrol.com.
+ict.br.			900	IN	NSEC	ictdomus.br. NS RRSIG NSEC
+ict.br.			900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 1Jr4/JILAb8C4UYiPyMVAElimbrAwn3CFUs5mtLaGgDNT8vpjrQOBfgU 11bkIr3iaLp3cwbpAgktdvhvyiRPBw==
+;; ictdomus.br.
+ictdomus.br.		3600	IN	NS	dns2.brasilis.com.br.
+ictdomus.br.		3600	IN	NS	ns1.pdtech.com.br.
+ictdomus.br.		900	IN	NSEC	ielusc.br. NS RRSIG NSEC
+ictdomus.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 1aDnZKV6YY4ccTaa/uVPjfxCIioJXgUa87tIUolxW1XRPXzxgHc7R2Kc 8yaX1RVc01/boBk6UE8eh4L905hF3w==
+;; iesaj.br.
+iesaj.br.		3600	IN	NS	ns2.terraempresas.com.br.
+iesaj.br.		3600	IN	NS	ns3.terraempresas.com.br.
+iesaj.br.		900	IN	NSEC	iesb.br. NS RRSIG NSEC
+iesaj.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. oqcEhw+2muNlhnlXr31jQ480yycRoANgUbL99xO+BTbGPQjH87y2x/IK 1469ZZT/h0bnZaiUhfaM/WUSrESSBA==
+;; ieses.br.
+ieses.br.		3600	IN	NS	dns01.dominal.com.
+ieses.br.		3600	IN	NS	dns02.dominal.com.
+ieses.br.		900	IN	NSEC	iesf.br. NS RRSIG NSEC
+ieses.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. /3ZlNBDUrZBSdrhhYxKFMOeFFPm2nhdv5W7RPzIy/jZ8QNMzPboWtqDX ZYbKImNSG7CCip8m6taTBR2IKB7RWA==
+;; iesf.br.
+iesf.br.		3600	IN	NS	ns1.roadnet.com.br.
+iesf.br.		3600	IN	NS	server.unice.br.
+iesf.br.		900	IN	NSEC	iesne.br. NS RRSIG NSEC
+iesf.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. DndI8kbmlK5pYArMOA6Ba5lRY25ig51Z5Icb8qACOCUFP20AA4F40vhu gP/M8svf9eHK2NSqZbN1eiO98vBakg==
+;; iesne.br.
+iesne.br.		3600	IN	NS	server.unice.br.
+iesne.br.		3600	IN	NS	ns1.roadnet.com.br.
+iesne.br.		900	IN	NSEC	iesplan.br. NS RRSIG NSEC
+iesne.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. UrABKxcDpKv7bbH1wNtyZYpE/XqHQdKNkrHpNcu/DlIx57/llABdqOZT 55X8BX7P5JjBwteyVh3FdAIZzOOK6g==
+;; iespnaa.br.
+iespnaa.br.		3600	IN	NS	ns743.hostgator.com.br.
+iespnaa.br.		3600	IN	NS	ns742.hostgator.com.br.
+iespnaa.br.		900	IN	NSEC	iflorestsp.br. NS RRSIG NSEC
+iespnaa.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. hUgAOffo2LyzlrnDAvySYx68udyDqoDe8EGv/iqdJWB4SdPfFtUQDBzD U0Rsr2lv8bpZbL4DGliltjP38V+qAg==
+;; ihendrix.br.
+ihendrix.br.		3600	IN	NS	ns1.mailgrid.com.br.
+ihendrix.br.		3600	IN	NS	ns2.mailgrid.com.br.
+ihendrix.br.		900	IN	NSEC	ijaa.br. NS RRSIG NSEC
+ihendrix.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. xvOBxmVB/gelaaaMH2L6DXcTxalwvMvVUW4j3fDQutOlA1jQX9QyeIbG sYgF3h1P4jGDw2j1MzxFDX64Oh7A7Q==
+;; ijaa.br.
+ijaa.br.		3600	IN	NS	ns1.task.com.br.
+ijaa.br.		3600	IN	NS	ns1.jandrade.edu.br.
+ijaa.br.		3600	IN	NS	ns4.task.com.br.
+ijaa.br.		3600	IN	NS	ns3.task.com.br.
+ijaa.br.		3600	IN	NS	ns2.task.com.br.
+ijaa.br.		900	IN	NSEC	ilsl.br. NS RRSIG NSEC
+ijaa.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. GlmKBFL6tLuJivZFw2w46oAE/GcZrL3I4IdA2RMzTMAB+xCxbQHytaPV ZME2O5gyuBC02yGN5bY+HX/Tz99hxg==
+;; imc.br.
+imc.br.			3600	IN	NS	ns1.imc.br.
+imc.br.			3600	IN	NS	ns3.imc.br.
+ns3.imc.br.		3600	IN	A	201.86.237.70
+ns1.imc.br.		3600	IN	A	200.198.105.235
+imc.br.			900	IN	NSEC	imec.br. NS RRSIG NSEC
+imc.br.			900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. Vs0B19VdM2oau1GM4QURYKCfGN4pzc/OtBuLiN9Jx6LK6SCQ1qiQ9sRd RKwdz4n9LNHAdC94xIzFcZuGZdSi5Q==
+;; inesc.br.
+inesc.br.		3600	IN	NS	spdtcesrvns119.cnec.br.
+inesc.br.		3600	IN	NS	spdtcesrvns118.cnec.br.
+inesc.br.		900	IN	NSEC	inf.br. NS RRSIG NSEC
+inesc.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. FdlyUuXmtZW8ItewDavA7D7VCPHNq4mMGeIi5G+caL72Hf2txlPGoEks YgvvNd4qf+pROEh7y3ME9e2zJx/Pmw==
+;; jaboticabal.br.
+jaboticabal.br.		3600	IN	NS	ns2.saoluis.br.
+jaboticabal.br.		3600	IN	NS	ns1.saoluis.br.
+jaboticabal.br.		900	IN	NSEC	jampa.br. NS RRSIG NSEC
+jaboticabal.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. MTgum1vo0ZwHiRDnz9DQLwzh6B9YEZzwhaMv3w6JZyRmyn2N5SgnFHPu LdiYIvPVBL/DK30OIS5doY4OqUN36g==
+;; japi.br.
+japi.br.		3600	IN	NS	ns1.proxy.com.br.
+japi.br.		3600	IN	NS	ns2.proxy.com.br.
+japi.br.		3600	IN	NS	ns3.proxy.com.br.
+japi.br.		900	IN	NSEC	jdf.br. NS RRSIG NSEC
+japi.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. rWBm6fb4oGxg/+oju8qZGzXyvMgekyuO94+YwkCkZanRKRUBS4KN5ep0 1/YaTo2xW1K4JFQlop5otZKt2b5Ncg==
+;; lambert.br.
+lambert.br.		3600	IN	NS	ns2.pib.com.br.
+lambert.br.		3600	IN	NS	ns.pib.com.br.
+lambert.br.		900	IN	NSEC	laosp.br. NS RRSIG NSEC
+lambert.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. d8X7+cIEyX9SSLAyTieS0epigSY6rzXMIiANP0u2e75I6EL17SC1OtM7 xlMgMIBUKrbglD1thNQXnaQT8lzlSA==
+;; logistica.br.
+logistica.br.		3600	IN	NS	ipanema.domain.com.br.
+logistica.br.		3600	IN	NS	lagoa.domain.com.br.
+logistica.br.		900	IN	NSEC	londrina.br. NS RRSIG NSEC
+logistica.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 8HDMHtgHP5+Y8PWuVzashSvT1+LsrqQO94TX7Zyios8azL8nJgUyxHlr yQ4Cqptql99rE87ePaSN/PrUcdMxtA==
+;; marketing.br.
+marketing.br.		3600	IN	NS	ipanema.domain.com.br.
+marketing.br.		3600	IN	NS	lagoa.domain.com.br.
+marketing.br.		900	IN	NSEC	mast.br. NS RRSIG NSEC
+marketing.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. yaBlgE2LkSGpAbwR6yQtwfVJ8LzsK0VfuCL4J9aYhEVfcuf2UcMych/M 26S/AqweApkkYVu0gZv2jxoHfal2qg==
+;; mba-ebusiness.br.
+mba-ebusiness.br.	3600	IN	NS	ipanema.domain.com.br.
+mba-ebusiness.br.	3600	IN	NS	lagoa.domain.com.br.
+mba-ebusiness.br.	900	IN	NSEC	mbasaude.br. NS RRSIG NSEC
+mba-ebusiness.br.	900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. C5kMEEolBrcLLIgPoyVA58mzxR8HoHXVxP4hV34ap3LOxrGIErQq+8a2 P/i2EArX7Mn13lgAVxkuo/uQNrannA==
+;; mbasaude.br.
+mbasaude.br.		3600	IN	NS	lagoa.domain.com.br.
+mbasaude.br.		3600	IN	NS	ipanema.domain.com.br.
+mbasaude.br.		900	IN	NSEC	mcampos.br. NS RRSIG NSEC
+mbasaude.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. INKAfWtu6ZVRgZClu4gsbCQGWRcK6n/M2aJ4BYbUuKSgUMLgSRain4Jp magE+pxsqe01pAlDH7renwz3GT/OHg==
+;; muller.br.
+muller.br.		3600	IN	NS	webmail.muller.br.
+muller.br.		3600	IN	NS	mclaren.muller.br.
+webmail.muller.br.	3600	IN	A	200.206.63.67
+mclaren.muller.br.	3600	IN	A	200.206.63.68
+muller.br.		900	IN	NSEC	mus.br. NS RRSIG NSEC
+muller.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. z2Ipuycc91s42E5c5TF3iefPqSEj4dQc79vdKyjLs2JZGwfbejv8Id4t fod7Ij2ZcjAsttCrbWzCt/y/Dsai5A==
+;; mv1.br.
+mv1.br.			3600	IN	NS	ns2.livedns.co.uk.
+mv1.br.			3600	IN	NS	ns1.livedns.co.uk.
+mv1.br.			900	IN	NSEC	nacional.br. NS RRSIG NSEC
+mv1.br.			900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. sxCf2EYRnkEKrnuhH94MvWRl725ltfF/VSrJmif/21HxffL8GFXMQy8U fMIkWtpeUyhEtikaw3f4NVSyDxxFaQ==
+;; netclasse.br.
+netclasse.br.		3600	IN	NS	dns.univercidade.br.
+netclasse.br.		3600	IN	NS	dns2.univercidade.br.
+dns2.univercidade.br.	3600	IN	A	200.218.254.210
+dns.univercidade.br.	3600	IN	A	200.218.254.209
+netclasse.br.		900	IN	NSEC	netlog.br. NS RRSIG NSEC
+netclasse.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. YnVef4A7TAb8ldqR94LJFdpSHwA34kftwntaK4CW+6G11ey2DxH2XNZS l7R09/zNM6F/bpQkBNnQrarm2v7YtA==
+;; nit.br.
+nit.br.			3600	IN	NS	nantes.ifrn.edu.br.
+nit.br.			3600	IN	NS	alecrim.cefetrn.br.
+nit.br.			900	IN	NSEC	niteroi.br. NS RRSIG NSEC
+nit.br.			900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. Rs9DIthjEfqXnl/pofvif2oeNrK1S7bCguyGlPwVTtAKqkrrEqkQPYAZ PnWzhZJEtlGfIOveocvUqtDtvYbblA==
+;; objetivo-goiania.br.
+objetivo-goiania.br.	3600	IN	NS	savior.objetivo-goiania.br.
+objetivo-goiania.br.	3600	IN	NS	homer.objetivo-goiania.br.
+savior.objetivo-goiania.br. 3600 IN	A	187.115.64.27
+homer.objetivo-goiania.br. 3600	IN	A	187.115.64.26
+objetivo-goiania.br.	900	IN	NSEC	objetivo-mga.br. NS RRSIG NSEC
+objetivo-goiania.br.	900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. X1qajxxeXv9BdadYhSmmADGZs6OUYfQeAx2rTaUEqQgwKqIp4iLXJqHu 2DFyc+xTkirgCbnu/5niY9EleNKqpQ==
+;; objetivo-tocantins.br.
+objetivo-tocantins.br.	3600	IN	NS	dns4.digiweb.com.br.
+objetivo-tocantins.br.	3600	IN	NS	dns2.digiweb.com.br.
+objetivo-tocantins.br.	3600	IN	NS	dns1.digiweb.com.br.
+objetivo-tocantins.br.	3600	IN	NS	dns3.digiweb.com.br.
+objetivo-tocantins.br.	900	IN	NSEC	objetivofoz.br. NS RRSIG NSEC
+objetivo-tocantins.br.	900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. n6Yp55k3qQGmYhO7X04mPSg45bUIqX35pjMW/e0FjlWz0nB0g2Ef4nlc Jb70YhtTiRh4GJAfnq4OCio3j+HeWQ==
+;; objetivofoz.br.
+objetivofoz.br.		3600	IN	NS	ns.embratel.net.br.
+objetivofoz.br.		3600	IN	NS	dns2.objetivofoz.br.
+dns2.objetivofoz.br.	3600	IN	A	200.250.119.142
+objetivofoz.br.		900	IN	NSEC	objetivomao.br. NS RRSIG NSEC
+objetivofoz.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. GU12tqC5QKlo9Tq6ARM68Z0OgDBsQsoucXjbU4+fR0SLZqaHpsQJsP9n /aSRdyzwPmbVzJG5I58VC0BRVbGDlg==
+;; observatoriodaimprensa.br.
+observatoriodaimprensa.br. 3600	IN	NS	scorpion.uniemp.org.br.
+observatoriodaimprensa.br. 3600	IN	NS	triton.uniemp.org.br.
+observatoriodaimprensa.br. 900	IN	NSEC	observatoriodainternet.br. NS RRSIG NSEC
+observatoriodaimprensa.br. 900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. J7HB4GXjEDseIC7cWR5WzwTYJeA9F0U1g+AdgNPcFFQfpk5h0ZC0wVQr kjaBMsZY1oydX7vwCTpnEwXeU63GBw==
+;; ondesign.br.
+ondesign.br.		3600	IN	NS	dns01.anhembi.br.
+ondesign.br.		3600	IN	NS	dns4.anhembi.br.
+ondesign.br.		900	IN	NSEC	ong.br. NS RRSIG NSEC
+ondesign.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. XWy4GpiXcpxS1bPrE+XZci0TnyAAn5S9GmBvW8K2Dr3jYBPs5sg+Zdve c+kIxc5yCDUJtJb6XcUI4mjfqkiPFQ==
+;; passosuemg.br.
+passosuemg.br.		3600	IN	NS	ns.passosuemg.br.
+passosuemg.br.		3600	IN	NS	ns3.passosuemg.br.
+ns3.passosuemg.br.	3600	IN	A	187.17.210.245
+ns.passosuemg.br.	3600	IN	A	187.17.210.244
+passosuemg.br.		900	IN	NSEC	pentagon.br. NS RRSIG NSEC
+passosuemg.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. D7MqCfcJsxmOpOA15aH2Z4+OrddE9jKmVdWNX0dzGYOas+W2w9udtZVw IFnA6+X0s9Z7NGo2n2Qzxt2pTkN0qA==
+;; pentagon.br.
+pentagon.br.		3600	IN	NS	perdizes.pentagono.br.
+pentagon.br.		3600	IN	NS	fly.pentagon.br.
+perdizes.pentagono.br.	3600	IN	A	200.230.252.16
+fly.pentagon.br.	3600	IN	A	200.230.252.5
+pentagon.br.		900	IN	NSEC	pentagono.br. NS RRSIG NSEC
+pentagon.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. ldHHfDai3vH9J6lYxepkgv7AJN8qvLbmlR9eLLWYIrriw48ach17wuoG ifNMAdSmRMq4qbz3deLksvqdqNxpCw==
+;; pentagono.br.
+pentagono.br.		3600	IN	NS	perdizes.pentagono.br.
+pentagono.br.		3600	IN	NS	fly.pentagono.br.
+perdizes.pentagono.br.	3600	IN	A	200.230.252.16
+fly.pentagono.br.	3600	IN	A	200.230.252.5
+pentagono.br.		900	IN	NSEC	penteado.br. NS RRSIG NSEC
+pentagono.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. DTyhM1CZ7gIYn6wTOV8JbG4DX3fhef7vVsPG4MSre91Q2U9yUt5Hj9a0 h3/eLZ8M2MYzQfTRedWiHvPNdCFeIw==
+;; penteado.br.
+penteado.br.		3600	IN	NS	apollo.netpoint.com.br.
+penteado.br.		3600	IN	NS	inet.netpoint.com.br.
+penteado.br.		900	IN	NSEC	petnet.br. NS RRSIG NSEC
+penteado.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 3cI192j+RzWlSt2hK4zBKN1yR+sLZFpyFBPgZAryccFlKxEfY5r23S3t /t7KtYxE5koYCYXBJ3iaG+K1PePqow==
+;; petnet.br.
+petnet.br.		3600	IN	NS	dns4.anhembi.br.
+petnet.br.		3600	IN	NS	dns01.anhembi.br.
+petnet.br.		900	IN	NSEC	petweb.br. NS RRSIG NSEC
+petnet.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 7ciG48MNUupVXGtLrWKuYO/ogFcP9TGOT2g7DE/eQcp4D9yVIi8x6+lA 01k0BIvYUpX8GpoFzmtGl3ylscvVog==
+;; petweb.br.
+petweb.br.		3600	IN	NS	dns4.anhembi.br.
+petweb.br.		3600	IN	NS	dns01.anhembi.br.
+petweb.br.		900	IN	NSEC	pia.br. NS RRSIG NSEC
+petweb.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. T6GAbHBgAyWhCctUJKYXxW32QGDZOuYTCG8iLhqbNu02VFOG4Dlsho+S YJbtAvVUotVKhBRh+eQvHU7i1Fndlw==
+;; polifucs.br.
+polifucs.br.		3600	IN	NS	ns2.polifucs.br.
+polifucs.br.		3600	IN	NS	ns1.polifucs.br.
+ns2.polifucs.br.	3600	IN	A	200.170.240.150
+ns1.polifucs.br.	3600	IN	A	200.170.240.140
+polifucs.br.		900	IN	NSEC	politecnica.br. NS RRSIG NSEC
+polifucs.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 7jpqEoQslsREfIln0IRkulg+jCiaqMUbXl4sSFwnibzy1DOIriEXwrpL PFauv38c8k21O3Q2IrQ+jdGZimNPow==
+;; portaldoconhecimento.br.
+portaldoconhecimento.br. 3600	IN	NS	dns01.anhembi.br.
+portaldoconhecimento.br. 3600	IN	NS	dns4.anhembi.br.
+portaldoconhecimento.br. 900	IN	NSEC	portodigital.br. NS RRSIG NSEC
+portaldoconhecimento.br. 900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. FQQOodFk75F/OT2bKOLOoWl5DtpGcGk+U+LiX4r5VtqyZCbmjIuarwDz nzUv4KqWQLKkl1yGPqjXAD6cPClWlA==
+;; portodigital.br.
+portodigital.br.	3600	IN	NS	sequoia.com-pe.rnp.br.
+portodigital.br.	3600	IN	NS	server1.pop-pe.rnp.br.
+portodigital.br.	900	IN	NSEC	portovelho.br. NS RRSIG NSEC
+portodigital.br.	900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. E1AsJSD9I2qxI2Q5u20t9yfSVaBHvkrq+V1rWMp7cot5h4JeVWyUM5/e DjOaICk2rXLVQq8SHAdTdDmb4p6dhg==
+;; presidentekennedy.br.
+presidentekennedy.br.	3600	IN	NS	dns1.cartacerta.com.br.
+presidentekennedy.br.	3600	IN	NS	dns2.cartacerta.com.br.
+presidentekennedy.br.	900	IN	NSEC	primus.br. NS RRSIG NSEC
+presidentekennedy.br.	900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. +MQUwO5BWzqAqkpKbzmOHGwYUm2EuSyrolLeUGUn0EW9f2AV4Z+/8xLP RBAJJSgd2cWxOgUlDUVAu8av1mf9pg==
+;; rbtd.br.
+rbtd.br.		3600	IN	NS	server1.pop-ba.rnp.br.
+rbtd.br.		3600	IN	NS	sunrnp.ufba.br.
+rbtd.br.		900	IN	NSEC	rct-sc.br. NS RRSIG NSEC
+rbtd.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. LMGEC9ODX6FiX/Ntyb+AWI1I40y+IA15ZJKoBbxLF+iWV1P0jOtQjpfO PX5HMY5ZEpvnU7UA0QGTvUxS8NDkXQ==
+;; rededeuniversidades.br.
+rededeuniversidades.br.	3600	IN	NS	dns4.anhembi.br.
+rededeuniversidades.br.	3600	IN	NS	dns01.anhembi.br.
+rededeuniversidades.br.	900	IN	NSEC	redeminas.br. NS RRSIG NSEC
+rededeuniversidades.br.	900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. lJzMIHlcYB100Msya3FoHkEvL289ExhwjxWllMKAjlIHxavZob5mfhWa JWaRuXOsDcNpuzv+0bSgHDxYEgkZvg==
+;; redemv1.br.
+redemv1.br.		3600	IN	NS	ns2.livedns.co.uk.
+redemv1.br.		3600	IN	NS	ns1.livedns.co.uk.
+redemv1.br.		900	IN	NSEC	rederio.br. NS RRSIG NSEC
+redemv1.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. fRH/RXNZq8kGPaQi6eGfg2RBVWh2Cu0wfdvFejRqednpVNoTCXCNCPA+ 25e1U/BSCT0BiY2/qNN9u6EP4kiBsQ==
+;; redeuniversidades.br.
+redeuniversidades.br.	3600	IN	NS	dns01.anhembi.br.
+redeuniversidades.br.	3600	IN	NS	dns4.anhembi.br.
+redeuniversidades.br.	900	IN	NSEC	rednesp.br. NS RRSIG NSEC
+redeuniversidades.br.	900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. o1F44GzGvzKNgg5YwQwFe5SuBsdIa5bTCRfK/CGNHrxNI+Jsn99Ekmqy vwMQkoRZmQcN+aCDy8XvqePySegBGg==
+;; rei.br.
+rei.br.			3600	IN	NS	ns1.fapeal.br.
+rei.br.			3600	IN	NS	ns2.fapeal.br.
+ns2.fapeal.br.		3600	IN	A	200.133.132.251
+ns1.fapeal.br.		3600	IN	A	200.133.132.252
+rei.br.			900	IN	NSEC	reitoria.br. NS RRSIG NSEC
+rei.br.			900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 0+qzz+pQYBcDgQHsM1KcdRVd3IVuzlWFUHmhxwDLx4lDJkV7EMhZsr6T khTHv31NcL0+8fgWdpmE+aI3lqhyhw==
+;; ribeiraopreto.br.
+ribeiraopreto.br.	3600	IN	NS	ns2.saoluis.br.
+ribeiraopreto.br.	3600	IN	NS	ns1.saoluis.br.
+ribeiraopreto.br.	900	IN	NSEC	rio.br. NS RRSIG NSEC
+ribeiraopreto.br.	900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 3nVtLDcw4pUkKvmmryMKoUBkYDtln6900A2wU2PAaDSAE8JkiezZ30qY dY0zvDLNkKJs5tqHn83z+kuBwUuagg==
+;; riomar.br.
+riomar.br.		3600	IN	NS	tolkien.riomar.br.
+riomar.br.		3600	IN	NS	ns2.webfix.com.br.
+tolkien.riomar.br.	3600	IN	A	201.88.2.171
+riomar.br.		900	IN	NSEC	riopreto.br. NS RRSIG NSEC
+riomar.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 9X+E+ebUnseQMzrb49qs6+nSJM+FdKg+eBk/Ccu5N8M+/eM7JcE56TXS KrUaiQCmDOvfn8clGiKIbx4d/Vda9A==
+;; rpi.br.
+rpi.br.			3600	IN	NS	ns1.rpi.br.
+rpi.br.			3600	IN	NS	ns2.rpi.br.
+ns2.rpi.br.		3600	IN	A	200.133.0.156
+ns1.rpi.br.		3600	IN	A	200.133.0.159
+rpi.br.			900	IN	NSEC	rpp.br. NS RRSIG NSEC
+rpi.br.			900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. IlNFjBIiDaCeU3qBhWXXndaoEyxCNvmN+zuna4SNJ1mmqXn1ITNk0G/G 7LG3x4s+xbvuAwS1MMz6VOSmr4TXsg==
+;; santamarta.br.
+santamarta.br.		3600	IN	NS	ns4.paintweb.com.br.
+santamarta.br.		3600	IN	NS	ns3.paintweb.com.br.
+santamarta.br.		900	IN	NSEC	santana.br. NS RRSIG NSEC
+santamarta.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. xomEdeqhvrVju2i0ERp8JVMBCyUeQqCMZnaC0ILIc0/Q5gF8hpnbMLnQ pR3Dnd/TJCcOiJyVCIvFQSSxk1cEqw==
+;; santana.br.
+santana.br.		3600	IN	NS	ns326.hostgator.com.br.
+santana.br.		3600	IN	NS	ns327.hostgator.com.br.
+santana.br.		900	IN	NSEC	santanna.br. NS RRSIG NSEC
+santana.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. BNdryCD+qLFig361bTvBuYYEU7Y5qmiTnHDk8Ywnqux4GcJbb785dt5Y LKO5qpj72QD8yZwKVRuyu2YrT7m0Rw==
+;; saopaulo.br.
+saopaulo.br.		3600	IN	NS	ns1.saoluis.br.
+saopaulo.br.		3600	IN	NS	ns2.saoluis.br.
+saopaulo.br.		900	IN	NSEC	sarah.br. NS RRSIG NSEC
+saopaulo.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. NwIKeRaWpolZZKE+XUxLBI8pG1YwIdJaEoHQMYTOz8MioO/9Eku4wRPX +/isau0p6eRGEzgS4NO/AAbSs2WGmg==
+;; sces.br.
+sces.br.		3600	IN	NS	ns1.asces.edu.br.
+sces.br.		3600	IN	NS	ns2.asces.edu.br.
+sces.br.		900	IN	NSEC	school.br. NS RRSIG NSEC
+sces.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. B4C8VKv3hqbaN8Ey3iMh7xwvuXMwN1T38EHEesiwSxtQf8RJPrW96Wnk fwsbn+/rig4JjtLYZQBX3/xHod5a/Q==
+;; seminariodonorte-stbnb.br.
+seminariodonorte-stbnb.br. 3600	IN	NS	ns2.farosweb.com.br.
+seminariodonorte-stbnb.br. 3600	IN	NS	ns1.farosweb.com.br.
+seminariodonorte-stbnb.br. 900	IN	NSEC	seminariojmc.br. NS RRSIG NSEC
+seminariodonorte-stbnb.br. 900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. +6qH9r83YSh+lvQpKTlGIKca1wNp0PsZwUEUevFdNoW7csDlqb9x2VXi EMIstqMwYg98T3u+jwV8dJDmDKQSYQ==
+;; sflaquer.br.
+sflaquer.br.		3600	IN	NS	jupiter.gisplan.srv.br.
+sflaquer.br.		3600	IN	NS	netuno.gisplan.srv.br.
+sflaquer.br.		900	IN	NSEC	sigma.br. NS RRSIG NSEC
+sflaquer.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. y6B70qb6kxd7gge++1H/YN0rWZG+YNN4uectcj4Cb5/ISpjDgUAy7Gx2 xr0i154dJqBlxiUoWUIUx9a13JaFQg==
+;; sobeu.br.
+sobeu.br.		3600	IN	NS	dns1.sobeu.br.
+sobeu.br.		3600	IN	NS	dns2.sobeu.br.
+dns2.sobeu.br.		3600	IN	A	200.244.30.131
+dns1.sobeu.br.		3600	IN	A	200.244.30.130
+sobeu.br.		900	IN	NSEC	soce.br. NS RRSIG NSEC
+sobeu.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 71F0KaZZJ6g7YbT1PES0g8lLMyKyMQquR5MbVvDjwmLLqgUummfKogOE a/ITU8EqMRiP4zV63G/L8kd0+IWqQg==
+;; spei.br.
+spei.br.		3600	IN	NS	ns2.hostinger.com.br.
+spei.br.		3600	IN	NS	ns1.hostinger.com.br.
+spei.br.		900	IN	NSEC	spet.br. NS RRSIG NSEC
+spei.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 2p/+pFIWnJFxHrlN1L+4rhGgc/zQHsW2DoRVXuW0tJ0D7mQGVpBs4qk4 Bzxu8DGc95WGWCYOBomEfb0ui/v8OA==
+;; spet.br.
+spet.br.		3600	IN	NS	ns2.spet.br.
+spet.br.		3600	IN	NS	ns1.spet.br.
+ns2.spet.br.		3600	IN	A	177.19.232.43
+ns1.spet.br.		3600	IN	A	177.43.59.71
+spet.br.		900	IN	NSEC	spn.br. NS RRSIG NSEC
+spet.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 1mpgUTLMo1psZsLA5LEN0ZwpMgLZt5Tc0jeuv/l6b+X0EPy3igSyypD2 0Hn+GWffoH0N7UFZpQzA32sMtQvpwQ==
+;; stprj.br.
+stprj.br.		3600	IN	NS	ns2.nomer.com.br.
+stprj.br.		3600	IN	NS	ns1.nomer.com.br.
+stprj.br.		900	IN	NSEC	supra.br. NS RRSIG NSEC
+stprj.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 9APtZxWAkoEW4wN49FzNg2BpEbCopt0Oiw9oonY13/euyuBQqH/AXSXS CgHm6IsQjmxm1X8UQj+81VsN7cEvRA==
+;; supra.br.
+supra.br.		3600	IN	NS	ns2.univali.br.
+supra.br.		3600	IN	NS	ns1.univali.br.
+ns2.univali.br.		3600	IN	A	200.169.52.5
+ns1.univali.br.		3600	IN	A	200.169.52.4
+supra.br.		900	IN	NSEC	tancredo.br. NS RRSIG NSEC
+supra.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. KceRPghRg9bKR3ayfPjPDBXeNG5UtmGHBR0tROlgCc5/3yikCbVg183V j+VhMY8d+RR299N6/QJTREGZxaEDrA==
+;; tvculturaamazonas.br.
+tvculturaamazonas.br.	3600	IN	NS	quimica.objetivomao.br.
+tvculturaamazonas.br.	3600	IN	NS	corvo.objetivomao.br.
+tvculturaamazonas.br.	900	IN	NSEC	ubb.br. NS RRSIG NSEC
+tvculturaamazonas.br.	900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. rfy5t9PhW6sfCAO9turppmdJlYj5Gvo2jO4JOEbag4Fy/xHfJyg/xxtg gMlAw6kxqBP9ZF66XRaEFsNBsSFAXA==
+;; ucergs.br.
+ucergs.br.		3600	IN	NS	marte.uri.br.
+ucergs.br.		3600	IN	NS	sol.fw.uri.br.
+marte.uri.br.		3600	IN	A	200.203.105.100
+ucergs.br.		900	IN	NSEC	uces.br. NS RRSIG NSEC
+ucergs.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. NyUPt0sASUNjSQKoVbXA6eSTnJgaNbZWIsBhzTdmtoGHoKr/aN+iz2Ks yfa+C6oaT20PYhVgQXKQkvCvL2+HbQ==
+;; uescba.br.
+uescba.br.		3600	IN	NS	pau-brasil.uescba.br.
+uescba.br.		3600	IN	NS	jequitiba.uescba.br.
+pau-brasil.uescba.br.	3600	IN	A	200.128.7.33
+jequitiba.uescba.br.	3600	IN	A	200.223.201.33
+uescba.br.		900	IN	NSEC	uespi.br. NS RRSIG NSEC
+uescba.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. vkGL7++j7SDI7GzRKD75csJ0N6TmJjwlwXaRnX9zYc2YLAunZ705bEeQ UofXcVITFIiQMzb1B9VNWTLMnaixeA==
+;; uftc.br.
+uftc.br.		3600	IN	NS	ns.uftc.br.
+uftc.br.		3600	IN	NS	s000-0147.uftc.br.
+s000-0147.uftc.br.	3600	IN	A	200.223.95.147
+ns.uftc.br.		3600	IN	A	200.223.95.150
+uftc.br.		900	IN	NSEC	ufu.br. NS RRSIG NSEC
+uftc.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. h14fj+Zk/pBNfhqFqkAplwDa7juPJEtrDHNiydvVaKxN8sUh/WRLqm0B /Nmr3Gv4q1stMEaxVGaafk8L39GiNA==
+;; ugf.br.
+ugf.br.			3600	IN	NS	dns.univercidade.br.
+ugf.br.			3600	IN	NS	dns2.univercidade.br.
+ugf.br.			3600	IN	NS	dns3.univercidade.br.
+dns2.univercidade.br.	3600	IN	A	200.218.254.210
+dns.univercidade.br.	3600	IN	A	200.218.254.209
+ugf.br.			900	IN	NSEC	ugf-ce.br. NS RRSIG NSEC
+ugf.br.			900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. cQdpweartajxO2I4hp9uuglINCqzLgK4r03hiJlawvRjojQb/FONBja7 Sq3iXiIMVHjE67OvaMNJAjBf5VlxfQ==
+;; ugf-ce.br.
+ugf-ce.br.		3600	IN	NS	ns2.ugf-ce.br.
+ugf-ce.br.		3600	IN	NS	ugf-ce.br.
+ugf-ce.br.		3600	IN	A	189.3.209.146
+ns2.ugf-ce.br.		3600	IN	A	187.72.169.89
+ugf-ce.br.		900	IN	NSEC	ui.br. NS RRSIG NSEC
+ugf-ce.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. K3/80XKpEY65iWOoaphxpAa8fF5qLxHShBv+EXeBHll/O1U9MXrIQE1p v7EglrtYS/SgqdBRz7YC/beYn/RPPw==
+;; unaes.br.
+unaes.br.		3600	IN	NS	ns1.unaes.br.
+unaes.br.		3600	IN	NS	ns2.unaes.br.
+ns2.unaes.br.		3600	IN	A	200.199.217.77
+ns1.unaes.br.		3600	IN	A	200.199.217.67
+unaes.br.		900	IN	NSEC	unama.br. NS RRSIG NSEC
+unaes.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. sl8JHdhBU6P5k2JmlJ9wmjsH/c0aahDkFDIcL/wk+x4t+hJcema17jcw 7KWKWnxXBHZLuWI/we9vIp2iZUb7TA==
+;; uncnet.br.
+uncnet.br.		3600	IN	NS	ritchie.uncnet.br.
+uncnet.br.		3600	IN	NS	spyder.uncnet.br.
+ritchie.uncnet.br.	3600	IN	A	187.5.191.50
+spyder.uncnet.br.	3600	IN	A	187.5.191.52
+uncnet.br.		900	IN	NSEC	uneb.br. NS RRSIG NSEC
+uncnet.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. DqV7HU9mszs62/IuQmKTWUg7bijRnPu0RhsBcH5fSDPbCYQ5CQ29w1ST Xbz4qrJCxEUihsOv+7sQmX5kc6rn4A==
+;; uned-etfse.br.
+uned-etfse.br.		3600	IN	NS	ouro.uned-etfse.br.
+uned-etfse.br.		3600	IN	NS	etna.uned-etfse.br.
+ouro.uned-etfse.br.	3600	IN	A	200.241.61.36
+etna.uned-etfse.br.	3600	IN	A	200.241.61.35
+uned-etfse.br.		900	IN	NSEC	unemat.br. NS RRSIG NSEC
+uned-etfse.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. SqVbB1E/XoR/xBrl658o1MLpIVTwGg0dUTk0Gr5cFoLxQyLjkR1LgQIN yQviLvjZ9jBGqexz/e2rN8nHVDYhAw==
+;; unibahia.br.
+unibahia.br.		3600	IN	NS	ns2.md-92.webhostbox.net.
+unibahia.br.		3600	IN	NS	ns1.md-92.webhostbox.net.
+unibahia.br.		900	IN	NSEC	uniban.br. NS RRSIG NSEC
+unibahia.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. XhjrmZPR8bJajjcRdpZjcWWGSf0oyL+Aa5vBDFZ2det3NDjXyBZfjTdt pRmkkHPBQHCBmORlN+8rVTv078CMDA==
+;; unicesb.br.
+unicesb.br.		3600	IN	NS	dns02.totalwork.com.br.
+unicesb.br.		3600	IN	NS	dns01.totalwork.com.br.
+unicesb.br.		900	IN	NSEC	uniceub.br. NS RRSIG NSEC
+unicesb.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. wDAGkBQ0Y5FR9Lbr50xX4jmDx7rpJIfyXJPm/vKf4HGRbYUjVdW0THCN +k+4eP1zyyWm+2ktIU6t6W7MfzyO1w==
+;; unidadeweb.br.
+unidadeweb.br.		3600	IN	NS	dns4.anhembi.br.
+unidadeweb.br.		3600	IN	NS	dns01.anhembi.br.
+unidadeweb.br.		900	IN	NSEC	uniderp.br. NS RRSIG NSEC
+unidadeweb.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 9UpgA04O0LAIT/4S64YuPZBeDnv//empPUetTdk6lGh7z92HK1s6U1Pt M8Dc0Sln+qEXcT0/ojmqEuypQnPKCw==
+;; unidomus.br.
+unidomus.br.		3600	IN	NS	ns1.pdtech.com.br.
+unidomus.br.		3600	IN	NS	dns2.brasilis.com.br.
+unidomus.br.		900	IN	NSEC	uniemp.br. NS RRSIG NSEC
+unidomus.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. mpA133schCC10lZwxqvk+DqAK/pbtMQv4vz26POTVtBmhC7Sligk+7JG 7h2vZtdWHjisVyxfMZIGGEBDHKs7QQ==
+;; unilestemg.br.
+unilestemg.br.		3600	IN	NS	pajero.ubec.edu.br.
+unilestemg.br.		3600	IN	NS	netuno.unilestemg.br.
+netuno.unilestemg.br.	3600	IN	A	177.207.187.10
+unilestemg.br.		900	IN	NSEC	unilinhares.br. NS RRSIG NSEC
+unilestemg.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. fz/Lf9VEzDzsnK4kCSNeOhTqIN5RIPZ1qnZkZgK4qbt85xr5VrzdagyY /34HYRCu+SmzSXjgM37IKI3v5GLPlQ==
+;; uniminas.br.
+uniminas.br.		3600	IN	NS	uniweb.uniminas.br.
+uniminas.br.		3600	IN	NS	unimail.uniminas.br.
+unimail.uniminas.br.	3600	IN	A	201.16.249.51
+uniweb.uniminas.br.	3600	IN	A	201.16.249.50
+uniminas.br.		900	IN	NSEC	unimonte.br. NS RRSIG NSEC
+uniminas.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. fPLgi9/yF8nGIpb/NR37BND8SlTi3I+55Qp7lS9dvcT4e+PZd/kMxoP0 w5z3/ndCreJxJqd0X+aUCw2FesdGyA==
+;; unipec.br.
+unipec.br.		3600	IN	NS	dns2.dmzclipping.com.br.
+unipec.br.		3600	IN	NS	dns1.dmzclipping.com.br.
+unipec.br.		900	IN	NSEC	uniplac.br. NS RRSIG NSEC
+unipec.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. KGeL8eVhGUw+jMeHTXBMdyW9Oz3Trqd7dlIb3pXPsDtasTCEVvArfaKK FsjkRpnxEMoCLeRQNyG6b67E6OOgkA==
+;; uniplac.br.
+uniplac.br.		3600	IN	NS	newton.uniplac.br.
+uniplac.br.		3600	IN	NS	froid.uniplac.br.
+newton.uniplac.br.	3600	IN	A	200.196.114.30
+froid.uniplac.br.	3600	IN	A	200.196.114.46
+uniplac.br.		900	IN	NSEC	unipobjetivo.br. NS RRSIG NSEC
+uniplac.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 0G2JVkLtyXYR6Cu3s43XoNg3VYwOm82YbAHhIXJvplbkD8hZG4TMd9MX gtrBF6LI16vHx1O+pwIs/Gxd9/w0wQ==
+;; unir-roo.br.
+unir-roo.br.		3600	IN	NS	ns.unir-roo.br.
+unir-roo.br.		3600	IN	NS	ns2.unir-roo.br.
+ns2.unir-roo.br.	3600	IN	A	201.25.112.2
+ns.unir-roo.br.		3600	IN	A	201.25.112.3
+unir-roo.br.		900	IN	NSEC	unirede.br. NS RRSIG NSEC
+unir-roo.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. FzdjRYldWoQ8yjQsrmVGF4SudylfIY4MLKkuZbnrdP/tgnw+Ya5yQmfc TnJ+vZ5EBNXuwE7uk+0fO/HNd6wQtQ==
+;; unirede.br.
+unirede.br.		3600	IN	NS	jupiter.unifei.edu.br.
+unirede.br.		3600	IN	NS	atlas.unifei.edu.br.
+unirede.br.		900	IN	NSEC	unirio.br. NS RRSIG NSEC
+unirede.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. bceSSdT9d8mHHCDMl3UOrlQZPFHeZcvbDqGi8L/FkfuJYmnYyQmx7dz1 hRQXjBWPnei5kLn+Kkw9hr6kVWGsUg==
+;; unisan.br.
+unisan.br.		3600	IN	NS	ns326.hostgator.com.br.
+unisan.br.		3600	IN	NS	ns327.hostgator.com.br.
+unisan.br.		900	IN	NSEC	unisanta.br. NS RRSIG NSEC
+unisan.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. Qxf0UQGK7esG+pcbhFH0t78BFcBCSm60a5iOSWoNbNaCQ8KZy8hijsdo fcGUz/agod9caTHTVzUG9cM0GMx3zw==
+;; unisantana.br.
+unisantana.br.		3600	IN	NS	ns327.hostgator.com.br.
+unisantana.br.		3600	IN	NS	ns326.hostgator.com.br.
+unisantana.br.		900	IN	NSEC	unisantanna.br. NS RRSIG NSEC
+unisantana.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 1ZzvsiYO3Puzlu96ntDpoSQQmyChwKQDsL6+XeYkp9m/dMsnQ+c4lMYF FEaqy0n5FdZZRi6l6quV/wKCOxR/ww==
+;; uniserra.br.
+uniserra.br.		3600	IN	NS	nmfw01.uniserra.br.
+uniserra.br.		3600	IN	NS	ganimedes.mindworks.com.br.
+nmfw01.uniserra.br.	3600	IN	A	201.18.78.67
+uniserra.br.		900	IN	NSEC	unisete.br. NS RRSIG NSEC
+uniserra.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. yik8iag5aV7L0/h180D22wof6AHVwetQCLvpMGbc8b4fpeppC+sLGMI3 qPTaucEZjZmW84dmGREcDOb7SGiBDQ==
+;; unisete.br.
+unisete.br.		3600	IN	NS	pns24.cloudns.net.
+unisete.br.		3600	IN	NS	pns22.cloudns.net.
+unisete.br.		3600	IN	NS	pns21.cloudns.net.
+unisete.br.		3600	IN	NS	pns23.cloudns.net.
+unisete.br.		900	IN	NSEC	unisinos.br. NS DS RRSIG NSEC
+unisete.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. GPkRYvPjOTlpOhvUgw6XCgZ7zbO0nngUXJfow0CAjXxqsr2XGbEo5Iv/ IPeiXke1ZDgvdREsPW5ErloUrYJlog==
+;; univam.br.
+univam.br.		3600	IN	NS	curauia.fucapi.br.
+univam.br.		3600	IN	NS	sucunduri.fucapi.br.
+univam.br.		900	IN	NSEC	univap.br. NS RRSIG NSEC
+univam.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. Uf47gezCzykrJDvjRiFE5//7+hnlIE90NLxgnWasPj97Nnb4lfKnMPXr DVVBkL+UG2F6XVnAAb8Ua6LTORwwZA==
+;; univercidade.br.
+univercidade.br.	3600	IN	NS	dns.univercidade.br.
+univercidade.br.	3600	IN	NS	dns2.univercidade.br.
+dns2.univercidade.br.	3600	IN	A	200.218.254.210
+dns.univercidade.br.	3600	IN	A	200.218.254.209
+univercidade.br.	900	IN	NSEC	universidade.br. NS RRSIG NSEC
+univercidade.br.	900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. twl2u755cgZpNeKzvBTyW+nWijDgieBCsJAH+BoHisEK+tEk8j4aGgRA xUqYIOBnC0jbtcb5rOKAeVVK00KDmw==
+;; universidade.br.
+universidade.br.	3600	IN	NS	ns2.viahospedagem.com.br.
+universidade.br.	3600	IN	NS	ns1.viahospedagem.com.br.
+universidade.br.	900	IN	NSEC	universidadevirtual.br. NS RRSIG NSEC
+universidade.br.	900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. nYBYAFUB9Q24ljVmFBmZrJ79ih7ii/fhTBsecjjnkIhcc1uFVzXRNZK6 zI/HtC/0Sr+7363VD3oNfikzFpOkCQ==
+;; universidadevirtual.br.
+universidadevirtual.br.	3600	IN	NS	dns2.universidadevirtual.br.
+universidadevirtual.br.	3600	IN	NS	dns1.universidadevirtual.br.
+dns2.universidadevirtual.br. 3600 IN	A	164.41.62.31
+dns1.universidadevirtual.br. 3600 IN	A	201.24.24.43
+universidadevirtual.br.	900	IN	NSEC	universo.br. NS RRSIG NSEC
+universidadevirtual.br.	900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. vxpNZyvm73uMsLQ2m85S1XuVNcZckLxGp//V5w2i2jeZ7bTk7Fgk3dKH ueUv4YB+KEQIdZSOlSqLue8/3xYGQQ==
+;; univiam.br.
+univiam.br.		3600	IN	NS	dns4.anhembi.br.
+univiam.br.		3600	IN	NS	dns01.anhembi.br.
+univiam.br.		900	IN	NSEC	univib.br. NS RRSIG NSEC
+univiam.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. RIox0tE1VLZx4APqlAF0vetSHFmkJP35RaDRhHLA89rRJiVeS/9dpJMA EHyfDyeyDwcGnidrs9WGDD9KpB8eYw==
+;; univib.br.
+univib.br.		3600	IN	NS	dns4.anhembi.br.
+univib.br.		3600	IN	NS	dns01.anhembi.br.
+univib.br.		900	IN	NSEC	univibra.br. NS RRSIG NSEC
+univib.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. +xb8lt+cQwWGuGttyrjY5Uj7a3Z1ANlhxEDxaJe4kH8HcN+DKtob0/me kZgtXYA+VtuzEPjUf1QP3Na77RYVVA==
+;; univibra.br.
+univibra.br.		3600	IN	NS	dns01.anhembi.br.
+univibra.br.		3600	IN	NS	dns4.anhembi.br.
+univibra.br.		900	IN	NSEC	univila.br. NS RRSIG NSEC
+univibra.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 3Vd4anIhNrIjILm28oG8q3caLdStpFE+aPkoAdpu8VxBaOwAKEi4DxCP ct1VDRyci2TVYKF1nZyL8U7bqRns+Q==
+;; univila.br.
+univila.br.		3600	IN	NS	ns2.okhost.com.br.
+univila.br.		3600	IN	NS	ns1.okhost.com.br.
+univila.br.		900	IN	NSEC	univille.br. NS RRSIG NSEC
+univila.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 023kDWBspa1pcbr7B1fO2AG0LNQcrKB2oSv3qXQ1/jKaoBCGCwo1KvCV uUzHGJ1lnOQolhuvzuxUBrg/YMOJsg==
+;; univip.br.
+univip.br.		3600	IN	NS	dns01.anhembi.br.
+univip.br.		3600	IN	NS	dns4.anhembi.br.
+univip.br.		900	IN	NSEC	univipro.br. NS RRSIG NSEC
+univip.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. bpaNfR176wizIZSl395Nr+lx+bHnQu4GBVxCnV6n+zb1okPaf2R0DLD1 LhWqC8pD8euHnLMN9qx7emj73d+9Jw==
+;; univipro.br.
+univipro.br.		3600	IN	NS	dns4.anhembi.br.
+univipro.br.		3600	IN	NS	dns01.anhembi.br.
+univipro.br.		900	IN	NSEC	univir.br. NS RRSIG NSEC
+univipro.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. QIFTIvW574hcPLtkHz6TcpCoX1FyrcatNccy7kkfTrale7xO1bOBJnpN fmC8o4lJ6hv359nNZDo2Pa2WgWMgOw==
+;; unoescvda.br.
+unoescvda.br.		3600	IN	NS	sol.unoescvda.br.
+unoescvda.br.		3600	IN	NS	lua.unoescvda.br.
+sol.unoescvda.br.	3600	IN	A	191.52.175.99
+lua.unoescvda.br.	3600	IN	A	191.52.175.98
+unoescvda.br.		900	IN	NSEC	unoeste.br. NS RRSIG NSEC
+unoescvda.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. XHZxGJnJuAS4mUAtkzlX6ARMqNYzXOI78GeDVStREmr5lrrBghyvGL++ ePLdr9A3v+eM3llDptqRWXli1c25SA==
+;; unoestesaude.br.
+unoestesaude.br.	3600	IN	NS	dns5.stetnet.com.br.
+unoestesaude.br.	3600	IN	NS	dns9.stetnet.com.br.
+unoestesaude.br.	900	IN	NSEC	unopar.br. NS RRSIG NSEC
+unoestesaude.br.	900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. XEi7mjq84G60lYOmZa6R5S479k7OXTdR23y6t0eG71sKvtISkcjVQheo 3rhaHe5VSIHfFU+d/yU6MmPxg6qc/Q==
+;; unyahna.br.
+unyahna.br.		3600	IN	NS	dns3.kinghost.com.br.
+unyahna.br.		3600	IN	NS	dns4.kinghost.com.br.
+unyahna.br.		3600	IN	NS	dns5.kinghost.com.br.
+unyahna.br.		3600	IN	NS	dns6.kinghost.com.br.
+unyahna.br.		3600	IN	NS	dns1.kinghost.com.br.
+unyahna.br.		3600	IN	NS	dns2.kinghost.com.br.
+unyahna.br.		900	IN	NSEC	upe.br. NS RRSIG NSEC
+unyahna.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. OWCXE72Et5zdBE5yZs10YdytTxz+snQVV6FHl6e7Khh/KbugCUfkjLVo EZn8GtDDpJcHbNmNsOfaN9Eeh8es6A==
+;; utam.br.
+utam.br.		3600	IN	NS	apocalipse.utam.br.
+utam.br.		3600	IN	NS	wave.utam.br.
+apocalipse.utam.br.	3600	IN	A	200.242.49.119
+wave.utam.br.		3600	IN	A	200.242.49.2
+utam.br.		900	IN	NSEC	utesc.br. NS RRSIG NSEC
+utam.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. /xnTr/Cpyi6665WdBkZZkEFWWfEnJR0ID/NNdyiI01ehB8uxv0YeOmNm UdV7l4MD5W0CRVn66MgHh45e13vQ0Q==
+;; utesc.br.
+utesc.br.		3600	IN	NS	ns.bomjesusielusc.edu.br.
+utesc.br.		3600	IN	NS	ns.utesc.br.
+ns.utesc.br.		3600	IN	A	200.175.44.90
+utesc.br.		900	IN	NSEC	utp.br. NS RRSIG NSEC
+utesc.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 6wBP7uGr76L03zhaI4gBzl6a+9c2MQaFsMYAd3M+xZK7Z7UC9enup5TW GBdNlqG6Vnsfe2ye60DBPzXtHRzrqQ==
+;; uv.br.
+uv.br.			3600	IN	NS	dns01.anhembi.br.
+uv.br.			3600	IN	NS	dns4.anhembi.br.
+uv.br.			900	IN	NSEC	uva.br. NS RRSIG NSEC
+uv.br.			900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 733uXYGeWAOiQH8sPgZ6gsAtHvB9Zdk3SI0hUFen5DYCbd3rhrrdMnGP Jwtx93tVsXnQqbPqI434oEoaAazctQ==
+;; uvb.br.
+uvb.br.			3600	IN	NS	esmeralda.uvb.br.
+uvb.br.			3600	IN	NS	pataxo.uvb.br.
+esmeralda.uvb.br.	3600	IN	A	200.129.133.212
+pataxo.uvb.br.		3600	IN	A	200.129.133.130
+uvb.br.			900	IN	NSEC	uvir.br. NS RRSIG NSEC
+uvb.br.			900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 6Jof+94vRFVqql+urMM6jAyil9BdI3Z7KF8SNuIU+0Mh6HdWFiZY9cHi pmAWJBg+on04iehMxEsEiDVphsiO9w==
+;; uvirtual.br.
+uvirtual.br.		3600	IN	NS	dns4.anhembi.br.
+uvirtual.br.		3600	IN	NS	dns01.anhembi.br.
+uvirtual.br.		900	IN	NSEC	uvsc.br. NS RRSIG NSEC
+uvirtual.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. kitShy5MLJa2LpfHGi8fuOoOdvJW4SvIfhqtiwvjf1KpTE+6NOQtWoII CrmLtCDFlLsEA6btMBwlrb5aWM+emA==
+;; versalhes.br.
+versalhes.br.		3600	IN	NS	ns1.versalhes.br.
+versalhes.br.		3600	IN	NS	ns2.versalhes.br.
+ns2.versalhes.br.	3600	IN	A	50.22.50.176
+ns1.versalhes.br.	3600	IN	A	184.172.63.51
+versalhes.br.		900	IN	NSEC	vestibular.br. NS RRSIG NSEC
+versalhes.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. nN9E7eFdRALMk5xF0C+OYhCDMe2mGuaWzTdirs2mww8uGJltNBmtQAK3 TrNaPNbz/a8jCwBkzdyZKqo6560HtA==
+;; wanderley.br.
+wanderley.br.		3600	IN	NS	ns2.0catch.com.
+wanderley.br.		3600	IN	NS	ns1.0catch.com.
+wanderley.br.		900	IN	NSEC	watson.br. NS RRSIG NSEC
+wanderley.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. OSxXoLHL3dEoTbivfF+fO9LaDGP4TYAUDncJWmqeVI10MWs2rK5ZaupD d+dP/cs9lAFZP3ofFc9RkwiGDV6+ew==
+;; webaulas.br.
+webaulas.br.		3600	IN	NS	dns01.anhembi.br.
+webaulas.br.		3600	IN	NS	dns4.anhembi.br.
+webaulas.br.		900	IN	NSEC	webcampus.br. NS RRSIG NSEC
+webaulas.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. PFtfM4jszBdsVKWv+UaDfW76xRmnLRLYLyGowFLhvrF7x6r3Q8Uqqf/2 6TPdgT4enXx5fIhGjovbKJrDx8FdYA==
+;; webcampus.br.
+webcampus.br.		3600	IN	NS	dns01.anhembi.br.
+webcampus.br.		3600	IN	NS	dns4.anhembi.br.
+webcampus.br.		900	IN	NSEC	weblioteca.br. NS RRSIG NSEC
+webcampus.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. 3XuImy7jkCJCK7/SmR/yIKk/5obyoeCYpkVgCCiosF9mgzZrwWbaIqJX 3rmkMmjRmULZnQjGbiIS9NcOYx/dBQ==
+;; weblioteca.br.
+weblioteca.br.		3600	IN	NS	dns2.univercidade.br.
+weblioteca.br.		3600	IN	NS	dns.univercidade.br.
+dns2.univercidade.br.	3600	IN	A	200.218.254.210
+dns.univercidade.br.	3600	IN	A	200.218.254.209
+weblioteca.br.		900	IN	NSEC	webofscience.br. NS RRSIG NSEC
+weblioteca.br.		900	IN	RRSIG	NSEC 13 2 900 20230907120516 20230824110516 1926 br. u+I65sMY2rZdv9+Txp2NxshSwJffQJeDEEym6dVzXZhtLMhHQ8vMg4gM ZRlX4hf6YZ3PR51I5NZN0qLLElr8Vw==

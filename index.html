@@ -2,9 +2,9 @@
 <html lang="pt-br">
 <head>
 	<meta charset="utf-8">
-	<title>.br Zonefile</title>
+	<title>Zonefile do .BR</title>
 	<meta content="Matheus Avellar" name="author">
-	<meta name="description" content="Zonefile não-oficial e voluntária do .br">
+	<meta name="description" content="Zonefile não-oficial e voluntária do .BR">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="preconnect" href="https://cdn.avl.la/" crossorigin>
 	<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
@@ -12,14 +12,14 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
 	<link rel="manifest" href="./site.webmanifest">
 	<link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
-	<link rel="stylesheet" href="./style.css?v=30">
+	<link rel="stylesheet" href="./style.css?v=31">
 </head>
 <body>
 	<header>
 		<label style="float:right">
 			<input id="dark-mode" type="checkbox"> Modo escuro
 		</label>
-		<h1>.br "Zonefile"</h1>
+		<h1>Zonefile do .BR</h1>
 		<script>
 const darkModeCheckbox = document.getElementById("dark-mode");
 darkModeCheckbox.addEventListener("change", e => {
@@ -32,7 +32,7 @@ darkModeCheckbox.addEventListener("change", e => {
 	}
 });
 
-const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+const darkModeMediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
 if(darkModeMediaQuery.matches) {
 	document.body.classList.add("dark");
 	darkModeCheckbox.checked = true;
@@ -51,76 +51,216 @@ darkModeMediaQuery.addListener((e) => {
 		</script>
 	</header>
 	<main>
-		<h2 id="baixar">Baixar a lista</h2>
 		<section>
 			<p>
-				Atualmente, a lista possui <b>1350</b> domínios catalogados, de um total
+				Atualmente, a lista possui <b>1349</b> domínios catalogados, de um total
 				de 1207 domínios registrados segundo o <a href="https://registro.br/dominio/estatisticas/">Registro.br</a>.
 				Isso representa aproximadamente <b>112%</b> do total. Ainda não sei o
 				motivo da discrepância.
 			</p>
+			<article id="baixar" class="callout">
+				<strong>Zona inteira:</strong>
+				<a href="./br.zone">br.zone</a> (≈910&nbsp;KB)
+			</article>
 			<p>
-				Este website será atualizado em breve com uma melhor organização da
-				informação, além de correções para a lista se aproximar da contagem do
-				Registro.br. Contudo, quis publicar logo a lista completa, que acabei de
-				terminar de compilar, na data de escrita deste texto (25/ago/2023).
+				De todos os domínios catalogados, alguns vieram sem registros SOA.
+				Não conheço DNS o suficiente para saber o motivo.
+				Assim, separei a lista em duas: uma com <b>1089</b> domínios (90% do
+				reportado pelo Registro.br), todos com SOA; e outra com <b>260</b>
+				domínios, sem SOA.
 			</p>
-			<article>
-				<strong>A zona pode ser baixada aqui:</strong> <a href="./br.zone">br.zone</a> (≈502&nbsp;KB)
+			<article class="callout">
+				<div>
+					<strong>Somente domínios completos:</strong>
+					<a href="./br.SOA.zone">br.SOA.zone</a> (≈816&nbsp;KB)
+				</div>
+				<div>
+					<strong>Somente domínios incompletos:</strong>
+					<a href="./br.NO_SOA.zone">br.NO_SOA.zone</a> (≈93&nbsp;KB)
+				</div>
 			</article>
-			<article>
-				<strong>Planilha:</strong> <a href="https://docs.google.com/spreadsheets/d/1XRSGQVsE0hCD7tuXYH6R8FExXB_Eo5PaogjPHdtqGKU/view">Google Sheets</a>
-			</article>
-			<p class="timestamp">Atualizado em 25 de agosto de 2023</p>
+			<p>
+				Para além disso, você também pode verificar a
+				<a href="https://docs.google.com/spreadsheets/d/1XRSGQVsE0hCD7tuXYH6R8FExXB_Eo5PaogjPHdtqGKU/view">planilha
+				no Google Sheets</a> que estou usando para catalogar cada domínio.
+			</p>
+			<p class="timestamp">Atualizado em 26 de agosto de 2023</p>
 		</section>
-		<h2 id="o-que-e">Explicação</h2>
+		<strong>Table of contents</strong>
+		<ol>
+			<li><a href="#contexto">Contexto</a></li>
+			<li><a href="#detalhes">Detalhes</a></li>
+			<li><a href="#construcao">Construção da lista</a></li>
+			<li><a href="#estatisticas">Estatísticas</a></li>
+		</ol>
+		<h2 id="contexto">Contexto</h2>
 		<section>
 			<p>
-				Esta é uma lista não oficial e voluntariamente mantida de domínios
-				registrados diretamente sob <i>.br</i>. Não inclui domínios como
-				<i>exemplo.com.br</i>, <i>exemplo.net.br</i>, ou qualquer outro domínio
-				que não esteja diretamente sob <i>.br</i> (ex.: <i>ufrj.br</i>). Inclui
-				domínios com registros DNS, mesmo que sejam somente subdomínios (ex.:
-				<i>com.br</i> não é um domínio, mas possui registros DNS), assumindo que
-				essa é a metodologia usada pelo Registro.br para fazer a contagem.
+				Em agosto de 2021, perguntei ao Registro.br se a zona de DNS do .BR era
+				pública. Recebi uma resposta negativa, me informando que o máximo disponível
+				ao público era a <a href="https://registro.br/dominio/estatisticas/">página
+				de estatísticas do Registro.br</a>. Então, comecei a compilar a zona eu
+				mesmo. Este é o resultado. Uma lista não oficial e voluntariamente mantida
+				de todos os domínios registrados diretamente sob .BR – chamados de DPNs
+				(Domínios de Primeiro Nível) pelo Registro.br, e de SLDs (Second-Level
+				Domains) pelo resto do planeta.
 			</p>
+			<p>
+				No início dos anos 2000, o Comitê Gestor da Internet (CGI) no Brasil
+				tomou a decisão de limitar o registro de novos DPNs, que até então eram
+				liberados, para evitar abuso.<sup><a href="#ref1">[1]</a></sup> Assim, desde
+				<i>circa</i> 2005, pouquíssimos novos domínios .BR foram
+				registrados.<sup><a href="#ref2">[2]</a></sup> Portanto, é possível
+				compilar uma lista completa com todos eles. Segundo as estatísticas do
+				Registro.br, existem exatamente 1207.
+			</p>
+			<p>
+				Os DPNs são domínios no formato &lt;NOME&gt;.BR. Por exemplo: GOV.BR
+				é um DPN, então está presente na lista; CAMARA.GOV.BR, não. Alguns
+				domínios não possuem websites – por exemplo, COM.BR; estes ainda assim
+				estão inclusos.
+			</p>
+			<strong>Referências</strong>
+			<ol>
+				<li id="ref1">
+					<a href="https://www.nic.br/registro-nota-edu/">Nota de Esclarecimento
+					sobre utilização do DPN .edu</a>. <i>Núcleo de Informação e
+					Coordenação do Ponto BR</i>.
+				</li>
+				<li id="ref2">
+					<a href="https://registro.br/stat/br_2a.png">Estatísticas do .BR</a>.
+					<i>Registro.br</i>.
+				</li>
+			</ol>
+		</section>
+		<h2 id="detalhes">Detalhes</h2>
+		<section>
+			<p>
+				Aqui estão os comandos que foram usados para gerar a zona, a partir de
+				uma lista pré-existente de nomes a serem conferidos:
+			</p>
+			<pre>
+<span class="comment"># Primeiro, pedimos o registro SOA ao Google</span>
+<span class="command">dig</span> <span class="server">@8.8.8.8</span> <span class="domain">$SLD.br.</span> <span class="record">SOA</span> <span class="flags">+noall +answer +authority +additional</span>
+<span class="comment"># E os registros NS diretamente ao DNS.br</span>
+<span class="command">dig</span> <span class="server">@a.dns.br</span> <span class="domain">$SLD.br.</span> <span class="record">NS</span> <span class="flags">+noall +answer +authority +additional</span>
+
+<span class="comment"># Em seguida, perguntamos pela existência de registros A, AAAA e MX,</span>
+<span class="comment"># tanto para o domínio em si, quanto para seu subdomínio www</span>
+<span class="command">dig</span> <span class="server">@8.8.8.8</span> <span class="domain">$SLD.br.</span> <span class="record">A</span> <span class="flags">+noall +answer</span>
+<span class="command">dig</span> <span class="server">@8.8.8.8</span> <span class="domain">$SLD.br.</span> <span class="record">AAAA</span> <span class="flags">+noall +answer</span>
+<span class="command">dig</span> <span class="server">@8.8.8.8</span> <span class="domain">$SLD.br.</span> <span class="record">MX</span> <span class="flags">+noall +answer</span>
+<span class="command">dig</span> <span class="server">@8.8.8.8</span> <span class="domain">www.$SLD.br.</span> <span class="record">A</span> <span class="flags">+noall +answer</span>
+<span class="command">dig</span> <span class="server">@8.8.8.8</span> <span class="domain">www.$SLD.br.</span> <span class="record">AAAA</span> <span class="flags">+noall +answer</span>
+<span class="command">dig</span> <span class="server">@8.8.8.8</span> <span class="domain">www.$SLD.br.</span> <span class="record">MX</span> <span class="flags">+noall +answer</span>
+
+<span class="comment"># Por fim, NSEC; vide explicação abaixo</span>
+<span class="command">dig</span> <span class="server">@a.dns.br</span> <span class="domain">"$SLD#.br."</span> <span class="record">NSEC</span> <span class="flags">+noall +answer +authority +additional +dnssec</span></pre>
+		<p>
+			Requisitamos, via NSEC no final, o nome do próximo domínio – uma espécie
+			de zone walking, mas meramente a título de curiosidade, pois já temos a
+			lista de nomes; um "zone looking", se preferir. Realisticamente,
+			"&#8288;&lt;SLD&gt;#.BR" (sim, com #) não é um domínio real nem nunca será; e não há
+			como existir domínio alfabeticamente entre "&lt;SLD&gt;.BR" e
+			"&lt;SLD&gt;#.BR". Então, pedir NSEC de "&lt;SLD&gt;#.BR" nos retorna como
+			resposta um status de NXDOMAIN, com o próximo domínio válido. Em tese, este
+			será o domínio testado imediatamente a seguir.
+		</p>
+		<p>
+			Aqui está uma entrada da lista, extraída para melhor ilustrar como ela é
+			depois de gerada:
+		</p>
+<style>
+pre .domain { color: #002267; }
+pre .comment, pre .ttl { color: #777; }
+pre .in, pre .command { color: #444; }
+pre .server { color: #402c00; }
+pre .flags { color: #4a0000; }
+pre .record { color: #005f24; }
+pre .value { color: rebeccapurple; }
+</style>
+			<pre>
+<span class="comment">;; itpac.br.</span>
+<span class="domain">itpac.br.</span>		<span class="ttl">1800</span>	<span class="in">IN</span>	<span class="record">SOA</span>	<span class="value">fiona.ns.cloudflare.com. dns.cloudflare.com. [...]</span>
+<span class="domain">itpac.br.</span>		<span class="ttl">3600</span>	<span class="in">IN</span>	<span class="record">NS</span>	<span class="value">fiona.ns.cloudflare.com.</span>
+<span class="domain">itpac.br.</span>		<span class="ttl">3600</span>	<span class="in">IN</span>	<span class="record">NS</span>	<span class="value">pete.ns.cloudflare.com.</span>
+<span class="domain">itpac.br.</span>		<span class="ttl">300</span>	<span class="in">IN</span>	<span class="record">A</span>	<span class="value">104.18.14.38</span>
+<span class="domain">itpac.br.</span>		<span class="ttl">300</span>	<span class="in">IN</span>	<span class="record">A</span>	<span class="value">104.18.15.38</span>
+<span class="domain">itpac.br.</span>		<span class="ttl">300</span>	<span class="in">IN</span>	<span class="record">AAAA</span>	<span class="value">2606:4700::6812:f26</span>
+<span class="domain">itpac.br.</span>		<span class="ttl">300</span>	<span class="in">IN</span>	<span class="record">AAAA</span>	<span class="value">2606:4700::6812:e26</span>
+<span class="domain">itpac.br.</span>		<span class="ttl">3600</span>	<span class="in">IN</span>	<span class="record">MX</span>	<span class="value">0 itpac-br.mail.protection.outlook.com.</span>
+<span class="domain">www.itpac.br.</span>		<span class="ttl">300</span>	<span class="in">IN</span>	<span class="record">A</span>	<span class="value">104.18.14.38</span>
+<span class="domain">www.itpac.br.</span>		<span class="ttl">300</span>	<span class="in">IN</span>	<span class="record">A</span>	<span class="value">104.18.15.38</span>
+<span class="domain">www.itpac.br.</span>		<span class="ttl">300</span>	<span class="in">IN</span>	<span class="record">AAAA</span>	<span class="value">2606:4700::6812:e26</span>
+<span class="domain">www.itpac.br.</span>		<span class="ttl">300</span>	<span class="in">IN</span>	<span class="record">AAAA</span>	<span class="value">2606:4700::6812:f26</span>
+<span class="domain">itpac.br.</span>		<span class="ttl">900</span>	<span class="in">IN</span>	<span class="record">NSEC</span>	<span class="value">iuperj.br. NS DS RRSIG NSEC</span>
+<span class="domain">itpac.br.</span>		<span class="ttl">900</span>	<span class="in">IN</span>	<span class="record">RRSIG</span>	<span class="value">NSEC 13 2 900 20230907120516 [...]</span></pre>
+			<p>
+				Toda entrada na lista começa com um cabeçalho informando a qual
+				domínio ela se refere. A linha começa com ';;'.
+			</p>
+			<p>
+				Em seguida, há uma linha com o registro SOA. Nem todos os domínios
+				possuem um – algo que, no meu entendimento, nem deveria ser possível.
+				Ainda que estranhos, estes possuem <i lang="en">nameservers</i>,
+				registros NSEC e até presença no <i lang="en">whois</i>. Então, eles
+				definitivamente existem; são diferentes de domínios cuja resposta é
+				NXDOMAIN. Estão em alguma outra forma de limbo.
+			</p>
+			<p>
+				Na sequência, há informações sobre os registros encontrados: A e AAAA
+				(ou CNAME, se for o caso), e MX. Eles são testados para o domínio em si,
+				e para o subdomínio "WWW.&lt;SLD&gt;.BR".
+			</p>
+			<p>
+				A entrada termina com o registro NSEC, indicando a entrada logo a
+				seguir.
+			</p>
+		</section>
+		<h2 id="construcao">Construção da lista</h2>
+		<section>
 			<p>
 				Esta lista teve como ponto de partida a lista de domínios mais geral
 				disponibilizada por <a href="https://news.ycombinator.com/item?id=10368935">jtwaleson</a>
-				como torrent em <a href="https://all-certificates.s3.amazonaws.com/domainnames.gz?torrent">domainnames.gz</a>,
+				(<a href="https://all-certificates.s3.amazonaws.com/domainnames.gz?torrent">domainnames.gz</a>),
 				e a lista "<a href="https://majestic.com/reports/majestic-million">Majestic Million</a>",
-				da empresa Majestic. Um script foi usado para testar se os domínios das
-				listas existem (após filtragem inicial por somente aqueles diretamente
-				sob <i>.br</i>); esse script está disponível em <a href="./check.sh">check.sh</a>
-				(requer um arquivo <i>slds.txt</i> com domínios a serem testados).
-			</p>
-			<p>
-				Alguns domínios curtos foram encontrados por força bruta. O script
-				utilizado para tal está disponível em <a href="./brute-force.sh">brute-force.sh</a>.
-				Através desse método, todas as combinações de 3 letras e/ou dígitos,
-				<strong>[A&#8288;-&#8288;Z0&#8288;-&#8288;9]&#8288;{1,3}\.br</strong>,
-				foram conferidas. Adicionalmente, todas as combinações de 4 letras (sem
-				dígitos), <strong>[A&#8288;-&#8288;Z]{4}\.br</strong>, também foram
-				conferidas usando o script.
+				da empresa Majestic. Alguns domínios curtos foram encontrados por força
+				bruta; através desse método, todas as combinações de 3 letras e/ou dígitos,
+				<strong>[A&#8288;-&#8288;Z0&#8288;-&#8288;9]&#8288;{1,3}\.br</strong>, e
+				também de 4 letras (sem dígitos), <strong>[A&#8288;-&#8288;Z]{4}\.br</strong>,
+				foram conferidas.
 			</p>
 			<p>
 				A zona final só pôde ser compilada através do trabalho altruísta de
 				<a href="https://zach.bloomqu.ist/">Zach Bloomquist</a>,
 				que publicou no repositório
 				<a href="https://github.com/flotwig/zone-walks">zone-walks</a> a
-				"caminhada" de DNS do domínio .br. Os 40% restantes do progresso
-				são inteiramente por trabalho dele, e eu serei eternamente grato.
+				"caminhada" de DNS do domínio .br. Os 40% finais da lista
+				são inteiramente devido ao trabalho dele, e eu serei eternamente grato.
 			</p>
 		</section>
 		<h2 id="estatisticas">Estatísticas</h2>
 		<section class="table-wrapper">
-			<iframe class="graph" width="600" height="320" sandbox loading="lazy" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQJ_fPGnYZLIDIjCKIujVtVeGebu2GCBamT2YLI4PnHKakUxaQ-t9cTaw937Z-BhXfl2FuOVtwXhqv9/pubchart?oid=614945270&amp;format=image"></iframe>
-		</section>
-		<section class="table-wrapper">
-			<iframe class="graph" width="485" height="340" sandbox loading="lazy" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQJ_fPGnYZLIDIjCKIujVtVeGebu2GCBamT2YLI4PnHKakUxaQ-t9cTaw937Z-BhXfl2FuOVtwXhqv9/pubchart?oid=1536928900&amp;format=image"></iframe>
-		</section>
-		<section class="table-wrapper">
 			<iframe class="graph" width="500" height="365" sandbox loading="lazy" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQJ_fPGnYZLIDIjCKIujVtVeGebu2GCBamT2YLI4PnHKakUxaQ-t9cTaw937Z-BhXfl2FuOVtwXhqv9/pubchart?oid=1147870348&amp;format=image"></iframe>
+			<br>
+		</section>
+		<section class="spaced">
+			<strong>Quantidade de domínios por tamanho</strong>
+			<p>
+				Tamanho, aqui, indica a quantidade de caracteres antes do ".BR". Por
+				exemplo, "COM.BR" possui tamanho 3.
+			</p>
+			<canvas id="domain-sizes" class="chartjs"></canvas>
+		</section>
+		<section class="spaced">
+			<strong>Agregado de domínios registrados</strong>
+			<p>
+				Quantidade aproximada, baseada em dados de WHOIS; não inclui domínios
+				que foram posteriormente deletados. Ainda não inclui todos os domínios
+				da lista (por motivos de <i>rate limiting</i>). Compare com o
+				<a href="https://registro.br/stat/br_2a.png">gráfico oficial</a>.
+			</p>
+			<canvas id="registration-aggregate" class="chartjs"></canvas>
 		</section>
 	</main>
 	<footer>
@@ -138,7 +278,6 @@ darkModeMediaQuery.addListener((e) => {
 			Ele é desenvolvido e mantido voluntária e independentemente.
 		</p>
 	</footer>
-	<link rel="stylesheet" href="https://cdn.avl.la/font/inter.css">
 	<div hidden>
 		<svg class="icon" viewbox="0 0 24 24">
 			<path id="yes" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"/>
@@ -150,6 +289,128 @@ darkModeMediaQuery.addListener((e) => {
 			</g>
 		</svg>
 	</div>
+	<link rel="stylesheet" href="https://cdn.avl.la/font/inter.css">
+	<script src="js/chart.js@4.4.0.umd.min.js"></script>
+	<script src="js/chartjs-adapter-date-fns@3.0.0.bundle.min.js"></script>
+	<script>
+let somatorio_agregado_registro = 66;
+const data = {
+	labels: [
+		new Date("1989-04-01Z"), new Date("1995-05-01Z"), new Date("1995-06-01Z"),
+		new Date("1995-09-01Z"), new Date("1995-10-01Z"), new Date("1995-11-01Z"),
+		new Date("1995-12-01Z"), new Date("1996-01-01Z"), new Date("1996-02-01Z"),
+		new Date("1996-03-01Z"), new Date("1996-04-01Z"), new Date("1996-05-01Z"),
+		new Date("1996-06-01Z"), new Date("1996-07-01Z"), new Date("1996-08-01Z"),
+		new Date("1996-09-01Z"), new Date("1996-10-01Z"), new Date("1996-11-01Z"),
+		new Date("1996-12-01Z"), new Date("1997-01-01Z"), new Date("1997-02-01Z"),
+		new Date("1997-03-01Z"), new Date("1997-04-01Z"), new Date("1997-05-01Z"),
+		new Date("1997-06-01Z"), new Date("1997-07-01Z"), new Date("1997-08-01Z"),
+		new Date("1997-09-01Z"), new Date("1997-10-01Z"), new Date("1997-11-01Z"),
+		new Date("1997-12-01Z"), new Date("1998-01-01Z"), new Date("1998-02-01Z"),
+		new Date("1998-03-01Z"), new Date("1998-04-01Z"), new Date("1998-05-01Z"),
+		new Date("1998-06-01Z"), new Date("1998-07-01Z"), new Date("1998-08-01Z"),
+		new Date("1998-09-01Z"), new Date("1998-10-01Z"), new Date("1998-11-01Z"),
+		new Date("1998-12-01Z"), new Date("1999-01-01Z"), new Date("1999-02-01Z"),
+		new Date("1999-03-01Z"), new Date("1999-04-01Z"), new Date("1999-05-01Z"),
+		new Date("1999-06-01Z"), new Date("1999-07-01Z"), new Date("1999-08-01Z"),
+		new Date("1999-09-01Z"), new Date("1999-10-01Z"), new Date("1999-11-01Z"),
+		new Date("1999-12-01Z"), new Date("2000-01-01Z"), new Date("2000-02-01Z"),
+		new Date("2000-03-01Z"), new Date("2000-04-01Z"), new Date("2000-05-01Z"),
+		new Date("2000-06-01Z"), new Date("2000-07-01Z"), new Date("2000-08-01Z"),
+		new Date("2000-09-01Z"), new Date("2000-10-01Z"), new Date("2004-09-01Z"),
+		new Date("2005-03-01Z"), new Date("2005-05-01Z"), new Date("2005-09-01Z"),
+		new Date("2006-06-01Z"), new Date("2006-09-01Z"), new Date("2006-11-01Z"),
+		new Date("2007-01-01Z"), new Date("2008-01-01Z"), new Date("2008-08-01Z"),
+		new Date("2009-06-01Z"), new Date("2010-01-01Z"), new Date("2010-09-01Z"),
+		new Date("2011-07-01Z"), new Date("2012-02-01Z"), new Date("2012-03-01Z"),
+		new Date("2012-08-01Z"), new Date("2013-02-01Z"), new Date("2013-11-01Z"),
+		new Date("2014-01-01Z"), new Date("2015-03-01Z"), new Date("2015-04-01Z"),
+		new Date("2018-05-01Z"), new Date("2021-05-01Z")
+	],
+	datasets: [
+		{
+			label: "Domínios (agregado, aprox.)",
+			data: [
+				1, 1, 1, 1, 4, 4, 4, 1, 4, 8, 4, 6, 3, 5, 4, 7, 9, 6, 13, 3, 3, 8, 4, 3,
+				4, 6, 7, 12, 14, 8, 10, 5, 10, 10, 14, 14, 16, 15, 14, 23, 15, 10, 11,
+				11, 7, 10, 20, 15, 10, 25, 20, 20, 19, 21, 22, 21, 25, 30, 37, 50, 41,
+				29, 21, 26, 9, 1, 1, 1, 1, 1, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
+				1, 2, 1, 1, 1
+			].map(el => somatorio_agregado_registro += el)
+		}
+	]
+};
+const reg_agg = new Chart(document.getElementById("registration-aggregate").getContext("2d"), {
+	type: "line",
+	data: data,
+	options: {
+		scales: {
+			x: {
+				type: "time"
+			},
+			y: {
+				beginAtZero: true
+			}
+		},
+		plugins: {
+			legend: {
+				onClick: (e) => e.stopPropagation()
+			},
+			tooltip: {
+				callbacks: {
+					title: function(tooltipItem) {
+						const d = new Date(tooltipItem[0].parsed.x);
+						const m = [
+							"Jan", "Fev", "Mar",
+							"Abr", "Mai", "Jun",
+							"Jul", "Ago", "Set",
+							"Out", "Nov", "Dez"
+						][d.getUTCMonth()];
+						return `${m}/${d.getUTCFullYear()}`;
+					}
+				}
+			}
+		}
+	}
+});
+	</script>
+	<script>
+const domain_lengths = [
+	1, 14, 243, 197, 171, 173, 133, 118, 66, 54, 34, 31, 26, 20, 10, 15, 14, 8,
+	6, 8, 1, 4, 1, 1
+];
+const dom_siz = new Chart(document.getElementById("domain-sizes").getContext("2d"), {
+	type: "bar",
+	data: {
+		labels: Array.from({ length: domain_lengths.length }, (_, i) => i+1),
+		datasets: [{
+			label: "Domínios",
+			data: domain_lengths,
+			backgroundColor: "#34a853",
+			borderRadius: 2
+		}]
+	},
+	options: {
+		scales: {
+			y: {
+				beginAtZero: true
+			}
+		},
+		plugins: {
+			legend: {
+				onClick: (e) => e.stopPropagation()
+			},
+			tooltip: {
+				callbacks: {
+					title: function(tooltipItem) {
+						return `Tamanho: ${tooltipItem[0].parsed.x+1}`;
+					}
+				}
+			}
+		}
+	}
+});
+	</script>
 	<!-- ######### -->
 	<figure id="logo">
 		<a href="/"></a>

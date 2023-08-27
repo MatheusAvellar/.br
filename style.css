@@ -71,61 +71,12 @@ a[href]:hover, a[href]:focus {
 	max-height: 80vh;
 	overflow: auto;
 }
-table {
-	border-collapse: separate;
-	border-spacing: 0;
-	border: 3px solid #d0d0d0;
-	border-radius: 5px;
-}
-table th {
-	padding: .5em .5em;
-	border-bottom: 3px solid #d0d0d0;
-	background-color: #f6f6f6;
-	font-weight: 600;
-}
-.dark table th {
-	background-color: #363636;
-}
-table td {
-	padding: .5em .5em;
-}
-table tr:not(:last-of-type) td {
-	border-bottom: 1px solid #efefef;
-}
-thead tr {
-	position: sticky;
-	top: 0px;
+pre {
+	max-width: 100%;
+	overflow-x: auto;
 }
 em, b, strong {
 	font-weight: 600;
-}
-a[href^="#"] {
-	vertical-align: super;
-	font-size: 80%;
-}
-summary {
-	list-style: none;
-	cursor: pointer;
-	margin: .5em 0;
-	padding: 1em;
-	background-color: #eee;
-}
-[open] summary {
-	background-color: #cecece;
-}
-.dark summary {
-	background-color: #363636;
-}
-.dark [open] summary {
-	background-color: #2e2e2e;
-}
-summary > h3 {
-	width: 1em;
-	text-align: center;
-}
-summary > h3, summary > p {
-	margin: 0;
-	display: inline-block;
 }
 .timestamp {
 	text-align: right;
@@ -181,6 +132,17 @@ summary > h3, summary > p {
 }
 .dark .graph {
 	filter: invert(1) contrast(0.85) hue-rotate(180deg) brightness(1.25);
+}
+.dark pre {
+	filter: invert(1) saturate(2);
+}
+.spaced + .spaced {
+	margin-top: 2rem;
+}
+.chartjs {
+	max-height: 35vh;
+	max-width: 75%;
+	margin: auto;
 }
 
 @media screen and (min-width: 550px) {
