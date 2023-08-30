@@ -12,7 +12,7 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
 	<link rel="manifest" href="./site.webmanifest">
 	<link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
-	<link rel="stylesheet" href="./style.css?v=31">
+	<link rel="stylesheet" href="./style.css?v=32">
 </head>
 <body>
 	<header>
@@ -53,29 +53,28 @@ darkModeMediaQuery.addListener((e) => {
 	<main>
 		<section>
 			<p>
-				Atualmente, a lista possui <b>1349</b> domínios catalogados, de um total
-				de 1207 domínios registrados segundo o <a href="https://registro.br/dominio/estatisticas/">Registro.br</a>.
-				Isso representa aproximadamente <b>112%</b> do total. Ainda não sei o
-				motivo da discrepância.
+				A zona possui <b>1349</b> domínios catalogados. Desses, <b>1207</b>
+				(89.47%) são domínios contados nas <a href="https://registro.br/dominio/estatisticas/">estatísticas
+				do Registro.br</a>; e <b>142</b> (10.53%) são considerados somente
+				subdomínios e não constam nas estatísticas oficiais.
 			</p>
 			<article id="baixar" class="callout">
-				<strong>Zona inteira:</strong>
+				<strong>Zona inteira</strong> (1349):
 				<a href="./br.zone">br.zone</a> (≈910&nbsp;KB)
 			</article>
 			<p>
 				De todos os domínios catalogados, alguns vieram sem registros SOA.
 				Não conheço DNS o suficiente para saber o motivo.
-				Assim, separei a lista em duas: uma com <b>1089</b> domínios (90% do
-				reportado pelo Registro.br), todos com SOA; e outra com <b>260</b>
-				domínios, sem SOA.
+				Assim, separei a lista em duas: uma com <b>1089</b> domínios, todos com
+				SOA; e outra com <b>260</b> domínios, sem SOA.
 			</p>
 			<article class="callout">
 				<div>
-					<strong>Somente domínios completos:</strong>
+					<strong>Somente domínios completos</strong> (1089):
 					<a href="./br.SOA.zone">br.SOA.zone</a> (≈816&nbsp;KB)
 				</div>
 				<div>
-					<strong>Somente domínios incompletos:</strong>
+					<strong>Somente domínios incompletos</strong> (260):
 					<a href="./br.NO_SOA.zone">br.NO_SOA.zone</a> (≈93&nbsp;KB)
 				</div>
 			</article>
@@ -84,16 +83,34 @@ darkModeMediaQuery.addListener((e) => {
 				<a href="https://docs.google.com/spreadsheets/d/1XRSGQVsE0hCD7tuXYH6R8FExXB_Eo5PaogjPHdtqGKU/view">planilha
 				no Google Sheets</a> que estou usando para catalogar cada domínio.
 			</p>
-			<p class="timestamp">Atualizado em 26 de agosto de 2023</p>
+			<p class="timestamp">Atualizado em 29 de agosto de 2023</p>
 		</section>
-		<strong>Table of contents</strong>
-		<ol>
+		<p class="noindent"><b>Table of Contents:</b></p>
+		<ol id="toc">
 			<li><a href="#contexto">Contexto</a></li>
 			<li><a href="#detalhes">Detalhes</a></li>
+			<li>
+				<a href="#diferencas-oficiais">Diferenças das estatísticas oficiais</a>
+				<ol>
+					<li><a href="#canbr">CAN.br</a></li>
+					<li><a href="#cribr">CRI.br</a></li>
+				</ol>
+			</li>
 			<li><a href="#construcao">Construção da lista</a></li>
-			<li><a href="#estatisticas">Estatísticas</a></li>
+			<li>
+				<a href="#estatisticas">Estatísticas</a>
+				<ol>
+					<li><a href="#parcela-categoria">Parcela por categoria</a></li>
+					<li><a href="#tamanho-dominios">Quantidade de domínios por tamanho</a></li>
+					<li><a href="#quantidade-dominios">Agregado de domínios registrados</a></li>
+				</ol>
+			</li>
 		</ol>
-		<h2 id="contexto">Contexto</h2>
+		<hr>
+		<h2 id="contexto">
+			<a href="#contexto"></a>
+			Contexto
+		</h2>
 		<section>
 			<p>
 				Em agosto de 2021, perguntei ao Registro.br se a zona de DNS do .BR era
@@ -110,15 +127,15 @@ darkModeMediaQuery.addListener((e) => {
 				tomou a decisão de limitar o registro de novos DPNs, que até então eram
 				liberados, para evitar abuso.<sup><a href="#ref1">[1]</a></sup> Assim, desde
 				<i>circa</i> 2005, pouquíssimos novos domínios .BR foram
-				registrados.<sup><a href="#ref2">[2]</a></sup> Portanto, é possível
-				compilar uma lista completa com todos eles. Segundo as estatísticas do
-				Registro.br, existem exatamente 1207.
+				registrados. Portanto, é possível compilar uma lista completa com todos
+				eles – e o objetivo desse projeto era construí-la.
 			</p>
 			<p>
 				Os DPNs são domínios no formato &lt;NOME&gt;.BR. Por exemplo: GOV.BR
 				é um DPN, então está presente na lista; CAMARA.GOV.BR, não. Alguns
-				domínios não possuem websites – por exemplo, COM.BR; estes ainda assim
-				estão inclusos.
+				domínios não possuem websites – por exemplo, COM.BR – e são usados
+				somente como subdomínios. Ainda que o Registro.br não os inclua em suas
+				estatísticas do .BR, aqui eles estão inclusos.
 			</p>
 			<strong>Referências</strong>
 			<ol>
@@ -127,13 +144,13 @@ darkModeMediaQuery.addListener((e) => {
 					sobre utilização do DPN .edu</a>. <i>Núcleo de Informação e
 					Coordenação do Ponto BR</i>.
 				</li>
-				<li id="ref2">
-					<a href="https://registro.br/stat/br_2a.png">Estatísticas do .BR</a>.
-					<i>Registro.br</i>.
-				</li>
 			</ol>
 		</section>
-		<h2 id="detalhes">Detalhes</h2>
+		<hr>
+		<h2 id="detalhes">
+			<a href="#detalhes"></a>
+			Detalhes
+		</h2>
 		<section>
 			<p>
 				Aqui estão os comandos que foram usados para gerar a zona, a partir de
@@ -217,7 +234,108 @@ pre .value { color: rebeccapurple; }
 				seguir.
 			</p>
 		</section>
-		<h2 id="construcao">Construção da lista</h2>
+		<hr>
+		<h2 id="diferencas-oficiais">
+			<a href="#diferencas-oficiais"></a>
+			Diferenças das estatísticas oficiais
+		</h2>
+		<section>
+			<p>
+				A página de estatísticas do Registro.br alega 1207 domínios registrados
+				diretamente sob o .BR. Com esse projeto, pude determinar com algum nível
+				de confiança que esse número não inclui os 140 subdomínios disponíveis
+				para registro. Na verdade, 1207 é o exato número de domínios que
+				respondem queries de <i>whois</i>; o resto retorna coisas como
+				"blocked_word: CG" ou "reserved: trademark".
+			</p>
+			<p>
+				Contudo, 1349<sub>(total encontrado)</sub> − 1207<sub>(total alegado)</sub>
+				= 142, dois a mais do que os 140 subdomínios na página de
+				categorias do Registro.br. Isso se dá pois há 2 subdomínios faltantes,
+				não mais disponíveis para registro e escondidos do público. Eles são
+				CAN.BR e CRI.BR:
+			</p>
+			<h3 id="canbr">
+				<a href="#canbr"></a>
+				CAN.br
+			</h3>
+			<p>
+				Subdomínio para websites oficiais de candidatos eleitorais, seria
+				sempre no formato &lt;NOME&gt;&#8288;&lt;NÚMERO&gt;.can.br,
+				correspondendo ao que um eleitor veria na urna no dia da votação.
+			</p>
+			<p>
+				Por exemplo, durante as eleições para prefeito de Aracaju (SE), em
+				2004, Marcelo Déda teve
+				<a href="https://web.archive.org/web/20040922133232/http://www.deda13.can.br:80/">deda13.can.br</a>,
+				e Jorge Alberto teve
+				<a href="https://web.archive.org/web/20040828074414/http://www.jorgealberto15.can.br/interna.wsp?tmp_page=inicial&tmp_secao=1">jorgealberto15.can.br</a>
+				(ambos os links, aqui, são para versões arquivadas dos websites).
+			</p>
+			<p>
+				O CAN.BR parece ter sido usado em 5 eleições, começando em 2000; em
+				seu pico, em 2008, mais de 9 mil domínios foram registrados sob ele.
+				Contudo, desde 2009, nenhum novo domínio CAN.BR foi registrado.
+			</p>
+			<p>
+				<small>Leia mais:
+					<cite>
+						Larissa Januário (24 de março de 2008).
+						<a href="https://www.nic.br/noticia/na-midia/eleicoes-2008-candidatos-terao-dominio-can-br/">Eleições
+						2008: candidatos terão domínio can.br</a>. <i>WNews</i>.
+					</cite>
+				</small>
+			</p>
+			<figure>
+				<img src="can.br_2a.png">
+				<figcaption>
+					<small>
+						Fonte:
+						<a href="https://registro.br/stat/can.br_2a.png">Gráfico de domínios CAN.BR desde 1996</a>.
+						<i>Registro.br</i>. Acesso em 29 de agosto de 2023.
+					</small>
+				</figcaption>
+			</figure>
+			<h3 id="cribr">
+				<a href="#cribr"></a>
+				CRI.br
+			</h3>
+			<p>
+				Subdomínio para Cartórios de Registro Imobiliário (ou CRIs). Aparece
+				listado nas categorias do Registro.br em meados de setembro de 2015
+				<small>(<a href="https://web.archive.org/web/20150917212327/http://registro.br/dominio/categoria.html">página arquivada</a>)</small>
+				e desaparece novamente em meados de julho de 2017
+				<small>(<a href="https://web.archive.org/web/20170715053211/https://registro.br/dominio/categoria.html">página arquivada</a>)</small>.
+			</p>
+			<p>
+				Pelo gráfico oficial – que não está em nenhuma página, mas pode
+				ser encontrado diretamente pelo URL – só um único domínio CRI.BR foi
+				registrado na história, em meados de 2016, quando o CRI.BR parece
+				ter sido criado. Pouco mais de um ano depois, ele foi apagado; e,
+				desde então, nenhum outro domínio sob o CRI.BR existiu.
+			</p>
+			<p>
+				Entrei em contato com o Registro.br em setembro de 2021, mas não
+				recebi nenhuma informação sobre o subdomínio:
+				"Infelizmente, não temos a informação que deseja acerca das DPNs
+				aposentadas".
+			</p>
+			<figure>
+				<img src="cri.br_2a.png">
+				<figcaption>
+					<small>
+						Fonte:
+						<a href="https://registro.br/stat/cri.br_2a.png">Gráfico de domínios CRI.BR desde 1996</a>.
+						<i>Registro.br</i>. Acesso em 29 de agosto de 2023.
+					</small>
+				</figcaption>
+			</figure>
+		</section>
+		<hr>
+		<h2 id="construcao">
+			<a href="#construcao"></a>
+			Construção da lista
+		</h2>
 		<section>
 			<p>
 				Esta lista teve como ponto de partida a lista de domínios mais geral
@@ -228,39 +346,56 @@ pre .value { color: rebeccapurple; }
 				bruta; através desse método, todas as combinações de 3 letras e/ou dígitos,
 				<strong>[A&#8288;-&#8288;Z0&#8288;-&#8288;9]&#8288;{1,3}\.br</strong>, e
 				também de 4 letras (sem dígitos), <strong>[A&#8288;-&#8288;Z]{4}\.br</strong>,
-				foram conferidas.
+				foram conferidas. Essas iniciativas foram suficientes para agregar 803
+				domínios, aproximadamente 60% do total.
 			</p>
 			<p>
 				A zona final só pôde ser compilada através do trabalho altruísta de
 				<a href="https://zach.bloomqu.ist/">Zach Bloomquist</a>,
 				que publicou no repositório
 				<a href="https://github.com/flotwig/zone-walks">zone-walks</a> a
-				"caminhada" de DNS do domínio .br. Os 40% finais da lista
-				são inteiramente devido ao trabalho dele, e eu serei eternamente grato.
+				"caminhada" de DNS do .br, usando uma peculiaridade de registros NSEC.
+				Os 40% finais da lista são inteiramente devido ao trabalho dele, e eu
+				serei eternamente grato.
 			</p>
 		</section>
-		<h2 id="estatisticas">Estatísticas</h2>
-		<section class="table-wrapper">
+		<hr>
+		<h2 id="estatisticas">
+			<a href="#estatisticas"></a>
+			Estatísticas
+		</h2>
+		<h3 id="parcela-categoria">
+			<a href="#parcela-categoria"></a>
+			Parcelas por categoria
+		</h2>
+		<section class="graph-wrapper">
 			<iframe class="graph" width="500" height="365" sandbox loading="lazy" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQJ_fPGnYZLIDIjCKIujVtVeGebu2GCBamT2YLI4PnHKakUxaQ-t9cTaw937Z-BhXfl2FuOVtwXhqv9/pubchart?oid=1147870348&amp;format=image"></iframe>
 			<br>
 		</section>
+		<h3 id="tamanho-dominios">
+			<a href="#tamanho-dominios"></a>
+			Quantidade de domínios por tamanho
+		</h2>
 		<section class="spaced">
-			<strong>Quantidade de domínios por tamanho</strong>
 			<p>
 				Tamanho, aqui, indica a quantidade de caracteres antes do ".BR". Por
 				exemplo, "COM.BR" possui tamanho 3.
 			</p>
-			<canvas id="domain-sizes" class="chartjs"></canvas>
+			<canvas id="domain-sizes" class="chartjs graph"></canvas>
 		</section>
+		<h3 id="quantidade-dominios">
+			<a href="#quantidade-dominios"></a>
+			Agregado de domínios registrados
+		</h2>
 		<section class="spaced">
-			<strong>Agregado de domínios registrados</strong>
 			<p>
 				Quantidade aproximada, baseada em dados de WHOIS; não inclui domínios
-				que foram posteriormente deletados. Ainda não inclui todos os domínios
-				da lista (por motivos de <i>rate limiting</i>). Compare com o
+				que foram posteriormente deletados. Alguns domínios, considerados
+				subdomínios, não possuem respostas para WHOIS, impossibilitando a
+				descoberta de sua exata data de registro. Compare com o
 				<a href="https://registro.br/stat/br_2a.png">gráfico oficial</a>.
 			</p>
-			<canvas id="registration-aggregate" class="chartjs"></canvas>
+			<canvas id="registration-aggregate" class="chartjs graph"></canvas>
 		</section>
 	</main>
 	<footer>
@@ -292,50 +427,98 @@ pre .value { color: rebeccapurple; }
 	<link rel="stylesheet" href="https://cdn.avl.la/font/inter.css">
 	<script src="js/chart.js@4.4.0.umd.min.js"></script>
 	<script src="js/chartjs-adapter-date-fns@3.0.0.bundle.min.js"></script>
+	<script src="js/chartjs-plugin-datalabels@2.0.0.js"></script>
 	<script>
-let somatorio_agregado_registro = 66;
+const domain_lengths = [
+	1, 14, 243, 197, 171, 173, 133, 118, 66, 54, 34, 31, 26, 20, 10, 15, 14, 8,
+	6, 8, 1, 4, 1, 1
+];
+const dom_siz = new Chart(document.getElementById("domain-sizes").getContext("2d"), {
+	plugins: [ ChartDataLabels ],
+	type: "bar",
+	data: {
+		labels: Array.from({ length: domain_lengths.length }, (_, i) => i+1),
+		datasets: [{
+			label: "Domínios",
+			data: domain_lengths,
+			backgroundColor: "#34a853",
+			borderRadius: 2
+		}]
+	},
+	options: {
+		scales: {
+			y: {
+				beginAtZero: true
+			}
+		},
+		plugins: {
+			legend: {
+				onClick: (e) => e.stopPropagation()
+			},
+			tooltip: {
+				callbacks: {
+					title: function(tooltipItem) {
+						return `Tamanho: ${tooltipItem[0].parsed.x+1}`;
+					}
+				}
+			},
+			datalabels: {
+				color: "#000",
+				anchor: "end",
+				align: "top",
+				offset: 4,
+				clamp: true
+			}
+		}
+	}
+});
+	</script>
+	<script>
+let somatorio_agregado_registro = 107;
 const data = {
 	labels: [
 		new Date("1989-04-01Z"), new Date("1995-05-01Z"), new Date("1995-06-01Z"),
-		new Date("1995-09-01Z"), new Date("1995-10-01Z"), new Date("1995-11-01Z"),
-		new Date("1995-12-01Z"), new Date("1996-01-01Z"), new Date("1996-02-01Z"),
-		new Date("1996-03-01Z"), new Date("1996-04-01Z"), new Date("1996-05-01Z"),
-		new Date("1996-06-01Z"), new Date("1996-07-01Z"), new Date("1996-08-01Z"),
-		new Date("1996-09-01Z"), new Date("1996-10-01Z"), new Date("1996-11-01Z"),
-		new Date("1996-12-01Z"), new Date("1997-01-01Z"), new Date("1997-02-01Z"),
-		new Date("1997-03-01Z"), new Date("1997-04-01Z"), new Date("1997-05-01Z"),
-		new Date("1997-06-01Z"), new Date("1997-07-01Z"), new Date("1997-08-01Z"),
-		new Date("1997-09-01Z"), new Date("1997-10-01Z"), new Date("1997-11-01Z"),
-		new Date("1997-12-01Z"), new Date("1998-01-01Z"), new Date("1998-02-01Z"),
-		new Date("1998-03-01Z"), new Date("1998-04-01Z"), new Date("1998-05-01Z"),
-		new Date("1998-06-01Z"), new Date("1998-07-01Z"), new Date("1998-08-01Z"),
-		new Date("1998-09-01Z"), new Date("1998-10-01Z"), new Date("1998-11-01Z"),
-		new Date("1998-12-01Z"), new Date("1999-01-01Z"), new Date("1999-02-01Z"),
-		new Date("1999-03-01Z"), new Date("1999-04-01Z"), new Date("1999-05-01Z"),
-		new Date("1999-06-01Z"), new Date("1999-07-01Z"), new Date("1999-08-01Z"),
-		new Date("1999-09-01Z"), new Date("1999-10-01Z"), new Date("1999-11-01Z"),
-		new Date("1999-12-01Z"), new Date("2000-01-01Z"), new Date("2000-02-01Z"),
-		new Date("2000-03-01Z"), new Date("2000-04-01Z"), new Date("2000-05-01Z"),
-		new Date("2000-06-01Z"), new Date("2000-07-01Z"), new Date("2000-08-01Z"),
-		new Date("2000-09-01Z"), new Date("2000-10-01Z"), new Date("2004-09-01Z"),
-		new Date("2005-03-01Z"), new Date("2005-05-01Z"), new Date("2005-09-01Z"),
-		new Date("2006-06-01Z"), new Date("2006-09-01Z"), new Date("2006-11-01Z"),
-		new Date("2007-01-01Z"), new Date("2008-01-01Z"), new Date("2008-08-01Z"),
-		new Date("2009-06-01Z"), new Date("2010-01-01Z"), new Date("2010-09-01Z"),
+		new Date("1995-08-01Z"), new Date("1995-09-01Z"), new Date("1995-10-01Z"),
+		new Date("1995-11-01Z"), new Date("1995-12-01Z"), new Date("1996-01-01Z"),
+		new Date("1996-02-01Z"), new Date("1996-03-01Z"), new Date("1996-04-01Z"),
+		new Date("1996-05-01Z"), new Date("1996-06-01Z"), new Date("1996-07-01Z"),
+		new Date("1996-08-01Z"), new Date("1996-09-01Z"), new Date("1996-10-01Z"),
+		new Date("1996-11-01Z"), new Date("1996-12-01Z"), new Date("1997-01-01Z"),
+		new Date("1997-02-01Z"), new Date("1997-03-01Z"), new Date("1997-04-01Z"),
+		new Date("1997-05-01Z"), new Date("1997-06-01Z"), new Date("1997-07-01Z"),
+		new Date("1997-08-01Z"), new Date("1997-09-01Z"), new Date("1997-10-01Z"),
+		new Date("1997-11-01Z"), new Date("1997-12-01Z"), new Date("1998-01-01Z"),
+		new Date("1998-02-01Z"), new Date("1998-03-01Z"), new Date("1998-04-01Z"),
+		new Date("1998-05-01Z"), new Date("1998-06-01Z"), new Date("1998-07-01Z"),
+		new Date("1998-08-01Z"), new Date("1998-09-01Z"), new Date("1998-10-01Z"),
+		new Date("1998-11-01Z"), new Date("1998-12-01Z"), new Date("1999-01-01Z"),
+		new Date("1999-02-01Z"), new Date("1999-03-01Z"), new Date("1999-04-01Z"),
+		new Date("1999-05-01Z"), new Date("1999-06-01Z"), new Date("1999-07-01Z"),
+		new Date("1999-08-01Z"), new Date("1999-09-01Z"), new Date("1999-10-01Z"),
+		new Date("1999-11-01Z"), new Date("1999-12-01Z"), new Date("2000-01-01Z"),
+		new Date("2000-02-01Z"), new Date("2000-03-01Z"), new Date("2000-04-01Z"),
+		new Date("2000-05-01Z"), new Date("2000-06-01Z"), new Date("2000-07-01Z"),
+		new Date("2000-08-01Z"), new Date("2000-09-01Z"), new Date("2000-10-01Z"),
+		new Date("2004-09-01Z"), new Date("2005-03-01Z"), new Date("2005-05-01Z"),
+		new Date("2005-09-01Z"), new Date("2006-06-01Z"), new Date("2006-09-01Z"),
+		new Date("2006-11-01Z"), new Date("2007-01-01Z"), new Date("2007-10-01Z"),
+		new Date("2008-01-01Z"), new Date("2008-08-01Z"), new Date("2009-06-01Z"),
+		new Date("2009-09-01Z"), new Date("2010-01-01Z"), new Date("2010-09-01Z"),
 		new Date("2011-07-01Z"), new Date("2012-02-01Z"), new Date("2012-03-01Z"),
-		new Date("2012-08-01Z"), new Date("2013-02-01Z"), new Date("2013-11-01Z"),
-		new Date("2014-01-01Z"), new Date("2015-03-01Z"), new Date("2015-04-01Z"),
-		new Date("2018-05-01Z"), new Date("2021-05-01Z")
+		new Date("2012-08-01Z"), new Date("2012-10-01Z"), new Date("2013-02-01Z"),
+		new Date("2013-04-01Z"), new Date("2013-11-01Z"), new Date("2014-01-01Z"),
+		new Date("2015-03-01Z"), new Date("2015-04-01Z"), new Date("2018-05-01Z"),
+		new Date("2021-05-01Z"), new Date(),
 	],
 	datasets: [
 		{
-			label: "Domínios (agregado, aprox.)",
+			label: "Domínios .BR (agregado)",
 			data: [
-				1, 1, 1, 1, 4, 4, 4, 1, 4, 8, 4, 6, 3, 5, 4, 7, 9, 6, 13, 3, 3, 8, 4, 3,
-				4, 6, 7, 12, 14, 8, 10, 5, 10, 10, 14, 14, 16, 15, 14, 23, 15, 10, 11,
-				11, 7, 10, 20, 15, 10, 25, 20, 20, 19, 21, 22, 21, 25, 30, 37, 50, 41,
-				29, 21, 26, 9, 1, 1, 1, 1, 1, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,
-				1, 2, 1, 1, 1
+				1, 1, 3, 2, 1, 7, 5, 6, 3, 8, 11, 8, 7, 6, 10, 8, 10, 13, 6, 15, 4, 3,
+				12, 5, 6, 6, 7, 9, 17, 19, 11, 15, 8, 14, 14, 16, 20, 22, 19, 21, 24,
+				20, 12, 14, 15, 10, 10, 27, 20, 11, 31, 22, 28, 24, 31, 26, 24, 28, 40,
+				46, 59, 52, 33, 27, 36, 18, 1, 1, 1, 1, 2, 2, 2, 2, 1, 1, 1, 1, 1, 1, 1,
+				1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 0
 			].map(el => somatorio_agregado_registro += el)
 		}
 	]
@@ -367,43 +550,6 @@ const reg_agg = new Chart(document.getElementById("registration-aggregate").getC
 							"Out", "Nov", "Dez"
 						][d.getUTCMonth()];
 						return `${m}/${d.getUTCFullYear()}`;
-					}
-				}
-			}
-		}
-	}
-});
-	</script>
-	<script>
-const domain_lengths = [
-	1, 14, 243, 197, 171, 173, 133, 118, 66, 54, 34, 31, 26, 20, 10, 15, 14, 8,
-	6, 8, 1, 4, 1, 1
-];
-const dom_siz = new Chart(document.getElementById("domain-sizes").getContext("2d"), {
-	type: "bar",
-	data: {
-		labels: Array.from({ length: domain_lengths.length }, (_, i) => i+1),
-		datasets: [{
-			label: "Domínios",
-			data: domain_lengths,
-			backgroundColor: "#34a853",
-			borderRadius: 2
-		}]
-	},
-	options: {
-		scales: {
-			y: {
-				beginAtZero: true
-			}
-		},
-		plugins: {
-			legend: {
-				onClick: (e) => e.stopPropagation()
-			},
-			tooltip: {
-				callbacks: {
-					title: function(tooltipItem) {
-						return `Tamanho: ${tooltipItem[0].parsed.x+1}`;
 					}
 				}
 			}

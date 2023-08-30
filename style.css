@@ -11,6 +11,7 @@ body {
 	--text-color: #111;
 	--background-color: #fefefe;
 	--link-color: #2767d9;
+	--hr-color: #e8e8e8;
 	color: #111;
 	color: var(--text-color);
 	background-color: #fefefe;
@@ -40,6 +41,17 @@ header, main, footer {
 	max-width: 800px;
 	margin: auto;
 }
+.callout {
+	border: 2px solid var(--hr-color);
+	padding: 1rem;
+	border-radius: 4px;
+	background-color: #fcfaff;
+	transition: border-color .2s ease, background-color .2s ease;
+}
+.dark .callout {
+	background-color: #0e0a15;
+	border-color: #2a2a2a;
+}
 footer {
 	padding-bottom: 1em;
 }
@@ -49,6 +61,9 @@ h1, h2, h3 {
 p {
 	margin: .75em 0;
 	text-indent: 1em;
+}
+p.noindent {
+	text-indent: 0;
 }
 label {
 	font: inherit;
@@ -64,12 +79,29 @@ a[href] {
 a[href]:hover, a[href]:focus {
 	text-decoration: underline;
 }
-.table-wrapper {
+h2[id] a[href^="#"]::before, h3[id] a[href^="#"]::before {
+	content: "#";
+	color: #d2d2d2;
+	transition: color .1s ease;
+}
+h2[id] a[href^="#"]:hover::before, h3[id] a[href^="#"]:hover::before {
+	color: var(--link-color);
+}
+.graph-wrapper {
 	width: fit-content;
 	margin: auto;
 	max-width: 100%;
 	max-height: 80vh;
 	overflow: auto;
+}
+hr {
+	overflow: visible;
+	height: 2px;
+	background-color: var(--hr-color);
+	border: none;
+	outline: none;
+	margin: 3em;
+	position: relative;
 }
 pre {
 	max-width: 100%;
@@ -143,6 +175,30 @@ em, b, strong {
 	max-height: 35vh;
 	max-width: 75%;
 	margin: auto;
+}
+
+figure {
+	margin: 1rem 0;
+	text-align: center;
+}
+figure img {
+	max-width: min(100%, 400px);
+}
+.dark figure img {
+	filter: invert(1) saturate(2);
+}
+
+#toc {
+	font-size: 75%;
+}
+#toc ol, #toc ul {
+	padding-left: 1rem;
+	font-size: inherit;
+	border-left: 2px solid var(--hr-color);
+	margin: 0 0 0.25em -0.55rem;
+}
+#toc li {
+	margin-left: 0.75rem;
 }
 
 @media screen and (min-width: 550px) {
