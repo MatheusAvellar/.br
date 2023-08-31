@@ -7,7 +7,7 @@ html {
 	}
 }
 body {
-	margin: 1em;
+	margin: 0;
 	--text-color: #111;
 	--background-color: #fefefe;
 	--link-color: #2767d9;
@@ -37,9 +37,14 @@ body.dark {
 	--background-color: #111;
 	--link-color: #61daff;
 }
-header, main, footer {
+header {
+	background-color: hsl(120deg 100% 50% / 25%);
+	padding: 1rem 0 0.5rem;
+}
+.maxwidth {
 	max-width: 800px;
 	margin: auto;
+	padding: 0 .5rem;
 }
 .callout {
 	border: 2px solid var(--hr-color);
@@ -107,7 +112,7 @@ pre {
 	max-width: 100%;
 	overflow-x: auto;
 }
-em, b, strong {
+b, strong {
 	font-weight: 600;
 }
 .timestamp {

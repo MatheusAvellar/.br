@@ -12,14 +12,16 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
 	<link rel="manifest" href="./site.webmanifest">
 	<link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
-	<link rel="stylesheet" href="./style.css?v=32">
+	<link rel="stylesheet" href="./style.css?v=33">
 </head>
 <body>
 	<header>
-		<label style="float:right">
-			<input id="dark-mode" type="checkbox"> Modo escuro
-		</label>
-		<h1>Zonefile do .BR</h1>
+		<div class="maxwidth">
+			<label style="float:right">
+				<input id="dark-mode" type="checkbox"> Modo escuro
+			</label>
+			<h1>Zonefile do .BR</h1>
+		</div>
 		<script>
 const darkModeCheckbox = document.getElementById("dark-mode");
 darkModeCheckbox.addEventListener("change", e => {
@@ -51,112 +53,147 @@ darkModeMediaQuery.addListener((e) => {
 		</script>
 	</header>
 	<main>
-		<section>
-			<p>
-				A zona possui <b>1349</b> domínios catalogados. Desses, <b>1207</b>
-				(89.47%) são domínios contados nas <a href="https://registro.br/dominio/estatisticas/">estatísticas
-				do Registro.br</a>; e <b>142</b> (10.53%) são considerados somente
-				subdomínios e não constam nas estatísticas oficiais.
-			</p>
-			<article id="baixar" class="callout">
-				<strong>Zona inteira</strong> (1349):
-				<a href="./br.zone">br.zone</a> (≈910&nbsp;KB)
-			</article>
-			<p>
-				De todos os domínios catalogados, alguns vieram sem registros SOA.
-				Não conheço DNS o suficiente para saber o motivo.
-				Assim, separei a lista em duas: uma com <b>1089</b> domínios, todos com
-				SOA; e outra com <b>260</b> domínios, sem SOA.
-			</p>
-			<article class="callout">
-				<div>
-					<strong>Somente domínios completos</strong> (1089):
-					<a href="./br.SOA.zone">br.SOA.zone</a> (≈816&nbsp;KB)
-				</div>
-				<div>
-					<strong>Somente domínios incompletos</strong> (260):
-					<a href="./br.NO_SOA.zone">br.NO_SOA.zone</a> (≈93&nbsp;KB)
-				</div>
-			</article>
-			<p>
-				Para além disso, você também pode verificar a
-				<a href="https://docs.google.com/spreadsheets/d/1XRSGQVsE0hCD7tuXYH6R8FExXB_Eo5PaogjPHdtqGKU/view">planilha
-				no Google Sheets</a> que estou usando para catalogar cada domínio.
-			</p>
-			<p class="timestamp">Atualizado em 29 de agosto de 2023</p>
-		</section>
-		<p class="noindent"><b>Table of Contents:</b></p>
-		<ol id="toc">
-			<li><a href="#contexto">Contexto</a></li>
-			<li><a href="#detalhes">Detalhes</a></li>
-			<li>
-				<a href="#diferencas-oficiais">Diferenças das estatísticas oficiais</a>
-				<ol>
-					<li><a href="#canbr">CAN.br</a></li>
-					<li><a href="#cribr">CRI.br</a></li>
-				</ol>
-			</li>
-			<li><a href="#construcao">Construção da lista</a></li>
-			<li>
-				<a href="#estatisticas">Estatísticas</a>
-				<ol>
-					<li><a href="#parcela-categoria">Parcela por categoria</a></li>
-					<li><a href="#tamanho-dominios">Quantidade de domínios por tamanho</a></li>
-					<li><a href="#quantidade-dominios">Agregado de domínios registrados</a></li>
-				</ol>
-			</li>
-		</ol>
-		<hr>
-		<h2 id="contexto">
-			<a href="#contexto"></a>
-			Contexto
-		</h2>
-		<section>
-			<p>
-				Em agosto de 2021, perguntei ao Registro.br se a zona de DNS do .BR era
-				pública. Recebi uma resposta negativa, me informando que o máximo disponível
-				ao público era a <a href="https://registro.br/dominio/estatisticas/">página
-				de estatísticas do Registro.br</a>. Então, comecei a compilar a zona eu
-				mesmo. Este é o resultado. Uma lista não oficial e voluntariamente mantida
-				de todos os domínios registrados diretamente sob .BR – chamados de DPNs
-				(Domínios de Primeiro Nível) pelo Registro.br, e de SLDs (Second-Level
-				Domains) pelo resto do planeta.
-			</p>
-			<p>
-				No início dos anos 2000, o Comitê Gestor da Internet (CGI) no Brasil
-				tomou a decisão de limitar o registro de novos DPNs, que até então eram
-				liberados, para evitar abuso.<sup><a href="#ref1">[1]</a></sup> Assim, desde
-				<i>circa</i> 2005, pouquíssimos novos domínios .BR foram
-				registrados. Portanto, é possível compilar uma lista completa com todos
-				eles – e o objetivo desse projeto era construí-la.
-			</p>
-			<p>
-				Os DPNs são domínios no formato &lt;NOME&gt;.BR. Por exemplo: GOV.BR
-				é um DPN, então está presente na lista; CAMARA.GOV.BR, não. Alguns
-				domínios não possuem websites – por exemplo, COM.BR – e são usados
-				somente como subdomínios. Ainda que o Registro.br não os inclua em suas
-				estatísticas do .BR, aqui eles estão inclusos.
-			</p>
-			<strong>Referências</strong>
-			<ol>
-				<li id="ref1">
-					<a href="https://www.nic.br/registro-nota-edu/">Nota de Esclarecimento
-					sobre utilização do DPN .edu</a>. <i>Núcleo de Informação e
-					Coordenação do Ponto BR</i>.
+		<div class="maxwidth">
+			<section>
+				<h2>O que é?</h2>
+				<p>
+					Em suma, uma lista de <b>todos os domínios registrados diretamente sob
+					o .BR</b>, chamados de Domínios de Primeiro Nível (DPNs) pelo Registro.br,
+					ou de Second-Level Domains (SLDs) pelo resto do planeta.
+				</p>
+				<p>
+					Eles seguem o formato &lt;NOME&gt;.BR. Por exemplo, GOV.BR, UFRJ.BR e
+					COM.BR são todos DPNs, e estão incluídos na lista. Por outro lado,
+					IBGE.GOV.BR, DCC.UFRJ.BR e SPOTIFY.COM.BR não são DPNs; eles estão um
+					nível abaixo.
+				</p>
+				<p>
+					Para leitores mais experientes, a zona também inclui alguns registros
+					de DNS para todos os domínios e seus respectivos subdomínios WWW.
+					Provavelmente não possui <em>todas</em> as informações que uma zonefile
+					real teria, mas acredito que deve ser suficiente.
+				</p>
+				<p>
+					Vale notar que a informação é toda publicamente acessível; ela só não
+					é disponibilizada diretamente pelo Registro.br – e foi essa a
+					motivação por trás desse projeto.
+				</p>
+			</section>
+			<section>
+				<h2>A zona</h2>
+				<p>
+					A zona possui <b>1349</b> domínios catalogados. Desses, <b>1207</b>
+					(89.47%) são domínios contados nas <a href="https://registro.br/dominio/estatisticas/">estatísticas
+					do Registro.br</a>, e <b>142</b> (10.53%) são considerados somente
+					subdomínios e não constam nas estatísticas oficiais.
+				</p>
+				<p>
+					Se você só está interessado nos nomes de domínio em si, você pode
+					baixar o seguinte .TXT, que contém um domínio por linha:
+				</p>
+				<article class="callout">
+					<strong>Lista de domínios</strong>:
+					<a href="./br.txt">br.txt</a> (1349 domínios, ≈15&nbsp;KB)
+				</article>
+				<p>
+					Se você está interessado na zona em si, com registros de DNS
+					relevantes (como SOA, NS, A, AAAA e NSEC) tanto para o domínio e seu
+					respectivo subdomínio WWW, você pode baixar o seguinte arquivo:
+				</p>
+				<article id="download baixar" class="callout">
+					<strong>Zona inteira</strong>:
+					<a href="./br.zone">br.zone</a> (1349 domínios, ≈910&nbsp;KB)
+				</article>
+				<p>
+					De todos os domínios catalogados, alguns vieram sem registros SOA.
+					Não entendo de DNS o suficiente para saber o motivo.
+					Assim, separei a zona em duas: uma com <b>1089</b> domínios, todos com
+					SOA; e outra com <b>260</b> domínios, sem SOA.
+				</p>
+				<article class="callout">
+					<div>
+						<strong>Zona de domínios completos</strong>:
+						<a href="./br.SOA.zone">br.SOA.zone</a> (1089 domínios, ≈816&nbsp;KB)
+					</div>
+					<div>
+						<strong>Zona de domínios incompletos</strong>:
+						<a href="./br.NO_SOA.zone">br.NO_SOA.zone</a> (260 domínios, ≈93&nbsp;KB)
+					</div>
+				</article>
+				<p>
+					Para além disso, você também pode verificar a
+					<a href="https://docs.google.com/spreadsheets/d/1XRSGQVsE0hCD7tuXYH6R8FExXB_Eo5PaogjPHdtqGKU/view">planilha
+					no Google Sheets</a> que estou usando para catalogar cada domínio.
+				</p>
+				<p class="timestamp">Atualizado em 30 de agosto de 2023</p>
+			</section>
+			<hr>
+			<p class="noindent"><b>Table of Contents:</b></p>
+			<ol id="toc">
+				<li><a href="#contexto">Contexto</a></li>
+				<li><a href="#detalhes">Detalhes</a></li>
+				<li>
+					<a href="#diferencas-oficiais">Diferenças das estatísticas oficiais</a>
+					<ol>
+						<li><a href="#canbr">CAN.br</a></li>
+						<li><a href="#cribr">CRI.br</a></li>
+					</ol>
+				</li>
+				<li><a href="#construcao">Construção da lista</a></li>
+				<li>
+					<a href="#estatisticas">Estatísticas</a>
+					<ol>
+						<li><a href="#parcela-categoria">Parcela por categoria</a></li>
+						<li><a href="#tamanho-dominios">Quantidade de domínios por tamanho</a></li>
+						<li><a href="#quantidade-dominios">Agregado de domínios registrados</a></li>
+					</ol>
 				</li>
 			</ol>
-		</section>
-		<hr>
-		<h2 id="detalhes">
-			<a href="#detalhes"></a>
-			Detalhes
-		</h2>
-		<section>
-			<p>
-				Aqui estão os comandos que foram usados para gerar a zona, a partir de
-				uma lista pré-existente de nomes a serem conferidos:
-			</p>
-			<pre>
+			<h2 id="contexto">
+				<a href="#contexto"></a>
+				Contexto
+			</h2>
+			<section>
+				<p>
+					Em agosto de 2021, perguntei ao Registro.br se a zona de DNS do .BR era
+					pública. Recebi uma resposta negativa, me informando que o máximo disponível
+					ao público era a <a href="https://registro.br/dominio/estatisticas/">página
+					de estatísticas do Registro.br</a>. Então, comecei a compilar a zona eu
+					mesmo. Este é o resultado. Uma lista não oficial e voluntariamente mantida
+					de todos os domínios registrados diretamente sob .BR.
+				</p>
+				<p>
+					No início dos anos 2000, o Comitê Gestor da Internet (CGI) no Brasil
+					relatou abuso no registro de DPNs no .BR, e tomou a decisão de limitar
+					o registro de novos DPNs, o que até então era liberado.<sup><a href="#ref1">[1]</a></sup>
+					De fato, verificando a lista compilada, múltiplas instituições possuem
+					mais de 20 DPNs.
+				</p>
+				<p>
+					Assim, desde <i>circa</i> 2005, pouquíssimos novos domínios .BR foram
+					registrados. Portanto, é possível compilar uma lista completa com todos
+					eles – e o objetivo desse projeto era construí-la.
+				</p>
+				<strong>Referências</strong>
+				<ol>
+					<li id="ref1">
+						<a href="https://www.nic.br/registro-nota-edu/">Nota de Esclarecimento
+						sobre utilização do DPN .edu</a>. <i>Núcleo de Informação e
+						Coordenação do Ponto BR</i>.
+					</li>
+				</ol>
+			</section>
+			<hr>
+			<h2 id="detalhes">
+				<a href="#detalhes"></a>
+				Detalhes
+			</h2>
+			<section>
+				<p>
+					Aqui estão os comandos que foram usados para gerar a zona, a partir de
+					uma lista pré-existente de nomes a serem conferidos:
+				</p>
+				<pre>
 <span class="comment"># Primeiro, pedimos o registro SOA ao Google</span>
 <span class="command">dig</span> <span class="server">@8.8.8.8</span> <span class="domain">$SLD.br.</span> <span class="record">SOA</span> <span class="flags">+noall +answer +authority +additional</span>
 <span class="comment"># E os registros NS diretamente ao DNS.br</span>
@@ -173,20 +210,20 @@ darkModeMediaQuery.addListener((e) => {
 
 <span class="comment"># Por fim, NSEC; vide explicação abaixo</span>
 <span class="command">dig</span> <span class="server">@a.dns.br</span> <span class="domain">"$SLD#.br."</span> <span class="record">NSEC</span> <span class="flags">+noall +answer +authority +additional +dnssec</span></pre>
-		<p>
-			Requisitamos, via NSEC no final, o nome do próximo domínio – uma espécie
-			de zone walking, mas meramente a título de curiosidade, pois já temos a
-			lista de nomes; um "zone looking", se preferir. Realisticamente,
-			"&#8288;&lt;SLD&gt;#.BR" (sim, com #) não é um domínio real nem nunca será; e não há
-			como existir domínio alfabeticamente entre "&lt;SLD&gt;.BR" e
-			"&lt;SLD&gt;#.BR". Então, pedir NSEC de "&lt;SLD&gt;#.BR" nos retorna como
-			resposta um status de NXDOMAIN, com o próximo domínio válido. Em tese, este
-			será o domínio testado imediatamente a seguir.
-		</p>
-		<p>
-			Aqui está uma entrada da lista, extraída para melhor ilustrar como ela é
-			depois de gerada:
-		</p>
+			<p>
+				Requisitamos, via NSEC no final, o nome do próximo domínio – uma espécie
+				de zone walking, mas meramente a título de curiosidade, pois já temos a
+				lista de nomes; um "zone looking", se preferir. Realisticamente,
+				"&#8288;&lt;SLD&gt;#.BR" (sim, com #) não é um domínio real nem nunca será; e não há
+				como existir domínio alfabeticamente entre "&lt;SLD&gt;.BR" e
+				"&lt;SLD&gt;#.BR". Então, pedir NSEC de "&lt;SLD&gt;#.BR" nos retorna como
+				resposta um status de NXDOMAIN, com o próximo domínio válido. Em tese, este
+				será o domínio testado imediatamente a seguir.
+			</p>
+			<p>
+				Aqui está uma entrada da lista, extraída para melhor ilustrar como ela é
+				depois de gerada:
+			</p>
 <style>
 pre .domain { color: #002267; }
 pre .comment, pre .ttl { color: #777; }
@@ -196,7 +233,7 @@ pre .flags { color: #4a0000; }
 pre .record { color: #005f24; }
 pre .value { color: rebeccapurple; }
 </style>
-			<pre>
+				<pre>
 <span class="comment">;; itpac.br.</span>
 <span class="domain">itpac.br.</span>		<span class="ttl">1800</span>	<span class="in">IN</span>	<span class="record">SOA</span>	<span class="value">fiona.ns.cloudflare.com. dns.cloudflare.com. [...]</span>
 <span class="domain">itpac.br.</span>		<span class="ttl">3600</span>	<span class="in">IN</span>	<span class="record">NS</span>	<span class="value">fiona.ns.cloudflare.com.</span>
@@ -212,206 +249,210 @@ pre .value { color: rebeccapurple; }
 <span class="domain">www.itpac.br.</span>		<span class="ttl">300</span>	<span class="in">IN</span>	<span class="record">AAAA</span>	<span class="value">2606:4700::6812:f26</span>
 <span class="domain">itpac.br.</span>		<span class="ttl">900</span>	<span class="in">IN</span>	<span class="record">NSEC</span>	<span class="value">iuperj.br. NS DS RRSIG NSEC</span>
 <span class="domain">itpac.br.</span>		<span class="ttl">900</span>	<span class="in">IN</span>	<span class="record">RRSIG</span>	<span class="value">NSEC 13 2 900 20230907120516 [...]</span></pre>
-			<p>
-				Toda entrada na lista começa com um cabeçalho informando a qual
-				domínio ela se refere. A linha começa com ';;'.
-			</p>
-			<p>
-				Em seguida, há uma linha com o registro SOA. Nem todos os domínios
-				possuem um – algo que, no meu entendimento, nem deveria ser possível.
-				Ainda que estranhos, estes possuem <i lang="en">nameservers</i>,
-				registros NSEC e até presença no <i lang="en">whois</i>. Então, eles
-				definitivamente existem; são diferentes de domínios cuja resposta é
-				NXDOMAIN. Estão em alguma outra forma de limbo.
-			</p>
-			<p>
-				Na sequência, há informações sobre os registros encontrados: A e AAAA
-				(ou CNAME, se for o caso), e MX. Eles são testados para o domínio em si,
-				e para o subdomínio "WWW.&lt;SLD&gt;.BR".
-			</p>
-			<p>
-				A entrada termina com o registro NSEC, indicando a entrada logo a
-				seguir.
-			</p>
-		</section>
-		<hr>
-		<h2 id="diferencas-oficiais">
-			<a href="#diferencas-oficiais"></a>
-			Diferenças das estatísticas oficiais
-		</h2>
-		<section>
-			<p>
-				A página de estatísticas do Registro.br alega 1207 domínios registrados
-				diretamente sob o .BR. Com esse projeto, pude determinar com algum nível
-				de confiança que esse número não inclui os 140 subdomínios disponíveis
-				para registro. Na verdade, 1207 é o exato número de domínios que
-				respondem queries de <i>whois</i>; o resto retorna coisas como
-				"blocked_word: CG" ou "reserved: trademark".
-			</p>
-			<p>
-				Contudo, 1349<sub>(total encontrado)</sub> − 1207<sub>(total alegado)</sub>
-				= 142, dois a mais do que os 140 subdomínios na página de
-				categorias do Registro.br. Isso se dá pois há 2 subdomínios faltantes,
-				não mais disponíveis para registro e escondidos do público. Eles são
-				CAN.BR e CRI.BR:
-			</p>
-			<h3 id="canbr">
-				<a href="#canbr"></a>
-				CAN.br
-			</h3>
-			<p>
-				Subdomínio para websites oficiais de candidatos eleitorais, seria
-				sempre no formato &lt;NOME&gt;&#8288;&lt;NÚMERO&gt;.can.br,
-				correspondendo ao que um eleitor veria na urna no dia da votação.
-			</p>
-			<p>
-				Por exemplo, durante as eleições para prefeito de Aracaju (SE), em
-				2004, Marcelo Déda teve
-				<a href="https://web.archive.org/web/20040922133232/http://www.deda13.can.br:80/">deda13.can.br</a>,
-				e Jorge Alberto teve
-				<a href="https://web.archive.org/web/20040828074414/http://www.jorgealberto15.can.br/interna.wsp?tmp_page=inicial&tmp_secao=1">jorgealberto15.can.br</a>
-				(ambos os links, aqui, são para versões arquivadas dos websites).
-			</p>
-			<p>
-				O CAN.BR parece ter sido usado em 5 eleições, começando em 2000; em
-				seu pico, em 2008, mais de 9 mil domínios foram registrados sob ele.
-				Contudo, desde 2009, nenhum novo domínio CAN.BR foi registrado.
-			</p>
-			<p>
-				<small>Leia mais:
-					<cite>
-						Larissa Januário (24 de março de 2008).
-						<a href="https://www.nic.br/noticia/na-midia/eleicoes-2008-candidatos-terao-dominio-can-br/">Eleições
-						2008: candidatos terão domínio can.br</a>. <i>WNews</i>.
-					</cite>
-				</small>
-			</p>
-			<figure>
-				<img src="can.br_2a.png">
-				<figcaption>
-					<small>
-						Fonte:
-						<a href="https://registro.br/stat/can.br_2a.png">Gráfico de domínios CAN.BR desde 1996</a>.
-						<i>Registro.br</i>. Acesso em 29 de agosto de 2023.
+				<p>
+					Toda entrada na lista começa com um cabeçalho informando a qual
+					domínio ela se refere.
+				</p>
+				<p>
+					Em seguida, há uma linha com o registro SOA. Nem todos os domínios
+					possuem um – algo que, no meu entendimento, nem deveria ser possível.
+					Ainda que estranhos, estes possuem <i lang="en">nameservers</i>,
+					registros NSEC e até presença no <i lang="en">whois</i>. Então, eles
+					definitivamente existem; são diferentes de domínios cuja resposta é
+					NXDOMAIN. Estão em alguma outra forma de limbo.
+				</p>
+				<p>
+					Na sequência, há informações sobre os registros encontrados: A e AAAA
+					(ou CNAME, se for o caso), e MX. Eles são testados para o domínio em si,
+					e para o subdomínio "WWW.&lt;SLD&gt;.BR".
+				</p>
+				<p>
+					A entrada termina com o registro NSEC, indicando a entrada logo a
+					seguir.
+				</p>
+			</section>
+			<hr>
+			<h2 id="diferencas-oficiais">
+				<a href="#diferencas-oficiais"></a>
+				Diferenças das estatísticas oficiais
+			</h2>
+			<section>
+				<p>
+					Diferentemente dos 1349 domínios que eu encontrei, a página de
+					estatísticas do Registro.br alega somente 1207 domínios registrados
+					diretamente sob o .BR. Com esse projeto, pude determinar com algum nível
+					de confiança que esse número não inclui os 140 subdomínios disponíveis
+					para registro. Na verdade, 1207 é o exato número de domínios que
+					respondem a queries de <i>whois</i>; o resto – os subdomínios – retorna
+					coisas como "blocked_word: CG" ou "reserved: trademark".
+				</p>
+				<p>
+					Contudo, 1349<sub>(total encontrado)</sub> − 1207<sub>(total oficial)</sub>
+					= 142, dois a mais do que os 140 subdomínios na página de
+					categorias do Registro.br. Isso se dá pois há 2 subdomínios faltantes,
+					não mais disponíveis para registro e escondidos do público. Eles são
+					CAN.BR e CRI.BR:
+				</p>
+				<h3 id="canbr">
+					<a href="#canbr"></a>
+					CAN.BR
+				</h3>
+				<p>
+					Subdomínio para websites oficiais de candidatos eleitorais, seria
+					sempre no formato &lt;NOME&gt;&#8288;&lt;NÚMERO&gt;.CAN.BR,
+					correspondendo ao que um eleitor veria na urna no dia da votação.
+				</p>
+				<p>
+					Por exemplo, durante as eleições para prefeito de Aracaju (SE), em
+					2004, Marcelo Déda teve
+					<a href="https://web.archive.org/web/20040922133232/http://www.deda13.can.br:80/">deda13.can.br</a>,
+					e Jorge Alberto teve
+					<a href="https://web.archive.org/web/20040828074414/http://www.jorgealberto15.can.br/interna.wsp?tmp_page=inicial&tmp_secao=1">jorgealberto15.can.br</a>
+					(ambos os links, aqui, são para versões arquivadas dos websites).
+				</p>
+				<p>
+					O CAN.BR parece ter sido usado em 5 eleições, começando em 2000; em
+					seu pico, em 2008, mais de 9 mil domínios foram registrados sob ele.
+					Contudo, desde 2009, nenhum novo domínio CAN.BR foi registrado.
+				</p>
+				<p>
+					<small>Leia mais:
+						<cite>
+							Larissa Januário (24 de março de 2008).
+							<a href="https://www.nic.br/noticia/na-midia/eleicoes-2008-candidatos-terao-dominio-can-br/">Eleições
+							2008: candidatos terão domínio can.br</a>. <i>WNews</i>.
+						</cite>
 					</small>
-				</figcaption>
-			</figure>
-			<h3 id="cribr">
-				<a href="#cribr"></a>
-				CRI.br
+				</p>
+				<figure>
+					<img src="can.br_2a.png">
+					<figcaption>
+						<small>
+							Fonte:
+							<a href="https://registro.br/stat/can.br_2a.png">Gráfico de domínios CAN.BR desde 1996</a>.
+							<i>Registro.br</i>. Acesso em 29 de agosto de 2023.
+						</small>
+					</figcaption>
+				</figure>
+				<h3 id="cribr">
+					<a href="#cribr"></a>
+					CRI.BR
+				</h3>
+				<p>
+					Subdomínio para Cartórios de Registro Imobiliário (ou CRIs). Aparece
+					listado na categoria de domínios para pessoas jurídicas do Registro.br,
+					com a obrigatoriedade de DNSSEC, em meados de setembro de 2015
+					<small>(<a href="https://web.archive.org/web/20150917212327/http://registro.br/dominio/categoria.html">página arquivada</a>)</small>
+					e desaparece novamente em meados de julho de 2017
+					<small>(<a href="https://web.archive.org/web/20170715053211/https://registro.br/dominio/categoria.html">página arquivada</a>)</small>.
+				</p>
+				<p>
+					Pelo gráfico oficial – que não está em nenhuma página, mas pode
+					ser encontrado diretamente pelo URL – só um único domínio CRI.BR foi
+					registrado na história, em meados de 2016. Pouco mais de um ano depois,
+					ele foi apagado; e, desde então, nenhum outro domínio sob o CRI.BR existiu.
+				</p>
+				<p>
+					Entrei em contato com o Registro.br em setembro de 2021, mas não
+					recebi nenhuma informação sobre o subdomínio:
+					"Infelizmente, não temos a informação que deseja acerca das DPNs
+					aposentadas".
+				</p>
+				<figure>
+					<img src="cri.br_2a.png">
+					<figcaption>
+						<small>
+							Fonte:
+							<a href="https://registro.br/stat/cri.br_2a.png">Gráfico de domínios CRI.BR desde 1996</a>.
+							<i>Registro.br</i>. Acesso em 29 de agosto de 2023.
+						</small>
+					</figcaption>
+				</figure>
+			</section>
+			<hr>
+			<h2 id="construcao">
+				<a href="#construcao"></a>
+				Construção da lista
+			</h2>
+			<section>
+				<p>
+					Esta lista teve como ponto de partida a lista de domínios mais geral
+					disponibilizada por <a href="https://news.ycombinator.com/item?id=10368935">jtwaleson</a>
+					(<a href="https://all-certificates.s3.amazonaws.com/domainnames.gz?torrent">domainnames.gz</a>),
+					e a lista "<a href="https://majestic.com/reports/majestic-million">Majestic Million</a>",
+					da empresa Majestic. Alguns domínios curtos foram encontrados por força
+					bruta; através desse método, todas as combinações de 3 letras e/ou dígitos,
+					<strong>[A&#8288;-&#8288;Z0&#8288;-&#8288;9]&#8288;{1,3}\.br</strong>, e
+					também de 4 letras (sem dígitos), <strong>[A&#8288;-&#8288;Z]{4}\.br</strong>,
+					foram conferidas. Essas iniciativas foram suficientes para agregar 803
+					domínios, aproximadamente 60% do total.
+				</p>
+				<p>
+					A zona final só pôde ser compilada através do trabalho altruísta de
+					<a href="https://zach.bloomqu.ist/">Zach Bloomquist</a>,
+					que publicou no repositório
+					<a href="https://github.com/flotwig/zone-walks">zone-walks</a> a
+					"caminhada" de DNS do .BR, usando uma peculiaridade de registros NSEC.
+					Os 40% finais da lista são inteiramente devido ao trabalho dele, e eu
+					serei eternamente grato.
+				</p>
+			</section>
+			<hr>
+			<h2 id="estatisticas">
+				<a href="#estatisticas"></a>
+				Estatísticas
+			</h2>
+			<h3 id="parcela-categoria">
+				<a href="#parcela-categoria"></a>
+				Parcelas por categoria
 			</h3>
-			<p>
-				Subdomínio para Cartórios de Registro Imobiliário (ou CRIs). Aparece
-				listado nas categorias do Registro.br em meados de setembro de 2015
-				<small>(<a href="https://web.archive.org/web/20150917212327/http://registro.br/dominio/categoria.html">página arquivada</a>)</small>
-				e desaparece novamente em meados de julho de 2017
-				<small>(<a href="https://web.archive.org/web/20170715053211/https://registro.br/dominio/categoria.html">página arquivada</a>)</small>.
-			</p>
-			<p>
-				Pelo gráfico oficial – que não está em nenhuma página, mas pode
-				ser encontrado diretamente pelo URL – só um único domínio CRI.BR foi
-				registrado na história, em meados de 2016, quando o CRI.BR parece
-				ter sido criado. Pouco mais de um ano depois, ele foi apagado; e,
-				desde então, nenhum outro domínio sob o CRI.BR existiu.
-			</p>
-			<p>
-				Entrei em contato com o Registro.br em setembro de 2021, mas não
-				recebi nenhuma informação sobre o subdomínio:
-				"Infelizmente, não temos a informação que deseja acerca das DPNs
-				aposentadas".
-			</p>
-			<figure>
-				<img src="cri.br_2a.png">
-				<figcaption>
-					<small>
-						Fonte:
-						<a href="https://registro.br/stat/cri.br_2a.png">Gráfico de domínios CRI.BR desde 1996</a>.
-						<i>Registro.br</i>. Acesso em 29 de agosto de 2023.
-					</small>
-				</figcaption>
-			</figure>
-		</section>
-		<hr>
-		<h2 id="construcao">
-			<a href="#construcao"></a>
-			Construção da lista
-		</h2>
-		<section>
-			<p>
-				Esta lista teve como ponto de partida a lista de domínios mais geral
-				disponibilizada por <a href="https://news.ycombinator.com/item?id=10368935">jtwaleson</a>
-				(<a href="https://all-certificates.s3.amazonaws.com/domainnames.gz?torrent">domainnames.gz</a>),
-				e a lista "<a href="https://majestic.com/reports/majestic-million">Majestic Million</a>",
-				da empresa Majestic. Alguns domínios curtos foram encontrados por força
-				bruta; através desse método, todas as combinações de 3 letras e/ou dígitos,
-				<strong>[A&#8288;-&#8288;Z0&#8288;-&#8288;9]&#8288;{1,3}\.br</strong>, e
-				também de 4 letras (sem dígitos), <strong>[A&#8288;-&#8288;Z]{4}\.br</strong>,
-				foram conferidas. Essas iniciativas foram suficientes para agregar 803
-				domínios, aproximadamente 60% do total.
-			</p>
-			<p>
-				A zona final só pôde ser compilada através do trabalho altruísta de
-				<a href="https://zach.bloomqu.ist/">Zach Bloomquist</a>,
-				que publicou no repositório
-				<a href="https://github.com/flotwig/zone-walks">zone-walks</a> a
-				"caminhada" de DNS do .br, usando uma peculiaridade de registros NSEC.
-				Os 40% finais da lista são inteiramente devido ao trabalho dele, e eu
-				serei eternamente grato.
-			</p>
-		</section>
-		<hr>
-		<h2 id="estatisticas">
-			<a href="#estatisticas"></a>
-			Estatísticas
-		</h2>
-		<h3 id="parcela-categoria">
-			<a href="#parcela-categoria"></a>
-			Parcelas por categoria
-		</h2>
-		<section class="graph-wrapper">
-			<iframe class="graph" width="500" height="365" sandbox loading="lazy" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQJ_fPGnYZLIDIjCKIujVtVeGebu2GCBamT2YLI4PnHKakUxaQ-t9cTaw937Z-BhXfl2FuOVtwXhqv9/pubchart?oid=1147870348&amp;format=image"></iframe>
-			<br>
-		</section>
-		<h3 id="tamanho-dominios">
-			<a href="#tamanho-dominios"></a>
-			Quantidade de domínios por tamanho
-		</h2>
-		<section class="spaced">
-			<p>
-				Tamanho, aqui, indica a quantidade de caracteres antes do ".BR". Por
-				exemplo, "COM.BR" possui tamanho 3.
-			</p>
-			<canvas id="domain-sizes" class="chartjs graph"></canvas>
-		</section>
-		<h3 id="quantidade-dominios">
-			<a href="#quantidade-dominios"></a>
-			Agregado de domínios registrados
-		</h2>
-		<section class="spaced">
-			<p>
-				Quantidade aproximada, baseada em dados de WHOIS; não inclui domínios
-				que foram posteriormente deletados. Alguns domínios, considerados
-				subdomínios, não possuem respostas para WHOIS, impossibilitando a
-				descoberta de sua exata data de registro. Compare com o
-				<a href="https://registro.br/stat/br_2a.png">gráfico oficial</a>.
-			</p>
-			<canvas id="registration-aggregate" class="chartjs graph"></canvas>
-		</section>
+			<section class="graph-wrapper">
+				<iframe class="graph" width="500" height="365" sandbox loading="lazy" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQJ_fPGnYZLIDIjCKIujVtVeGebu2GCBamT2YLI4PnHKakUxaQ-t9cTaw937Z-BhXfl2FuOVtwXhqv9/pubchart?oid=1147870348&amp;format=image"></iframe>
+				<br>
+			</section>
+			<h3 id="tamanho-dominios">
+				<a href="#tamanho-dominios"></a>
+				Quantidade de domínios por tamanho
+			</h3>
+			<section class="spaced">
+				<p>
+					Tamanho, aqui, indica a quantidade de caracteres antes do ".BR". Por
+					exemplo, "COM.BR" possui tamanho 3.
+				</p>
+				<canvas id="domain-sizes" class="chartjs graph"></canvas>
+			</section>
+			<h3 id="quantidade-dominios">
+				<a href="#quantidade-dominios"></a>
+				Agregado de domínios registrados
+			</h3>
+			<section class="spaced">
+				<p>
+					Quantidade aproximada, baseada em dados de WHOIS; não inclui domínios
+					que foram posteriormente deletados. Alguns domínios, considerados
+					subdomínios, não possuem respostas para WHOIS, impossibilitando a
+					descoberta de sua exata data de registro. Compare com o
+					<a href="https://registro.br/stat/br_2a.png">gráfico oficial</a>.
+				</p>
+				<canvas id="registration-aggregate" class="chartjs graph"></canvas>
+			</section>
+		</div>
 	</main>
 	<footer>
-		<p class="timestamp">
-			Feito com ♥&#xFE0E;<!--&#xFE0E;[Ref] stackoverflow.com/a/38452396/4824627-->
-			por Matheus Avellar<br>Rio de Janeiro, 2021
-		</p>
-		<p class="timestamp">
-			Sugestões, reclamações ou comentários?<br>
-			Mande um email para m<svg class="email" viewBox="0 0 24 24" aria-label="@"><use href="#at"/></svg>avl.la
-		</p>
-		<p class="timestamp">
-			Este projeto não é apoiado, patrocinado ou desenvolvido pelo Registro.br,
-			NIC.br, CGI.br, ou quaisquer outras organizações, governamentais ou não.
-			Ele é desenvolvido e mantido voluntária e independentemente.
-		</p>
+		<div class="maxwidth">
+			<p class="timestamp">
+				Feito com ♥&#xFE0E;<!--&#xFE0E;[Ref] stackoverflow.com/a/38452396/4824627-->
+				por Matheus Avellar<br>Rio de Janeiro, 2021
+			</p>
+			<p class="timestamp">
+				Sugestões, reclamações ou comentários?<br>
+				Mande um email para m<svg class="email" viewBox="0 0 24 24" aria-label="@"><use href="#at"/></svg>avl.la
+			</p>
+			<p class="timestamp">
+				Este projeto não é apoiado, patrocinado ou desenvolvido pelo Registro.br,
+				NIC.br, CGI.br, ou quaisquer outras organizações, governamentais ou não.
+				Ele é desenvolvido e mantido voluntária e independentemente.
+			</p>
+		</div>
 	</footer>
 	<div hidden>
 		<svg class="icon" viewbox="0 0 24 24">
