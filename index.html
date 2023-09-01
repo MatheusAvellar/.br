@@ -12,7 +12,7 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
 	<link rel="manifest" href="./site.webmanifest">
 	<link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
-	<link rel="stylesheet" href="./style.css?v=33">
+	<link rel="stylesheet" href="./style.css?v=34">
 </head>
 <body>
 	<header>
@@ -144,6 +144,7 @@ darkModeMediaQuery.addListener((e) => {
 					<a href="#estatisticas">Estatísticas</a>
 					<ol>
 						<li><a href="#parcela-categoria">Parcela por categoria</a></li>
+						<li><a href="#letras-dominios">Quantidade de domínios por primeira letra</a></li>
 						<li><a href="#tamanho-dominios">Quantidade de domínios por tamanho</a></li>
 						<li><a href="#quantidade-dominios">Agregado de domínios registrados</a></li>
 					</ol>
@@ -402,6 +403,40 @@ pre .value { color: rebeccapurple; }
 				<a href="#estatisticas"></a>
 				Estatísticas
 			</h2>
+			<section>
+				<p>
+					Aqui estão algumas informações para você, pessoa curiosa:
+				</p>
+				<ul>
+					<li>
+						<p class="noindent">
+							O domínio <b>mais curto</b> é B.BR, subdomínio para bancos, de
+							tamanho 1. Ele permite o cômico <a href="https://bb.b.br/">bb.b.br</a>,
+							reservado pelo o Banco do Brasil (mas inutilizado).
+						</p>
+					</li>
+					<li>
+						<p class="noindent">
+							O domínio <b>mais longo</b> é
+							<span style="white-space:nowrap">FACULDADES&VeryThinSpace;MACHADO&VeryThinSpace;DE&VeryThinSpace;ASSIS.BR</span>,
+							um domínio de 24 letras registrado em julho de 2000 que,
+							infelizmente, não é mais usado.
+						</p>
+					</li>
+					<li>
+						<p class="noindent">
+							Há apenas <b>um IDN</b>, ou "nome de domínio internacionalizado":
+							ICANNSÃOPAULO.BR, um dos 4 domínios registrados para o evento
+							"ICANN Meeting São Paulo", de dezembro de 2006.<br>
+							IDNs possuem caracteres considerados
+							especiais; nesse caso, o Ã. Tecnicamente, o nome real do domínio
+							é XN&#8288;--&#8288;ICANNSOPAULO-7BB.BR, em uma representação
+							chamada "Punycode". Consequentemente, ele também é o único domínio
+							que começa com a letra X.
+						</p>
+					</li>
+				</ul>
+			</section>
 			<h3 id="parcela-categoria">
 				<a href="#parcela-categoria"></a>
 				Parcelas por categoria
@@ -409,6 +444,18 @@ pre .value { color: rebeccapurple; }
 			<section class="graph-wrapper">
 				<iframe class="graph" width="500" height="365" sandbox loading="lazy" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQJ_fPGnYZLIDIjCKIujVtVeGebu2GCBamT2YLI4PnHKakUxaQ-t9cTaw937Z-BhXfl2FuOVtwXhqv9/pubchart?oid=1147870348&amp;format=image"></iframe>
 				<br>
+			</section>
+			<h3 id="letras-dominios">
+				<a href="#letras-dominios"></a>
+				Quantidade de domínios por primeira letra <small style="font-size:50%">(ou dígito)</small>
+			</h3>
+			<section class="spaced">
+				<p>
+					Não sei se essa informação é útil para alguém, mas eu fiquei curioso
+					e quis fazer o gráfico. Curiosamente, a única letra que não possui
+					nenhum domínio é a letra Y.
+				</p>
+				<canvas id="domain-letters" class="chartjs graph"></canvas>
 			</section>
 			<h3 id="tamanho-dominios">
 				<a href="#tamanho-dominios"></a>
@@ -469,6 +516,47 @@ pre .value { color: rebeccapurple; }
 	<script src="js/chart.js@4.4.0.umd.min.js"></script>
 	<script src="js/chartjs-adapter-date-fns@3.0.0.bundle.min.js"></script>
 	<script src="js/chartjs-plugin-datalabels@2.0.0.js"></script>
+	<script>
+const dom_let = new Chart(document.getElementById("domain-letters").getContext("2d"), {
+	plugins: [ ChartDataLabels ],
+	type: "bar",
+	data: {
+		labels: [
+			"0", "9",
+			"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O",
+			"P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"
+		],
+		datasets: [{
+			label: "Domínios",
+			data: [
+				1, 1, 60, 35, 169, 16, 64, 305, 21, 6, 97, 10, 1, 18, 33, 25, 22, 46, 1,
+				34, 77, 23, 262, 11, 8, 1, 0, 2
+			],
+			backgroundColor: "#c3423f",
+			borderRadius: 2
+		}]
+	},
+	options: {
+		scales: {
+			y: {
+				beginAtZero: true
+			}
+		},
+		plugins: {
+			legend: {
+				onClick: (e) => e.stopPropagation()
+			},
+			datalabels: {
+				color: "#000",
+				anchor: "end",
+				align: "top",
+				offset: 4,
+				clamp: true
+			}
+		}
+	}
+});
+	</script>
 	<script>
 const domain_lengths = [
 	1, 14, 243, 197, 171, 173, 133, 118, 66, 54, 34, 31, 26, 20, 10, 15, 14, 8,
