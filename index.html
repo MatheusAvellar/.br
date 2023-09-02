@@ -12,7 +12,7 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
 	<link rel="manifest" href="./site.webmanifest">
 	<link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
-	<link rel="stylesheet" href="./style.css?v=35">
+	<link rel="stylesheet" href="./style.css?v=36">
 </head>
 <body>
 	<header>
@@ -83,9 +83,9 @@ darkModeMediaQuery.addListener((e) => {
 				<h2>A zona</h2>
 				<p>
 					A zona possui <b>1349</b> domínios catalogados. Desses, <b>1207</b>
-					(89.47%) são domínios contados nas <a href="https://registro.br/dominio/estatisticas/">estatísticas
-					do Registro.br</a>, e <b>142</b> (10.53%) são considerados somente
-					subdomínios e não constam nas estatísticas oficiais.
+					<small>(89.47%)</small> são domínios contados nas <a href="https://registro.br/dominio/estatisticas/">estatísticas
+					do Registro.br</a>, e <b>142</b> <small>(10.53%)</small> são
+					considerados somente subdomínios e não constam nas estatísticas oficiais.
 				</p>
 				<p>
 					Se você só está interessado nos nomes de domínio em si, você pode
@@ -131,7 +131,6 @@ darkModeMediaQuery.addListener((e) => {
 			<p class="noindent"><b>Table of Contents:</b></p>
 			<ol id="toc">
 				<li><a href="#contexto">Contexto</a></li>
-				<li><a href="#detalhes">Detalhes</a></li>
 				<li>
 					<a href="#diferencas-oficiais">Diferenças das estatísticas oficiais</a>
 					<ol>
@@ -139,7 +138,6 @@ darkModeMediaQuery.addListener((e) => {
 						<li><a href="#cribr">CRI.br</a></li>
 					</ol>
 				</li>
-				<li><a href="#construcao">Construção da lista</a></li>
 				<li>
 					<a href="#estatisticas">Estatísticas</a>
 					<ol>
@@ -149,6 +147,8 @@ darkModeMediaQuery.addListener((e) => {
 						<li><a href="#quantidade-dominios">Agregado de domínios registrados</a></li>
 					</ol>
 				</li>
+				<li><a href="#detalhes">Detalhes</a></li>
+				<li><a href="#construcao">Construção da lista</a></li>
 			</ol>
 			<h2 id="contexto">
 				<a href="#contexto"></a>
@@ -183,94 +183,6 @@ darkModeMediaQuery.addListener((e) => {
 						Coordenação do Ponto BR</i>.
 					</li>
 				</ol>
-			</section>
-			<hr>
-			<h2 id="detalhes">
-				<a href="#detalhes"></a>
-				Detalhes
-			</h2>
-			<section>
-				<p>
-					Aqui estão os comandos que foram usados para gerar a zona, a partir de
-					uma lista pré-existente de nomes a serem conferidos:
-				</p>
-				<pre>
-<span class="comment"># Primeiro, pedimos o registro SOA ao Google</span>
-<span class="command">dig</span> <span class="server">@8.8.8.8</span> <span class="domain">$SLD.br.</span> <span class="record">SOA</span> <span class="flags">+noall +answer +authority +additional</span>
-<span class="comment"># E os registros NS diretamente ao DNS.br</span>
-<span class="command">dig</span> <span class="server">@a.dns.br</span> <span class="domain">$SLD.br.</span> <span class="record">NS</span> <span class="flags">+noall +answer +authority +additional</span>
-
-<span class="comment"># Em seguida, perguntamos pela existência de registros A, AAAA e MX,</span>
-<span class="comment"># tanto para o domínio em si, quanto para seu subdomínio www</span>
-<span class="command">dig</span> <span class="server">@8.8.8.8</span> <span class="domain">$SLD.br.</span> <span class="record">A</span> <span class="flags">+noall +answer</span>
-<span class="command">dig</span> <span class="server">@8.8.8.8</span> <span class="domain">$SLD.br.</span> <span class="record">AAAA</span> <span class="flags">+noall +answer</span>
-<span class="command">dig</span> <span class="server">@8.8.8.8</span> <span class="domain">$SLD.br.</span> <span class="record">MX</span> <span class="flags">+noall +answer</span>
-<span class="command">dig</span> <span class="server">@8.8.8.8</span> <span class="domain">www.$SLD.br.</span> <span class="record">A</span> <span class="flags">+noall +answer</span>
-<span class="command">dig</span> <span class="server">@8.8.8.8</span> <span class="domain">www.$SLD.br.</span> <span class="record">AAAA</span> <span class="flags">+noall +answer</span>
-<span class="command">dig</span> <span class="server">@8.8.8.8</span> <span class="domain">www.$SLD.br.</span> <span class="record">MX</span> <span class="flags">+noall +answer</span>
-
-<span class="comment"># Por fim, NSEC; vide explicação abaixo</span>
-<span class="command">dig</span> <span class="server">@a.dns.br</span> <span class="domain">"$SLD#.br."</span> <span class="record">NSEC</span> <span class="flags">+noall +answer +authority +additional +dnssec</span></pre>
-			<p>
-				Requisitamos, via NSEC no final, o nome do próximo domínio – uma espécie
-				de zone walking, mas meramente a título de curiosidade, pois já temos a
-				lista de nomes; um "zone looking", se preferir. Realisticamente,
-				"&#8288;&lt;SLD&gt;#.BR" (sim, com #) não é um domínio real nem nunca será; e não há
-				como existir domínio alfabeticamente entre "&lt;SLD&gt;.BR" e
-				"&lt;SLD&gt;#.BR". Então, pedir NSEC de "&lt;SLD&gt;#.BR" nos retorna como
-				resposta um status de NXDOMAIN, com o próximo domínio válido. Em tese, este
-				será o domínio testado imediatamente a seguir.
-			</p>
-			<p>
-				Aqui está uma entrada da lista, extraída para melhor ilustrar como ela é
-				depois de gerada:
-			</p>
-<style>
-pre .domain { color: #002267; }
-pre .comment, pre .ttl { color: #777; }
-pre .in, pre .command { color: #444; }
-pre .server { color: #402c00; }
-pre .flags { color: #4a0000; }
-pre .record { color: #005f24; }
-pre .value { color: rebeccapurple; }
-</style>
-				<pre>
-<span class="comment">;; itpac.br.</span>
-<span class="domain">itpac.br.</span>		<span class="ttl">1800</span>	<span class="in">IN</span>	<span class="record">SOA</span>	<span class="value">fiona.ns.cloudflare.com. dns.cloudflare.com. [...]</span>
-<span class="domain">itpac.br.</span>		<span class="ttl">3600</span>	<span class="in">IN</span>	<span class="record">NS</span>	<span class="value">fiona.ns.cloudflare.com.</span>
-<span class="domain">itpac.br.</span>		<span class="ttl">3600</span>	<span class="in">IN</span>	<span class="record">NS</span>	<span class="value">pete.ns.cloudflare.com.</span>
-<span class="domain">itpac.br.</span>		<span class="ttl">300</span>	<span class="in">IN</span>	<span class="record">A</span>	<span class="value">104.18.14.38</span>
-<span class="domain">itpac.br.</span>		<span class="ttl">300</span>	<span class="in">IN</span>	<span class="record">A</span>	<span class="value">104.18.15.38</span>
-<span class="domain">itpac.br.</span>		<span class="ttl">300</span>	<span class="in">IN</span>	<span class="record">AAAA</span>	<span class="value">2606:4700::6812:f26</span>
-<span class="domain">itpac.br.</span>		<span class="ttl">300</span>	<span class="in">IN</span>	<span class="record">AAAA</span>	<span class="value">2606:4700::6812:e26</span>
-<span class="domain">itpac.br.</span>		<span class="ttl">3600</span>	<span class="in">IN</span>	<span class="record">MX</span>	<span class="value">0 itpac-br.mail.protection.outlook.com.</span>
-<span class="domain">www.itpac.br.</span>		<span class="ttl">300</span>	<span class="in">IN</span>	<span class="record">A</span>	<span class="value">104.18.14.38</span>
-<span class="domain">www.itpac.br.</span>		<span class="ttl">300</span>	<span class="in">IN</span>	<span class="record">A</span>	<span class="value">104.18.15.38</span>
-<span class="domain">www.itpac.br.</span>		<span class="ttl">300</span>	<span class="in">IN</span>	<span class="record">AAAA</span>	<span class="value">2606:4700::6812:e26</span>
-<span class="domain">www.itpac.br.</span>		<span class="ttl">300</span>	<span class="in">IN</span>	<span class="record">AAAA</span>	<span class="value">2606:4700::6812:f26</span>
-<span class="domain">itpac.br.</span>		<span class="ttl">900</span>	<span class="in">IN</span>	<span class="record">NSEC</span>	<span class="value">iuperj.br. NS DS RRSIG NSEC</span>
-<span class="domain">itpac.br.</span>		<span class="ttl">900</span>	<span class="in">IN</span>	<span class="record">RRSIG</span>	<span class="value">NSEC 13 2 900 20230907120516 [...]</span></pre>
-				<p>
-					Toda entrada na lista começa com um cabeçalho informando a qual
-					domínio ela se refere.
-				</p>
-				<p>
-					Em seguida, há uma linha com o registro SOA. Nem todos os domínios
-					possuem um – algo que, no meu entendimento, nem deveria ser possível.
-					Ainda que estranhos, estes possuem <i lang="en">nameservers</i>,
-					registros NSEC e até presença no <i lang="en">whois</i>. Então, eles
-					definitivamente existem; são diferentes de domínios cuja resposta é
-					NXDOMAIN. Estão em alguma outra forma de limbo.
-				</p>
-				<p>
-					Na sequência, há informações sobre os registros encontrados: A e AAAA
-					(ou CNAME, se for o caso), e MX. Eles são testados para o domínio em si,
-					e para o subdomínio "WWW.&lt;SLD&gt;.BR".
-				</p>
-				<p>
-					A entrada termina com o registro NSEC, indicando a entrada logo a
-					seguir.
-				</p>
 			</section>
 			<hr>
 			<h2 id="diferencas-oficiais">
@@ -371,6 +283,210 @@ pre .value { color: rebeccapurple; }
 				</figure>
 			</section>
 			<hr>
+			<h2 id="estatisticas">
+				<a href="#estatisticas"></a>
+				Estatísticas
+			</h2>
+			<section>
+				<p>
+					Aqui estão algumas informações para você, pessoa curiosa:
+				</p>
+				<ul>
+					<li>
+						<p class="noindent">
+							O domínio <b>mais curto</b> é B.BR, subdomínio para bancos, de
+							tamanho 1. Ele permite o cômico <a href="https://bb.b.br/">bb.b.br</a>,
+							reservado pelo o Banco do Brasil (mas inutilizado).
+						</p>
+						<p class="noindent">
+							O domínio <b>mais longo</b> é
+							<span style="white-space:nowrap">FACULDADES&VeryThinSpace;MACHADO&VeryThinSpace;DE&VeryThinSpace;ASSIS.BR</span>,
+							um domínio de 24 letras registrado em julho de 2000 que,
+							infelizmente, não é mais usado.
+						</p>
+					</li>
+					<li>
+						<p class="noindent">
+							Há apenas <b>um IDN</b>, ou "nome de domínio internacionalizado":
+							ICANNSÃOPAULO.BR, um dos 4 domínios registrados para o evento
+							"ICANN Meeting São Paulo", de dezembro de 2006.<br>
+							IDNs possuem caracteres considerados
+							especiais; nesse caso, o Ã. Tecnicamente, o nome real do domínio
+							é XN&#8288;--&#8288;ICANNSOPAULO-7BB.BR, em uma representação
+							chamada "Punycode". Dito isso, ele também é o único domínio
+							que começa com a letra X.
+						</p>
+					</li>
+					<li>
+						<p class="noindent">
+							Em termos de <b>IP</b>, 840 <small>(62.27%)</small> domínios
+							possuem algum registro de endereço – seja com A, AAAA ou um
+							redirecionamento por CNAME. Isso não significa, necessariamente,
+							que todos possuem websites. Consequentemente, 509 <small>(37.73%)</small>
+							definitivamente não são acessíveis por um navegador.
+						</p>
+						<p class="noindent">
+							Em termos de <b>email</b>, 725 <small>(53.74%)</small> domínios
+							possuem registros MX, contra 624 <small>(46.26%)</small> que não
+							têm. Novamente, isso não significa que todos estão suficientemente
+							configurados para receber e enviar emails.
+						</p>
+						<p class="noindent">
+							Há 649 <small>(48.11%)</small> domínios que estão presentes em
+							ambas as categorias: possuem tanto IP, quanto email.
+							Além disso, 191 <small>(14.16%)</small> possuem IP mas não
+							email, e 76 <small>(5.63%)</small> possuem email mas não IP.
+						</p>
+						<p class="noindent">
+							Por outro lado, 433 <small>(32.1%)</small> não possuem nem um, nem
+							outro; subtraindo 141 subdomínios (142 menos GOV.BR), são 292
+							<small>(21.65%)</small> domínios "reais" sem IP ou email.
+						</p>
+					</li>
+				</ul>
+			</section>
+			<h3 id="parcela-categoria">
+				<a href="#parcela-categoria"></a>
+				Parcelas por categoria
+			</h3>
+			<section class="graph-wrapper">
+				<iframe class="graph" width="500" height="365" sandbox loading="lazy" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQJ_fPGnYZLIDIjCKIujVtVeGebu2GCBamT2YLI4PnHKakUxaQ-t9cTaw937Z-BhXfl2FuOVtwXhqv9/pubchart?oid=1147870348&amp;format=image"></iframe>
+				<br>
+			</section>
+			<h3 id="letras-dominios">
+				<a href="#letras-dominios"></a>
+				Quantidade de domínios por primeira letra <small style="font-size:50%">(ou dígito)</small>
+			</h3>
+			<section class="spaced">
+				<p>
+					Não sei se essa informação é útil para alguém, mas eu fiquei curioso
+					e quis fazer o gráfico. Curiosamente, a única letra que não possui
+					nenhum domínio é a letra Y.
+				</p>
+				<canvas id="domain-letters" class="chartjs graph"></canvas>
+				<ul>
+					<li>Para <b>K</b>, há KENNEDY.BR, das Faculdades Kennedy;</li>
+					<li>Para <b>Q</b>, há QSL.BR, subdomínio para rádio amadores;</li>
+					<li>
+						Para <b>X</b>, há XN&#8288;--&#8288;ICANNSOPAULO-7BB.BR, Punycode
+						de ICANNSÃOPAULO.BR.
+					</li>
+				</ul>
+			</section>
+			<h3 id="tamanho-dominios">
+				<a href="#tamanho-dominios"></a>
+				Quantidade de domínios por tamanho
+			</h3>
+			<section class="spaced">
+				<p>
+					Tamanho, aqui, indica a quantidade de caracteres antes do ".BR". Por
+					exemplo, "COM.BR" possui tamanho 3.
+				</p>
+				<canvas id="domain-sizes" class="chartjs graph"></canvas>
+			</section>
+			<h3 id="quantidade-dominios">
+				<a href="#quantidade-dominios"></a>
+				Agregado de domínios registrados
+			</h3>
+			<section class="spaced">
+				<p>
+					Quantidade aproximada, baseada em dados de WHOIS; não inclui domínios
+					que foram posteriormente deletados. Alguns domínios, considerados
+					subdomínios, não possuem respostas para WHOIS, impossibilitando a
+					descoberta de sua exata data de registro. Compare com o
+					<a href="https://registro.br/stat/br_2a.png">gráfico oficial</a>.
+				</p>
+				<canvas id="registration-aggregate" class="chartjs graph"></canvas>
+			</section>
+			<hr>
+			<h2 id="detalhes">
+				<a href="#detalhes"></a>
+				Detalhes
+			</h2>
+			<section>
+				<p>
+					Aqui estão os comandos que foram usados para gerar a zona, a partir de
+					uma lista pré-existente de nomes a serem conferidos:
+				</p>
+				<pre>
+<span class="comment"># Primeiro, pedimos o registro SOA ao Google</span>
+<span class="command">dig</span> <span class="server">@8.8.8.8</span> <span class="domain">$SLD.br.</span> <span class="record">SOA</span> <span class="flags">+noall +answer +authority +additional</span>
+<span class="comment"># E os registros NS diretamente ao DNS.br</span>
+<span class="command">dig</span> <span class="server">@a.dns.br</span> <span class="domain">$SLD.br.</span> <span class="record">NS</span> <span class="flags">+noall +answer +authority +additional</span>
+
+<span class="comment"># Em seguida, perguntamos pela existência de registros A, AAAA e MX,</span>
+<span class="comment"># tanto para o domínio em si, quanto para seu subdomínio www</span>
+<span class="command">dig</span> <span class="server">@8.8.8.8</span> <span class="domain">$SLD.br.</span> <span class="record">A</span> <span class="flags">+noall +answer</span>
+<span class="command">dig</span> <span class="server">@8.8.8.8</span> <span class="domain">$SLD.br.</span> <span class="record">AAAA</span> <span class="flags">+noall +answer</span>
+<span class="command">dig</span> <span class="server">@8.8.8.8</span> <span class="domain">$SLD.br.</span> <span class="record">MX</span> <span class="flags">+noall +answer</span>
+<span class="command">dig</span> <span class="server">@8.8.8.8</span> <span class="domain">www.$SLD.br.</span> <span class="record">A</span> <span class="flags">+noall +answer</span>
+<span class="command">dig</span> <span class="server">@8.8.8.8</span> <span class="domain">www.$SLD.br.</span> <span class="record">AAAA</span> <span class="flags">+noall +answer</span>
+<span class="command">dig</span> <span class="server">@8.8.8.8</span> <span class="domain">www.$SLD.br.</span> <span class="record">MX</span> <span class="flags">+noall +answer</span>
+
+<span class="comment"># Por fim, NSEC; vide explicação abaixo</span>
+<span class="command">dig</span> <span class="server">@a.dns.br</span> <span class="domain">"$SLD#.br."</span> <span class="record">NSEC</span> <span class="flags">+noall +answer +authority +additional +dnssec</span></pre>
+			<p>
+				Requisitamos, via NSEC no final, o nome do próximo domínio – uma espécie
+				de zone walking, mas meramente a título de curiosidade, pois já temos a
+				lista de nomes; um "zone looking", se preferir. Realisticamente,
+				"&#8288;&lt;SLD&gt;#.BR" (sim, com #) não é um domínio real nem nunca será; e não há
+				como existir domínio alfabeticamente entre "&lt;SLD&gt;.BR" e
+				"&lt;SLD&gt;#.BR". Então, pedir NSEC de "&lt;SLD&gt;#.BR" nos retorna como
+				resposta um status de NXDOMAIN, com o próximo domínio válido. Em tese, este
+				será o domínio testado imediatamente a seguir.
+			</p>
+			<p>
+				Aqui está uma entrada da lista, extraída para melhor ilustrar como ela é
+				depois de gerada:
+			</p>
+<style>
+pre .domain { color: #002267; }
+pre .comment, pre .ttl { color: #777; }
+pre .in, pre .command { color: #444; }
+pre .server { color: #402c00; }
+pre .flags { color: #4a0000; }
+pre .record { color: #005f24; }
+pre .value { color: rebeccapurple; }
+</style>
+				<pre>
+<span class="comment">;; itpac.br.</span>
+<span class="domain">itpac.br.</span>		<span class="ttl">1800</span>	<span class="in">IN</span>	<span class="record">SOA</span>	<span class="value">fiona.ns.cloudflare.com. dns.cloudflare.com. [...]</span>
+<span class="domain">itpac.br.</span>		<span class="ttl">3600</span>	<span class="in">IN</span>	<span class="record">NS</span>	<span class="value">fiona.ns.cloudflare.com.</span>
+<span class="domain">itpac.br.</span>		<span class="ttl">3600</span>	<span class="in">IN</span>	<span class="record">NS</span>	<span class="value">pete.ns.cloudflare.com.</span>
+<span class="domain">itpac.br.</span>		<span class="ttl">300</span>	<span class="in">IN</span>	<span class="record">A</span>	<span class="value">104.18.14.38</span>
+<span class="domain">itpac.br.</span>		<span class="ttl">300</span>	<span class="in">IN</span>	<span class="record">A</span>	<span class="value">104.18.15.38</span>
+<span class="domain">itpac.br.</span>		<span class="ttl">300</span>	<span class="in">IN</span>	<span class="record">AAAA</span>	<span class="value">2606:4700::6812:f26</span>
+<span class="domain">itpac.br.</span>		<span class="ttl">300</span>	<span class="in">IN</span>	<span class="record">AAAA</span>	<span class="value">2606:4700::6812:e26</span>
+<span class="domain">itpac.br.</span>		<span class="ttl">3600</span>	<span class="in">IN</span>	<span class="record">MX</span>	<span class="value">0 itpac-br.mail.protection.outlook.com.</span>
+<span class="domain">www.itpac.br.</span>		<span class="ttl">300</span>	<span class="in">IN</span>	<span class="record">A</span>	<span class="value">104.18.14.38</span>
+<span class="domain">www.itpac.br.</span>		<span class="ttl">300</span>	<span class="in">IN</span>	<span class="record">A</span>	<span class="value">104.18.15.38</span>
+<span class="domain">www.itpac.br.</span>		<span class="ttl">300</span>	<span class="in">IN</span>	<span class="record">AAAA</span>	<span class="value">2606:4700::6812:e26</span>
+<span class="domain">www.itpac.br.</span>		<span class="ttl">300</span>	<span class="in">IN</span>	<span class="record">AAAA</span>	<span class="value">2606:4700::6812:f26</span>
+<span class="domain">itpac.br.</span>		<span class="ttl">900</span>	<span class="in">IN</span>	<span class="record">NSEC</span>	<span class="value">iuperj.br. NS DS RRSIG NSEC</span>
+<span class="domain">itpac.br.</span>		<span class="ttl">900</span>	<span class="in">IN</span>	<span class="record">RRSIG</span>	<span class="value">NSEC 13 2 900 20230907120516 [...]</span></pre>
+				<p>
+					Toda entrada na lista começa com um cabeçalho informando a qual
+					domínio ela se refere.
+				</p>
+				<p>
+					Em seguida, há uma linha com o registro SOA. Nem todos os domínios
+					possuem um – algo que, no meu entendimento, nem deveria ser possível.
+					Ainda que estranhos, estes possuem <i lang="en">nameservers</i>,
+					registros NSEC e até presença no <i lang="en">whois</i>. Então, eles
+					definitivamente existem; são diferentes de domínios cuja resposta é
+					NXDOMAIN. Estão em alguma outra forma de limbo.
+				</p>
+				<p>
+					Na sequência, há informações sobre os registros encontrados: A e AAAA
+					(ou CNAME, se for o caso), e MX. Eles são testados para o domínio em si,
+					e para o subdomínio "WWW.&lt;SLD&gt;.BR".
+				</p>
+				<p>
+					A entrada termina com o registro NSEC, indicando a entrada logo a
+					seguir.
+				</p>
+			</section>
+			<hr>
 			<h2 id="construcao">
 				<a href="#construcao"></a>
 				Construção da lista
@@ -397,90 +513,6 @@ pre .value { color: rebeccapurple; }
 					Os 40% finais da lista são inteiramente devido ao trabalho dele, e eu
 					serei eternamente grato.
 				</p>
-			</section>
-			<hr>
-			<h2 id="estatisticas">
-				<a href="#estatisticas"></a>
-				Estatísticas
-			</h2>
-			<section>
-				<p>
-					Aqui estão algumas informações para você, pessoa curiosa:
-				</p>
-				<ul>
-					<li>
-						<p class="noindent">
-							O domínio <b>mais curto</b> é B.BR, subdomínio para bancos, de
-							tamanho 1. Ele permite o cômico <a href="https://bb.b.br/">bb.b.br</a>,
-							reservado pelo o Banco do Brasil (mas inutilizado).
-						</p>
-					</li>
-					<li>
-						<p class="noindent">
-							O domínio <b>mais longo</b> é
-							<span style="white-space:nowrap">FACULDADES&VeryThinSpace;MACHADO&VeryThinSpace;DE&VeryThinSpace;ASSIS.BR</span>,
-							um domínio de 24 letras registrado em julho de 2000 que,
-							infelizmente, não é mais usado.
-						</p>
-					</li>
-					<li>
-						<p class="noindent">
-							Há apenas <b>um IDN</b>, ou "nome de domínio internacionalizado":
-							ICANNSÃOPAULO.BR, um dos 4 domínios registrados para o evento
-							"ICANN Meeting São Paulo", de dezembro de 2006.<br>
-							IDNs possuem caracteres considerados
-							especiais; nesse caso, o Ã. Tecnicamente, o nome real do domínio
-							é XN&#8288;--&#8288;ICANNSOPAULO-7BB.BR, em uma representação
-							chamada "Punycode". Consequentemente, ele também é o único domínio
-							que começa com a letra X.
-						</p>
-					</li>
-				</ul>
-			</section>
-			<h3 id="parcela-categoria">
-				<a href="#parcela-categoria"></a>
-				Parcelas por categoria
-			</h3>
-			<section class="graph-wrapper">
-				<iframe class="graph" width="500" height="365" sandbox loading="lazy" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQJ_fPGnYZLIDIjCKIujVtVeGebu2GCBamT2YLI4PnHKakUxaQ-t9cTaw937Z-BhXfl2FuOVtwXhqv9/pubchart?oid=1147870348&amp;format=image"></iframe>
-				<br>
-			</section>
-			<h3 id="letras-dominios">
-				<a href="#letras-dominios"></a>
-				Quantidade de domínios por primeira letra <small style="font-size:50%">(ou dígito)</small>
-			</h3>
-			<section class="spaced">
-				<p>
-					Não sei se essa informação é útil para alguém, mas eu fiquei curioso
-					e quis fazer o gráfico. Curiosamente, a única letra que não possui
-					nenhum domínio é a letra Y.
-				</p>
-				<canvas id="domain-letters" class="chartjs graph"></canvas>
-			</section>
-			<h3 id="tamanho-dominios">
-				<a href="#tamanho-dominios"></a>
-				Quantidade de domínios por tamanho
-			</h3>
-			<section class="spaced">
-				<p>
-					Tamanho, aqui, indica a quantidade de caracteres antes do ".BR". Por
-					exemplo, "COM.BR" possui tamanho 3.
-				</p>
-				<canvas id="domain-sizes" class="chartjs graph"></canvas>
-			</section>
-			<h3 id="quantidade-dominios">
-				<a href="#quantidade-dominios"></a>
-				Agregado de domínios registrados
-			</h3>
-			<section class="spaced">
-				<p>
-					Quantidade aproximada, baseada em dados de WHOIS; não inclui domínios
-					que foram posteriormente deletados. Alguns domínios, considerados
-					subdomínios, não possuem respostas para WHOIS, impossibilitando a
-					descoberta de sua exata data de registro. Compare com o
-					<a href="https://registro.br/stat/br_2a.png">gráfico oficial</a>.
-				</p>
-				<canvas id="registration-aggregate" class="chartjs graph"></canvas>
 			</section>
 		</div>
 	</main>
