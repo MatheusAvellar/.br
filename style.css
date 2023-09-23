@@ -75,12 +75,7 @@ h1 {
 	letter-spacing: -4px;
 	text-wrap: balance;
 	transform: rotate(-3deg);
-	translate: 0 -.5rem;
-	animation: h1-drop .5s .5s ease running forwards;
-}
-@keyframes h1-drop {
-	from { translate: 0 -.5rem; }
-	to { translate: 0 0px; }
+	translate: 0 -1.5rem;
 }
 p {
 	margin: .75em 0;
@@ -248,4 +243,29 @@ figure img {
 	#list-wrapper {
 		grid-template-columns: repeat(3, 1fr);
 	}
+}
+
+
+.ribbon {
+	position: absolute;
+	background-color: crimson;
+	color: #fff;
+	font-weight: 500;
+	position: absolute;
+	right: 0;
+	bottom: -1.5em;
+
+	--ribbon-tail: 1em; /* control the ribbon shape */
+	--side-padding: 1em;
+	--vert-padding: 0.5em;
+
+	padding: var(--vert-padding) var(--side-padding) var(--vert-padding) calc(var(--side-padding) + var(--ribbon-tail));
+	clip-path:
+		polygon(
+			0 0,
+			100% 0,
+			100% 100%,
+			0 100%,
+			var(--ribbon-tail) 50%
+		);
 }

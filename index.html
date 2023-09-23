@@ -12,15 +12,20 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
 	<link rel="manifest" href="./site.webmanifest">
 	<link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
-	<link rel="stylesheet" href="./style.css?v=36">
+	<link rel="stylesheet" href="./style.css?v=37">
 </head>
 <body>
 	<header>
-		<div class="maxwidth">
+		<div class="maxwidth" style="position:relative">
 			<label id="dark-mode-wrapper">
 				<input id="dark-mode" type="checkbox"> Modo escuro
 			</label>
 			<h1>Zonefile<br>do .BR</h1>
+			<span class="ribbon">
+				<!-- Ribbon inspired by Codepen by Temani Afif:
+					[Ref] https://codepen.io/t_afif/pen/dyZOBex -->
+				<strong style="font-size:125%">100%</strong> da zona mapeada!
+			</span>
 		</div>
 		<script>
 const darkModeCheckbox = document.getElementById("dark-mode");
@@ -296,7 +301,7 @@ darkModeMediaQuery.addListener((e) => {
 						<p class="noindent">
 							O domínio <b>mais curto</b> é B.BR, subdomínio para bancos, de
 							tamanho 1. Ele permite o cômico <a href="https://bb.b.br/">bb.b.br</a>,
-							reservado pelo o Banco do Brasil (mas inutilizado).
+							reservado pelo Banco do Brasil (mas inutilizado).
 						</p>
 						<p class="noindent">
 							O domínio <b>mais longo</b> é
