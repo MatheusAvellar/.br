@@ -299,19 +299,6 @@ darkModeMediaQuery.addListener((e) => {
 				<ul>
 					<li>
 						<p class="noindent">
-							O domínio <b>mais curto</b> é B.BR, subdomínio para bancos, de
-							tamanho 1. Ele permite o cômico <a href="https://bb.b.br/">bb.b.br</a>,
-							reservado pelo Banco do Brasil (mas inutilizado).
-						</p>
-						<p class="noindent">
-							O domínio <b>mais longo</b> é
-							<span style="white-space:nowrap">FACULDADES&VeryThinSpace;MACHADO&VeryThinSpace;DE&VeryThinSpace;ASSIS.BR</span>,
-							um domínio de 24 letras registrado em julho de 2000 que,
-							infelizmente, não é mais usado.
-						</p>
-					</li>
-					<li>
-						<p class="noindent">
 							Há apenas <b>um IDN</b>, ou "nome de domínio internacionalizado":
 							ICANNSÃOPAULO.BR, um dos 4 domínios registrados para o evento
 							"ICANN Meeting São Paulo", de dezembro de 2006.<br>
@@ -320,32 +307,6 @@ darkModeMediaQuery.addListener((e) => {
 							é XN&#8288;--&#8288;ICANNSOPAULO-7BB.BR, em uma representação
 							chamada "Punycode". Dito isso, ele também é o único domínio
 							que começa com a letra X.
-						</p>
-					</li>
-					<li>
-						<p class="noindent">
-							Em termos de <b>IP</b>, 840 <small>(62.27%)</small> domínios
-							possuem algum registro de endereço – seja com A, AAAA ou um
-							redirecionamento por CNAME. Isso não significa, necessariamente,
-							que todos possuem websites. Consequentemente, 509 <small>(37.73%)</small>
-							definitivamente não são acessíveis por um navegador.
-						</p>
-						<p class="noindent">
-							Em termos de <b>email</b>, 725 <small>(53.74%)</small> domínios
-							possuem registros MX, contra 624 <small>(46.26%)</small> que não
-							têm. Novamente, isso não significa que todos estão suficientemente
-							configurados para receber e enviar emails.
-						</p>
-						<p class="noindent">
-							Há 649 <small>(48.11%)</small> domínios que estão presentes em
-							ambas as categorias: possuem tanto IP, quanto email.
-							Além disso, 191 <small>(14.16%)</small> possuem IP mas não
-							email, e 76 <small>(5.63%)</small> possuem email mas não IP.
-						</p>
-						<p class="noindent">
-							Por outro lado, 433 <small>(32.1%)</small> não possuem nem um, nem
-							outro; subtraindo 141 subdomínios (142 menos GOV.BR), são 292
-							<small>(21.65%)</small> domínios "reais" sem IP ou email.
 						</p>
 					</li>
 				</ul>
@@ -388,6 +349,25 @@ darkModeMediaQuery.addListener((e) => {
 					exemplo, "COM.BR" possui tamanho 3.
 				</p>
 				<canvas id="domain-sizes" class="chartjs graph"></canvas>
+				<p>
+					O domínio <b>mais curto</b> é B.BR, subdomínio para bancos, de
+					tamanho 1. Ele permite o cômico <a href="https://bb.b.br/">bb.b.br</a>,
+					reservado pelo Banco do Brasil (mas inutilizado).
+				</p>
+				<p>
+					O domínio <b>mais longo</b> é
+					<span id="faculdadesmachadodeassis"><span>FACULDADES</span><span>MACHADO</span><span>DE</span><span>ASSIS.BR</span></span>,
+					<style>
+#faculdadesmachadodeassis {
+	white-space: nowrap;
+}
+#faculdadesmachadodeassis > span + span {
+	margin-left: 2px;
+}
+					</style>
+					um domínio de 24 letras registrado em julho de 2000 que,
+					infelizmente, não é mais usado.
+				</p>
 			</section>
 			<h3 id="quantidade-dominios">
 				<a href="#quantidade-dominios"></a>
@@ -402,6 +382,64 @@ darkModeMediaQuery.addListener((e) => {
 					<a href="https://registro.br/stat/br_2a.png">gráfico oficial</a>.
 				</p>
 				<canvas id="registration-aggregate" class="chartjs graph"></canvas>
+				<script>
+					function yearsSince(year) {
+						let diff = (new Date()).getFullYear() - year;
+						if(diff > 0)
+							return ` (aprox. ${diff} anos atrás)`;
+						return "";
+					}
+				</script>
+				<p>
+					O domínio mais antigo com data exata de registro é
+					<a href="https://fapesp.br/">FAPESP.BR</a> (Fundação de Amparo à
+					Pesquisa do Estado de São Paulo), criado em 18 de abril de
+					1989<span id="dyn-t1"></span> – mesma data de registro do .BR como
+					um todo; vide <a href="https://www.iana.org/domains/root/db/br.html">registro
+					de delegação do .BR</a>.
+					<script>document.getElementById("dyn-t1").textContent=yearsSince(1989)</script>
+					Há outros domínios, como UFRJ.BR, cujos WHOIS retornam criação
+					"antes de 1995", mas sem especificar data exata.
+				</p>
+				<p>
+					Por outro lado, o domínio mais recente é
+					<a href="https://rednesp.br/">REDNESP.BR</a> (Research and Education
+					Network at São Paulo), registrado em 4 de maio de 2021<span id="dyn-t2"></span>.
+					<script>document.getElementById("dyn-t2").textContent=yearsSince(2021)</script>
+				</p>
+				<p class="timestamp">(conferido por último em outubro de 2023)</p>
+			</section>
+			<h3 id="ips-e-email">
+				<a href="#ips-e-email"></a>
+				IPs e Email
+			</h3>
+			<section class="spaced">
+				<p>
+					Em termos de <b>IP</b>, 840 <small>(62.27%)</small> domínios
+					possuem algum registro de endereço – seja com A, AAAA ou um
+					redirecionamento por CNAME. Isso não significa, necessariamente,
+					que todos possuem websites. Consequentemente, 509 <small>(37.73%)</small>
+					definitivamente não são acessíveis por um navegador.
+				</p>
+				<p>
+					Em termos de <b>email</b>, 725 <small>(53.74%)</small> domínios
+					possuem registros MX, contra 624 <small>(46.26%)</small> que não
+					têm. Novamente, isso não significa que todos estão suficientemente
+					configurados para receber e enviar emails.
+				</p>
+				<p>
+					Há 649 <small>(48.11%)</small> domínios que estão presentes em
+					ambas as categorias: possuem tanto IP, quanto email.
+					Além disso, 191 <small>(14.16%)</small> possuem IP mas não
+					email, e 76 <small>(5.63%)</small> possuem email mas não IP.
+				</p>
+				<canvas id="ip-email-venn-diagram" class="chartjs graph"></canvas>
+				<p>
+					Por outro lado, 433 <small>(32.1%)</small> não possuem nem um, nem
+					outro; subtraindo 141 subdomínios (142 menos GOV.BR, que possui esses
+					registros), são 292 <small>(21.65%)</small> domínios "reais" sem IP ou
+					email.
+				</p>
 			</section>
 			<hr>
 			<h2 id="detalhes">
@@ -525,7 +563,7 @@ pre .value { color: rebeccapurple; }
 		<div class="maxwidth">
 			<p class="timestamp">
 				Feito com ♥&#xFE0E;<!--&#xFE0E;[Ref] stackoverflow.com/a/38452396/4824627-->
-				por Matheus Avellar<br>Rio de Janeiro, 2021
+				por Matheus Avellar<br>Rio de Janeiro, 2021–2023
 			</p>
 			<p class="timestamp">
 				Sugestões, reclamações ou comentários?<br>
@@ -553,6 +591,7 @@ pre .value { color: rebeccapurple; }
 	<script src="js/chart.js@4.4.0.umd.min.js"></script>
 	<script src="js/chartjs-adapter-date-fns@3.0.0.bundle.min.js"></script>
 	<script src="js/chartjs-plugin-datalabels@2.0.0.js"></script>
+	<script src="js/chartjs-plugin-chart-venn@4.2.6.min.js"></script>
 	<script>
 const dom_let = new Chart(document.getElementById("domain-letters").getContext("2d"), {
 	plugins: [ ChartDataLabels ],
@@ -718,6 +757,39 @@ const reg_agg = new Chart(document.getElementById("registration-aggregate").getC
 						return `${m}/${d.getUTCFullYear()}`;
 					}
 				}
+			}
+		}
+	}
+});
+	</script>
+	<script>
+const chart = new Chart(document.getElementById("ip-email-venn-diagram").getContext("2d"), {
+	type: "venn",
+	data: {
+		labels: [
+			"IP (A, AAAA, CNAME)",
+			"Email (MX)",
+			"IP e email",
+		],
+		datasets: [{
+			label: "title",
+			data: [
+				{ sets: ["A"], value: 191 },
+				{ sets: ["B"], value: 76 },
+				{ sets: ["A", "B"], value: 649 }
+			],
+			backgroundColor: "#eee"
+		}]
+	},
+	options: {
+	layout: {
+		padding: {
+			top: 20, right: 20, bottom: 20, left: 20
+		}
+	},
+		plugins: {
+			legend: {
+				display: false
 			}
 		}
 	}
