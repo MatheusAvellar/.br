@@ -12,7 +12,7 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
 	<link rel="manifest" href="./site.webmanifest">
 	<link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
-	<link rel="stylesheet" href="./style.css?v=37">
+	<link rel="stylesheet" href="./style.css?v=38">
 </head>
 <body>
 	<header>
@@ -330,14 +330,45 @@ darkModeMediaQuery.addListener((e) => {
 					nenhum domínio é a letra Y.
 				</p>
 				<canvas id="domain-letters" class="chartjs graph"></canvas>
+				<p>
+					Percebe-se picos em C, F e U, correspondendo às palavras "Colégio(s)",
+					"Faculdade(s)" e "Universidade", respectivamente. Em contraste,
+					agumas poucas letras/dígitos só possuem um ou dois domínios registrados:
+				</p>
 				<ul>
+					<li>Para <b>0</b>, há 0800.BR, do Projeto Banda Larga 0800;<sup>[a]</sup></li>
+					<li>Para <b>9</b>, há 9GUACU.BR, subdomínio para Nova Iguaçu (RJ);</li>
 					<li>Para <b>K</b>, há KENNEDY.BR, das Faculdades Kennedy;</li>
 					<li>Para <b>Q</b>, há QSL.BR, subdomínio para rádio amadores;</li>
 					<li>
 						Para <b>X</b>, há XN&#8288;--&#8288;ICANNSOPAULO-7BB.BR, Punycode
-						de ICANNSÃOPAULO.BR.
+						de ICANNSÃOPAULO.BR;
+					</li>
+					<li>
+						Para <b>Z</b>, há ZAPPIENS.BR, para divulgação de conteúdos digitais
+						em português;<sup>[b]</sup> e ZLG.BR, subdomínio para zoólogos.
 					</li>
 				</ul>
+				<p>
+					<small>Leia mais:
+						<ol type="a">
+							<li value="a">
+								<cite>
+									S.n. (13 de julho de 2012).
+									<a href="https://economia.uol.com.br/noticias/infomoney/2012/07/13/governo-divulga-projeto-piloto-da-banda-larga-0800.htm">Governo
+									divulga projeto-piloto da Banda Larga 0800</a>. <i>UOL</i>.
+								</cite>
+							</li>
+							<li value="b">
+								<cite>
+									S.n. (2 de fevereiro de 2009).
+									<a href="https://cg.org.br/noticia/releases/cgi-br-anuncia-zappiens-br-videos-para-pesquisa-e-ensino/">CGI.br
+									anuncia Zappiens.br: vídeos para pesquisa e ensino</a>. <i>CGI.br</i>.
+								</cite>
+							</li>
+						</ol>
+					</small>
+				</p>
 			</section>
 			<h3 id="tamanho-dominios">
 				<a href="#tamanho-dominios"></a>
@@ -349,6 +380,16 @@ darkModeMediaQuery.addListener((e) => {
 					exemplo, "COM.BR" possui tamanho 3.
 				</p>
 				<canvas id="domain-sizes" class="chartjs graph"></canvas>
+				<p>
+					Há um pico esperado em domínios de tamanho 3, inflados pela enorme
+					quantidade de subdomínios de 3 letras – como COM.BR, ORG.BR, GOV.BR,
+					DEV.BR, RIO.BR, ...
+				</p>
+				<p>
+					O segundo mais comum, tamanho 4, é em grande parte formado por siglas
+					de instituições de ensino – como FASP.BR, IMPA.BR, UEPA.BR, UERJ.BR,
+					UFRJ.BR, ...
+				</p>
 				<p>
 					O domínio <b>mais curto</b> é B.BR, subdomínio para bancos, de
 					tamanho 1. Ele permite o cômico <a href="https://bb.b.br/">bb.b.br</a>,
@@ -395,7 +436,7 @@ darkModeMediaQuery.addListener((e) => {
 					<a href="https://fapesp.br/">FAPESP.BR</a> (Fundação de Amparo à
 					Pesquisa do Estado de São Paulo), criado em 18 de abril de
 					1989<span id="dyn-t1"></span> – mesma data de registro do .BR como
-					um todo; vide <a href="https://www.iana.org/domains/root/db/br.html">registro
+					um todo, vide <a href="https://www.iana.org/domains/root/db/br.html">registro
 					de delegação do .BR</a>.
 					<script>document.getElementById("dyn-t1").textContent=yearsSince(1989)</script>
 					Há outros domínios, como UFRJ.BR, cujos WHOIS retornam criação
