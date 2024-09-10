@@ -87,9 +87,9 @@ darkModeMediaQuery.addListener((e) => {
 			<section>
 				<h2>A zona</h2>
 				<p>
-					A zona possui <b>1349</b> domínios catalogados. Desses, <b>1207</b>
-					<small>(89.47%)</small> são domínios contados nas <a href="https://registro.br/dominio/estatisticas/">estatísticas
-					do Registro.br</a>, e <b>142</b> <small>(10.53%)</small> são
+					A zona possui <b>1350</b> domínios catalogados. Desses, <b>1207</b>
+					<small>(89.41%)</small> são domínios contados nas <a href="https://registro.br/dominio/estatisticas/">estatísticas
+					do Registro.br</a>, e <b>143</b> <small>(10.59%)</small> são
 					considerados somente subdomínios e não constam nas estatísticas oficiais.
 				</p>
 				<p>
@@ -98,7 +98,7 @@ darkModeMediaQuery.addListener((e) => {
 				</p>
 				<article class="callout">
 					<strong>Lista de domínios</strong>:
-					<a href="./br.txt">br.txt</a> (1349 domínios, ≈15&nbsp;KB)
+					<a href="./br.txt">br.txt</a> (1350 domínios, ≈15&nbsp;KB)
 				</article>
 				<p>
 					Se você está interessado na zona em si, com registros de DNS
@@ -107,22 +107,22 @@ darkModeMediaQuery.addListener((e) => {
 				</p>
 				<article id="download baixar" class="callout">
 					<strong>Zona inteira</strong>:
-					<a href="./br.zone">br.zone</a> (1349 domínios, ≈910&nbsp;KB)
+					<a href="./br.zone">br.zone</a> (1350 domínios, ≈910&nbsp;KB)
 				</article>
 				<p>
 					De todos os domínios catalogados, alguns vieram sem registros SOA.
 					Não entendo de DNS o suficiente para saber o motivo.
-					Assim, separei a zona em duas: uma com <b>1089</b> domínios, todos com
+					Assim, separei a zona em duas: uma com <b>1090</b> domínios, todos com
 					SOA; e outra com <b>260</b> domínios, sem SOA.
 				</p>
 				<article class="callout">
 					<div>
 						<strong>Zona de domínios completos</strong>:
-						<a href="./br.SOA.zone">br.SOA.zone</a> (1089 domínios, ≈816&nbsp;KB)
+						<a href="./br.SOA.zone">br.SOA.zone</a> (1090 domínios, ≈810&nbsp;KB)
 					</div>
 					<div>
 						<strong>Zona de domínios incompletos</strong>:
-						<a href="./br.NO_SOA.zone">br.NO_SOA.zone</a> (260 domínios, ≈93&nbsp;KB)
+						<a href="./br.NO_SOA.zone">br.NO_SOA.zone</a> (260 domínios, ≈90&nbsp;KB)
 					</div>
 				</article>
 				<p>
@@ -130,7 +130,9 @@ darkModeMediaQuery.addListener((e) => {
 					<a href="https://docs.google.com/spreadsheets/d/1XRSGQVsE0hCD7tuXYH6R8FExXB_Eo5PaogjPHdtqGKU/view">planilha
 					no Google Sheets</a> que estou usando para catalogar cada domínio.
 				</p>
-				<p class="timestamp">Atualizado em 30 de agosto de 2023</p>
+				<p class="timestamp">
+					Atualizado em 9 de setembro de 2024
+				</p>
 			</section>
 			<hr>
 			<p class="noindent"><b>Table of Contents:</b></p>
@@ -154,6 +156,7 @@ darkModeMediaQuery.addListener((e) => {
 				</li>
 				<li><a href="#detalhes">Detalhes</a></li>
 				<li><a href="#construcao">Construção da lista</a></li>
+				<li><a href="#atualizacoes">Atualizações</a></li>
 			</ol>
 			<h2 id="contexto">
 				<a href="#contexto"></a>
@@ -196,17 +199,17 @@ darkModeMediaQuery.addListener((e) => {
 			</h2>
 			<section>
 				<p>
-					Diferentemente dos 1349 domínios que eu encontrei, a página de
+					Diferentemente dos 1350 domínios que eu encontrei, a página de
 					estatísticas do Registro.br alega somente 1207 domínios registrados
 					diretamente sob o .BR. Com esse projeto, pude determinar com algum nível
-					de confiança que esse número não inclui os 140 subdomínios disponíveis
+					de confiança que esse número não inclui os 141 subdomínios disponíveis
 					para registro. Na verdade, 1207 é o exato número de domínios que
 					respondem a queries de <i>whois</i>; o resto – os subdomínios – retorna
 					coisas como "blocked_word: CG" ou "reserved: trademark".
 				</p>
 				<p>
-					Contudo, 1349<sub>(total encontrado)</sub> − 1207<sub>(total oficial)</sub>
-					= 142, dois a mais do que os 140 subdomínios na página de
+					Contudo, 1350<sub>(total encontrado)</sub> − 1207<sub>(total oficial)</sub>
+					= 143, dois a mais do que os 141 subdomínios na página de
 					categorias do Registro.br. Isso se dá pois há 2 subdomínios faltantes,
 					não mais disponíveis para registro e escondidos do público. Eles são
 					CAN.BR e CRI.BR:
@@ -456,30 +459,30 @@ darkModeMediaQuery.addListener((e) => {
 			</h3>
 			<section class="spaced">
 				<p>
-					Em termos de <b>IP</b>, 840 <small>(62.27%)</small> domínios
+					Em termos de <b>IP</b>, 830 <small>(61.48%)</small> domínios
 					possuem algum registro de endereço – seja com A, AAAA ou um
 					redirecionamento por CNAME. Isso não significa, necessariamente,
-					que todos possuem websites. Consequentemente, 509 <small>(37.73%)</small>
+					que todos possuem websites. Consequentemente, 520 <small>(38.52%)</small>
 					definitivamente não são acessíveis por um navegador.
 				</p>
 				<p>
-					Em termos de <b>email</b>, 725 <small>(53.74%)</small> domínios
-					possuem registros MX, contra 624 <small>(46.26%)</small> que não
+					Em termos de <b>email</b>, 725 <small>(52.89%)</small> domínios
+					possuem registros MX, contra 636 <small>(47.11%)</small> que não
 					têm. Novamente, isso não significa que todos estão suficientemente
 					configurados para receber e enviar emails.
 				</p>
 				<p>
-					Há 649 <small>(48.11%)</small> domínios que estão presentes em
+					Há 634 <small>(46.96%)</small> domínios que estão presentes em
 					ambas as categorias: possuem tanto IP, quanto email.
-					Além disso, 191 <small>(14.16%)</small> possuem IP mas não
-					email, e 76 <small>(5.63%)</small> possuem email mas não IP.
+					Além disso, 196 <small>(14.52%)</small> possuem IP mas não
+					email, e 80 <small>(5.93%)</small> possuem email mas não IP.
 				</p>
 				<canvas id="ip-email-venn-diagram" class="chartjs graph"></canvas>
 				<p>
-					Por outro lado, 433 <small>(32.1%)</small> não possuem nem um, nem
-					outro; subtraindo 141 subdomínios (142 menos GOV.BR, que possui esses
-					registros), são 292 <small>(21.65%)</small> domínios "reais" sem IP ou
-					email.
+					Por outro lado, 439 <small>(32.52%)</small> não possuem nem um, nem
+					outro; subtraindo 142 subdomínios (141 menos GOV.BR, que possui esses
+					registros, mais CRI.BR e CAN.BR), são 297 <small>(22%)</small>
+					domínios "reais" sem IP ou email.
 				</p>
 			</section>
 			<hr>
@@ -598,13 +601,27 @@ pre .value { color: rebeccapurple; }
 					serei eternamente grato.
 				</p>
 			</section>
+			<hr>
+			<h2 id="atualizacoes">
+				<a href="#atualizacoes"></a>
+				Atualizações
+			</h2>
+			<section>
+				<ul>
+					<li>
+						<strong>2024-09-09</strong>: Novo subdomínio, 'LEILAO.BR'! Criado em
+						dezembro de 2023, mas eu só descobri agora. Listas e valores aqui
+						foram atualizados.
+					</li>
+				</ul>
+			</section>
 		</div>
 	</main>
 	<footer>
 		<div class="maxwidth">
 			<p class="timestamp">
 				Feito com ♥&#xFE0E;<!--&#xFE0E;[Ref] stackoverflow.com/a/38452396/4824627-->
-				por Matheus Avellar<br>Rio de Janeiro, 2021–2023
+				por Matheus Avellar<br>Rio de Janeiro, 2021–2024
 			</p>
 			<p class="timestamp">
 				Sugestões, reclamações ou comentários?<br>
@@ -646,8 +663,9 @@ const dom_let = new Chart(document.getElementById("domain-letters").getContext("
 		datasets: [{
 			label: "Domínios",
 			data: [
-				1, 1, 60, 35, 169, 16, 64, 305, 21, 6, 97, 10, 1, 18, 33, 25, 22, 46, 1,
-				34, 77, 23, 262, 11, 8, 1, 0, 2
+				1, 1,
+				60, 35, 169, 16, 64, 305, 21, 6, 97, 10, 1, 19, 33, 25, 22,
+				46, 1, 34, 77, 23, 262, 11, 8, 1, 0, 2
 			],
 			backgroundColor: "#c3423f",
 			borderRadius: 2
@@ -676,7 +694,7 @@ const dom_let = new Chart(document.getElementById("domain-letters").getContext("
 	</script>
 	<script>
 const domain_lengths = [
-	1, 14, 243, 197, 171, 173, 133, 118, 66, 54, 34, 31, 26, 20, 10, 15, 14, 8,
+	1, 14, 243, 197, 171, 174, 133, 118, 66, 54, 34, 31, 26, 20, 10, 15, 14, 8,
 	6, 8, 1, 4, 1, 1
 ];
 const dom_siz = new Chart(document.getElementById("domain-sizes").getContext("2d"), {
@@ -815,9 +833,9 @@ const chart = new Chart(document.getElementById("ip-email-venn-diagram").getCont
 		datasets: [{
 			label: "title",
 			data: [
-				{ sets: ["A"], value: 191 },
-				{ sets: ["B"], value: 76 },
-				{ sets: ["A", "B"], value: 649 }
+				{ sets: ["A"], value: 196 },
+				{ sets: ["B"], value: 80 },
+				{ sets: ["A", "B"], value: 634 }
 			],
 			backgroundColor: "#eee"
 		}]
@@ -825,7 +843,7 @@ const chart = new Chart(document.getElementById("ip-email-venn-diagram").getCont
 	options: {
 	layout: {
 		padding: {
-			top: 20, right: 20, bottom: 20, left: 20
+			top: 30, right: 30, bottom: 30, left: 30
 		}
 	},
 		plugins: {
