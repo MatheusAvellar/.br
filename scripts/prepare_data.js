@@ -21,7 +21,7 @@ whois = [
 // `whois` will only contain non-subdomains; so we just need the difference
 // between domains in `whois` and domains in `domains`
 const all_set = new Set(domains);
-const domains_set = new Set(whois.map(obj => obj["domain"]))
+const domains_set = new Set(whois.map(obj => obj["domain"].trim()))
 // gov.br is an exception, it has no whois due to originally being a subdomain
 domains_set.add("gov.br");
 const subdomains_set = new Set([...all_set].filter(x => !domains_set.has(x)));
