@@ -1,0 +1,102 @@
+name: Daily zone check
+
+on:
+  schedule:
+    # Runs at 03:30 UTC every day
+    - cron: '30 3 * * *'
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets the permissions for the GITHUB_TOKEN for this workflow
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  # Adapted from Zach Bloomquist's zone-walks repository
+  # [Ref] https://github.com/flotwig/zone-walks
+  walk:
+    runs-on: ubuntu-22.04
+    outputs:
+      should_update: ${{ steps.commit_step.outputs.should_update }}
+    strategy:
+      fail-fast: false
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
+        persist-credentials: true
+
+    - run: git pull
+    - run: sudo apt-get install libgetdns-dev
+    - run: npx https://github.com/flotwig/zone-walker br. | sort -u > ./zone/br.txt
+
+    - name: Commit files
+      id: commit_step
+      run: |
+        git config --local user.email "zone-walk@avl.la"
+        git config --local user.name "Zone Walk GitHub Action"
+        git add zone
+        git commit -m "[bot] br. zone walk ($(date -u +"%Y-%m-%d %H:%M"))" || exit 0
+        git pull --rebase
+        git push || (git pull --rebase && git push) || (sleep 30 && git pull --rebase && git push)
+        echo "should_update='yes'" >> "$GITHUB_OUTPUT"
+
+
+  create_zonefile:
+    runs-on: ubuntu-22.04
+    needs: walk
+    if: "contains(needs.walk.outputs.should_update, 'yes')"
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - run: git pull
+      - run: sudo apt-get install libgetdns-dev
+
+      - name: Run zone building script
+        run: bash ./scripts/run.sh
+
+      - name: Commit files
+        run: |
+          git config --local user.email "zone-build@avl.la"
+          git config --local user.name "Zone Build GitHub Action"
+          git add zone
+          git commit -m "[bot] br. zone building ($(date -u +"%Y-%m-%d %H:%M"))" || exit 0
+          git pull --rebase
+          git push || (git pull --rebase && git push) || (sleep 30 && git pull --rebase && git push)
+
+
+  build_and_deploy:
+    needs: create_zonefile
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run data script (needs manual whois update)
+        run: node ./scripts/prepare_data.js
+
+      - name: Build website
+        run: |
+          TOTAL_DOMAINS="$(wc --lines < ./zone/br.txt)" \
+          SUB_DOMAINS="$(wc --lines < ./zone/br.subdominios.txt)" \
+          npx ejs website/index.ejs \
+            --data-file data.json \
+            --output-file public/index.html
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './public'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

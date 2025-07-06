@@ -1,2 +1,2 @@
 # .br
- Pseudo-zonefile for .br
+Home grown pseudo-zonefile for .br

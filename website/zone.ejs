@@ -1,0 +1,47 @@
+<section>
+	<h2>A zona</h2>
+	<p>
+		A zona possui <b><%= TOTAL_DOMAINS %></b> domínios catalogados.
+		Desses, <b><%= STATS_DOMAINS %></b> <small>(<%= STATS_PCT %>)</small>
+		são domínios contados nas
+		<a href="https://registro.br/dominio/estatisticas/">estatísticas do Registro.br</a>,
+		e <b><%= SUB_DOMAINS %></b> <small>(<%= SUBS_PCT %>)</small> são
+		considerados somente subdomínios e não constam nas estatísticas oficiais.
+	</p>
+	<p>
+		Se você só está interessado nos nomes de domínio em si, você pode
+		baixar o seguinte .TXT, que contém um domínio por linha:
+	</p>
+	<article class="callout">
+		<strong>Lista de domínios</strong>:
+		<a href="./br.txt">br.txt</a>
+	</article>
+	<p>
+		Se te interessa, também quebro a lista em subdomínios (por ex.: COM.BR) e
+		domínios "reais" (por ex.: UFF.BR):
+	</p>
+	<article class="callout">
+		<strong>Lista de subdomínios</strong>:
+		<a href="./br.subdominios.txt">br.subdominios.txt</a><br>
+
+		<strong>Lista de domínios "reais"</strong>:
+		<a href="./br.dominios.txt">br.dominios.txt</a>
+	</article>
+	<p>
+		Se você está interessado na zona em si, com registros de DNS
+		relevantes (como SOA, NS, A, AAAA e NSEC), tanto para o domínio e seu
+		respectivo subdomínio WWW, você pode baixar o seguinte arquivo:
+	</p>
+	<article id="download baixar" class="callout">
+		<strong>Zona inteira</strong>:
+		<a href="./br.zone">br.zone</a>
+	</article>
+	<p>
+		Para além disso, você também pode verificar a
+		<a href="https://docs.google.com/spreadsheets/d/1XRSGQVsE0hCD7tuXYH6R8FExXB_Eo5PaogjPHdtqGKU/view">planilha
+		no Google Sheets</a> que uso para catalogar cada domínio.
+	</p>
+	<p class="timestamp">
+		Atualizado em <%= (new Intl.DateTimeFormat("pt-BR", { dateStyle: "long" }).format(new Date())) %>
+	</p>
+</section>

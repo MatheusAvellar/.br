@@ -1,0 +1,433 @@
+<h2 id="estatisticas">
+	<a href="#estatisticas"></a>
+	Estatísticas
+</h2>
+<section>
+	<p>
+		Aqui estão algumas informações para você, pessoa curiosa:
+	</p>
+	<ul>
+		<li>
+			<p class="noindent">
+				Há apenas <b>um IDN</b>, ou "nome de domínio internacionalizado":
+				ICANNSÃOPAULO.BR, um dos 4 domínios registrados para o evento
+				"ICANN Meeting São Paulo", de dezembro de 2006.<br>
+				IDNs possuem caracteres considerados
+				especiais; nesse caso, o Ã. Tecnicamente, o nome real do domínio
+				é XN&#8288;--&#8288;ICANNSOPAULO-7BB.BR, em uma representação
+				chamada "Punycode". Dito isso, ele também é o único domínio
+				que começa com a letra X.
+			</p>
+		</li>
+	</ul>
+</section>
+
+<h3 id="parcela-categoria">
+	<a href="#parcela-categoria"></a>
+	Parcelas por categoria
+</h3>
+<section class="graph-wrapper">
+	<iframe class="graph" width="500" height="365" sandbox loading="lazy" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQJ_fPGnYZLIDIjCKIujVtVeGebu2GCBamT2YLI4PnHKakUxaQ-t9cTaw937Z-BhXfl2FuOVtwXhqv9/pubchart?oid=1147870348&amp;format=image"></iframe>
+	<br>
+</section>
+
+<h3 id="letras-dominios">
+	<a href="#letras-dominios"></a>
+	Quantidade de domínios por primeira letra <small style="font-size:50%">(ou dígito)</small>
+</h3>
+<section class="spaced">
+	<p class="timestamp">
+		Atualizado em <%= (new Intl.DateTimeFormat("pt-BR", { dateStyle: "long" }).format(new Date())) %>
+	</p>
+	<p>
+		Não sei se essa informação é útil para alguém, mas eu fiquei curioso
+		e quis fazer o gráfico. Curiosamente, a única letra que não possui
+		nenhum domínio é a letra Y.
+	</p>
+	<canvas id="domain-letters" class="chartjs graph"></canvas>
+	<p>
+		Percebe-se picos em C, F e U, correspondendo às palavras "Colégio(s)",
+		"Faculdade(s)" e "Universidade", respectivamente. Em contraste,
+		agumas poucas letras/dígitos só possuem um ou dois domínios registrados:
+	</p>
+	<ul>
+		<li>Para <b>0</b>, há 0800.BR, do Projeto Banda Larga 0800;<sup>[a]</sup></li>
+		<li>Para <b>9</b>, há 9GUACU.BR, subdomínio para Nova Iguaçu (RJ);</li>
+		<li>Para <b>K</b>, há KENNEDY.BR, das Faculdades Kennedy;</li>
+		<li>Para <b>Q</b>, há QSL.BR, subdomínio para rádio amadores;</li>
+		<li>
+			Para <b>X</b>, há XN&#8288;--&#8288;ICANNSOPAULO-7BB.BR, Punycode
+			de ICANNSÃOPAULO.BR;
+		</li>
+		<li>
+			Para <b>Z</b>, há ZAPPIENS.BR, para divulgação de conteúdos digitais
+			em português;<sup>[b]</sup> e ZLG.BR, subdomínio para zoólogos.
+		</li>
+	</ul>
+	<p>
+		<small>Leia mais:
+			<ol type="a">
+				<li value="a">
+					<cite>
+						S.n. (13 de julho de 2012).
+						<a href="https://economia.uol.com.br/noticias/infomoney/2012/07/13/governo-divulga-projeto-piloto-da-banda-larga-0800.htm">Governo
+						divulga projeto-piloto da Banda Larga 0800</a>. <i>UOL</i>.
+					</cite>
+				</li>
+				<li value="b">
+					<cite>
+						S.n. (2 de fevereiro de 2009).
+						<a href="https://cg.org.br/noticia/releases/cgi-br-anuncia-zappiens-br-videos-para-pesquisa-e-ensino/">CGI.br
+						anuncia Zappiens.br: vídeos para pesquisa e ensino</a>. <i>CGI.br</i>.
+					</cite>
+				</li>
+			</ol>
+		</small>
+	</p>
+</section>
+
+<h3 id="tamanho-dominios">
+	<a href="#tamanho-dominios"></a>
+	Quantidade de domínios por tamanho
+</h3>
+<section class="spaced">
+	<p class="timestamp">
+		Atualizado em <%= (new Intl.DateTimeFormat("pt-BR", { dateStyle: "long" }).format(new Date())) %>
+	</p>
+	<p>
+		Tamanho, aqui, indica a quantidade de caracteres antes do ".BR". Por
+		exemplo, "COM.BR" possui tamanho 3.
+	</p>
+	<canvas id="domain-sizes" class="chartjs graph"></canvas>
+	<p>
+		Há um pico esperado em domínios de tamanho 3, inflados pela enorme
+		quantidade de subdomínios de 3 letras – como COM.BR, ORG.BR, GOV.BR,
+		DEV.BR, RIO.BR, ...
+	</p>
+	<p>
+		O segundo mais comum, tamanho 4, é em grande parte formado por siglas
+		de instituições de ensino – como FASP.BR, IMPA.BR, UEPA.BR, UERJ.BR,
+		UFRJ.BR, ...
+	</p>
+	<p>
+		O domínio <b>mais curto</b> é B.BR, subdomínio para bancos, de
+		tamanho 1. Ele permite o cômico <a href="https://bb.b.br/">bb.b.br</a>,
+		reservado pelo Banco do Brasil (mas inutilizado).
+	</p>
+	<p>
+		O domínio <b>mais longo</b> é
+		<span id="faculdadesmachadodeassis"><span>FACULDADES</span><span>MACHADO</span><span>DE</span><span>ASSIS.BR</span></span>,
+		<style>
+#faculdadesmachadodeassis {
+	white-space: nowrap;
+}
+#faculdadesmachadodeassis > span + span {
+	margin-left: 2px;
+}
+		</style>
+		um domínio de 24 letras registrado em julho de 2000 que,
+		infelizmente, não é mais usado.
+	</p>
+</section>
+<h3 id="quantidade-dominios">
+	<a href="#quantidade-dominios"></a>
+	Agregado de domínios registrados
+</h3>
+<section class="spaced">
+	<p class="timestamp">
+		Atualizado em <%= (new Intl.DateTimeFormat("pt-BR", { dateStyle: "long" }).format(new Date())) %>
+	</p>
+	<p>
+		Quantidade aproximada, baseada em dados de WHOIS; não inclui domínios
+		que foram posteriormente deletados. Alguns domínios, considerados
+		subdomínios, não possuem respostas para WHOIS, impossibilitando a
+		descoberta de sua exata data de registro. Compare com o
+		<a href="https://registro.br/stat/br_2a.png">gráfico oficial</a>.
+	</p>
+	<canvas id="registration-aggregate" class="chartjs graph"></canvas>
+	<script>
+function yearsSince(year) {
+	let diff = (new Date()).getFullYear() - year;
+	if(diff > 0)
+		return ` (aprox. ${diff} anos atrás)`;
+	return "";
+}
+	</script>
+	<p>
+		O domínio mais antigo com data exata de registro é
+		<a href="https://fapesp.br/">FAPESP.BR</a> (Fundação de Amparo à
+		Pesquisa do Estado de São Paulo), criado em 18 de abril de
+		1989<span id="dyn-t1"></span> – mesma data de registro do .BR como
+		um todo, vide <a href="https://www.iana.org/domains/root/db/br.html">registro
+		de delegação do .BR</a>.
+		<script>document.getElementById("dyn-t1").textContent=yearsSince(1989)</script>
+		Há outros domínios, como UFRJ.BR, cujos WHOIS retornam criação
+		"antes de 1995", mas sem especificar data exata.
+	</p>
+	<p>
+		Por outro lado, o domínio mais recente é
+		<a href="https://rednesp.br/">REDNESP.BR</a> (Research and Education
+		Network at São Paulo), registrado em 4 de maio de 2021<span id="dyn-t2"></span>.
+		<script>document.getElementById("dyn-t2").textContent=yearsSince(2021)</script>
+	</p>
+</section>
+
+<h3 id="ips-e-email">
+	<a href="#ips-e-email"></a>
+	IPs e Email
+</h3>
+<section class="spaced">
+	<p class="timestamp">Atualizado em outubro de 2023</p>
+	<p>
+		Em termos de <b>IP</b>, 830 <small>(61.48%)</small> domínios
+		possuem algum registro de endereço – seja com A, AAAA ou um
+		redirecionamento por CNAME. Isso não significa, necessariamente,
+		que todos possuem websites. Consequentemente, 520 <small>(38.52%)</small>
+		definitivamente não são acessíveis por um navegador.
+	</p>
+	<p>
+		Em termos de <b>email</b>, 725 <small>(52.89%)</small> domínios
+		possuem registros MX, contra 636 <small>(47.11%)</small> que não
+		têm. Novamente, isso não significa que todos estão suficientemente
+		configurados para receber e enviar emails.
+	</p>
+	<p>
+		Há 634 <small>(46.96%)</small> domínios que estão presentes em
+		ambas as categorias: possuem tanto IP, quanto email.
+		Além disso, 196 <small>(14.52%)</small> possuem IP mas não
+		email, e 80 <small>(5.93%)</small> possuem email mas não IP.
+	</p>
+	<canvas id="ip-email-venn-diagram" class="chartjs graph"></canvas>
+	<p>
+		Por outro lado, 439 <small>(32.52%)</small> não possuem nem um, nem
+		outro; subtraindo 142 subdomínios (141 menos GOV.BR, que possui esses
+		registros, mais CRI.BR e CAN.BR), são 297 <small>(22%)</small>
+		domínios "reais" sem IP ou email.
+	</p>
+</section>
+<script src="js/chart.js@4.4.0.umd.min.js"></script>
+<script src="js/chartjs-adapter-date-fns@3.0.0.bundle.min.js"></script>
+<script src="js/chartjs-plugin-datalabels@2.0.0.js"></script>
+<script src="js/chartjs-plugin-chart-venn@4.2.6.min.js"></script>
+<script>
+<%
+const first_letters = domains.reduce((accumulator, domain) => {
+	if(!domain) return accumulator;
+	const letter = domain[0].toUpperCase();
+	if(!accumulator[letter])
+		accumulator[letter] = 0;
+	accumulator[letter]++;
+	return accumulator;
+}, {});
+
+const first_letters_entries = Object.entries(first_letters);
+first_letters_entries.sort((a,b) => {
+	if(a[0] < b[0]) return -1;
+	if(a[0] > b[0]) return 1;
+	return 0;
+});
+%>
+
+const dom_let = new Chart(document.getElementById("domain-letters").getContext("2d"), {
+	plugins: [ ChartDataLabels ],
+	type: "bar",
+	data: {
+		labels: [ <%- first_letters_entries.map(v => `"${v[0]}"`).join(", ") %> ],
+		datasets: [{
+			label: "Domínios",
+			data: [ <%- first_letters_entries.map(v => v[1]).join(", ") %> ],
+			backgroundColor: "#c3423f",
+			borderRadius: 2
+		}]
+	},
+	options: {
+		scales: {
+			y: {
+				beginAtZero: true
+			}
+		},
+		plugins: {
+			legend: {
+				onClick: (e) => e.stopPropagation()
+			},
+			datalabels: {
+				color: "#000",
+				anchor: "end",
+				align: "top",
+				offset: 4,
+				clamp: true
+			}
+		}
+	}
+});
+</script>
+<script>
+<%
+const sizes = domains.reduce((accumulator, domain) => {
+	if(!domain) return accumulator;
+	domain = domain.split(".br")[0];
+
+	const length = domain.length;
+	const index = length - 1;
+
+	if(!accumulator[index])
+		accumulator[index] = 0;
+	accumulator[index]++;
+	return accumulator;
+}, []);
+
+// Garante que não há furos
+for(let i = 0, L = sizes.length; i < L; i++)
+	if(!sizes[i])
+		sizes[i] = 0;
+%>
+
+const domain_lengths = [ <%= sizes.join(", ") %> ];
+const dom_siz = new Chart(document.getElementById("domain-sizes").getContext("2d"), {
+	plugins: [ ChartDataLabels ],
+	type: "bar",
+	data: {
+		labels: Array.from({ length: domain_lengths.length }, (_, i) => i+1),
+		datasets: [{
+			label: "Domínios",
+			data: domain_lengths,
+			backgroundColor: "#34a853",
+			borderRadius: 2
+		}]
+	},
+	options: {
+		scales: {
+			y: {
+				beginAtZero: true
+			}
+		},
+		plugins: {
+			legend: {
+				onClick: (e) => e.stopPropagation()
+			},
+			tooltip: {
+				callbacks: {
+					title: function(tooltipItem) {
+						return `Tamanho: ${tooltipItem[0].parsed.x+1}`;
+					}
+				}
+			},
+			datalabels: {
+				color: "#000",
+				anchor: "end",
+				align: "top",
+				offset: 4,
+				clamp: true
+			}
+		}
+	}
+});
+</script>
+<script>
+<%
+let before1995 = 0;
+const time_series = whois.reduce((accumulator, obj) => {
+	// `obj` is of the form:
+	// { "domain": "xxx.br", "created": "20020101" }
+	const created = obj["created"];
+	// Some are "before 19950101" so we just count those separately
+	if(created == "19950101") {
+		before1995++;
+		return accumulator;
+	}
+
+	const outstr = `new Date("${created.slice(0, 4)}-${created.slice(4, 6)}-01Z")`;
+	if(!accumulator[outstr])
+		accumulator[outstr] = 0;
+	accumulator[outstr]++;
+	return accumulator;
+}, {});
+
+const time_series_entries = Object.entries(time_series);
+time_series_entries.sort((a,b) => {
+	if(a[0] < b[0]) return -1;
+	if(a[0] > b[0]) return 1;
+	return 0;
+});
+%>
+
+let somatorio_agregado_registro = <%= before1995 %>;
+const data = {
+	labels: [ <%- time_series_entries.map(v => v[0]).join(", ") %>, new Date(), ],
+	datasets: [
+		{
+			label: "Domínios .BR (agregado)",
+			data: [
+				<%- time_series_entries.map(v => v[1]).join(", ") %>, 0
+			].map(el => somatorio_agregado_registro += el)
+		}
+	]
+};
+const reg_agg = new Chart(document.getElementById("registration-aggregate").getContext("2d"), {
+	type: "line",
+	data: data,
+	options: {
+		scales: {
+			x: {
+				type: "time"
+			},
+			y: {
+				beginAtZero: true
+			}
+		},
+		plugins: {
+			legend: {
+				onClick: (e) => e.stopPropagation()
+			},
+			tooltip: {
+				callbacks: {
+					title: function(tooltipItem) {
+						const d = new Date(tooltipItem[0].parsed.x);
+						const m = [
+							"Jan", "Fev", "Mar",
+							"Abr", "Mai", "Jun",
+							"Jul", "Ago", "Set",
+							"Out", "Nov", "Dez"
+						][d.getUTCMonth()];
+						return `${m}/${d.getUTCFullYear()}`;
+					}
+				}
+			}
+		}
+	}
+});
+</script>
+<script>
+const chart = new Chart(document.getElementById("ip-email-venn-diagram").getContext("2d"), {
+	type: "venn",
+	data: {
+		labels: [
+			"IP (A, AAAA, CNAME)",
+			"Email (MX)",
+			"IP e email",
+		],
+		datasets: [{
+			label: "title",
+			data: [
+				{ sets: ["A"], value: 196 },
+				{ sets: ["B"], value: 80 },
+				{ sets: ["A", "B"], value: 634 }
+			],
+			backgroundColor: "#eee"
+		}]
+	},
+	options: {
+	layout: {
+		padding: {
+			top: 30, right: 30, bottom: 30, left: 30
+		}
+	},
+		plugins: {
+			legend: {
+				display: false
+			}
+		}
+	}
+});
+</script>
+<hr>

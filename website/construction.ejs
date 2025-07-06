@@ -1,0 +1,28 @@
+<h2 id="construcao">
+	<a href="#construcao"></a>
+	Construção da lista
+</h2>
+<section>
+	<p>
+		Esta lista teve como ponto de partida a lista de domínios mais geral
+		disponibilizada por <a href="https://news.ycombinator.com/item?id=10368935">jtwaleson</a>
+		(<a href="https://all-certificates.s3.amazonaws.com/domainnames.gz?torrent">domainnames.gz</a>),
+		e a lista "<a href="https://majestic.com/reports/majestic-million">Majestic Million</a>",
+		da empresa Majestic. Alguns domínios curtos foram encontrados por força
+		bruta; através desse método, todas as combinações de 3 letras e/ou dígitos,
+		<strong>[A&#8288;-&#8288;Z0&#8288;-&#8288;9]&#8288;{1,3}\.br</strong>, e
+		também de 4 letras (sem dígitos), <strong>[A&#8288;-&#8288;Z]{4}\.br</strong>,
+		foram conferidas. Essas iniciativas foram suficientes para agregar 803
+		domínios, aproximadamente 60% do total.
+	</p>
+	<p>
+		A zona final só pôde ser compilada através do trabalho altruísta de
+		<a href="https://zach.bloomqu.ist/">Zach Bloomquist</a>,
+		que publicou no repositório
+		<a href="https://github.com/flotwig/zone-walks">zone-walks</a> a
+		"caminhada" de DNS do .BR, usando uma peculiaridade de registros NSEC.
+		Os 40% finais da lista são inteiramente devido ao trabalho dele, e eu
+		serei eternamente grato.
+	</p>
+</section>
+<hr>

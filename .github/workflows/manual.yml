@@ -1,0 +1,43 @@
+name: Manual deploy
+
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets the permissions for the GITHUB_TOKEN for this workflow
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run data script (needs manual whois update)
+        run: node ./scripts/prepare_data.js
+
+      - name: Build website
+        run: |
+          TOTAL_DOMAINS="$(wc --lines < ./zone/br.txt)" \
+          SUB_DOMAINS="$(wc --lines < ./zone/br.subdominios.txt)" \
+          npx ejs website/index.ejs \
+            --data-file data.json \
+            --output-file public/index.html
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './public'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

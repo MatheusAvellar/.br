@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Zonefile do .BR</title>
+	<meta content="Matheus Avellar" name="author">
+	<meta name="description" content="Zonefile não-oficial e voluntária do .BR">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://cdn.avl.la/" crossorigin>
+	<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+	<link rel="manifest" href="./site.webmanifest">
+	<link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="stylesheet" href="./style.css?v=38">
+</head>
+<body>
+	<header>
+		<div class="maxwidth" style="position:relative">
+			<label id="dark-mode-wrapper">
+				<input id="dark-mode" type="checkbox"> Modo escuro
+			</label>
+			<h1>Zonefile<br>do .BR</h1>
+			<span class="ribbon">
+				<!-- Ribbon inspired by Codepen by Temani Afif:
+					[Ref] https://codepen.io/t_afif/pen/dyZOBex -->
+				<strong style="font-size:125%">100%</strong> da zona mapeada!
+			</span>
+		</div>
+		<script>
+const darkModeCheckbox = document.getElementById("dark-mode");
+darkModeCheckbox.addEventListener("change", e => {
+	if(darkModeCheckbox.checked) {
+		document.body.classList.add("dark");
+		document.body.classList.remove("light");
+	} else {
+		document.body.classList.add("light");
+		document.body.classList.remove("dark");
+	}
+});
+
+const darkModeMediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+if(darkModeMediaQuery.matches) {
+	document.body.classList.add("dark");
+	darkModeCheckbox.checked = true;
+}
+
+darkModeMediaQuery.addListener((e) => {
+	const darkModeOn = e.matches;
+	if(darkModeOn) {
+		document.body.classList.add("dark");
+		darkModeCheckbox.checked = true;
+	} else {
+		document.body.classList.remove("dark");
+		darkModeCheckbox.checked = false;
+	}
+});
+		</script>
+	</header>
+	<main>
+		<div class="maxwidth">
+			<section>
+				<h2>O que é?</h2>
+				<p>
+					Em suma, uma lista de <b>todos os domínios registrados diretamente sob
+					o .BR</b>, chamados de Domínios de Primeiro Nível (DPNs) pelo Registro.br,
+					ou de Second-Level Domains (SLDs) pelo resto do planeta.
+				</p>
+				<p>
+					Eles seguem o formato &lt;NOME&gt;.BR. Por exemplo, GOV.BR, UFRJ.BR e
+					COM.BR são todos DPNs, e estão incluídos na lista. Por outro lado,
+					IBGE.GOV.BR, DCC.UFRJ.BR e SPOTIFY.COM.BR não são DPNs; eles estão um
+					nível abaixo.
+				</p>
+				<p>
+					Para leitores mais experientes, a zona também inclui alguns registros
+					de DNS para todos os domínios e seus respectivos subdomínios WWW.
+					Provavelmente não possui <em>todas</em> as informações que uma zonefile
+					real teria, mas acredito que deve ser suficiente.
+				</p>
+				<p>
+					Vale notar que a informação é toda publicamente acessível; ela só não
+					é disponibilizada diretamente pelo Registro.br – e foi essa a
+					motivação por trás desse projeto.
+				</p>
+			</section>
+<%
+pct = function(a, b) {
+	return (Math.round((a/b) * 100_00) / 1_00) + "%";
+}
+
+TOTAL_DOMAINS = Number(process.env.TOTAL_DOMAINS);
+SUB_DOMAINS = Number(process.env.SUB_DOMAINS);
+
+// Requer atualização manual
+STATS_DOMAINS = 1209;
+
+STATS_PCT = pct(STATS_DOMAINS, TOTAL_DOMAINS);
+SUBS_PCT = pct(SUB_DOMAINS, TOTAL_DOMAINS);
+%>
+
+			<%- include("zone"); %>
+
+			<hr>
+			<p class="noindent"><b>Table of Contents:</b></p>
+			<ol id="toc">
+				<li><a href="#contexto">Contexto</a></li>
+				<li>
+					<a href="#diferencas-oficiais">Diferenças das estatísticas oficiais</a>
+					<ol>
+						<li><a href="#canbr">CAN.br</a></li>
+						<li><a href="#cribr">CRI.br</a></li>
+					</ol>
+				</li>
+				<li>
+					<a href="#estatisticas">Estatísticas</a>
+					<ol>
+						<li><a href="#parcela-categoria">Parcela por categoria</a></li>
+						<li><a href="#letras-dominios">Quantidade de domínios por primeira letra</a></li>
+						<li><a href="#tamanho-dominios">Quantidade de domínios por tamanho</a></li>
+						<li><a href="#quantidade-dominios">Agregado de domínios registrados</a></li>
+					</ol>
+				</li>
+				<li><a href="#detalhes">Detalhes</a></li>
+				<li><a href="#construcao">Construção da lista</a></li>
+				<li><a href="#atualizacoes">Atualizações</a></li>
+			</ol>
+
+			<%- include("context"); %>
+
+			<%- include("whats-different"); %><!-- Requer atualização manual -->
+
+			<%- include("statistics"); %><!-- Requer atualização manual -->
+
+			<%- include("details"); %>
+
+			<%- include("construction"); %>
+
+			<h2 id="atualizacoes">
+				<a href="#atualizacoes"></a>
+				Atualizações
+			</h2>
+			<section>
+				<ul>
+					<li>
+						<strong>2025-07-05</strong>: Reconstrução do website do zero. Houveram
+						algumas adições em dezembro de 2024 – BET.BR, BRICS.BR e COP30.BR –
+						que me fizeram perceber o quão insustentável era conferir
+						manualmente os SLDs. Então, repliquei o 'zone walking' com algumas
+						automatizações para que o website fique atualizado mais
+						frequentemente.
+					</li>
+					<li>
+						<strong>2024-09-09</strong>: Novo subdomínio, LEILAO.BR! Criado em
+						dezembro de 2023, mas eu só descobri agora. Listas e valores aqui
+						foram atualizados.
+					</li>
+				</ul>
+			</section>
+		</div>
+	</main>
+	<footer>
+		<div class="maxwidth">
+			<p class="timestamp">
+				Feito com ♥&#xFE0E;<!--&#xFE0E;[Ref] stackoverflow.com/a/38452396/4824627-->
+				por Matheus Avellar<br>Rio de Janeiro, 2021–
+			</p>
+			<p class="timestamp">
+				Sugestões, reclamações ou comentários?<br>
+				Mande um email para m<svg class="email" viewBox="0 0 24 24" aria-label="@">
+					<circle cx="12" cy="12" r="4"></circle>
+					<path d="M16 12v1.5a2.5 2.5 0 0 0 5 0v-1.5a9 9 0 1 0 -5.5 8.28"></path>
+				</svg>avl.la
+			</p>
+			<p class="timestamp">
+				Este projeto não é apoiado, patrocinado ou desenvolvido pelo Registro.br,
+				NIC.br, CGI.br, ou quaisquer outras organizações, governamentais ou não.
+				Ele é desenvolvido e mantido voluntária e independentemente.
+			</p>
+		</div>
+	</footer>
+	<link rel="stylesheet" href="https://cdn.avl.la/font/inter.css">
+	<!-- ######### -->
+	<figure id="logo">
+		<a href="/"></a>
+		<link rel="stylesheet" href="/small-logo.css">
+	</figure>
+</body>
+</html>

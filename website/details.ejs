@@ -1,0 +1,88 @@
+<h2 id="detalhes">
+	<a href="#detalhes"></a>
+	Detalhes
+</h2>
+<section>
+	<p>
+		Aqui estão os comandos que foram usados para gerar a zona, a partir de
+		uma lista pré-existente de nomes a serem conferidos:
+	</p>
+	<pre>
+<span class="comment"># Primeiro, pedimos o registro SOA ao Google</span>
+<span class="command">dig</span> <span class="server">@8.8.8.8</span> <span class="domain">$SLD.br.</span> <span class="record">SOA</span> <span class="flags">+noall +answer +authority +additional</span>
+<span class="comment"># E os registros NS diretamente ao DNS.br</span>
+<span class="command">dig</span> <span class="server">@a.dns.br</span> <span class="domain">$SLD.br.</span> <span class="record">NS</span> <span class="flags">+noall +answer +authority +additional</span>
+
+<span class="comment"># Em seguida, perguntamos pela existência de registros A, AAAA e MX,</span>
+<span class="comment"># tanto para o domínio em si, quanto para seu subdomínio www</span>
+<span class="command">dig</span> <span class="server">@8.8.8.8</span> <span class="domain">$SLD.br.</span> <span class="record">A</span> <span class="flags">+noall +answer</span>
+<span class="command">dig</span> <span class="server">@8.8.8.8</span> <span class="domain">$SLD.br.</span> <span class="record">AAAA</span> <span class="flags">+noall +answer</span>
+<span class="command">dig</span> <span class="server">@8.8.8.8</span> <span class="domain">$SLD.br.</span> <span class="record">MX</span> <span class="flags">+noall +answer</span>
+<span class="command">dig</span> <span class="server">@8.8.8.8</span> <span class="domain">www.$SLD.br.</span> <span class="record">A</span> <span class="flags">+noall +answer</span>
+<span class="command">dig</span> <span class="server">@8.8.8.8</span> <span class="domain">www.$SLD.br.</span> <span class="record">AAAA</span> <span class="flags">+noall +answer</span>
+<span class="command">dig</span> <span class="server">@8.8.8.8</span> <span class="domain">www.$SLD.br.</span> <span class="record">MX</span> <span class="flags">+noall +answer</span>
+
+<span class="comment"># Por fim, NSEC; vide explicação abaixo</span>
+<span class="command">dig</span> <span class="server">@a.dns.br</span> <span class="domain">"$SLD#.br."</span> <span class="record">NSEC</span> <span class="flags">+noall +answer +authority +additional +dnssec</span></pre>
+	<p>
+		Requisitamos, via NSEC no final, o nome do próximo domínio – uma espécie
+		de zone walking, mas meramente a título de curiosidade, pois já temos a
+		lista de nomes; um "zone looking", se preferir. Realisticamente,
+		"&#8288;&lt;SLD&gt;#.BR" (sim, com #) não é um domínio real nem nunca será; e não há
+		como existir domínio alfabeticamente entre "&lt;SLD&gt;.BR" e
+		"&lt;SLD&gt;#.BR". Então, pedir NSEC de "&lt;SLD&gt;#.BR" nos retorna como
+		resposta um status de NXDOMAIN, com o próximo domínio válido. Em tese, este
+		será o domínio testado imediatamente a seguir.
+	</p>
+	<p>
+		Aqui está uma entrada da lista, extraída para melhor ilustrar como ela é
+		depois de gerada:
+	</p>
+	<style>
+pre .domain { color: #002267; }
+pre .comment, pre .ttl { color: #777; }
+pre .in, pre .command { color: #444; }
+pre .server { color: #402c00; }
+pre .flags { color: #4a0000; }
+pre .record { color: #005f24; }
+pre .value { color: rebeccapurple; }
+	</style>
+	<pre>
+<span class="comment">;; itpac.br.</span>
+<span class="domain">itpac.br.</span>		<span class="ttl">1800</span>	<span class="in">IN</span>	<span class="record">SOA</span>	<span class="value">fiona.ns.cloudflare.com. dns.cloudflare.com. [...]</span>
+<span class="domain">itpac.br.</span>		<span class="ttl">3600</span>	<span class="in">IN</span>	<span class="record">NS</span>	<span class="value">fiona.ns.cloudflare.com.</span>
+<span class="domain">itpac.br.</span>		<span class="ttl">3600</span>	<span class="in">IN</span>	<span class="record">NS</span>	<span class="value">pete.ns.cloudflare.com.</span>
+<span class="domain">itpac.br.</span>		<span class="ttl">300</span>	<span class="in">IN</span>	<span class="record">A</span>	<span class="value">104.18.14.38</span>
+<span class="domain">itpac.br.</span>		<span class="ttl">300</span>	<span class="in">IN</span>	<span class="record">A</span>	<span class="value">104.18.15.38</span>
+<span class="domain">itpac.br.</span>		<span class="ttl">300</span>	<span class="in">IN</span>	<span class="record">AAAA</span>	<span class="value">2606:4700::6812:f26</span>
+<span class="domain">itpac.br.</span>		<span class="ttl">300</span>	<span class="in">IN</span>	<span class="record">AAAA</span>	<span class="value">2606:4700::6812:e26</span>
+<span class="domain">itpac.br.</span>		<span class="ttl">3600</span>	<span class="in">IN</span>	<span class="record">MX</span>	<span class="value">0 itpac-br.mail.protection.outlook.com.</span>
+<span class="domain">www.itpac.br.</span>		<span class="ttl">300</span>	<span class="in">IN</span>	<span class="record">A</span>	<span class="value">104.18.14.38</span>
+<span class="domain">www.itpac.br.</span>		<span class="ttl">300</span>	<span class="in">IN</span>	<span class="record">A</span>	<span class="value">104.18.15.38</span>
+<span class="domain">www.itpac.br.</span>		<span class="ttl">300</span>	<span class="in">IN</span>	<span class="record">AAAA</span>	<span class="value">2606:4700::6812:e26</span>
+<span class="domain">www.itpac.br.</span>		<span class="ttl">300</span>	<span class="in">IN</span>	<span class="record">AAAA</span>	<span class="value">2606:4700::6812:f26</span>
+<span class="domain">itpac.br.</span>		<span class="ttl">900</span>	<span class="in">IN</span>	<span class="record">NSEC</span>	<span class="value">iuperj.br. NS DS RRSIG NSEC</span>
+<span class="domain">itpac.br.</span>		<span class="ttl">900</span>	<span class="in">IN</span>	<span class="record">RRSIG</span>	<span class="value">NSEC 13 2 900 20230907120516 [...]</span></pre>
+	<p>
+		Toda entrada na lista começa com um cabeçalho informando a qual
+		domínio ela se refere.
+	</p>
+	<p>
+		Em seguida, há uma linha com o registro SOA. Nem todos os domínios
+		possuem um – algo que, no meu entendimento, nem deveria ser possível.
+		Ainda que estranhos, estes possuem <i lang="en">nameservers</i>,
+		registros NSEC e até presença no <i lang="en">whois</i>. Então, eles
+		definitivamente existem; são diferentes de domínios cuja resposta é
+		NXDOMAIN. Estão em alguma outra forma de limbo.
+	</p>
+	<p>
+		Na sequência, há informações sobre os registros encontrados: A e AAAA
+		(ou CNAME, se for o caso), e MX. Eles são testados para o domínio em si,
+		e para o subdomínio "WWW.&lt;SLD&gt;.BR".
+	</p>
+	<p>
+		A entrada termina com o registro NSEC, indicando a entrada logo a
+		seguir.
+	</p>
+</section>
+<hr>

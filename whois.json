@@ -1,0 +1,4838 @@
+[
+	{
+		"domain": "0800.br",
+		"created": "20120214"
+	},
+	{
+		"domain": "acai.br",
+		"created": "20000920"
+	},
+	{
+		"domain": "ace.br",
+		"created": "19980406"
+	},
+	{
+		"domain": "ad1.br",
+		"created": "19990730"
+	},
+	{
+		"domain": "administracao.br",
+		"created": "20000629"
+	},
+	{
+		"domain": "adolec.br",
+		"created": "20000310"
+	},
+	{
+		"domain": "aedb.br",
+		"created": "19971206"
+	},
+	{
+		"domain": "aegsp.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "aelis.br",
+		"created": "19960314"
+	},
+	{
+		"domain": "aena.br",
+		"created": "19980630"
+	},
+	{
+		"domain": "aepc.br",
+		"created": "20000628"
+	},
+	{
+		"domain": "aesa-cesa.br",
+		"created": "20000127"
+	},
+	{
+		"domain": "aeso.br",
+		"created": "19971212"
+	},
+	{
+		"domain": "aespi.br",
+		"created": "19980319"
+	},
+	{
+		"domain": "aeudf.br",
+		"created": "19971027"
+	},
+	{
+		"domain": "aiec.br",
+		"created": "20000504"
+	},
+	{
+		"domain": "alberteinstein.br",
+		"created": "20000208"
+	},
+	{
+		"domain": "alfa.br",
+		"created": "20000414"
+	},
+	{
+		"domain": "alfacastelo.br",
+		"created": "20000516"
+	},
+	{
+		"domain": "aliancaestrategica.br",
+		"created": "20000626"
+	},
+	{
+		"domain": "alie.br",
+		"created": "19980515"
+	},
+	{
+		"domain": "alvarespenteado.br",
+		"created": "19991220"
+	},
+	{
+		"domain": "amazonas.br",
+		"created": "19980605"
+	},
+	{
+		"domain": "amazonia.br",
+		"created": "20000613"
+	},
+	{
+		"domain": "amazonsoft.br",
+		"created": "20000529"
+	},
+	{
+		"domain": "americanobatista.br",
+		"created": "19981229"
+	},
+	{
+		"domain": "anchieta-np.br",
+		"created": "19980814"
+	},
+	{
+		"domain": "anchieta.br",
+		"created": "19960712"
+	},
+	{
+		"domain": "anglo.br",
+		"created": "19980428"
+	},
+	{
+		"domain": "anglonet.br",
+		"created": "19970124"
+	},
+	{
+		"domain": "anhembi.br",
+		"created": "19960502"
+	},
+	{
+		"domain": "ansp.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "antispam.br",
+		"created": "20050926"
+	},
+	{
+		"domain": "apa.br",
+		"created": "19990521"
+	},
+	{
+		"domain": "apeco.br",
+		"created": "19990826"
+	},
+	{
+		"domain": "apesu.br",
+		"created": "20000609"
+	},
+	{
+		"domain": "aprendizagemvirtual.br",
+		"created": "20000807"
+	},
+	{
+		"domain": "aquacultura.br",
+		"created": "19990901"
+	},
+	{
+		"domain": "aquicultura.br",
+		"created": "19990901"
+	},
+	{
+		"domain": "arauc.br",
+		"created": "19951120"
+	},
+	{
+		"domain": "area1.br",
+		"created": "20000204"
+	},
+	{
+		"domain": "aslog.br",
+		"created": "20000814"
+	},
+	{
+		"domain": "asmec.br",
+		"created": "20000106"
+	},
+	{
+		"domain": "atech-mn.br",
+		"created": "20000228"
+	},
+	{
+		"domain": "atech.br",
+		"created": "19980916"
+	},
+	{
+		"domain": "atm.br",
+		"created": "19980526"
+	},
+	{
+		"domain": "augustomotta.br",
+		"created": "19990308"
+	},
+	{
+		"domain": "aulanet.br",
+		"created": "20000627"
+	},
+	{
+		"domain": "avec.br",
+		"created": "20000608"
+	},
+	{
+		"domain": "b2b.br",
+		"created": "20000926"
+	},
+	{
+		"domain": "baraodemaua.br",
+		"created": "19980924"
+	},
+	{
+		"domain": "barddal.br",
+		"created": "19990308"
+	},
+	{
+		"domain": "batista.br",
+		"created": "19981015"
+	},
+	{
+		"domain": "belasartes.br",
+		"created": "19960924"
+	},
+	{
+		"domain": "bennett.br",
+		"created": "19990427"
+	},
+	{
+		"domain": "bibliodata.br",
+		"created": "20000505"
+	},
+	{
+		"domain": "bibliotecanacional.br",
+		"created": "20000929"
+	},
+	{
+		"domain": "bigmanaus.br",
+		"created": "19980629"
+	},
+	{
+		"domain": "biologico.br",
+		"created": "19980729"
+	},
+	{
+		"domain": "bireme.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "bjmbr.br",
+		"created": "19990518"
+	},
+	{
+		"domain": "bn.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "boituva.br",
+		"created": "20001006"
+	},
+	{
+		"domain": "bomjesus.br",
+		"created": "19960610"
+	},
+	{
+		"domain": "bomjesus1s.br",
+		"created": "20000728"
+	},
+	{
+		"domain": "bomjesus2s.br",
+		"created": "20000728"
+	},
+	{
+		"domain": "bonito.br",
+		"created": "20000303"
+	},
+	{
+		"domain": "brasil.br",
+		"created": "19980903"
+	},
+	{
+		"domain": "brasilia.br",
+		"created": "19980918"
+	},
+	{
+		"domain": "brasiliasp.br",
+		"created": "19981214"
+	},
+	{
+		"domain": "brazcubas.br",
+		"created": "19971212"
+	},
+	{
+		"domain": "brics.br",
+		"created": "20241216"
+	},
+	{
+		"domain": "businessschool.br",
+		"created": "20000121"
+	},
+	{
+		"domain": "businessschoolfae.br",
+		"created": "20000218"
+	},
+	{
+		"domain": "bvs.br",
+		"created": "20000626"
+	},
+	{
+		"domain": "cairu.br",
+		"created": "19990428"
+	},
+	{
+		"domain": "cajuniban.br",
+		"created": "19990521"
+	},
+	{
+		"domain": "cambury.br",
+		"created": "19990826"
+	},
+	{
+		"domain": "campogrande.br",
+		"created": "20000303"
+	},
+	{
+		"domain": "campossalles.br",
+		"created": "19961018"
+	},
+	{
+		"domain": "campus2.br",
+		"created": "19970311"
+	},
+	{
+		"domain": "campusnet.br",
+		"created": "20000425"
+	},
+	{
+		"domain": "campusportal.br",
+		"created": "20000517"
+	},
+	{
+		"domain": "campusvirtual.br",
+		"created": "20000330"
+	},
+	{
+		"domain": "candidomendes.br",
+		"created": "19960731"
+	},
+	{
+		"domain": "candidomendesvitoria.br",
+		"created": "20000302"
+	},
+	{
+		"domain": "cantareira.br",
+		"created": "20000728"
+	},
+	{
+		"domain": "capital.br",
+		"created": "19960509"
+	},
+	{
+		"domain": "carangola.br",
+		"created": "19981027"
+	},
+	{
+		"domain": "carbonari.br",
+		"created": "20000529"
+	},
+	{
+		"domain": "cardiol.br",
+		"created": "19960514"
+	},
+	{
+		"domain": "carioca.br",
+		"created": "19951214"
+	},
+	{
+		"domain": "castelobranco.br",
+		"created": "19960214"
+	},
+	{
+		"domain": "castroalves.br",
+		"created": "19990831"
+	},
+	{
+		"domain": "cate.br",
+		"created": "19991213"
+	},
+	{
+		"domain": "catolicavirtual.br",
+		"created": "20000728"
+	},
+	{
+		"domain": "cbpf.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "ccap.br",
+		"created": "19991220"
+	},
+	{
+		"domain": "ccbeunet.br",
+		"created": "19960305"
+	},
+	{
+		"domain": "ccc.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "ccs.br",
+		"created": "19970925"
+	},
+	{
+		"domain": "ccsm.br",
+		"created": "19990818"
+	},
+	{
+		"domain": "cdb.br",
+		"created": "19990812"
+	},
+	{
+		"domain": "cdctal.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "cde.br",
+		"created": "19991007"
+	},
+	{
+		"domain": "cdt.br",
+		"created": "19971121"
+	},
+	{
+		"domain": "cdtn.br",
+		"created": "19950504"
+	},
+	{
+		"domain": "ceag.br",
+		"created": "20000330"
+	},
+	{
+		"domain": "ceam.br",
+		"created": "19991108"
+	},
+	{
+		"domain": "ceap.br",
+		"created": "19990812"
+	},
+	{
+		"domain": "cedeteg.br",
+		"created": "20000508"
+	},
+	{
+		"domain": "ceef.br",
+		"created": "20000816"
+	},
+	{
+		"domain": "ceeteps.br",
+		"created": "19970602"
+	},
+	{
+		"domain": "cefac.br",
+		"created": "19970816"
+	},
+	{
+		"domain": "cefal.br",
+		"created": "20000920"
+	},
+	{
+		"domain": "cefet-al.br",
+		"created": "20000912"
+	},
+	{
+		"domain": "cefet-ce.br",
+		"created": "19990730"
+	},
+	{
+		"domain": "cefet-ma.br",
+		"created": "19980508"
+	},
+	{
+		"domain": "cefet-rj.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "cefet-rn.br",
+		"created": "19990203"
+	},
+	{
+		"domain": "cefet.br",
+		"created": "19990106"
+	},
+	{
+		"domain": "cefetal.br",
+		"created": "20000912"
+	},
+	{
+		"domain": "cefetba.br",
+		"created": "19971010"
+	},
+	{
+		"domain": "cefetcampos.br",
+		"created": "19990520"
+	},
+	{
+		"domain": "cefetce.br",
+		"created": "19990730"
+	},
+	{
+		"domain": "cefeteq.br",
+		"created": "20000911"
+	},
+	{
+		"domain": "cefetes.br",
+		"created": "19991123"
+	},
+	{
+		"domain": "cefetgo.br",
+		"created": "19990427"
+	},
+	{
+		"domain": "cefetmg.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "cefetmt.br",
+		"created": "19980831"
+	},
+	{
+		"domain": "cefetpa.br",
+		"created": "19990925"
+	},
+	{
+		"domain": "cefetpe.br",
+		"created": "19970905"
+	},
+	{
+		"domain": "cefetpet.br",
+		"created": "19990528"
+	},
+	{
+		"domain": "cefetpi.br",
+		"created": "19991213"
+	},
+	{
+		"domain": "cefetpr-unedcp.br",
+		"created": "19990622"
+	},
+	{
+		"domain": "cefetpr.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "cefetrn.br",
+		"created": "19990405"
+	},
+	{
+		"domain": "cefetsp.br",
+		"created": "19961220"
+	},
+	{
+		"domain": "celepar.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "cem.br",
+		"created": "19970825"
+	},
+	{
+		"domain": "cenaf.br",
+		"created": "20000414"
+	},
+	{
+		"domain": "cenapadne.br",
+		"created": "19951215"
+	},
+	{
+		"domain": "centrodecitricultura.br",
+		"created": "19990818"
+	},
+	{
+		"domain": "centrounisal.br",
+		"created": "20000629"
+	},
+	{
+		"domain": "ceped.br",
+		"created": "19980630"
+	},
+	{
+		"domain": "cepel.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "ceptro.br",
+		"created": "20080121"
+	},
+	{
+		"domain": "cert.br",
+		"created": "20050322"
+	},
+	{
+		"domain": "cesat.br",
+		"created": "20000315"
+	},
+	{
+		"domain": "cesb.br",
+		"created": "19991021"
+	},
+	{
+		"domain": "cesbb.br",
+		"created": "20000901"
+	},
+	{
+		"domain": "cesblu.br",
+		"created": "20001003"
+	},
+	{
+		"domain": "cesc.br",
+		"created": "19990630"
+	},
+	{
+		"domain": "cesd.br",
+		"created": "20000724"
+	},
+	{
+		"domain": "cesed.br",
+		"created": "19990720"
+	},
+	{
+		"domain": "cesf.br",
+		"created": "20000816"
+	},
+	{
+		"domain": "cesjesuit.br",
+		"created": "19991108"
+	},
+	{
+		"domain": "cesjf.br",
+		"created": "19970307"
+	},
+	{
+		"domain": "cesm.br",
+		"created": "20000724"
+	},
+	{
+		"domain": "cespri.br",
+		"created": "20000724"
+	},
+	{
+		"domain": "cesreal.br",
+		"created": "20000724"
+	},
+	{
+		"domain": "cesuc-ro.br",
+		"created": "19991119"
+	},
+	{
+		"domain": "cesuc.br",
+		"created": "19980528"
+	},
+	{
+		"domain": "cesufoz.br",
+		"created": "20000905"
+	},
+	{
+		"domain": "cesul.br",
+		"created": "19991013"
+	},
+	{
+		"domain": "cesulon.br",
+		"created": "20000602"
+	},
+	{
+		"domain": "cesumail.br",
+		"created": "19990922"
+	},
+	{
+		"domain": "cesumar.br",
+		"created": "19970821"
+	},
+	{
+		"domain": "cesupa.br",
+		"created": "19960709"
+	},
+	{
+		"domain": "cesur.br",
+		"created": "19980625"
+	},
+	{
+		"domain": "cesv.br",
+		"created": "20000412"
+	},
+	{
+		"domain": "cetec.br",
+		"created": "19980913"
+	},
+	{
+		"domain": "cetic.br",
+		"created": "20061123"
+	},
+	{
+		"domain": "ceu.br",
+		"created": "20000229"
+	},
+	{
+		"domain": "ceuasp.br",
+		"created": "19991119"
+	},
+	{
+		"domain": "ceub.br",
+		"created": "19960523"
+	},
+	{
+		"domain": "ceuma.br",
+		"created": "19970909"
+	},
+	{
+		"domain": "ceunit.br",
+		"created": "19990317"
+	},
+	{
+		"domain": "ceunsp.br",
+		"created": "19990701"
+	},
+	{
+		"domain": "ceweb.br",
+		"created": "20150318"
+	},
+	{
+		"domain": "cgi.br",
+		"created": "20050524"
+	},
+	{
+		"domain": "champagnat.br",
+		"created": "19980617"
+	},
+	{
+		"domain": "christus.br",
+		"created": "19991229"
+	},
+	{
+		"domain": "ciaba.br",
+		"created": "19990929"
+	},
+	{
+		"domain": "ciecdesign.br",
+		"created": "20000721"
+	},
+	{
+		"domain": "ciesa.br",
+		"created": "19980513"
+	},
+	{
+		"domain": "cig.br",
+		"created": "19991122"
+	},
+	{
+		"domain": "cin.br",
+		"created": "19991013"
+	},
+	{
+		"domain": "citpar.br",
+		"created": "19990427"
+	},
+	{
+		"domain": "cits.br",
+		"created": "19960325"
+	},
+	{
+		"domain": "civi.br",
+		"created": "19990914"
+	},
+	{
+		"domain": "claretianas.br",
+		"created": "19960902"
+	},
+	{
+		"domain": "click.br",
+		"created": "19980811"
+	},
+	{
+		"domain": "cmf.br",
+		"created": "19980626"
+	},
+	{
+		"domain": "cnec.br",
+		"created": "20000721"
+	},
+	{
+		"domain": "cneccapivari.br",
+		"created": "19990506"
+	},
+	{
+		"domain": "cnpem.br",
+		"created": "20120814"
+	},
+	{
+		"domain": "cnpq.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "coepb.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "coldacidade.br",
+		"created": "19980908"
+	},
+	{
+		"domain": "colegio-objetivo.br",
+		"created": "20000512"
+	},
+	{
+		"domain": "colegiobjetivo.br",
+		"created": "20000512"
+	},
+	{
+		"domain": "colegiodesaojose.br",
+		"created": "19980316"
+	},
+	{
+		"domain": "colegiodombosco.br",
+		"created": "19990812"
+	},
+	{
+		"domain": "colegionovoateneu.br",
+		"created": "20000707"
+	},
+	{
+		"domain": "colegioobjetivo.br",
+		"created": "20000512"
+	},
+	{
+		"domain": "colegioparana.br",
+		"created": "19980209"
+	},
+	{
+		"domain": "colegiorealengo.br",
+		"created": "20000128"
+	},
+	{
+		"domain": "colegiosaoluis.br",
+		"created": "19990426"
+	},
+	{
+		"domain": "colegiosoares.br",
+		"created": "20000327"
+	},
+	{
+		"domain": "comciencia.br",
+		"created": "20000403"
+	},
+	{
+		"domain": "compacto.br",
+		"created": "19990730"
+	},
+	{
+		"domain": "computacao.br",
+		"created": "20000424"
+	},
+	{
+		"domain": "conhecimento.br",
+		"created": "20000524"
+	},
+	{
+		"domain": "cop30.br",
+		"created": "20241216"
+	},
+	{
+		"domain": "copel.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "cora.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "cpaqui.br",
+		"created": "19990901"
+	},
+	{
+		"domain": "cpdoc.br",
+		"created": "20000505"
+	},
+	{
+		"domain": "cpea.br",
+		"created": "19970327"
+	},
+	{
+		"domain": "cpqd.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "cpsc.br",
+		"created": "19991116"
+	},
+	{
+		"domain": "creupi.br",
+		"created": "19990511"
+	},
+	{
+		"domain": "csgempreender.br",
+		"created": "19990609"
+	},
+	{
+		"domain": "cta.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "ctgeo.br",
+		"created": "19990726"
+	},
+	{
+		"domain": "culturadigital.br",
+		"created": "20090604"
+	},
+	{
+		"domain": "curso-objetivo.br",
+		"created": "20000512"
+	},
+	{
+		"domain": "cursoalfa.br",
+		"created": "19980209"
+	},
+	{
+		"domain": "cursobjetivo.br",
+		"created": "20000512"
+	},
+	{
+		"domain": "cursoobjetivo.br",
+		"created": "20000512"
+	},
+	{
+		"domain": "dante.br",
+		"created": "19960328"
+	},
+	{
+		"domain": "davinci.br",
+		"created": "19980814"
+	},
+	{
+		"domain": "desenvolvimentoaberto.br",
+		"created": "20120309"
+	},
+	{
+		"domain": "dinamica.br",
+		"created": "20000515"
+	},
+	{
+		"domain": "direito.br",
+		"created": "20000629"
+	},
+	{
+		"domain": "direitofranca.br",
+		"created": "19980407"
+	},
+	{
+		"domain": "direitosbc.br",
+		"created": "19990202"
+	},
+	{
+		"domain": "dns.br",
+		"created": "19980120"
+	},
+	{
+		"domain": "dombosco.br",
+		"created": "19980914"
+	},
+	{
+		"domain": "domotonmota.br",
+		"created": "20000724"
+	},
+	{
+		"domain": "domus.br",
+		"created": "19981117"
+	},
+	{
+		"domain": "dourados.br",
+		"created": "19970905"
+	},
+	{
+		"domain": "e-business.br",
+		"created": "20000619"
+	},
+	{
+		"domain": "e-campus.br",
+		"created": "20000921"
+	},
+	{
+		"domain": "e-senac.br",
+		"created": "20000410"
+	},
+	{
+		"domain": "eabdf.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "ead.br",
+		"created": "20000425"
+	},
+	{
+		"domain": "eaesp.br",
+		"created": "20000608"
+	},
+	{
+		"domain": "eb.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "ebap.br",
+		"created": "20000505"
+	},
+	{
+		"domain": "ecc.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "ecdsa-l.br",
+		"created": "20180525"
+	},
+	{
+		"domain": "ecmal.br",
+		"created": "20000211"
+	},
+	{
+		"domain": "educad.br",
+		"created": "19981021"
+	},
+	{
+		"domain": "educanet.br",
+		"created": "19990504"
+	},
+	{
+		"domain": "eduroam.br",
+		"created": "20121015"
+	},
+	{
+		"domain": "eduvale.br",
+		"created": "19991203"
+	},
+	{
+		"domain": "eeemba.br",
+		"created": "19961219"
+	},
+	{
+		"domain": "eep.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "eewb.br",
+		"created": "19981019"
+	},
+	{
+		"domain": "efax.br",
+		"created": "19980918"
+	},
+	{
+		"domain": "efei.br",
+		"created": "19970213"
+	},
+	{
+		"domain": "efoa.br",
+		"created": "19970731"
+	},
+	{
+		"domain": "einstein.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "embap.br",
+		"created": "19981016"
+	},
+	{
+		"domain": "embrapa.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "emescam.br",
+		"created": "19971005"
+	},
+	{
+		"domain": "emparn.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "en-rede.br",
+		"created": "19991201"
+	},
+	{
+		"domain": "enternauniversidade.br",
+		"created": "19990423"
+	},
+	{
+		"domain": "epamig.br",
+		"created": "20000905"
+	},
+	{
+		"domain": "epge.br",
+		"created": "20000505"
+	},
+	{
+		"domain": "epm.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "esa-etica.br",
+		"created": "20000218"
+	},
+	{
+		"domain": "esam.br",
+		"created": "19970217"
+	},
+	{
+		"domain": "esamc.br",
+		"created": "19991108"
+	},
+	{
+		"domain": "esan-sbc.br",
+		"created": "19970515"
+	},
+	{
+		"domain": "esan-sp.br",
+		"created": "19961205"
+	},
+	{
+		"domain": "escolatotal.br",
+		"created": "20000407"
+	},
+	{
+		"domain": "esef.br",
+		"created": "20000810"
+	},
+	{
+		"domain": "esefic.br",
+		"created": "19991123"
+	},
+	{
+		"domain": "esg.br",
+		"created": "19971222"
+	},
+	{
+		"domain": "esic.br",
+		"created": "19991123"
+	},
+	{
+		"domain": "espm-rio.br",
+		"created": "19970321"
+	},
+	{
+		"domain": "espm.br",
+		"created": "19961206"
+	},
+	{
+		"domain": "estacio.br",
+		"created": "19960304"
+	},
+	{
+		"domain": "estatistica.br",
+		"created": "20000424"
+	},
+	{
+		"domain": "etfce.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "etfes.br",
+		"created": "19970418"
+	},
+	{
+		"domain": "etfgo.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "etfpa.br",
+		"created": "19961007"
+	},
+	{
+		"domain": "etfrn.br",
+		"created": "19951214"
+	},
+	{
+		"domain": "etfse.br",
+		"created": "20000208"
+	},
+	{
+		"domain": "etn.br",
+		"created": "19991230"
+	},
+	{
+		"domain": "euniban.br",
+		"created": "20000411"
+	},
+	{
+		"domain": "exponencial.br",
+		"created": "20000914"
+	},
+	{
+		"domain": "exportariopreto.br",
+		"created": "20000229"
+	},
+	{
+		"domain": "faa.br",
+		"created": "20000914"
+	},
+	{
+		"domain": "faac.br",
+		"created": "20000920"
+	},
+	{
+		"domain": "faap-mba.br",
+		"created": "19980707"
+	},
+	{
+		"domain": "faap.br",
+		"created": "19960920"
+	},
+	{
+		"domain": "fabavi.br",
+		"created": "19981229"
+	},
+	{
+		"domain": "fabrai.br",
+		"created": "19971013"
+	},
+	{
+		"domain": "fac-interlagos.br",
+		"created": "19971016"
+	},
+	{
+		"domain": "fac-objetivomao.br",
+		"created": "19990312"
+	},
+	{
+		"domain": "fac.br",
+		"created": "20001006"
+	},
+	{
+		"domain": "facab.br",
+		"created": "20001003"
+	},
+	{
+		"domain": "facape.br",
+		"created": "19981008"
+	},
+	{
+		"domain": "facastelo.br",
+		"created": "20001011"
+	},
+	{
+		"domain": "faccaa.br",
+		"created": "20000503"
+	},
+	{
+		"domain": "faccamp.br",
+		"created": "20000128"
+	},
+	{
+		"domain": "faccat.br",
+		"created": "19980326"
+	},
+	{
+		"domain": "facdacidade.br",
+		"created": "19960727"
+	},
+	{
+		"domain": "facdomus.br",
+		"created": "19991007"
+	},
+	{
+		"domain": "face.br",
+		"created": "20000509"
+	},
+	{
+		"domain": "faceac.br",
+		"created": "19990122"
+	},
+	{
+		"domain": "faceca.br",
+		"created": "19990925"
+	},
+	{
+		"domain": "faced.br",
+		"created": "19990210"
+	},
+	{
+		"domain": "facef.br",
+		"created": "19971107"
+	},
+	{
+		"domain": "facens.br",
+		"created": "19961217"
+	},
+	{
+		"domain": "facepe.br",
+		"created": "20000331"
+	},
+	{
+		"domain": "facesm.br",
+		"created": "19980116"
+	},
+	{
+		"domain": "facesp.br",
+		"created": "19991220"
+	},
+	{
+		"domain": "facet.br",
+		"created": "19971014"
+	},
+	{
+		"domain": "fach.br",
+		"created": "19990428"
+	},
+	{
+		"domain": "facha.br",
+		"created": "19961218"
+	},
+	{
+		"domain": "facho.br",
+		"created": "20000710"
+	},
+	{
+		"domain": "facic.br",
+		"created": "20000704"
+	},
+	{
+		"domain": "facinor.br",
+		"created": "20000502"
+	},
+	{
+		"domain": "facinter.br",
+		"created": "20000609"
+	},
+	{
+		"domain": "facitec.br",
+		"created": "20000513"
+	},
+	{
+		"domain": "facjar.br",
+		"created": "19980625"
+	},
+	{
+		"domain": "facluzwell.br",
+		"created": "19970917"
+	},
+	{
+		"domain": "facnec-ita.br",
+		"created": "20000128"
+	},
+	{
+		"domain": "facol.br",
+		"created": "19991105"
+	},
+	{
+		"domain": "facrei.br",
+		"created": "20000915"
+	},
+	{
+		"domain": "facs.br",
+		"created": "20000303"
+	},
+	{
+		"domain": "facsal.br",
+		"created": "20001010"
+	},
+	{
+		"domain": "facsantana.br",
+		"created": "19990914"
+	},
+	{
+		"domain": "facsantanna.br",
+		"created": "19990914"
+	},
+	{
+		"domain": "facsaoluis.br",
+		"created": "20000905"
+	},
+	{
+		"domain": "facsaoroque.br",
+		"created": "19991214"
+	},
+	{
+		"domain": "factu.br",
+		"created": "20000428"
+	},
+	{
+		"domain": "factur.br",
+		"created": "19990514"
+	},
+	{
+		"domain": "faculdadealfacastelo.br",
+		"created": "20000824"
+	},
+	{
+		"domain": "faculdadebatista.br",
+		"created": "19991213"
+	},
+	{
+		"domain": "faculdadecapixaba.br",
+		"created": "19991229"
+	},
+	{
+		"domain": "faculdadecotemig.br",
+		"created": "19990804"
+	},
+	{
+		"domain": "faculdadedireito.br",
+		"created": "20000811"
+	},
+	{
+		"domain": "faculdadenacional.br",
+		"created": "20000720"
+	},
+	{
+		"domain": "faculdadepaulistana.br",
+		"created": "19980515"
+	},
+	{
+		"domain": "faculdadepentagono.br",
+		"created": "19990407"
+	},
+	{
+		"domain": "faculdadepromove.br",
+		"created": "19990324"
+	},
+	{
+		"domain": "faculdadesalfa.br",
+		"created": "20000414"
+	},
+	{
+		"domain": "faculdadesantamarta.br",
+		"created": "19990326"
+	},
+	{
+		"domain": "faculdadesantana.br",
+		"created": "19990914"
+	},
+	{
+		"domain": "faculdadesantanna.br",
+		"created": "19990914"
+	},
+	{
+		"domain": "faculdadesaoluis.br",
+		"created": "19971020"
+	},
+	{
+		"domain": "faculdadescuritiba.br",
+		"created": "20000606"
+	},
+	{
+		"domain": "faculdadesdomus.br",
+		"created": "19991007"
+	},
+	{
+		"domain": "faculdadeselviria.br",
+		"created": "20000822"
+	},
+	{
+		"domain": "faculdadesguarapuava.br",
+		"created": "20000707"
+	},
+	{
+		"domain": "faculdadesmachadodeassis.br",
+		"created": "20000724"
+	},
+	{
+		"domain": "faculdadesmaringa.br",
+		"created": "19980209"
+	},
+	{
+		"domain": "faculdadesobjetivo.br",
+		"created": "20000512"
+	},
+	{
+		"domain": "faculdadestancredoneves.br",
+		"created": "19981029"
+	},
+	{
+		"domain": "faculdadetrevisan.br",
+		"created": "20000226"
+	},
+	{
+		"domain": "fad.br",
+		"created": "19990513"
+	},
+	{
+		"domain": "fadap.br",
+		"created": "19990304"
+	},
+	{
+		"domain": "fadep.br",
+		"created": "20000811"
+	},
+	{
+		"domain": "fadi.br",
+		"created": "19971120"
+	},
+	{
+		"domain": "fadica-foc.br",
+		"created": "19971125"
+	},
+	{
+		"domain": "fadipa.br",
+		"created": "19991108"
+	},
+	{
+		"domain": "fadnet.br",
+		"created": "20000428"
+	},
+	{
+		"domain": "fadom.br",
+		"created": "19970725"
+	},
+	{
+		"domain": "fae-cde.br",
+		"created": "20000121"
+	},
+	{
+		"domain": "fae.br",
+		"created": "19970613"
+	},
+	{
+		"domain": "faebusinessschool.br",
+		"created": "20000121"
+	},
+	{
+		"domain": "faec.br",
+		"created": "20000627"
+	},
+	{
+		"domain": "faef.br",
+		"created": "19980604"
+	},
+	{
+		"domain": "faefija.br",
+		"created": "19980929"
+	},
+	{
+		"domain": "faenquil.br",
+		"created": "19980319"
+	},
+	{
+		"domain": "faepa.br",
+		"created": "20000713"
+	},
+	{
+		"domain": "faesa.br",
+		"created": "19961030"
+	},
+	{
+		"domain": "faesp.br",
+		"created": "19981022"
+	},
+	{
+		"domain": "faetec.br",
+		"created": "19980825"
+	},
+	{
+		"domain": "fafeod.br",
+		"created": "19970708"
+	},
+	{
+		"domain": "fafibe.br",
+		"created": "20000327"
+	},
+	{
+		"domain": "fafica.br",
+		"created": "19981210"
+	},
+	{
+		"domain": "fafice.br",
+		"created": "19980918"
+	},
+	{
+		"domain": "faficop.br",
+		"created": "19980810"
+	},
+	{
+		"domain": "faficp.br",
+		"created": "19980916"
+	},
+	{
+		"domain": "faficre.br",
+		"created": "19991227"
+	},
+	{
+		"domain": "fafija.br",
+		"created": "19980929"
+	},
+	{
+		"domain": "fafijan.br",
+		"created": "19990512"
+	},
+	{
+		"domain": "fafima.br",
+		"created": "19990721"
+	},
+	{
+		"domain": "fafiman.br",
+		"created": "20000111"
+	},
+	{
+		"domain": "fafipa.br",
+		"created": "19980713"
+	},
+	{
+		"domain": "fafipar.br",
+		"created": "19980929"
+	},
+	{
+		"domain": "fafire.br",
+		"created": "19970924"
+	},
+	{
+		"domain": "fafiuv.br",
+		"created": "19981016"
+	},
+	{
+		"domain": "fagoc.br",
+		"created": "20000816"
+	},
+	{
+		"domain": "fai-mg.br",
+		"created": "19971031"
+	},
+	{
+		"domain": "faj.br",
+		"created": "20000505"
+	},
+	{
+		"domain": "fal.br",
+		"created": "19990510"
+	},
+	{
+		"domain": "falec.br",
+		"created": "20000504"
+	},
+	{
+		"domain": "fam-sp.br",
+		"created": "19990716"
+	},
+	{
+		"domain": "fam.br",
+		"created": "19990621"
+	},
+	{
+		"domain": "fama.br",
+		"created": "20000314"
+	},
+	{
+		"domain": "famanet.br",
+		"created": "20000822"
+	},
+	{
+		"domain": "fameb.br",
+		"created": "20000705"
+	},
+	{
+		"domain": "fameca.br",
+		"created": "20001011"
+	},
+	{
+		"domain": "famema.br",
+		"created": "19971125"
+	},
+	{
+		"domain": "famerp.br",
+		"created": "19971111"
+	},
+	{
+		"domain": "famettig.br",
+		"created": "20000221"
+	},
+	{
+		"domain": "famevaco.br",
+		"created": "19991108"
+	},
+	{
+		"domain": "famma.br",
+		"created": "19991227"
+	},
+	{
+		"domain": "fanap.br",
+		"created": "19990729"
+	},
+	{
+		"domain": "fanorp.br",
+		"created": "20000327"
+	},
+	{
+		"domain": "fap.br",
+		"created": "19980511"
+	},
+	{
+		"domain": "fapcca.br",
+		"created": "19970922"
+	},
+	{
+		"domain": "fapeal.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "fapema.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "fapemat.br",
+		"created": "19980714"
+	},
+	{
+		"domain": "fapemig.br",
+		"created": "19960321"
+	},
+	{
+		"domain": "faperj.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "fapesp.br",
+		"created": "19890418"
+	},
+	{
+		"domain": "fapi.br",
+		"created": "19991029"
+	},
+	{
+		"domain": "fapr.br",
+		"created": "19981016"
+	},
+	{
+		"domain": "fapss.br",
+		"created": "19990409"
+	},
+	{
+		"domain": "fargs.br",
+		"created": "20000119"
+	},
+	{
+		"domain": "farn.br",
+		"created": "19990412"
+	},
+	{
+		"domain": "fase.br",
+		"created": "20000615"
+	},
+	{
+		"domain": "fasmarta.br",
+		"created": "19981123"
+	},
+	{
+		"domain": "fasp.br",
+		"created": "19960618"
+	},
+	{
+		"domain": "faspmail.br",
+		"created": "19991013"
+	},
+	{
+		"domain": "fast.br",
+		"created": "20000523"
+	},
+	{
+		"domain": "fatea.br",
+		"created": "19971206"
+	},
+	{
+		"domain": "fateb.br",
+		"created": "20000413"
+	},
+	{
+		"domain": "fatec-ro.br",
+		"created": "20000912"
+	},
+	{
+		"domain": "fatec.br",
+		"created": "20000503"
+	},
+	{
+		"domain": "fatecsp.br",
+		"created": "19980703"
+	},
+	{
+		"domain": "fatema.br",
+		"created": "20000801"
+	},
+	{
+		"domain": "fatepa.br",
+		"created": "19961112"
+	},
+	{
+		"domain": "fati.br",
+		"created": "19971212"
+	},
+	{
+		"domain": "fav.br",
+		"created": "19980914"
+	},
+	{
+		"domain": "faveducanet.br",
+		"created": "20000807"
+	},
+	{
+		"domain": "favi.br",
+		"created": "19980306"
+	},
+	{
+		"domain": "fazu.br",
+		"created": "19980422"
+	},
+	{
+		"domain": "fbb.br",
+		"created": "20000901"
+	},
+	{
+		"domain": "fbn.br",
+		"created": "20000929"
+	},
+	{
+		"domain": "fbv.br",
+		"created": "20000412"
+	},
+	{
+		"domain": "fccp.br",
+		"created": "20000620"
+	},
+	{
+		"domain": "fcetm.br",
+		"created": "19991112"
+	},
+	{
+		"domain": "fcmmg.br",
+		"created": "19951120"
+	},
+	{
+		"domain": "fcth.br",
+		"created": "20000127"
+	},
+	{
+		"domain": "fdc.br",
+		"created": "19970505"
+	},
+	{
+		"domain": "fdci.br",
+		"created": "19990729"
+	},
+	{
+		"domain": "fdv.br",
+		"created": "19961105"
+	},
+	{
+		"domain": "fea.br",
+		"created": "20000601"
+	},
+	{
+		"domain": "fead.br",
+		"created": "20000505"
+	},
+	{
+		"domain": "feam.br",
+		"created": "19990524"
+	},
+	{
+		"domain": "feamig.br",
+		"created": "19980817"
+	},
+	{
+		"domain": "feb.br",
+		"created": "19960925"
+	},
+	{
+		"domain": "fec.br",
+		"created": "19990717"
+	},
+	{
+		"domain": "fecap.br",
+		"created": "19961206"
+	},
+	{
+		"domain": "fecea.br",
+		"created": "19980929"
+	},
+	{
+		"domain": "fecilcam.br",
+		"created": "19980917"
+	},
+	{
+		"domain": "fecnet.br",
+		"created": "20000414"
+	},
+	{
+		"domain": "feevale.br",
+		"created": "19990717"
+	},
+	{
+		"domain": "fef.br",
+		"created": "20000526"
+	},
+	{
+		"domain": "feg.br",
+		"created": "19991227"
+	},
+	{
+		"domain": "fei.br",
+		"created": "19960209"
+	},
+	{
+		"domain": "fejal.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "femm.br",
+		"created": "19980515"
+	},
+	{
+		"domain": "fempar.br",
+		"created": "19980116"
+	},
+	{
+		"domain": "feob.br",
+		"created": "19970804"
+	},
+	{
+		"domain": "fepam.br",
+		"created": "20000315"
+	},
+	{
+		"domain": "fepesmig.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "fepi.br",
+		"created": "19980715"
+	},
+	{
+		"domain": "ferj.br",
+		"created": "20000614"
+	},
+	{
+		"domain": "ferlagos.br",
+		"created": "20000508"
+	},
+	{
+		"domain": "ferp.br",
+		"created": "19980730"
+	},
+	{
+		"domain": "fes.br",
+		"created": "19990804"
+	},
+	{
+		"domain": "fesag.br",
+		"created": "19980831"
+	},
+	{
+		"domain": "fesb.br",
+		"created": "19981112"
+	},
+	{
+		"domain": "feso.br",
+		"created": "19990908"
+	},
+	{
+		"domain": "fesp.br",
+		"created": "19961220"
+	},
+	{
+		"domain": "fesppr.br",
+		"created": "19980701"
+	},
+	{
+		"domain": "fesurv.br",
+		"created": "19991008"
+	},
+	{
+		"domain": "fesv.br",
+		"created": "20000713"
+	},
+	{
+		"domain": "fesvv.br",
+		"created": "20000713"
+	},
+	{
+		"domain": "feuc.br",
+		"created": "19991210"
+	},
+	{
+		"domain": "ffalm.br",
+		"created": "19971024"
+	},
+	{
+		"domain": "ffc.br",
+		"created": "19981120"
+	},
+	{
+		"domain": "ffm.br",
+		"created": "19961211"
+	},
+	{
+		"domain": "ffsd.br",
+		"created": "20000626"
+	},
+	{
+		"domain": "fga.br",
+		"created": "19961206"
+	},
+	{
+		"domain": "fgv.br",
+		"created": "19961216"
+	},
+	{
+		"domain": "fgvam.br",
+		"created": "20000208"
+	},
+	{
+		"domain": "fgvconsulting.br",
+		"created": "20000505"
+	},
+	{
+		"domain": "fgvdados.br",
+		"created": "20000505"
+	},
+	{
+		"domain": "fgveditora.br",
+		"created": "20000505"
+	},
+	{
+		"domain": "fgvmail.br",
+		"created": "20000608"
+	},
+	{
+		"domain": "fgvmanagement.br",
+		"created": "20000323"
+	},
+	{
+		"domain": "fgvmgm.br",
+		"created": "20000717"
+	},
+	{
+		"domain": "fgvonline.br",
+		"created": "20000608"
+	},
+	{
+		"domain": "fgvpr.br",
+		"created": "19970416"
+	},
+	{
+		"domain": "fgvsp.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "fgvspace.br",
+		"created": "20000113"
+	},
+	{
+		"domain": "fiam.br",
+		"created": "19990714"
+	},
+	{
+		"domain": "fiamfaam.br",
+		"created": "19990722"
+	},
+	{
+		"domain": "fian.br",
+		"created": "19980928"
+	},
+	{
+		"domain": "fiap.br",
+		"created": "20000502"
+	},
+	{
+		"domain": "fib.br",
+		"created": "19971222"
+	},
+	{
+		"domain": "fibbauru.br",
+		"created": "20000215"
+	},
+	{
+		"domain": "fiboituva.br",
+		"created": "20001006"
+	},
+	{
+		"domain": "fibutanta.br",
+		"created": "20000313"
+	},
+	{
+		"domain": "fic.br",
+		"created": "19990429"
+	},
+	{
+		"domain": "fieo.br",
+		"created": "19960705"
+	},
+	{
+		"domain": "fifasul.br",
+		"created": "19971209"
+	},
+	{
+		"domain": "fig.br",
+		"created": "19980309"
+	},
+	{
+		"domain": "fij.br",
+		"created": "20000523"
+	},
+	{
+		"domain": "filadelfia.br",
+		"created": "19960710"
+	},
+	{
+		"domain": "finac.br",
+		"created": "20000720"
+	},
+	{
+		"domain": "financas.br",
+		"created": "20000619"
+	},
+	{
+		"domain": "finav.br",
+		"created": "19990619"
+	},
+	{
+		"domain": "fiocruz.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "fipag.br",
+		"created": "19990204"
+	},
+	{
+		"domain": "fiplac.br",
+		"created": "20000628"
+	},
+	{
+		"domain": "fir.br",
+		"created": "19980316"
+	},
+	{
+		"domain": "firb.br",
+		"created": "19980623"
+	},
+	{
+		"domain": "fisp.br",
+		"created": "19990203"
+	},
+	{
+		"domain": "fit.br",
+		"created": "19990126"
+	},
+	{
+		"domain": "fito.br",
+		"created": "19970604"
+	},
+	{
+		"domain": "fkb.br",
+		"created": "19960408"
+	},
+	{
+		"domain": "fma.br",
+		"created": "19980422"
+	},
+	{
+		"domain": "fmabc.br",
+		"created": "19991211"
+	},
+	{
+		"domain": "fmc.br",
+		"created": "20000523"
+	},
+	{
+		"domain": "fmj.br",
+		"created": "20000508"
+	},
+	{
+		"domain": "fmtm.br",
+		"created": "19980731"
+	},
+	{
+		"domain": "fmu.br",
+		"created": "19960212"
+	},
+	{
+		"domain": "fnc.br",
+		"created": "20001006"
+	},
+	{
+		"domain": "focampos.br",
+		"created": "19990322"
+	},
+	{
+		"domain": "foco.br",
+		"created": "20000724"
+	},
+	{
+		"domain": "fog.br",
+		"created": "19981029"
+	},
+	{
+		"domain": "forummarilia.br",
+		"created": "20000609"
+	},
+	{
+		"domain": "fpf.br",
+		"created": "19990817"
+	},
+	{
+		"domain": "fpj.br",
+		"created": "20000414"
+	},
+	{
+		"domain": "fpte.br",
+		"created": "19980227"
+	},
+	{
+		"domain": "fpted.br",
+		"created": "19960902"
+	},
+	{
+		"domain": "frb.br",
+		"created": "19960529"
+	},
+	{
+		"domain": "frf.br",
+		"created": "19990806"
+	},
+	{
+		"domain": "fsa.br",
+		"created": "19961122"
+	},
+	{
+		"domain": "fsg.br",
+		"created": "19991228"
+	},
+	{
+		"domain": "fsssacramento.br",
+		"created": "20000530"
+	},
+	{
+		"domain": "ftb.br",
+		"created": "20000517"
+	},
+	{
+		"domain": "ftc.br",
+		"created": "20000912"
+	},
+	{
+		"domain": "ftn.br",
+		"created": "19990430"
+	},
+	{
+		"domain": "fua.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "fucape.br",
+		"created": "20000616"
+	},
+	{
+		"domain": "fucapi.br",
+		"created": "19961027"
+	},
+	{
+		"domain": "fumec.br",
+		"created": "19970418"
+	},
+	{
+		"domain": "fumesu.br",
+		"created": "20000322"
+	},
+	{
+		"domain": "funaliber.br",
+		"created": "19980116"
+	},
+	{
+		"domain": "funbbe.br",
+		"created": "20000120"
+	},
+	{
+		"domain": "funcab.br",
+		"created": "19990723"
+	},
+	{
+		"domain": "funcec.br",
+		"created": "20000110"
+	},
+	{
+		"domain": "funcecp.br",
+		"created": "19990818"
+	},
+	{
+		"domain": "funceme.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "funcern.br",
+		"created": "19991001"
+	},
+	{
+		"domain": "funcesi.br",
+		"created": "19991111"
+	},
+	{
+		"domain": "fundag.br",
+		"created": "20000824"
+	},
+	{
+		"domain": "fundanet.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "fundasul.br",
+		"created": "19991103"
+	},
+	{
+		"domain": "fundeg.br",
+		"created": "19991123"
+	},
+	{
+		"domain": "fundep.br",
+		"created": "19990730"
+	},
+	{
+		"domain": "fundepag.br",
+		"created": "19980626"
+	},
+	{
+		"domain": "fundepes.br",
+		"created": "20000411"
+	},
+	{
+		"domain": "fundinop.br",
+		"created": "19980929"
+	},
+	{
+		"domain": "funec.br",
+		"created": "19980317"
+	},
+	{
+		"domain": "funecfisa.br",
+		"created": "19990920"
+	},
+	{
+		"domain": "funpec.br",
+		"created": "19980504"
+	},
+	{
+		"domain": "fuom.br",
+		"created": "19991006"
+	},
+	{
+		"domain": "furb.br",
+		"created": "19990723"
+	},
+	{
+		"domain": "furg.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "futura.br",
+		"created": "20000621"
+	},
+	{
+		"domain": "futureinternet.br",
+		"created": "20130201"
+	},
+	{
+		"domain": "fuvest.br",
+		"created": "19960507"
+	},
+	{
+		"domain": "fuvs.br",
+		"created": "19980219"
+	},
+	{
+		"domain": "fvc.br",
+		"created": "19980331"
+	},
+	{
+		"domain": "fvj.br",
+		"created": "20000626"
+	},
+	{
+		"domain": "gaepsp.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "gamacafe.br",
+		"created": "20000330"
+	},
+	{
+		"domain": "gammon.br",
+		"created": "19991229"
+	},
+	{
+		"domain": "generico.br",
+		"created": "20000626"
+	},
+	{
+		"domain": "genericos.br",
+		"created": "20000626"
+	},
+	{
+		"domain": "genoma.br",
+		"created": "19990412"
+	},
+	{
+		"domain": "graded.br",
+		"created": "19981215"
+	},
+	{
+		"domain": "grupointegrado.br",
+		"created": "19990108"
+	},
+	{
+		"domain": "guaratuba.br",
+		"created": "19980814"
+	},
+	{
+		"domain": "guiapotiguar.br",
+		"created": "19980403"
+	},
+	{
+		"domain": "gv.br",
+		"created": "19970925"
+	},
+	{
+		"domain": "gvconsult.br",
+		"created": "20000330"
+	},
+	{
+		"domain": "gvmail.br",
+		"created": "19991015"
+	},
+	{
+		"domain": "gvnet.br",
+		"created": "20000330"
+	},
+	{
+		"domain": "gvpec.br",
+		"created": "20000330"
+	},
+	{
+		"domain": "hiae.br",
+		"created": "20000208"
+	},
+	{
+		"domain": "hmcp.br",
+		"created": "19990114"
+	},
+	{
+		"domain": "hospitalalberteinstein.br",
+		"created": "20000208"
+	},
+	{
+		"domain": "hospitaleinstein.br",
+		"created": "20000208"
+	},
+	{
+		"domain": "humanas.br",
+		"created": "19980625"
+	},
+	{
+		"domain": "huufma.br",
+		"created": "19991004"
+	},
+	{
+		"domain": "iac.br",
+		"created": "19960816"
+	},
+	{
+		"domain": "iae-ct.br",
+		"created": "19971107"
+	},
+	{
+		"domain": "iae-sp.br",
+		"created": "19960425"
+	},
+	{
+		"domain": "iae.br",
+		"created": "19971023"
+	},
+	{
+		"domain": "iaec2.br",
+		"created": "19980811"
+	},
+	{
+		"domain": "iaene.br",
+		"created": "19971031"
+	},
+	{
+		"domain": "iaenet.br",
+		"created": "20000110"
+	},
+	{
+		"domain": "ial.br",
+		"created": "20000705"
+	},
+	{
+		"domain": "ialim.br",
+		"created": "19990128"
+	},
+	{
+		"domain": "iapar.br",
+		"created": "19981229"
+	},
+	{
+		"domain": "iasp.br",
+		"created": "20000225"
+	},
+	{
+		"domain": "ibase.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "ibc.br",
+		"created": "19980525"
+	},
+	{
+		"domain": "ibero.br",
+		"created": "19960308"
+	},
+	{
+		"domain": "ibict.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "ibirapuera.br",
+		"created": "20000829"
+	},
+	{
+		"domain": "ibmec.br",
+		"created": "19951031"
+	},
+	{
+		"domain": "ibmecdf.br",
+		"created": "20000927"
+	},
+	{
+		"domain": "ibmecmg.br",
+		"created": "20000920"
+	},
+	{
+		"domain": "ibmecpr.br",
+		"created": "20000927"
+	},
+	{
+		"domain": "ibmecrj.br",
+		"created": "20000104"
+	},
+	{
+		"domain": "ibmr.br",
+		"created": "19970327"
+	},
+	{
+		"domain": "ibre.br",
+		"created": "20000505"
+	},
+	{
+		"domain": "icannbrasil.br",
+		"created": "20060904"
+	},
+	{
+		"domain": "icannbrazil.br",
+		"created": "20060904"
+	},
+	{
+		"domain": "icannsaopaulo.br",
+		"created": "20060606"
+	},
+	{
+		"domain": "iccmp.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "icesp.br",
+		"created": "20000406"
+	},
+	{
+		"domain": "ict.br",
+		"created": "19980625"
+	},
+	{
+		"domain": "ictdomus.br",
+		"created": "19981103"
+	},
+	{
+		"domain": "ielusc.br",
+		"created": "19970714"
+	},
+	{
+		"domain": "iepac.br",
+		"created": "19980826"
+	},
+	{
+		"domain": "iesaj.br",
+		"created": "20000104"
+	},
+	{
+		"domain": "iesb.br",
+		"created": "19990811"
+	},
+	{
+		"domain": "ieses.br",
+		"created": "20000529"
+	},
+	{
+		"domain": "iesf.br",
+		"created": "20000920"
+	},
+	{
+		"domain": "iesne.br",
+		"created": "20000920"
+	},
+	{
+		"domain": "iesplan.br",
+		"created": "19991021"
+	},
+	{
+		"domain": "iespnaa.br",
+		"created": "19980625"
+	},
+	{
+		"domain": "iflorestsp.br",
+		"created": "19980624"
+	},
+	{
+		"domain": "iga.br",
+		"created": "19990614"
+	},
+	{
+		"domain": "igf2015.br",
+		"created": "20150407"
+	},
+	{
+		"domain": "igfbrasil2007.br",
+		"created": "20070110"
+	},
+	{
+		"domain": "igfbrazil2007.br",
+		"created": "20070110"
+	},
+	{
+		"domain": "ihendrix.br",
+		"created": "19961024"
+	},
+	{
+		"domain": "ijaa.br",
+		"created": "19990719"
+	},
+	{
+		"domain": "ilsl.br",
+		"created": "19980923"
+	},
+	{
+		"domain": "iltc.br",
+		"created": "19990717"
+	},
+	{
+		"domain": "im.br",
+		"created": "20000425"
+	},
+	{
+		"domain": "imapes.br",
+		"created": "19990319"
+	},
+	{
+		"domain": "imc.br",
+		"created": "19990916"
+	},
+	{
+		"domain": "imec.br",
+		"created": "19990720"
+	},
+	{
+		"domain": "imensu.br",
+		"created": "20000425"
+	},
+	{
+		"domain": "imesb.br",
+		"created": "20000523"
+	},
+	{
+		"domain": "impa.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "inatel.br",
+		"created": "19960812"
+	},
+	{
+		"domain": "inesc.br",
+		"created": "20000226"
+	},
+	{
+		"domain": "infopol.br",
+		"created": "20000613"
+	},
+	{
+		"domain": "infovest.br",
+		"created": "20000905"
+	},
+	{
+		"domain": "inpe.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "instituto-hoyler.br",
+		"created": "19970305"
+	},
+	{
+		"domain": "institutocatarinense.br",
+		"created": "20000822"
+	},
+	{
+		"domain": "integrado.br",
+		"created": "19980911"
+	},
+	{
+		"domain": "integral.br",
+		"created": "19980922"
+	},
+	{
+		"domain": "intep.br",
+		"created": "19990721"
+	},
+	{
+		"domain": "interior.br",
+		"created": "20000419"
+	},
+	{
+		"domain": "internesp.br",
+		"created": "19970414"
+	},
+	{
+		"domain": "internetparana.br",
+		"created": "19990419"
+	},
+	{
+		"domain": "internetsegura.br",
+		"created": "20100121"
+	},
+	{
+		"domain": "intranetparana.br",
+		"created": "19980428"
+	},
+	{
+		"domain": "ipa-imec.br",
+		"created": "19980213"
+	},
+	{
+		"domain": "ipa.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "ipaam.br",
+		"created": "19980701"
+	},
+	{
+		"domain": "ipca.br",
+		"created": "19981105"
+	},
+	{
+		"domain": "ipef.br",
+		"created": "19980626"
+	},
+	{
+		"domain": "ipen.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "ipesu.br",
+		"created": "19980826"
+	},
+	{
+		"domain": "ipt.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "iptv.br",
+		"created": "20110728"
+	},
+	{
+		"domain": "ipv6.br",
+		"created": "20080814"
+	},
+	{
+		"domain": "isad.br",
+		"created": "19970930"
+	},
+	{
+		"domain": "isae.br",
+		"created": "19981013"
+	},
+	{
+		"domain": "isaefgv.br",
+		"created": "19981014"
+	},
+	{
+		"domain": "it2.br",
+		"created": "20000419"
+	},
+	{
+		"domain": "ita.br",
+		"created": "20000414"
+	},
+	{
+		"domain": "italo.br",
+		"created": "20000324"
+	},
+	{
+		"domain": "itep.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "iti.br",
+		"created": "20000905"
+	},
+	{
+		"domain": "itpac.br",
+		"created": "20000509"
+	},
+	{
+		"domain": "iuperj.br",
+		"created": "19980630"
+	},
+	{
+		"domain": "iusd.br",
+		"created": "19980216"
+	},
+	{
+		"domain": "ivc.br",
+		"created": "20000704"
+	},
+	{
+		"domain": "ix.br",
+		"created": "20150318"
+	},
+	{
+		"domain": "izsp.br",
+		"created": "19980925"
+	},
+	{
+		"domain": "jaboticabal.br",
+		"created": "20000303"
+	},
+	{
+		"domain": "japi.br",
+		"created": "20000426"
+	},
+	{
+		"domain": "jts.br",
+		"created": "19990722"
+	},
+	{
+		"domain": "justicafederal.br",
+		"created": "19990805"
+	},
+	{
+		"domain": "kennedy.br",
+		"created": "19970909"
+	},
+	{
+		"domain": "labuniban.br",
+		"created": "19991126"
+	},
+	{
+		"domain": "lambert.br",
+		"created": "19951030"
+	},
+	{
+		"domain": "laosp.br",
+		"created": "19980717"
+	},
+	{
+		"domain": "lavras.br",
+		"created": "19981019"
+	},
+	{
+		"domain": "led.br",
+		"created": "19990819"
+	},
+	{
+		"domain": "lemosdecastro.br",
+		"created": "19990812"
+	},
+	{
+		"domain": "liceuasabin.br",
+		"created": "19970308"
+	},
+	{
+		"domain": "linsnet.br",
+		"created": "19980116"
+	},
+	{
+		"domain": "linuxhq.br",
+		"created": "19990618"
+	},
+	{
+		"domain": "lna.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "lncc.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "lnls.br",
+		"created": "19960425"
+	},
+	{
+		"domain": "logistica.br",
+		"created": "20000619"
+	},
+	{
+		"domain": "lusiada.br",
+		"created": "19970308"
+	},
+	{
+		"domain": "mackenzie.br",
+		"created": "19951113"
+	},
+	{
+		"domain": "mar.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "mariaimaculada.br",
+		"created": "19980715"
+	},
+	{
+		"domain": "marketing.br",
+		"created": "20000619"
+	},
+	{
+		"domain": "mast.br",
+		"created": "20000601"
+	},
+	{
+		"domain": "matematica.br",
+		"created": "20000424"
+	},
+	{
+		"domain": "mathzb.br",
+		"created": "19980428"
+	},
+	{
+		"domain": "maua.br",
+		"created": "19961202"
+	},
+	{
+		"domain": "mba-ebusiness.br",
+		"created": "20000619"
+	},
+	{
+		"domain": "mba.br",
+		"created": "20000330"
+	},
+	{
+		"domain": "mbasaude.br",
+		"created": "20000619"
+	},
+	{
+		"domain": "mcampos.br",
+		"created": "19970915"
+	},
+	{
+		"domain": "mednet.br",
+		"created": "19980511"
+	},
+	{
+		"domain": "metodista.br",
+		"created": "19990717"
+	},
+	{
+		"domain": "mkt.br",
+		"created": "20000629"
+	},
+	{
+		"domain": "ml.br",
+		"created": "19990224"
+	},
+	{
+		"domain": "mncalcado.br",
+		"created": "19990717"
+	},
+	{
+		"domain": "modulo.br",
+		"created": "19990303"
+	},
+	{
+		"domain": "mozarteum.br",
+		"created": "19991027"
+	},
+	{
+		"domain": "msb.br",
+		"created": "19970930"
+	},
+	{
+		"domain": "muller.br",
+		"created": "20000414"
+	},
+	{
+		"domain": "museu-goeldi.br",
+		"created": "19960808"
+	},
+	{
+		"domain": "mv1.br",
+		"created": "20000407"
+	},
+	{
+		"domain": "nacional.br",
+		"created": "19961023"
+	},
+	{
+		"domain": "natalnet.br",
+		"created": "19990927"
+	},
+	{
+		"domain": "netacad.br",
+		"created": "20000313"
+	},
+	{
+		"domain": "netclasse.br",
+		"created": "20000330"
+	},
+	{
+		"domain": "netlog.br",
+		"created": "20000814"
+	},
+	{
+		"domain": "netmundial.br",
+		"created": "20140122"
+	},
+	{
+		"domain": "netschool.br",
+		"created": "19980213"
+	},
+	{
+		"domain": "netuniban.br",
+		"created": "19991126"
+	},
+	{
+		"domain": "newtonpaiva.br",
+		"created": "19960927"
+	},
+	{
+		"domain": "newtonpaivavirtual.br",
+		"created": "20000804"
+	},
+	{
+		"domain": "ngai.br",
+		"created": "20000629"
+	},
+	{
+		"domain": "nic.br",
+		"created": "19970711"
+	},
+	{
+		"domain": "niltonlins.br",
+		"created": "19970129"
+	},
+	{
+		"domain": "nit.br",
+		"created": "20000711"
+	},
+	{
+		"domain": "nobel.br",
+		"created": "19971222"
+	},
+	{
+		"domain": "noroeste.br",
+		"created": "20000705"
+	},
+	{
+		"domain": "novomilenio.br",
+		"created": "19981218"
+	},
+	{
+		"domain": "nti.br",
+		"created": "19981222"
+	},
+	{
+		"domain": "ntp.br",
+		"created": "20061123"
+	},
+	{
+		"domain": "obcursos.br",
+		"created": "19980902"
+	},
+	{
+		"domain": "objetivo-goiania.br",
+		"created": "19981001"
+	},
+	{
+		"domain": "objetivo-mga.br",
+		"created": "19971031"
+	},
+	{
+		"domain": "objetivo-santos.br",
+		"created": "19981117"
+	},
+	{
+		"domain": "objetivo-tocantins.br",
+		"created": "20000512"
+	},
+	{
+		"domain": "objetivo.br",
+		"created": "19950621"
+	},
+	{
+		"domain": "objetivofoz.br",
+		"created": "19990923"
+	},
+	{
+		"domain": "objetivomao.br",
+		"created": "19970625"
+	},
+	{
+		"domain": "objetivopvo.br",
+		"created": "19990429"
+	},
+	{
+		"domain": "observatoriodaimprensa.br",
+		"created": "20000403"
+	},
+	{
+		"domain": "observatoriodainternet.br",
+		"created": "20100913"
+	},
+	{
+		"domain": "oet.br",
+		"created": "19970828"
+	},
+	{
+		"domain": "on.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "ondesign.br",
+		"created": "20000525"
+	},
+	{
+		"domain": "onlineuniversity.br",
+		"created": "20000713"
+	},
+	{
+		"domain": "onsa.br",
+		"created": "19990412"
+	},
+	{
+		"domain": "osec.br",
+		"created": "19951212"
+	},
+	{
+		"domain": "oswaldocruz.br",
+		"created": "19970228"
+	},
+	{
+		"domain": "pantanal.br",
+		"created": "19961122"
+	},
+	{
+		"domain": "paranatecnologia.br",
+		"created": "19980428"
+	},
+	{
+		"domain": "participa.br",
+		"created": "20131129"
+	},
+	{
+		"domain": "passosuemg.br",
+		"created": "19991108"
+	},
+	{
+		"domain": "pentagon.br",
+		"created": "19960328"
+	},
+	{
+		"domain": "pentagono.br",
+		"created": "19980731"
+	},
+	{
+		"domain": "penteado.br",
+		"created": "19991220"
+	},
+	{
+		"domain": "petnet.br",
+		"created": "20000425"
+	},
+	{
+		"domain": "petweb.br",
+		"created": "20000425"
+	},
+	{
+		"domain": "pia.br",
+		"created": "19991126"
+	},
+	{
+		"domain": "pinheiroguimaraes.br",
+		"created": "19961205"
+	},
+	{
+		"domain": "pioxii.br",
+		"created": "19990114"
+	},
+	{
+		"domain": "poli.br",
+		"created": "19961111"
+	},
+	{
+		"domain": "polifucs.br",
+		"created": "20000127"
+	},
+	{
+		"domain": "politecnica.br",
+		"created": "20000414"
+	},
+	{
+		"domain": "pontobr.br",
+		"created": "19990922"
+	},
+	{
+		"domain": "portal.br",
+		"created": "20000524"
+	},
+	{
+		"domain": "portalconhecimento.br",
+		"created": "20000524"
+	},
+	{
+		"domain": "portaldoconhecimento.br",
+		"created": "19991201"
+	},
+	{
+		"domain": "portodigital.br",
+		"created": "20000811"
+	},
+	{
+		"domain": "portovelho.br",
+		"created": "19990429"
+	},
+	{
+		"domain": "presidentekennedy.br",
+		"created": "20000111"
+	},
+	{
+		"domain": "primus.br",
+		"created": "19961028"
+	},
+	{
+		"domain": "probe.br",
+		"created": "19990602"
+	},
+	{
+		"domain": "producao.br",
+		"created": "20000629"
+	},
+	{
+		"domain": "projecao.br",
+		"created": "19991120"
+	},
+	{
+		"domain": "prossiga.br",
+		"created": "19980218"
+	},
+	{
+		"domain": "ptt.br",
+		"created": "20040910"
+	},
+	{
+		"domain": "puc-campinas.br",
+		"created": "19990114"
+	},
+	{
+		"domain": "puc-rio.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "puc.br",
+		"created": "19990615"
+	},
+	{
+		"domain": "puccamp.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "pucmg.br",
+		"created": "19980401"
+	},
+	{
+		"domain": "pucminas.br",
+		"created": "19960602"
+	},
+	{
+		"domain": "pucpcaldas.br",
+		"created": "19990611"
+	},
+	{
+		"domain": "pucpr.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "pucrs.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "pucsp.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "pueridomus.br",
+		"created": "19951003"
+	},
+	{
+		"domain": "radial.br",
+		"created": "19970908"
+	},
+	{
+		"domain": "rae.br",
+		"created": "20000330"
+	},
+	{
+		"domain": "rbtd.br",
+		"created": "19980713"
+	},
+	{
+		"domain": "rct-sc.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "realestate.br",
+		"created": "20000801"
+	},
+	{
+		"domain": "redebahia.br",
+		"created": "19960930"
+	},
+	{
+		"domain": "rededeuniversidades.br",
+		"created": "20000425"
+	},
+	{
+		"domain": "redeminas.br",
+		"created": "19951020"
+	},
+	{
+		"domain": "redemv1.br",
+		"created": "20000407"
+	},
+	{
+		"domain": "rederio.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "redeuniversidades.br",
+		"created": "20000425"
+	},
+	{
+		"domain": "rednesp.br",
+		"created": "20210504"
+	},
+	{
+		"domain": "registro.br",
+		"created": "19990221"
+	},
+	{
+		"domain": "rei.br",
+		"created": "19960102"
+	},
+	{
+		"domain": "reitoria.br",
+		"created": "19990528"
+	},
+	{
+		"domain": "remip.br",
+		"created": "19981125"
+	},
+	{
+		"domain": "renascenca.br",
+		"created": "19980513"
+	},
+	{
+		"domain": "rgi.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "ribeiraopreto.br",
+		"created": "20000303"
+	},
+	{
+		"domain": "riomar.br",
+		"created": "19980319"
+	},
+	{
+		"domain": "ritterdosreis.br",
+		"created": "19990511"
+	},
+	{
+		"domain": "rnp.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "rnp2.br",
+		"created": "19990819"
+	},
+	{
+		"domain": "rotary-eco.br",
+		"created": "19980506"
+	},
+	{
+		"domain": "rpi.br",
+		"created": "19960214"
+	},
+	{
+		"domain": "rpp.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "sabe.br",
+		"created": "20000807"
+	},
+	{
+		"domain": "saisp.br",
+		"created": "20000127"
+	},
+	{
+		"domain": "salesiano-ata.br",
+		"created": "19980528"
+	},
+	{
+		"domain": "salesiano.br",
+		"created": "19991005"
+	},
+	{
+		"domain": "salesianolins.br",
+		"created": "19991015"
+	},
+	{
+		"domain": "salesianos.br",
+		"created": "19991208"
+	},
+	{
+		"domain": "santacruz.br",
+		"created": "19981208"
+	},
+	{
+		"domain": "santalucia.br",
+		"created": "19980723"
+	},
+	{
+		"domain": "santamarta.br",
+		"created": "19981123"
+	},
+	{
+		"domain": "santana.br",
+		"created": "19990914"
+	},
+	{
+		"domain": "santanna.br",
+		"created": "19961022"
+	},
+	{
+		"domain": "santarita.br",
+		"created": "19970617"
+	},
+	{
+		"domain": "saocamilo-ba.br",
+		"created": "20000201"
+	},
+	{
+		"domain": "saocamilo-df.br",
+		"created": "20000201"
+	},
+	{
+		"domain": "saocamilo-es.br",
+		"created": "20000201"
+	},
+	{
+		"domain": "saocamilo-mg.br",
+		"created": "20000201"
+	},
+	{
+		"domain": "saocamilo-rj.br",
+		"created": "20000201"
+	},
+	{
+		"domain": "saocamilo-rs.br",
+		"created": "20000201"
+	},
+	{
+		"domain": "saocamilo-sp.br",
+		"created": "20000201"
+	},
+	{
+		"domain": "saocamilo.br",
+		"created": "19990825"
+	},
+	{
+		"domain": "saojose.br",
+		"created": "20000127"
+	},
+	{
+		"domain": "saojudas.br",
+		"created": "19970107"
+	},
+	{
+		"domain": "saoluis.br",
+		"created": "19980417"
+	},
+	{
+		"domain": "saomarcos.br",
+		"created": "20000517"
+	},
+	{
+		"domain": "saopaulo.br",
+		"created": "20000303"
+	},
+	{
+		"domain": "sarah.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "saturno.br",
+		"created": "19990412"
+	},
+	{
+		"domain": "saude.br",
+		"created": "20000425"
+	},
+	{
+		"domain": "sbshsl.br",
+		"created": "19980429"
+	},
+	{
+		"domain": "scamilo.br",
+		"created": "19961016"
+	},
+	{
+		"domain": "scei.br",
+		"created": "19990114"
+	},
+	{
+		"domain": "sces.br",
+		"created": "19990928"
+	},
+	{
+		"domain": "school.br",
+		"created": "19971121"
+	},
+	{
+		"domain": "scielo.br",
+		"created": "19980407"
+	},
+	{
+		"domain": "seic.br",
+		"created": "19970801"
+	},
+	{
+		"domain": "seminariodonorte-stbnb.br",
+		"created": "19981110"
+	},
+	{
+		"domain": "seminariojmc.br",
+		"created": "19980825"
+	},
+	{
+		"domain": "senac-nacional.br",
+		"created": "19960417"
+	},
+	{
+		"domain": "senac.br",
+		"created": "19961119"
+	},
+	{
+		"domain": "senacvirtual.br",
+		"created": "20000328"
+	},
+	{
+		"domain": "senai.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "sflaquer.br",
+		"created": "19980116"
+	},
+	{
+		"domain": "sigma.br",
+		"created": "19971222"
+	},
+	{
+		"domain": "simepar.br",
+		"created": "19951114"
+	},
+	{
+		"domain": "simonsen.br",
+		"created": "19980518"
+	},
+	{
+		"domain": "siriolibanes.br",
+		"created": "19980204"
+	},
+	{
+		"domain": "sistemas.br",
+		"created": "20000629"
+	},
+	{
+		"domain": "sle.br",
+		"created": "19991027"
+	},
+	{
+		"domain": "smarcos.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "soaresoliveira.br",
+		"created": "19970325"
+	},
+	{
+		"domain": "sobeu.br",
+		"created": "19970725"
+	},
+	{
+		"domain": "soce.br",
+		"created": "19981208"
+	},
+	{
+		"domain": "socigran.br",
+		"created": "19970812"
+	},
+	{
+		"domain": "softex.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "sopece.br",
+		"created": "20000616"
+	},
+	{
+		"domain": "souzamarques.br",
+		"created": "19981203"
+	},
+	{
+		"domain": "spei.br",
+		"created": "19960827"
+	},
+	{
+		"domain": "spet.br",
+		"created": "19971030"
+	},
+	{
+		"domain": "spn.br",
+		"created": "19990104"
+	},
+	{
+		"domain": "sps.br",
+		"created": "19970521"
+	},
+	{
+		"domain": "stagium.br",
+		"created": "19990819"
+	},
+	{
+		"domain": "stcecilia.br",
+		"created": "19950920"
+	},
+	{
+		"domain": "stpauls.br",
+		"created": "19980814"
+	},
+	{
+		"domain": "stprj.br",
+		"created": "19980610"
+	},
+	{
+		"domain": "supra.br",
+		"created": "19990423"
+	},
+	{
+		"domain": "tancredo.br",
+		"created": "19990521"
+	},
+	{
+		"domain": "tapajos.br",
+		"created": "19990114"
+	},
+	{
+		"domain": "tche.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "tecno.br",
+		"created": "20000515"
+	},
+	{
+		"domain": "tecpar.br",
+		"created": "19951207"
+	},
+	{
+		"domain": "tecsoma.br",
+		"created": "19991021"
+	},
+	{
+		"domain": "teologia-assuncao.br",
+		"created": "19980424"
+	},
+	{
+		"domain": "teologica.br",
+		"created": "19971023"
+	},
+	{
+		"domain": "tese.br",
+		"created": "20000524"
+	},
+	{
+		"domain": "teses.br",
+		"created": "20000524"
+	},
+	{
+		"domain": "toledo.br",
+		"created": "19970902"
+	},
+	{
+		"domain": "torricelli.br",
+		"created": "19991108"
+	},
+	{
+		"domain": "turismo.br",
+		"created": "20000629"
+	},
+	{
+		"domain": "tvculturaamazonas.br",
+		"created": "19980813"
+	},
+	{
+		"domain": "ubb.br",
+		"created": "20000901"
+	},
+	{
+		"domain": "ubm.br",
+		"created": "19990208"
+	},
+	{
+		"domain": "ucam-campos.br",
+		"created": "19980720"
+	},
+	{
+		"domain": "ucam-friburgo.br",
+		"created": "20000804"
+	},
+	{
+		"domain": "ucam.br",
+		"created": "19971202"
+	},
+	{
+		"domain": "ucb.br",
+		"created": "19950814"
+	},
+	{
+		"domain": "ucdb.br",
+		"created": "19990723"
+	},
+	{
+		"domain": "ucergs.br",
+		"created": "19991006"
+	},
+	{
+		"domain": "uces.br",
+		"created": "20000412"
+	},
+	{
+		"domain": "ucg.br",
+		"created": "19951128"
+	},
+	{
+		"domain": "ucl.br",
+		"created": "19990913"
+	},
+	{
+		"domain": "ucp.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "ucs.br",
+		"created": "19990413"
+	},
+	{
+		"domain": "ucsal.br",
+		"created": "19961011"
+	},
+	{
+		"domain": "udc.br",
+		"created": "20000608"
+	},
+	{
+		"domain": "udesc.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "uece.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "uefs.br",
+		"created": "19960701"
+	},
+	{
+		"domain": "ueg.br",
+		"created": "20000911"
+	},
+	{
+		"domain": "uel.br",
+		"created": "19950608"
+	},
+	{
+		"domain": "uem.br",
+		"created": "19950612"
+	},
+	{
+		"domain": "uema.br",
+		"created": "19971002"
+	},
+	{
+		"domain": "uemg.br",
+		"created": "19951222"
+	},
+	{
+		"domain": "uems.br",
+		"created": "19970923"
+	},
+	{
+		"domain": "uenf.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "uepa.br",
+		"created": "20000119"
+	},
+	{
+		"domain": "uepg.br",
+		"created": "19960613"
+	},
+	{
+		"domain": "uerj.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "uern.br",
+		"created": "19991220"
+	},
+	{
+		"domain": "uesb.br",
+		"created": "19970118"
+	},
+	{
+		"domain": "uesc.br",
+		"created": "19990105"
+	},
+	{
+		"domain": "uescba.br",
+		"created": "19960820"
+	},
+	{
+		"domain": "uespi.br",
+		"created": "19971113"
+	},
+	{
+		"domain": "ufac.br",
+		"created": "19980730"
+	},
+	{
+		"domain": "ufal.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "ufba.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "ufc.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "ufes.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "uff.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "ufg.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "ufjf.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "ufla.br",
+		"created": "19960213"
+	},
+	{
+		"domain": "ufma.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "ufmg.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "ufms.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "ufmt.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "ufop.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "ufpa.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "ufpb.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "ufpe.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "ufpi.br",
+		"created": "19961011"
+	},
+	{
+		"domain": "ufpr.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "ufrgs.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "ufrj.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "ufrn.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "ufrnet.br",
+		"created": "19990407"
+	},
+	{
+		"domain": "ufrpe.br",
+		"created": "19951020"
+	},
+	{
+		"domain": "ufrr.br",
+		"created": "19990414"
+	},
+	{
+		"domain": "ufrrj.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "ufs.br",
+		"created": "19951009"
+	},
+	{
+		"domain": "ufsc.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "ufscar.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "ufsm.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "uftc.br",
+		"created": "19991123"
+	},
+	{
+		"domain": "ufu.br",
+		"created": "19960423"
+	},
+	{
+		"domain": "ufv.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "ugf-ce.br",
+		"created": "20000601"
+	},
+	{
+		"domain": "ugf.br",
+		"created": "19960602"
+	},
+	{
+		"domain": "ui.br",
+		"created": "20001011"
+	},
+	{
+		"domain": "uib.br",
+		"created": "20001011"
+	},
+	{
+		"domain": "uit.br",
+		"created": "20001003"
+	},
+	{
+		"domain": "ulbra-mao.br",
+		"created": "19981013"
+	},
+	{
+		"domain": "ulbra-to.br",
+		"created": "19961021"
+	},
+	{
+		"domain": "ulbra.br",
+		"created": "19971222"
+	},
+	{
+		"domain": "umar.br",
+		"created": "20000323"
+	},
+	{
+		"domain": "umc.br",
+		"created": "19960730"
+	},
+	{
+		"domain": "una.br",
+		"created": "19970813"
+	},
+	{
+		"domain": "unaerp.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "unaes.br",
+		"created": "19980602"
+	},
+	{
+		"domain": "unama.br",
+		"created": "19951030"
+	},
+	{
+		"domain": "unasp.br",
+		"created": "19991119"
+	},
+	{
+		"domain": "unb.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "unc.br",
+		"created": "20000915"
+	},
+	{
+		"domain": "uncnet.br",
+		"created": "19991103"
+	},
+	{
+		"domain": "uneb.br",
+		"created": "19980619"
+	},
+	{
+		"domain": "unece.br",
+		"created": "20000627"
+	},
+	{
+		"domain": "uned-etfse.br",
+		"created": "20000208"
+	},
+	{
+		"domain": "unemat-net.br",
+		"created": "19980831"
+	},
+	{
+		"domain": "unemat.br",
+		"created": "19971205"
+	},
+	{
+		"domain": "unerj.br",
+		"created": "20001003"
+	},
+	{
+		"domain": "unes.br",
+		"created": "20001011"
+	},
+	{
+		"domain": "unesc.br",
+		"created": "19960927"
+	},
+	{
+		"domain": "unescnet.br",
+		"created": "20000609"
+	},
+	{
+		"domain": "unesp.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "unespa.br",
+		"created": "20000323"
+	},
+	{
+		"domain": "ung.br",
+		"created": "19961227"
+	},
+	{
+		"domain": "unia.br",
+		"created": "20000516"
+	},
+	{
+		"domain": "uniabc.br",
+		"created": "19970923"
+	},
+	{
+		"domain": "uniae.br",
+		"created": "19990913"
+	},
+	{
+		"domain": "uniamerica.br",
+		"created": "20000905"
+	},
+	{
+		"domain": "uniandrade.br",
+		"created": "19990729"
+	},
+	{
+		"domain": "uniararas.br",
+		"created": "19970827"
+	},
+	{
+		"domain": "unib.br",
+		"created": "19960301"
+	},
+	{
+		"domain": "unibahia.br",
+		"created": "19980811"
+	},
+	{
+		"domain": "uniban-tv.br",
+		"created": "19990520"
+	},
+	{
+		"domain": "uniban.br",
+		"created": "19960308"
+	},
+	{
+		"domain": "unibanlab.br",
+		"created": "19991126"
+	},
+	{
+		"domain": "unibannet.br",
+		"created": "19991126"
+	},
+	{
+		"domain": "unibem.br",
+		"created": "19980116"
+	},
+	{
+		"domain": "unibero.br",
+		"created": "19990202"
+	},
+	{
+		"domain": "unibh.br",
+		"created": "19990420"
+	},
+	{
+		"domain": "unibosco.br",
+		"created": "19960716"
+	},
+	{
+		"domain": "unibra.br",
+		"created": "20000721"
+	},
+	{
+		"domain": "unibrasil.br",
+		"created": "20000721"
+	},
+	{
+		"domain": "unic.br",
+		"created": "19971016"
+	},
+	{
+		"domain": "unica.br",
+		"created": "20000713"
+	},
+	{
+		"domain": "unicamp.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "unicap.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "unicapital.br",
+		"created": "20000414"
+	},
+	{
+		"domain": "unicarioca.br",
+		"created": "19991125"
+	},
+	{
+		"domain": "unicastelo.br",
+		"created": "19980422"
+	},
+	{
+		"domain": "unice.br",
+		"created": "19980317"
+	},
+	{
+		"domain": "unicenp.br",
+		"created": "19990202"
+	},
+	{
+		"domain": "unicentro.br",
+		"created": "19980708"
+	},
+	{
+		"domain": "unicentronewtonpaiva.br",
+		"created": "20000309"
+	},
+	{
+		"domain": "unicesb.br",
+		"created": "19991021"
+	},
+	{
+		"domain": "uniceub.br",
+		"created": "19990505"
+	},
+	{
+		"domain": "unicid.br",
+		"created": "19960104"
+	},
+	{
+		"domain": "unicsul.br",
+		"created": "19990407"
+	},
+	{
+		"domain": "unid.br",
+		"created": "20001005"
+	},
+	{
+		"domain": "unidadeweb.br",
+		"created": "20000425"
+	},
+	{
+		"domain": "uniderp.br",
+		"created": "19970501"
+	},
+	{
+		"domain": "unidomus.br",
+		"created": "19981117"
+	},
+	{
+		"domain": "uniemp.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "unifacs.br",
+		"created": "19980226"
+	},
+	{
+		"domain": "unifae.br",
+		"created": "19991007"
+	},
+	{
+		"domain": "unifap.br",
+		"created": "19991028"
+	},
+	{
+		"domain": "unifenas.br",
+		"created": "19950809"
+	},
+	{
+		"domain": "unifenasvirtual.br",
+		"created": "20000324"
+	},
+	{
+		"domain": "unifesp.br",
+		"created": "20000425"
+	},
+	{
+		"domain": "unifieo.br",
+		"created": "20000920"
+	},
+	{
+		"domain": "unifil.br",
+		"created": "20000602"
+	},
+	{
+		"domain": "unifor.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "unifra.br",
+		"created": "20001005"
+	},
+	{
+		"domain": "unifran-rs.br",
+		"created": "19980622"
+	},
+	{
+		"domain": "unifran.br",
+		"created": "19960213"
+	},
+	{
+		"domain": "unig-itaperuna.br",
+		"created": "19980514"
+	},
+	{
+		"domain": "unig.br",
+		"created": "19981112"
+	},
+	{
+		"domain": "unigran.br",
+		"created": "19980217"
+	},
+	{
+		"domain": "unigranrio.br",
+		"created": "19960412"
+	},
+	{
+		"domain": "unihorizontes.br",
+		"created": "20000721"
+	},
+	{
+		"domain": "unilestemg.br",
+		"created": "20000613"
+	},
+	{
+		"domain": "unilinhares.br",
+		"created": "20000411"
+	},
+	{
+		"domain": "unimar.br",
+		"created": "19970306"
+	},
+	{
+		"domain": "unimaua.br",
+		"created": "19960815"
+	},
+	{
+		"domain": "unimep.br",
+		"created": "19960827"
+	},
+	{
+		"domain": "unimes.br",
+		"created": "20000303"
+	},
+	{
+		"domain": "uniminas.br",
+		"created": "20000608"
+	},
+	{
+		"domain": "unimonte.br",
+		"created": "19971222"
+	},
+	{
+		"domain": "unimontes.br",
+		"created": "19960926"
+	},
+	{
+		"domain": "uninatal.br",
+		"created": "19981027"
+	},
+	{
+		"domain": "unincor.br",
+		"created": "19960928"
+	},
+	{
+		"domain": "uninfo.br",
+		"created": "20000801"
+	},
+	{
+		"domain": "uninga.br",
+		"created": "19990908"
+	},
+	{
+		"domain": "uninove.br",
+		"created": "19990113"
+	},
+	{
+		"domain": "uninp.br",
+		"created": "20000323"
+	},
+	{
+		"domain": "uninter.br",
+		"created": "20001003"
+	},
+	{
+		"domain": "unioeste-foz.br",
+		"created": "19980330"
+	},
+	{
+		"domain": "unioeste.br",
+		"created": "19960214"
+	},
+	{
+		"domain": "unip-objetivo.br",
+		"created": "19970306"
+	},
+	{
+		"domain": "unip.br",
+		"created": "19990717"
+	},
+	{
+		"domain": "unipa.br",
+		"created": "19990720"
+	},
+	{
+		"domain": "unipac.br",
+		"created": "19980422"
+	},
+	{
+		"domain": "unipaiva.br",
+		"created": "20000323"
+	},
+	{
+		"domain": "unipan.br",
+		"created": "20000327"
+	},
+	{
+		"domain": "unipar.br",
+		"created": "19981229"
+	},
+	{
+		"domain": "unipe.br",
+		"created": "19980528"
+	},
+	{
+		"domain": "unipec.br",
+		"created": "19990824"
+	},
+	{
+		"domain": "uniplac.br",
+		"created": "19961226"
+	},
+	{
+		"domain": "unipobjetivo.br",
+		"created": "20000512"
+	},
+	{
+		"domain": "unir-roo.br",
+		"created": "19980507"
+	},
+	{
+		"domain": "unir.br",
+		"created": "19970615"
+	},
+	{
+		"domain": "unirede.br",
+		"created": "20000119"
+	},
+	{
+		"domain": "unirio.br",
+		"created": "19980715"
+	},
+	{
+		"domain": "unirionet.br",
+		"created": "19980827"
+	},
+	{
+		"domain": "uniriotec.br",
+		"created": "19980827"
+	},
+	{
+		"domain": "unirondon.br",
+		"created": "19980116"
+	},
+	{
+		"domain": "unisa.br",
+		"created": "19981203"
+	},
+	{
+		"domain": "unisal-lorena.br",
+		"created": "19981016"
+	},
+	{
+		"domain": "unisal.br",
+		"created": "19980914"
+	},
+	{
+		"domain": "unisales.br",
+		"created": "20000915"
+	},
+	{
+		"domain": "unisamail.br",
+		"created": "19991112"
+	},
+	{
+		"domain": "unisan.br",
+		"created": "19990914"
+	},
+	{
+		"domain": "unisanta.br",
+		"created": "19981019"
+	},
+	{
+		"domain": "unisantana.br",
+		"created": "19990914"
+	},
+	{
+		"domain": "unisantanna.br",
+		"created": "19990914"
+	},
+	{
+		"domain": "unisantos.br",
+		"created": "19990809"
+	},
+	{
+		"domain": "unisc.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "uniserra.br",
+		"created": "19990113"
+	},
+	{
+		"domain": "unisete.br",
+		"created": "20000502"
+	},
+	{
+		"domain": "unisinos.br",
+		"created": "19990128"
+	},
+	{
+		"domain": "uniso.br",
+		"created": "19971212"
+	},
+	{
+		"domain": "unisul.br",
+		"created": "20000208"
+	},
+	{
+		"domain": "unit.br",
+		"created": "19971031"
+	},
+	{
+		"domain": "unitau.br",
+		"created": "19960119"
+	},
+	{
+		"domain": "unitins.br",
+		"created": "19991103"
+	},
+	{
+		"domain": "unitoledo.br",
+		"created": "20000327"
+	},
+	{
+		"domain": "uniube.br",
+		"created": "19970520"
+	},
+	{
+		"domain": "univale.br",
+		"created": "19960814"
+	},
+	{
+		"domain": "univali.br",
+		"created": "19990717"
+	},
+	{
+		"domain": "univam.br",
+		"created": "20000816"
+	},
+	{
+		"domain": "univap.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "univates.br",
+		"created": "19980226"
+	},
+	{
+		"domain": "univel.br",
+		"created": "19980209"
+	},
+	{
+		"domain": "univercidade.br",
+		"created": "19960402"
+	},
+	{
+		"domain": "universidade.br",
+		"created": "20000505"
+	},
+	{
+		"domain": "universidadevirtual.br",
+		"created": "19980323"
+	},
+	{
+		"domain": "universo.br",
+		"created": "19970515"
+	},
+	{
+		"domain": "univesp.br",
+		"created": "20130430"
+	},
+	{
+		"domain": "univiam.br",
+		"created": "19991201"
+	},
+	{
+		"domain": "univib.br",
+		"created": "19991201"
+	},
+	{
+		"domain": "univibra.br",
+		"created": "20000505"
+	},
+	{
+		"domain": "univila.br",
+		"created": "19971120"
+	},
+	{
+		"domain": "univille.br",
+		"created": "19980814"
+	},
+	{
+		"domain": "univip.br",
+		"created": "19991201"
+	},
+	{
+		"domain": "univipro.br",
+		"created": "20000505"
+	},
+	{
+		"domain": "univir-mg.br",
+		"created": "19991027"
+	},
+	{
+		"domain": "univir.br",
+		"created": "19971020"
+	},
+	{
+		"domain": "univirtual.br",
+		"created": "19990406"
+	},
+	{
+		"domain": "univix.br",
+		"created": "19990908"
+	},
+	{
+		"domain": "unoescvda.br",
+		"created": "20000510"
+	},
+	{
+		"domain": "unoeste.br",
+		"created": "19960328"
+	},
+	{
+		"domain": "unoestesaude.br",
+		"created": "20000921"
+	},
+	{
+		"domain": "unopar.br",
+		"created": "19960202"
+	},
+	{
+		"domain": "unorp.br",
+		"created": "19980820"
+	},
+	{
+		"domain": "unp.br",
+		"created": "19980330"
+	},
+	{
+		"domain": "unyahna.br",
+		"created": "19990518"
+	},
+	{
+		"domain": "upe.br",
+		"created": "19960402"
+	},
+	{
+		"domain": "upf.br",
+		"created": "20000824"
+	},
+	{
+		"domain": "upis.br",
+		"created": "19970415"
+	},
+	{
+		"domain": "urca.br",
+		"created": "19971016"
+	},
+	{
+		"domain": "uri.br",
+		"created": "19980518"
+	},
+	{
+		"domain": "urisantiago.br",
+		"created": "19990908"
+	},
+	{
+		"domain": "usc.br",
+		"created": "19960725"
+	},
+	{
+		"domain": "usf.br",
+		"created": "19960625"
+	},
+	{
+		"domain": "usjt.br",
+		"created": "20000418"
+	},
+	{
+		"domain": "usp.br",
+		"created": "19950101"
+	},
+	{
+		"domain": "uss.br",
+		"created": "19971110"
+	},
+	{
+		"domain": "usu.br",
+		"created": "19970702"
+	},
+	{
+		"domain": "utam.br",
+		"created": "19990518"
+	},
+	{
+		"domain": "utesc.br",
+		"created": "19980602"
+	},
+	{
+		"domain": "utp.br",
+		"created": "19970909"
+	},
+	{
+		"domain": "uv.br",
+		"created": "20000602"
+	},
+	{
+		"domain": "uva.br",
+		"created": "19960517"
+	},
+	{
+		"domain": "uvanet.br",
+		"created": "19970307"
+	},
+	{
+		"domain": "uvb.br",
+		"created": "20000602"
+	},
+	{
+		"domain": "uvir.br",
+		"created": "20001011"
+	},
+	{
+		"domain": "uvirtual.br",
+		"created": "20000425"
+	},
+	{
+		"domain": "uvsc.br",
+		"created": "20000920"
+	},
+	{
+		"domain": "uvv-es.br",
+		"created": "19961029"
+	},
+	{
+		"domain": "uvv.br",
+		"created": "20000525"
+	},
+	{
+		"domain": "varginha.br",
+		"created": "19981221"
+	},
+	{
+		"domain": "versalhes.br",
+		"created": "19981016"
+	},
+	{
+		"domain": "vestibular.br",
+		"created": "20000225"
+	},
+	{
+		"domain": "vestibulares.br",
+		"created": "20000905"
+	},
+	{
+		"domain": "videoconferencia.br",
+		"created": "19980514"
+	},
+	{
+		"domain": "vip.br",
+		"created": "19990729"
+	},
+	{
+		"domain": "virtualcollege.br",
+		"created": "20000807"
+	},
+	{
+		"domain": "virtualfav.br",
+		"created": "20000807"
+	},
+	{
+		"domain": "w3c.br",
+		"created": "20071029"
+	},
+	{
+		"domain": "wanderley.br",
+		"created": "20000327"
+	},
+	{
+		"domain": "watson.br",
+		"created": "19990412"
+	},
+	{
+		"domain": "webaulas.br",
+		"created": "20000425"
+	},
+	{
+		"domain": "webcampus.br",
+		"created": "20000425"
+	},
+	{
+		"domain": "weblioteca.br",
+		"created": "20000117"
+	},
+	{
+		"domain": "webofscience.br",
+		"created": "19990602"
+	},
+	{
+		"domain": "xn--icannsopaulo-7bb.br",
+		"created": "20060606"
+	},
+	{
+		"domain": "zappiens.br",
+		"created": "20090904"
+	}
+]
