@@ -32,21 +32,24 @@ const all_non_subdomains = [...domains_set];
 all_non_subdomains.sort();
 
 function callback(err) {
-	if(err) {
-		console.error("Error writing file:", err);
-		return;
-	}
+	if(err) throw err;
 	console.log("Wrote subdomains file");
 }
 
 const subdomains_str = all_subdomains.join('\n');
-fs.writeFile("./zone/br.subdominios.txt", subdomains_str, callback);
 fs.writeFile("./public/br.subdominios.txt", subdomains_str, callback);
 
 const non_subdomains_str = all_non_subdomains.join('\n');
-fs.writeFile("./zone/br.dominios.txt", non_subdomains_str, callback);
 fs.writeFile("./public/br.dominios.txt", non_subdomains_str, callback);
 
+fs.copyFile("./zone/br.txt", "./public/br.txt", (err) => {
+	if(err) throw err;
+	console.log("Copied 'br.zone' from zone/ to public/");
+});
+fs.copyFile("./zone/br.zone", "./public/br.zone", (err) => {
+	if(err) throw err;
+	console.log("Copied 'br.zone' from zone/ to public/");
+});
 
 // Join both all domains and whois results into single JSON to give EJS
 const json_str = JSON.stringify({
@@ -54,9 +57,6 @@ const json_str = JSON.stringify({
 	whois: whois
 }, null, '\t');
 fs.writeFile("./data.json", json_str, (err) => {
-	if(err) {
-		console.error("Error writing file:", err);
-		return;
-	}
+	if(err) throw err;
 	console.log("Created data.json file");
 });
