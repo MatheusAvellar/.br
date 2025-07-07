@@ -37,14 +37,16 @@ function callback(err) {
 }
 
 const subdomains_str = all_subdomains.join('\n');
+fs.writeFile("./zone/br.subdominios.txt", subdomains_str, callback);
 fs.writeFile("./public/br.subdominios.txt", subdomains_str, callback);
 
 const non_subdomains_str = all_non_subdomains.join('\n');
+fs.writeFile("./zone/br.dominios.txt", non_subdomains_str, callback);
 fs.writeFile("./public/br.dominios.txt", non_subdomains_str, callback);
 
 fs.copyFile("./zone/br.txt", "./public/br.txt", (err) => {
 	if(err) throw err;
-	console.log("Copied 'br.zone' from zone/ to public/");
+	console.log("Copied 'br.txt' from zone/ to public/");
 });
 fs.copyFile("./zone/br.zone", "./public/br.zone", (err) => {
 	if(err) throw err;
