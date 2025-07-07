@@ -73,11 +73,10 @@ jobs:
     needs: create_zonefile
     runs-on: ubuntu-latest
     steps:
-      ## No checkout so we keep changes made in the last job
-      ## Otherwise we're too early and get
-      ## > Error: ENOENT: no such file or directory, open './zone/br.txt'
-      # - name: Checkout repository
-      #   uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - run: git pull
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
