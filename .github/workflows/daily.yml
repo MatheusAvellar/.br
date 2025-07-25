@@ -29,8 +29,9 @@ jobs:
         ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
         persist-credentials: true
 
+    - run: sudo apt-get -y upgrade
+    - run: sudo apt-get update && sudo apt-get install libgetdns-dev
     - run: git pull
-    - run: sudo apt-get install libgetdns-dev
     - run: npx https://github.com/flotwig/zone-walker br. | sort -u > ./zone/br.txt
 
     - name: Commit files
@@ -53,8 +54,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - run: sudo apt-get -y upgrade
+      - run: sudo apt-get update && sudo apt-get install libgetdns-dev
       - run: git pull
-      - run: sudo apt-get install libgetdns-dev
 
       - name: Run zone building script
         run: bash ./scripts/run.sh
