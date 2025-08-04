@@ -29,8 +29,15 @@ jobs:
         ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
         persist-credentials: true
 
-    - run: sudo apt-get -y upgrade
-    - run: sudo apt-get update && sudo apt-get install libgetdns-dev
+      # Situation: we sometimes get an HTTP 404 error when `apt-get update`ing.
+      # We need to run `apt-get upgrade` to solve that. But I've noticed Firefox
+      # (comes preinstalled) takes a long while to upgrade. So we remove it first
+      - name: Setup apt
+        run: |
+          sudo apt-get remove --purge firefox powershell && sudo apt-get autoremove
+          sudo apt-get -y upgrade
+          sudo apt-get update && sudo apt-get install libgetdns-dev
+
     - run: git pull
     - run: npx https://github.com/flotwig/zone-walker br. | sort -u > ./zone/br.txt
 
@@ -54,8 +61,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - run: sudo apt-get -y upgrade
-      - run: sudo apt-get update && sudo apt-get install libgetdns-dev
+      - name: Setup apt
+        run: |
+          sudo apt-get remove --purge firefox powershell && sudo apt-get autoremove
+          sudo apt-get -y upgrade
+          sudo apt-get update && sudo apt-get install libgetdns-dev
+
       - run: git pull
 
       - name: Run zone building script
