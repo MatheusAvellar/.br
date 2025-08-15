@@ -15,8 +15,8 @@
 				IDNs possuem caracteres considerados
 				especiais; nesse caso, o Ã. Tecnicamente, o nome real do domínio
 				é XN&#8288;--&#8288;ICANNSOPAULO-7BB.BR, em uma representação
-				chamada "Punycode". Dito isso, ele também é o único domínio
-				que começa com a letra X.
+				chamada "Punycode". Assim, ele também é um dos dois únicos domínios
+				começando com a letra X.
 			</p>
 		</li>
 	</ul>
@@ -57,7 +57,7 @@
 		<li>Para <b>Q</b>, há QSL.BR, subdomínio para rádio amadores;</li>
 		<li>
 			Para <b>X</b>, há XN&#8288;--&#8288;ICANNSOPAULO-7BB.BR, Punycode
-			de ICANNSÃOPAULO.BR;
+			de ICANNSÃOPAULO.BR, e XYZ.BR, subdomínio;
 		</li>
 		<li>
 			Para <b>Z</b>, há ZAPPIENS.BR, para divulgação de conteúdos digitais
@@ -147,9 +147,11 @@
 	<canvas id="registration-aggregate" class="chartjs graph"></canvas>
 	<script>
 function yearsSince(year) {
-	let diff = (new Date()).getFullYear() - year;
-	if(diff > 0)
-		return ` (aprox. ${diff} anos atrás)`;
+	const diff = (new Date()).getFullYear() - year;
+	if(diff > 0) {
+		const s = diff < 2 ? "" : "s";
+		return ` (aprox. ${diff} ano${s} atrás)`;
+	}
 	return "";
 }
 	</script>
@@ -165,10 +167,14 @@ function yearsSince(year) {
 		"antes de 1995", mas sem especificar data exata.
 	</p>
 	<p>
-		Por outro lado, o domínio mais recente é
-		<a href="https://rednesp.br/">REDNESP.BR</a> (Research and Education
-		Network at São Paulo), registrado em 4 de maio de 2021<span id="dyn-t2"></span>.
-		<script>document.getElementById("dyn-t2").textContent=yearsSince(2021)</script>
+		Por outro lado, os domínios mais recentes são
+		<a href="https://brics.br/">BRICS.BR</a> e
+		<a href="https://cop30.br/">COP30.BR</a>,
+		registrados em 16 de dezembro de 2024<span id="dyn-t2"></span>.
+		<script>document.getElementById("dyn-t2").textContent=yearsSince(2024)</script>
+		Em termos de subdomínio, tivemos API.BR, IA.BR, SOCIAL.BR e XYZ.BR registrados
+		em 14 de agosto de 2025<span id="dyn-t3"></span>.
+		<script>document.getElementById("dyn-t3").textContent=yearsSince(2025)</script>
 	</p>
 </section>
 

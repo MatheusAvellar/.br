@@ -3,7 +3,10 @@ console.log(process.cwd());
 
 const fs = require("fs");
 
-const domains = fs.readFileSync("./zone/br.txt", "utf-8").split("\n").filter(v => v.length);
+const domains = fs.readFileSync("./zone/br.txt", "utf-8")
+	.split("\n")
+	.map(v => v.trim().replaceAll("\r", ""))
+	.filter(v => v.length);
 const whois = JSON.parse(fs.readFileSync("./whois.json", "utf-8"));
 /*
  * `whois` is an array of the following format:
@@ -52,6 +55,13 @@ fs.copyFile("./zone/br.zone", "./public/br.zone", (err) => {
 	if(err) throw err;
 	console.log("Copied 'br.zone' from zone/ to public/");
 });
+
+// Manually include subdomains we know the creation date of
+whois.push({ "domain": "leilao.br", "created": "20231216" });
+whois.push({ "domain": "api.br",    "created": "20250814" });
+whois.push({ "domain": "ia.br",     "created": "20250814" });
+whois.push({ "domain": "social.br", "created": "20250814" });
+whois.push({ "domain": "xyz.br",    "created": "20250814" });
 
 // Join both all domains and whois results into single JSON to give EJS
 const json_str = JSON.stringify({
