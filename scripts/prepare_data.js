@@ -1,5 +1,46 @@
-/* To run, from root folder: $ node ./scripts/create_whois.js */
+/* To run, from root folder: $ node ./scripts/prepare_data.js */
 console.log(process.cwd());
+
+global.stats_count = -1;
+
+console.log("fetching nicstats");
+fetch("https://registro.br/nicstats.json").then(res => {
+	console.log("fetched nicstats");
+	res.json().then(obj => {
+		console.log("converted to json");
+		// {
+		// 	"dominios": {
+		// 		"total": "5.493.834",
+		// 		"data": "16/08/2025",
+		// 		"idna": "19.513",
+		// 		"dnssec": "1.666.477",
+		// 		"categorias": {
+		// 			...
+		// 			"Educação": {
+		// 				"total": "5.385",
+		// 				"perc": " 0,10%",
+		// 				"dpns": {
+		// 					"br": {
+		// 						"qtd": "1.209",
+		// 						"perc": "22,45%"
+		// 					},
+		const local_stats_count = obj?.dominios?.categorias?.["Educação"]?.dpns?.br?.qtd;
+		if(!local_stats_count) {
+			global.stats_count = 0;
+			return;
+		}
+
+		const std_stats_count = Number(local_stats_count.replaceAll(/[^0-9]/g, ""));
+		if(!std_stats_count) {
+			global.stats_count = 0;
+			return;
+		}
+
+		global.stats_count = std_stats_count;
+		console.log("domain count per official stats:", global.stats_count);
+	}).catch(e => { console.log("error converting to json:", e); });
+}).catch(e => { console.log("error fetching nicstats:", e); });
+
 
 const fs = require("fs");
 
@@ -63,12 +104,19 @@ whois.push({ "domain": "ia.br",     "created": "20250814" });
 whois.push({ "domain": "social.br", "created": "20250814" });
 whois.push({ "domain": "xyz.br",    "created": "20250814" });
 
-// Join both all domains and whois results into single JSON to give EJS
-const json_str = JSON.stringify({
-	domains: domains,
-	whois: whois
-}, null, '\t');
-fs.writeFile("./data.json", json_str, (err) => {
-	if(err) throw err;
-	console.log("Created data.json file");
-});
+global.interval_id = setInterval(() => {
+	if(global.stats_count < 0) return;
+	console.log("done waiting");
+	clearInterval(global.interval_id);
+
+	// Join both all domains and whois results into single JSON to give EJS
+	const json_str = JSON.stringify({
+		stats_count: global.stats_count,
+		domains: domains,
+		whois: whois
+	}, null, '\t');
+	fs.writeFile("./data.json", json_str, (err) => {
+		if(err) throw err;
+		console.log("Created data.json file");
+	});
+}, 1000);

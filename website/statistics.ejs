@@ -216,7 +216,7 @@ function yearsSince(year) {
 <script src="js/chartjs-plugin-datalabels@2.0.0.js"></script>
 <script src="js/chartjs-plugin-chart-venn@4.2.6.min.js"></script>
 <script>
-<%
+<%_
 const first_letters = domains.reduce((accumulator, domain) => {
 	if(!domain) return accumulator;
 	const letter = domain[0].toUpperCase();
@@ -268,7 +268,7 @@ const dom_let = new Chart(document.getElementById("domain-letters").getContext("
 });
 </script>
 <script>
-<%
+<%_
 const sizes = domains.reduce((accumulator, domain) => {
 	if(!domain) return accumulator;
 	domain = domain.split(".br")[0];
@@ -330,7 +330,7 @@ const dom_siz = new Chart(document.getElementById("domain-sizes").getContext("2d
 });
 </script>
 <script>
-<%
+<%_
 let before1995 = 0;
 const time_series = whois.reduce((accumulator, obj) => {
 	// `obj` is of the form:

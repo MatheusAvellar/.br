@@ -12,6 +12,7 @@ permissions:
   contents: write
   pages: write
   id-token: write
+  issues: write
 
 jobs:
   # Adapted from Zach Bloomquist's zone-walks repository
@@ -80,6 +81,21 @@ jobs:
           git commit -m "[bot] br. zone building ($(date -u +"%Y-%m-%d %H:%M"))" || exit 0
           git pull --rebase
           git push || (git pull --rebase && git push) || (sleep 30 && git pull --rebase && git push)
+
+
+  create_issue:
+    needs: create_zonefile
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create issue
+        uses: JasonEtco/create-an-issue@v2.9.2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          filename: .github/ACTIONS_ISSUE_TEMPLATE.md
 
 
   build_and_deploy:

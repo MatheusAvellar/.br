@@ -92,8 +92,7 @@ pct = function(a, b) {
 TOTAL_DOMAINS = Number(process.env.TOTAL_DOMAINS);
 SUB_DOMAINS = Number(process.env.SUB_DOMAINS);
 
-// Requer atualização manual
-STATS_DOMAINS = 1209;
+STATS_DOMAINS = stats_count || 1209;
 
 STATS_PCT = pct(STATS_DOMAINS, TOTAL_DOMAINS);
 SUBS_PCT = pct(SUB_DOMAINS, TOTAL_DOMAINS);
