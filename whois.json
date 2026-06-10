@@ -845,7 +845,8 @@
 	},
 	{
 		"domain": "compacto.br",
-		"created": "19990730"
+		"created": "19990730",
+		"deleted": "20260608"
 	},
 	{
 		"domain": "computacao.br",
